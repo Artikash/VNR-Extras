@@ -39,34 +39,34 @@ pushd Frameworks
 
 if not exist Python/.hgignore (
   rm -Rf Python
-  echo hg %HG_OPT% clone http://%REPO_HOST%/hg/vnr-python Python
-  hg %HG_OPT% clone http://%REPO_IP%/hg/vnr-python Python
+  echo hg clone http://%REPO_HOST%/hg/vnr-python Python
+  %HG% clone http://%REPO_IP%/hg/vnr-python Python
 ) else  (
   pushd Python
   echo hg pull -f ^&^& hg up -C default
-  hg %HG_OPT% pull -f && hg %HG_OPT% up -C default
+  %HG% pull -f && %HG% up -C default
   popd
 )
 
 if not exist EB/.hgignore (
   rm -Rf EB
-  echo hg %HG_OPT% clone http://%REPO_HOST%/hg/eb EB
-  hg %HG_OPT% clone http://%REPO_IP%/hg/eb EB
+  echo hg clone http://%REPO_HOST%/hg/eb EB
+  %HG% clone http://%REPO_IP%/hg/eb EB
 ) else  (
   pushd EB
   echo hg pull -f ^&^& hg up default
-  hg %HG_OPT% pull -f && hg %HG_OPT% up default
+  %HG% pull -f && %HG% up default
   popd
 )
 
 if not exist Sakura/.hgignore (
   rm -Rf Sakura
-  echo hg %HG_OPT% clone http://%REPO_HOST%/hg/vnr-sakura Sakura
-  hg %HG_OPT% clone http://%REPO_IP%/hg/stream-sakura Sakura
+  echo hg clone http://%REPO_HOST%/hg/vnr-sakura Sakura
+  %HG% clone http://%REPO_IP%/hg/stream-sakura Sakura
 ) else  (
   pushd Sakura
   echo hg pull -f ^&^& hg up default
-  hg %HG_OPT% pull -f && hg %HG_OPT% up default
+  %HG% pull -f && %HG% up default
   popd
 )
 

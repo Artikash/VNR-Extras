@@ -124,7 +124,7 @@ for %%i in (
   ) do (
   if exist Deploy/%%i (
     if not exist ../%%i mkdir ..\%%i
-    cp Deploy/%%i/* ../%%i/
+    >nul copy /a /y Deploy\%%i\* ..\%%i\
 
     if exist ../%%i (
       pushd ..\%%i

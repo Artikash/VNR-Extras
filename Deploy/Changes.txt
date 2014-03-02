@@ -14,8 +14,8 @@ Since 6/18/2011
   如果VNR的服务里有down了，你也许可以在这里下载一个最近的版本：
       http://pan.baidu.com/s/1jGftD9W
 
-  * Reduce the disk usage of VNR. reader.7z is reduce to 57MB.
-    减小了VNR的硬盘占用空间。reader.7z减小到57MB。
+  * Reduce the disk usage of VNR. reader.7z is reduce to 56MB.
+    减小了VNR的硬盘占用空间。reader.7z减小到56MB。
 
   * I rewrote the updater to get rid of the dependence on cygwin and autoit.
     重写了更新程序。

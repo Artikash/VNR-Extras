@@ -99,7 +99,7 @@ set PATH=%CD%/Frameworks/Python;%PATH%
 
 if exist ../Caches/Dictionaries/EDICT/edict.db (
   if exist Frameworks/Sakura/py/scripts/getedict.py (
-    python Frameworks/Sakura/py/scripts/getedict.py
+    python -B Frameworks/Sakura/py/scripts/getedict.py
 ))
 
 ::            1         2         3         4         5         6         7

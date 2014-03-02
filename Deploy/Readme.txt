@@ -7,9 +7,13 @@ you can simply execute the following script in Command Prompt:
 
     @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('http://sakuradite.org/reader.ps1'))"
 
-Alternatively, can get a recent version of VNR on Google Drive and manually update to the latest version:
-
+Alternatively, if VNR's server is down again, you can get a recent version at Google Drive:
     http://goo.gl/t31MqY
+Or:
+    https://drive.google.com/folderview?id=0B3YXxE6u-4bzc1RKWHpoLWZROTQ
+
+如果VNR的服务里有down了，你也许可以在这里下载一个最近的版本：
+    http://pan.baidu.com/s/1jGftD9W
 
 如果你需要安装或重新安装新的VNR，那么直接把上面的那行@powershell开头的命令粘贴到Command Prompt里执行下就好了。
 如果你暂时居住在大陆地区，那么最好使用这种方法来下载VNR。

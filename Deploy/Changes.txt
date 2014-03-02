@@ -3,29 +3,24 @@ Visual Novel Reader
 Since 6/18/2011
 
 3/2/2014 SUN
+  Note: VNR's servers are online again. Sorry for all the troubles caused by it last week!
 
-  Note: I created a folder on Google Drive to upload milestoned version of VNR in case the servers are down again.
-  You can access the folder here:
-    http://goo.gl/t31MqY
+  If VNR's server is down again, you can get a recent version at Google Drive:
+      http://goo.gl/t31MqY
   Or:
-    https://drive.google.com/folderview?id=0B3YXxE6u-4bzc1RKWHpoLWZROTQ
+      https://drive.google.com/folderview?id=0B3YXxE6u-4bzc1RKWHpoLWZROTQ
 
-  Additionally, some of the dictionaries such as Lingoes dictionaries and UniDic ancient Japanese dictionary
-  are hosted at sakuradite.org. Since VNR's servers are very unstable, VNR is not able to get them at the moment.
-  Please wait a few days until VNR's servers are restored.
+  注：VNR的服务器恢复了。对于上周带来的饿各种问题，很抱歉！
+  如果VNR的服务里有down了，你也许可以在这里下载一个最近的版本：
+      http://pan.baidu.com/s/1jGftD9W
 
-  另外，VNR部分辞书的安装文件保存在了VNR的服务器上，包括Lingoes辞书和UniDic近代日本语辞书。
-  由于VNR的服务器非常不稳定，这些辞书暂时无法安装了呢。
-
-  * Reduce the disk usage of VNR.
-    减小了VNR的硬盘占用空间。
-    The most significant usage is Python, Qt, and Fonts.
-    Further reduce diskk space is difficult which requires compressing Python scripts, which will slow down VNR on start-up and and increase memory usage.
+  * Reduce the disk usage of VNR. reader.7z is reduce to 57MB.
+    减小了VNR的硬盘占用空间。reader.7z减小到57MB。
 
   * I rewrote the updater to get rid of the dependence on cygwin and autoit.
     重写了更新程序。
 
-  * Update Python, PySide, and Mercurial to the latest version.
+  * Update Python and PySide to the latest version.
 
   * Python no longer compiles the source code into byte code.
     This will fix the issue that running VNR as administrator might sometimes crash the updater.

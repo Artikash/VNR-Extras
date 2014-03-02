@@ -142,6 +142,9 @@ for %%i in (
 
 attrib +h *Mac*
 
+attrib +r +s .
+if exist desktop.ini attrib +h +s desktop.ini
+if exist icon.ico attrib +h icon.ico
 if exist .hg attrib +h .hg
 if exist .hgignore attrib +h .hgignore
 

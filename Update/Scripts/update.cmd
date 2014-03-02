@@ -21,6 +21,7 @@ if not exist .hgignore (
 if exist Update/Scripts/initenv.cmd call Update/Scripts/initenv.cmd
 
 ::            1         2         3         4         5         6         7
+echo.
 echo ----------------------------------------------------------------------
 echo                          Updating Library ...
 echo ----------------------------------------------------------------------
@@ -35,11 +36,5 @@ echo hg pull -f ^&^& hg up -C default
 hg %HG_OPT% pull -f && hg %HG_OPT% up -C default
 
 if exist Update/Scripts/upgrade.cmd call Update/Scripts/upgrade.cmd
-
-::            1         2         3         4         5         6         7
-echo.
-echo ----------------------------------------------------------------------
-echo                           Update complete!
-echo ----------------------------------------------------------------------
 
 :: EOF

@@ -136,15 +136,25 @@ for %%i in (
       if exist desktop.ini attrib +h +s desktop.ini
 
       if exist icon.ico attrib +h icon.ico
-      if exist .hg attrib +h .hg
-      if exist .hgignore attrib +h .hgignore
 
       popd
 )))
 
 attrib +h *Mac*
 
+attrib +r +s .
+if exist desktop.ini attrib +h +s desktop.ini
+if exist icon.ico attrib +h icon.ico
+if exist .hg attrib +h .hg
+if exist .hgignore attrib +h .hgignore
+
 if exist ../Scripts copy /y *.cmd ..\Scripts\ >nul
+
+::            1         2         3         4         5         6         7
+echo.
+echo ----------------------------------------------------------------------
+echo                           Update complete!
+echo ----------------------------------------------------------------------
 
 :: leave Library
 cd ..

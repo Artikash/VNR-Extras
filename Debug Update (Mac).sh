@@ -45,16 +45,8 @@ HG_OPT="-v --debug"
 
 REPOS="\
 . \
-Update \
-Dictionaries \
-Fonts \
 Frameworks/Python \
-Frameworks/Qt \
-Frameworks/MeCab \
-Frameworks/NTLEA \
-Frameworks/LocaleSwitch \
 Frameworks/EB \
-Frameworks/AJAX \
 Frameworks/Sakura \
 "
 
@@ -74,10 +66,10 @@ Frameworks/Sakura \
 #}
 #require hg
 
-test -e .org.sakuradite.hg.stream-base || die "unknown hg repository"
+test -e .hgignore || die "unknown hg repository"
 
 for f in `echo $REPOS`; do
-  if [ -x "$f" ]; then
+  if [ -e "$f/.hgignore" ]; then
     pushd "$f"
     echo hg pullup: `pwd`
     _hg $HG_OPT pull && \
@@ -86,6 +78,6 @@ for f in `echo $REPOS`; do
   fi
 done
 
-test -x Deployment && rsync -av Deployment/* ..
+test -x Deploy && rsync -av Deploy/* ..
 
 # EOF

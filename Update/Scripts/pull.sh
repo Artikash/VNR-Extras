@@ -26,7 +26,7 @@ require()
 }
 require hg
 
-test -e .org.sakuradite.hg.stream-base || die "unknown hg repository"
+test -e .hgignore || die "unknown hg repository"
 
 for f in `echo $REPOS`; do
   if [ -x "$f" ]; then

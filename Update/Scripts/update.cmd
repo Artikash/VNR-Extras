@@ -10,6 +10,9 @@ setlocal
 cd /d %~dp0
 cd /d ../..
 
+title Update
+::color 8f
+
 if not exist .hgignore (
   echo WARNING: Unknown library repository.
   exit /b 1

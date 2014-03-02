@@ -8,8 +8,9 @@ set PYTHONDONTWRITEBYTECODE=1
 
 set PATH=%~dp0/../GnuWin32;%PATH%
 set PATH=%~dp0/../7z;%PATH%
-set PATH=%~dp0/../Mercurial;%PATH%
-::set PATH=%~dp0/../../Frameworks/Python;%PATH%
+::set PATH=%~dp0/../Mercurial;%PATH%
+set PATH=%~dp0/../../Frameworks/Python;%PATH%
+set PATH=%~dp0/../../Frameworks/Python/Scripts;%PATH%
 
 set REPO_IP=153.121.52.138
 set REPO_HOST=sakuradite.org

@@ -1,0 +1,2 @@
+http://numpy.scipy.org/
+http://www.scipy.org/License_Compatibility

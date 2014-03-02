@@ -1,0 +1,2 @@
+http://code.google.com/p/mecab/
+http://mecab.googlecode.com/svn/trunk/mecab/doc/index.html

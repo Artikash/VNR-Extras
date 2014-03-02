@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: jianfan
+Version: 0.0.1
+Summary: Jianfan is a library for translation between traditional and simplified chinese
+Home-page:  http://code.google.com/p/python-jianfan/
+Author: Leon Dong
+Author-email: Leon.Dong@gmail.com
+License: GPL
+Description: Jianfan is a library for translation between traditional and simplified chinese.
+Platform: any

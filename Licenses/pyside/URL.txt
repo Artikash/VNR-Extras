@@ -1,0 +1,2 @@
+http://qt-project.org/wiki/About-PySide
+http://qt-project.org/wiki/About-PySide-Japanese

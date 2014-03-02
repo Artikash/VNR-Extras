@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: compressinja
+Version: 0.0.2
+Summary: Jinja2 extension that removes whitespace between HTML tags.
+Home-page: https://github.com/stanislavfeldman/compressinja
+Author: Stanislav Feldman
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: jinja2 html compress
+Platform: UNKNOWN

@@ -1,0 +1,12 @@
+EDICT:
+http://www.csse.monash.edu.au/~jwb/edict_doc.html
+http://ftp.monash.edu.au/pub/nihongo/edict.gz
+
+ENAMDICT:
+http://www.csse.monash.edu.au/~jwb/enamdict_doc.html
+http://ftp.monash.edu.au/pub/nihongo/enamdict.gz
+
+License:
+http://www.edrdg.org/edrdg/licence.html
+http://creativecommons.org/weblog/entry/27094
+http://creativecommons.org/licenses/by-sa/3.0/legalcode.txt

@@ -1,0 +1,3 @@
+http://www.redhat.com/services/custom/cygwin/
+
+The Cygwin library, utilities, and numerous applications are available for free download under the terms of the GPL. Red Hat offers developer and user support for this software, as well as license contracts for the Cygwin library and its utilities. The Red Hat Cygwin official installation utility can be used for both initial installation and automated updating. 

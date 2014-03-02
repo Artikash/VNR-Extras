@@ -1,0 +1,5 @@
+Homepage:
+http://code.google.com/p/msinttypes/
+
+License:
+http://www.opensource.org/licenses/bsd-license.php

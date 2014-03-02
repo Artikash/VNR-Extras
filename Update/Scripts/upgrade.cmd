@@ -1,4 +1,4 @@
-@echo off
+::@echo off
 :: coding: sjis, ff=dos
 :: upgrade.cmd
 :: 11/12/2012 jichi

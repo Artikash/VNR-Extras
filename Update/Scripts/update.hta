@@ -105,11 +105,11 @@ function refresh(shell) { // shell -> refresh shell
 
     //var cmd = ""cmd /c ping -n 7 www.google.com"; // debug
 
-    //var path = "update.cmd";
-    //var cmd = shell.CurrentDirectory + "/" + path; // I cannot invoke other batch file if do it this way
+    var path = "update.cmd";
+    var cmd = shell.CurrentDirectory + "/" + path; // I cannot invoke other batch file if do it this way
 
-    var path = shell.CurrentDirectory + "/update.cmd";
-    var cmd = 'cmd /c "' + path + '"';
+    //var path = shell.CurrentDirectory + "/update.cmd";
+    //var cmd = 'cmd /c "' + path + '"';
 
     var proc = shell.Exec(cmd);
     while (!proc.status) {

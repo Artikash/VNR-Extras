@@ -92,6 +92,9 @@ function refresh(shell) { // shell -> refresh shell
   var area = document.getElementById('outputArea');
   area.focus(); // because the focused button is very ugly
 
+  // Scroll to be bottom: http://stackoverflow.com/questions/9170670/how-do-i-set-textarea-scroll-bar-to-bottom-as-a-default
+  area.scrollTop = area.scrollHeight;
+
   var btn = document.getElementById('startButton');
 
   var output = '';
@@ -121,6 +124,8 @@ function refresh(shell) { // shell -> refresh shell
     btn.disable = false;
     btn.className = 'btn btn-success';
     btn.value = "Done";
+
+    area.focus(); // because the focused button is very ugly
   };
 
 })();

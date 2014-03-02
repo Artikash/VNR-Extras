@@ -36,4 +36,10 @@ hg %HG_OPT% pull -f && hg %HG_OPT% up -C default
 
 if exist Update/Scripts/upgrade.cmd call Update/Scripts/upgrade.cmd
 
+::            1         2         3         4         5         6         7
+echo.
+echo ----------------------------------------------------------------------
+echo                           Update complete!
+echo ----------------------------------------------------------------------
+
 :: EOF

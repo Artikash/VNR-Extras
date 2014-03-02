@@ -146,12 +146,6 @@ attrib +h *Mac*
 
 if exist ../Scripts copy /y *.cmd ..\Scripts\ >nul
 
-::            1         2         3         4         5         6         7
-echo.
-echo ----------------------------------------------------------------------
-echo                           Update complete!
-echo ----------------------------------------------------------------------
-
 :: leave Library
 cd ..
 if exist Changes.txt start notepad Changes.txt

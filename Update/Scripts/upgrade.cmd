@@ -139,10 +139,9 @@ for %%i in (
       popd
 )))
 
-if exist Library/%REPO_SIG% attrib +h Library/%REPO_SIG%
-if exist Caches attrib +r +s Caches
-
 attrib +h *Mac*
+
+if exist ../Scripts copy /y *.cmd ..\Scripts\ >nul
 
 ::            1         2         3         4         5         6         7
 echo ----------------------------------------------------------------------

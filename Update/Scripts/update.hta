@@ -38,18 +38,21 @@ body {
   background-color: #fefefe;
   margin: 10px;
 }
+.head {
+  margin: 0 20px;
+}
 .head .text {
-  margin-left: 20px;
+  margin-left: 130px;
   font-style: italic;
+}
+.foot .dt {
+  text-align: right;
 }
 textarea {
   width: 90% !important;
   margin: 10px auto;
   font-size: 90%;
   word-wrap: normal;
-}
-a {
-  text-decoration: underline !important;
 }
     </style>
   </head>
@@ -59,21 +62,21 @@ a {
         <button id="startButton" class="btn btn-primary" role="button" title="Start update">
           Start
         </button>
-        <span class="text text-muted">(Internet access is required!)</span>
+        <span class="text text-muted">Internet access is required!</span>
       </div>
       <div class="body">
         <textarea id="outputArea" class="form-control" rows="12" title="Output text"></textarea>
       </div>
       <div class="foot">
-        <div>
-          <span>External links:</span>
-          <a target="_blank" href="http://goo.gl/t31MqY" title="http://goo.gl/t31MqY">Google Drive</a>
-          <a target="_blank" href="http://pan.baidu.com/s/1jGftD9W" title="http://pan.baidu.com/s/1jGftD9W">Baidu Disk</a>
+        <div class="dl">
+          <span class="dt col-xs-4">Download links:</span>
+          <a class="dd col-xs-4" target="_blank" href="http://goo.gl/t31MqY" title="http://goo.gl/t31MqY">Google Drive</a>
+          <a class="dd col-xs-4" target="_blank" href="http://pan.baidu.com/s/1jGftD9W" title="http://pan.baidu.com/s/1jGftD9W">Baidu Disk</a>
         </div>
-        <div>
-          <span>Bug report:</span>
-          <a target="_blank" href="http://sakuradite.com/subject/100" title="http://sakuradite.com/subject/100">Sakuradite</a>
-          <a target="_blank" href="mailto:annotcloud@gmail.com" title="annotcloud@gmail.com">Email</a>
+        <div class="dl">
+          <span class="dt col-xs-4">Bug report:</span>
+          <a class="dd col-xs-4" target="_blank" href="http://sakuradite.com/subject/100" title="http://sakuradite.com/subject/100">Sakuradite</a>
+          <a class="dd col-xs-4" target="_blank" href="mailto:annotcloud@gmail.com" title="annotcloud@gmail.com">Email</a>
         </div>
       </div>
     </div>

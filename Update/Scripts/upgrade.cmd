@@ -123,11 +123,11 @@ for %%i in (
     Scripts^
   ) do (
   if exist Deploy/%%i (
-    if not exist ../%%i mkdir ../%i
-    cp Deploy/%%i/* ../%i/
+    if not exist ../%%i mkdir ../%%i
+    cp Deploy/%%i/* ../%%i/
 
-    if exist ../%i (
-      pushd ..\%i
+    if exist ../%%i (
+      pushd ..\%%i
 
       attrib +r +s .
       if exist desktop.ini attrib +h +s desktop.ini

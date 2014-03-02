@@ -20,8 +20,6 @@ if not exist .hgignore (
 
 if exist Update/Scripts/initenv.cmd call Update/Scripts/initenv.cmd
 
-exit /b
-
 ::            1         2         3         4         5         6         7
 echo ----------------------------------------------------------------------
 echo                          Updating Library ...

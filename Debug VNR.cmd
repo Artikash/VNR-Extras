@@ -3,15 +3,17 @@
 @echo off
 setlocal
 
-title Debug Reader
+cd /d %~dp0/..
+
+title Debug VNR
 ::color 8f
 
-set ME=Debug Reader.cmd
+set ME=Debug VNR
 
-set PYTHON=Frameworks\Python\python.exe
+set PYTHON=Library/Frameworks/Python/python.exe
 set FLAGS=-B
 set PYTHON_OPT=
-set SCRIPT=Frameworks/Sakura/py/apps/reader
+set SCRIPT=Library/Frameworks/Sakura/py/apps/reader
 set SCRIPT_OPT=--debug
 
 set PATH=%windir%;%windir%\system32

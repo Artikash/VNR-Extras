@@ -3,9 +3,9 @@
 @echo off
 setlocal
 
-cd /d %~dp0
+cd /d %~dp0/..
 
-if exist Update/Scripts/update.cmd call Update/Scripts/update.cmd
+if exist Library/Update/Scripts/update.cmd call Library/Update/Scripts/update.cmd
 
 echo.
 pause

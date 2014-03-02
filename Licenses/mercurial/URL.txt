@@ -1,0 +1,2 @@
+http://mercurial.selenic.com/
+http://mercurial.selenic.com/wiki/License

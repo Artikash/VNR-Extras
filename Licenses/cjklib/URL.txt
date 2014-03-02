@@ -1,0 +1,2 @@
+http://code.google.com/p/cjklib/
+http://cjklib.org/

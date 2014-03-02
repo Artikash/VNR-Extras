@@ -1,0 +1,2 @@
+http://simplify.codeplex.com/
+http://www.gnu.org/licenses/gpl2.txt

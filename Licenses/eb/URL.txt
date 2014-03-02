@@ -1,0 +1,2 @@
+https://github.com/aehlke/eb
+ftp://ftp.sra.co.jp/pub/misc/eb/

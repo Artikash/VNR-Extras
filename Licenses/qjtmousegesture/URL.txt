@@ -1,0 +1,1 @@
+http://doc.qt.nokia.com/qq/qq18-mousegestures.html

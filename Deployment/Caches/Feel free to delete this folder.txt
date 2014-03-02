@@ -1,0 +1,5 @@
+Free free to delete this cache folder if you want.
+Then VNR will re-cache everything the next time.
+
+你可以自由的刪除這個Caches文件夾。
+VNR在下次啟動時會重新建立Cache的。

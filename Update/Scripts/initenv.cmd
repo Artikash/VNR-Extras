@@ -3,6 +3,9 @@
 
 ::set CYGWIN=nodosfilewarning
 
+:: http://docs.python.org/2/using/cmdline.html#envvar-PYTHONDONTWRITEBYTECODE
+set PYTHONDONTWRITEBYTECODE=1
+
 set PATH=%~dp0/../GnuWin32;%PATH%
 set PATH=%~dp0/../7z;%PATH%
 set PATH=%~dp0/../Mercurial;%PATH%

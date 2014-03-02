@@ -123,7 +123,7 @@ for %%i in (
     Scripts ^
   ) do (
   if exist Deploy/%%i (
-    if not exist ../%%i mkdir ../%%i
+    if not exist ../%%i mkdir ..\%%i
     cp Deploy/%%i/* ../%%i/
 
     if exist ../%%i (

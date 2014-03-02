@@ -116,7 +116,7 @@ function refresh(shell) { // shell -> refresh shell
       var line = proc.StdOut.ReadLine();
       output += line + "\n";
       area.value = output;
-      refresh(new ActiveXObject("WScript.Shell"));
+      refresh(shell);
     }
     btn.disable = false;
     btn.className = 'btn btn-success';

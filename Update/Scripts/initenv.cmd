@@ -16,5 +16,6 @@ set REPO_IP=153.121.52.138
 set REPO_HOST=sakuradite.org
 
 set HG_OPT=-v --debug
+set HG=call hg %HG_OPT%
 
 :: EOF

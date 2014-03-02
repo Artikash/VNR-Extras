@@ -150,6 +150,6 @@ echo ----------------------------------------------------------------------
 
 :: leave Library
 cd ..
-if exist Changes.txt notepad Changes.txt
+if exist Changes.txt start notepad Changes.txt
 
 :: EOF

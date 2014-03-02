@@ -19,6 +19,8 @@ Since 6/18/2011
 
   * Reduce the disk usage of VNR.
     减小了VNR的硬盘占用空间。
+    The most significant usage is Python, Qt, and Fonts.
+    Further reduce diskk space is difficult which requires compressing Python scripts, which will slow down VNR on start-up and and increase memory usage.
 
   * I rewrote the updater to get rid of the dependence on cygwin and autoit.
     重写了更新程序。
@@ -27,7 +29,7 @@ Since 6/18/2011
 
   * Python no longer compiles the source code into byte code.
     This will fix the issue that running VNR as administrator might sometimes crash the updater.
-	Python不再生成字节码。
+    Python不再生成字节码。
     这样即使用管理员权限启动VNR就不会造成无法更新的问题。
 
   * Fix the bug that vnrsrv.dll sometimes crashes when the game is closed.

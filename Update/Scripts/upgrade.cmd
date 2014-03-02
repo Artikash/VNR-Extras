@@ -141,6 +141,7 @@ for %%i in (
 )))
 
 attrib +h *Mac*
+if exist "VNR for Mac.app" attrib +h +h "VNR for Mac.app"
 
 attrib +r +s .
 if exist desktop.ini attrib +h +s desktop.ini

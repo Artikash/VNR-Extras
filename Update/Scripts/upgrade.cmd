@@ -120,7 +120,7 @@ rm -f Frameworks/Python/GPS.txt
 for %%i in (
     . ^
     Caches ^
-    Scripts^
+    Scripts ^
   ) do (
   if exist Deploy/%%i (
     if not exist ../%%i mkdir ../%%i

@@ -136,13 +136,14 @@ for %%i in (
       if exist desktop.ini attrib +h +s desktop.ini
 
       if exist icon.ico attrib +h icon.ico
-      if exist .hg attrib +h .hg
-      if exist .hgignore attrib +h .hgignore
 
       popd
 )))
 
 attrib +h *Mac*
+
+if exist .hg attrib +h .hg
+if exist .hgignore attrib +h .hgignore
 
 if exist ../Scripts copy /y *.cmd ..\Scripts\ >nul
 

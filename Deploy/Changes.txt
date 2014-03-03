@@ -36,8 +36,10 @@ Since 6/18/2011
 
   * Fix the bug that vnrsrv.dll sometimes crashes when the game is closed.
     This only works for Windows Vista and later. On Windows XP, the problem remains.
+    Thanks for @goodboyye sama's report!
     修正了关闭游戏时有时会出现的vnrsrv.dll崩溃的问题。
     这个修正仅对Vista及以后的Windows有效。在Windows XP上，VNR仍旧会崩溃。
+    感谢@goodboyye sama的报告！
 
   * Support for LocaleSwitch is disabled, as I feel LocaleEmulator + NTLEA + AppLocale is sufficient.
     去掉了对LocaleSwitch的支持，因为感觉LocaleEmulator + NTLEA + AppLocale已经足够了。

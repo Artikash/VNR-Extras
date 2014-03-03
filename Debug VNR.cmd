@@ -10,7 +10,7 @@ title Debug VNR
 
 set ME=Debug VNR
 
-set PYTHON=Library/Frameworks/Python/python.exe
+set PYTHON=Library\Frameworks\Python\python.exe
 set FLAGS=-B
 set PYTHON_OPT=
 set SCRIPT=Library/Frameworks/Sakura/py/apps/reader

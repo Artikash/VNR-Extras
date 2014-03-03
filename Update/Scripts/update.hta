@@ -115,14 +115,24 @@ function refresh(shell) { // shell -> refresh shell
     //var cmd = 'cmd /c "' + path + '"';
 
     var proc = shell.Exec(cmd);
+    var linenum = 0;
+    var refreshInterval = 10;
     while (!proc.status) {
       var line = proc.StdOut.ReadLine();
       output += line + "\n";
+      linenum++;
       area.value = output;
-      refresh(shell);
+      if (0 == linenum % refreshInterval)
+        refresh(shell);
 
       // Scroll to be bottom: http://stackoverflow.com/questions/9170670/how-do-i-set-textarea-scroll-bar-to-bottom-as-a-default
       area.scrollTop = area.scrollHeight;
+    }
+    var line = proc.StdOut.ReadLine();
+    if (line) {
+      output += line + "\n";
+      area.value = output;
+      //refresh(shell);
     }
     btn.disable = false;
     btn.className = 'btn btn-success';

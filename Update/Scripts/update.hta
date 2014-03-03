@@ -121,12 +121,12 @@ function refresh(shell) { // shell -> refresh shell
       var line = proc.StdOut.ReadLine();
       output += line + "\n";
       linenum++;
-      area.value = output;
-      if (0 == linenum % refreshInterval)
+      if (0 == linenum % refreshInterval) {
+        area.value = output;
         refresh(shell);
-
-      // Scroll to be bottom: http://stackoverflow.com/questions/9170670/how-do-i-set-textarea-scroll-bar-to-bottom-as-a-default
-      area.scrollTop = area.scrollHeight;
+        // Scroll to be bottom: http://stackoverflow.com/questions/9170670/how-do-i-set-textarea-scroll-bar-to-bottom-as-a-default
+        area.scrollTop = area.scrollHeight;
+      }
     }
     if (linenum % refreshInterval) {
       area.value = output;

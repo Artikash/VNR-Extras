@@ -128,6 +128,11 @@ function refresh(shell) { // shell -> refresh shell
       // Scroll to be bottom: http://stackoverflow.com/questions/9170670/how-do-i-set-textarea-scroll-bar-to-bottom-as-a-default
       area.scrollTop = area.scrollHeight;
     }
+    if (linenum % refreshInterval) {
+      area.value = output;
+      area.scrollTop = area.scrollHeight;
+    }
+
     btn.disable = false;
     btn.className = 'btn btn-success';
     btn.value = "Done";

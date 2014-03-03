@@ -10,7 +10,7 @@ Since 6/18/2011
   Or:
       https://drive.google.com/folderview?id=0B3YXxE6u-4bzc1RKWHpoLWZROTQ
 
-  注：VNR的服务器恢复了。对于上周带来的饿各种问题，很抱歉！
+  注：VNR的服务器恢复了。对于上周带来的各种问题，很抱歉！
   如果VNR的服务里有down了，你也许可以在这里下载一个最近的版本：
       http://pan.baidu.com/s/1jGftD9W
 
@@ -41,7 +41,7 @@ Since 6/18/2011
     这个修正仅对Vista及以后的Windows有效。在Windows XP上，VNR仍旧会崩溃。
     感谢@goodboyye sama的报告！
 
-  * Support for LocaleSwitch is disabled, as I feel LocaleEmulator + NTLEA + AppLocale is sufficient.
+  * Support for LocaleSwitch is dropped, as I feel LocaleEmulator + NTLEA + AppLocale is sufficient.
     去掉了对LocaleSwitch的支持，因为感觉LocaleEmulator + NTLEA + AppLocale已经足够了。
 
 2/26/2014 WED

@@ -106,7 +106,7 @@ Since 6/18/2011
     2. UniDic現代日本語辞書 (247MB): http://sourceforge.jp/projects/unidic/
     I feel UniDic is better than IPA.
     - It has much larger vocabulary, which includes 巨乳.
-    - It can tell whether the pronunciation of the phrase orignates from ancient China or ancient Japan.
+    - It can tell whether the pronunciation of the phrase originates from ancient China or ancient Japan.
       See the example below.
     - It can return the associated Kanji of the katagana/hiragana.
       For example:

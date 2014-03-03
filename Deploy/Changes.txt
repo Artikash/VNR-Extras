@@ -14,18 +14,25 @@ Since 6/18/2011
   如果VNR的服务里有down了，你也许可以在这里下载一个最近的版本：
       http://pan.baidu.com/s/1jGftD9W
 
+  * At the left dock, VNR will display the number of users playing the same game at the same time with you.
+    左边的浮动栏会显示当前有多少同学正在和你一起玩同一个游戏。
+
+  * The organization of VNR's files changed slightly.
+    VNR的文件布局改变了。
+
   * Reduce the disk usage of VNR. reader.7z is reduce to 56MB.
     减小了VNR的硬盘占用空间。reader.7z减小到56MB。
 
-  * I rewrote the updater to get rid of the dependence on cygwin and autoit.
-    重写了更新程序。
+  * I rewrote the updater to get rid of the dependence on cygwin and autoit
+    so that the updater will not crash on Windows 8 x64.
+    重写了更新程序已修正在win8上的不具合。
 
   * Update Python and PySide to the latest version.
 
   * Python no longer compiles the source code into byte code.
-    This will fix the issue that running VNR as administrator might sometimes crash the updater.
+    This will fix the issue that running VNR as administrator might sometimes mess up the update.
     Python不再生成字节码。
-    这样即使用管理员权限启动VNR就不会造成无法更新的问题。
+    这样即使用管理员权限启动VNR，也不会造成无法正常更新的问题了。
 
   * Fix the bug that vnrsrv.dll sometimes crashes when the game is closed.
     This only works for Windows Vista and later. On Windows XP, the problem remains.

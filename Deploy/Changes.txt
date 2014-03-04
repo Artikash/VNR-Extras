@@ -2,6 +2,9 @@
 Visual Novel Reader
 Since 6/18/2011
 
+3/3/2014 SUN
+  * Add Malaysian language support. You can select the new language in Preferences/Account.
+
 3/2/2014 SUN
   Note: VNR's servers are online again. Sorry for all the troubles caused by it last week!
 

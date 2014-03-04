@@ -8,6 +8,14 @@ Since 6/18/2011
   * 当使用偏好中大陆地区的选项开启时，VNR会直接通过ip而不通过域名访问G网。
     感谢@goodboyye sama的建议！
 
+  * Add LEC Online translation support which can be enabled in Preferences/Translation.
+    LEC is said to be the best translator for European languages.
+    VNR supports LEC offline translator only for English.
+    If you does not have LEC installed, or your native language is an European language other than English,
+    is is highly recommended to try LEC online translator.
+
+    Thanks for @spoxxy sama's suggestion!
+
 3/2/2014 SUN
   Note: VNR's servers are online again. Sorry for all the troubles caused by it last week!
 

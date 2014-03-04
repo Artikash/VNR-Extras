@@ -2,6 +2,12 @@
 Visual Novel Reader
 Since 6/18/2011
 
+3/4/2014 TUE
+  * Fixed the issue that UniDic MLJ cannot be downloaded.
+    Thanks for @qdbkrc sama's report!
+    修正了无法下载UniDic近代日本語辞書的问题。
+  * 修正了大陆地区选项打开后对空间和DMM等网站的代理。
+
 3/3/2014 MON
   * Add Malaysian language support. You can select the new language in Preferences/Account.
 

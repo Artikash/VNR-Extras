@@ -2,8 +2,11 @@
 Visual Novel Reader
 Since 6/18/2011
 
-3/3/2014 SUN
+3/3/2014 MON
   * Add Malaysian language support. You can select the new language in Preferences/Account.
+
+  * 当使用偏好中大陆地区的选项开启时，VNR会直接通过ip而不通过域名访问G网。
+    感谢@goodboyye sama的建议！
 
 3/2/2014 SUN
   Note: VNR's servers are online again. Sorry for all the troubles caused by it last week!

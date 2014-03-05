@@ -7,6 +7,7 @@ Since 6/18/2011
     Thanks for @qdbkrc sama's report!
     修正了无法下载UniDic近代日本語辞書的问题。
   * 修正了大陆地区选项打开后对空间和DMM等网站的代理。
+  * Display the total number of users that are using VNR.
 
 3/3/2014 MON
   * Add Malaysian language support. You can select the new language in Preferences/Account.
@@ -18,7 +19,7 @@ Since 6/18/2011
     LEC is said to be the best translator for European languages.
     VNR supports LEC offline translator only for English.
     If you does not have LEC installed, or your native language is an European language other than English,
-    is is highly recommended to try LEC online translator.
+    it is highly recommended to try LEC online translator.
 
     Thanks for @spoxxy sama's suggestion!
 

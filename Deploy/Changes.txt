@@ -2,6 +2,9 @@
 Visual Novel Reader
 Since 6/18/2011
 
+3/6/2014 WED
+  * Avoid growling repeating messages.
+
 3/5/2014 WED
   * Fixed the issue that MeCab does not work on some computers.
     修正了MeCab在某些同学的电脑上无法工作的问题。

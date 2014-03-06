@@ -12,6 +12,7 @@ Since 6/18/2011
     修正了无法下载UniDic近代日本語辞書的问题。
   * 修正了大陆地区选项打开后对空间和DMM等网站的代理。
   * Display the total number of users that are using VNR.
+    VNR会显示世界上在正在使用的同学的数量。
 
 3/3/2014 MON
   * Add Malaysian language support. You can select the new language in Preferences/Account.

@@ -14,6 +14,9 @@ Since 6/18/2011
 
     修正了部分生僻汉字（比如「昱」）会丢失的问题。
 
+  * Fix the bug that the comment is not saved for newly-created terms in the Shared Dictionary.
+    修正了创建享辞书词条是注释没有保存的bug。
+
 3/4/2014 TUE
   * Fixed the issue that UniDic MLJ cannot be downloaded.
     Thanks for @qdbkrc sama's report!

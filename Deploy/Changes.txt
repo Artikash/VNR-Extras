@@ -2,6 +2,10 @@
 Visual Novel Reader
 Since 6/18/2011
 
+3/5/2014 WED
+  * Fixed the issue that MeCab does not work on some computers.
+    修正了MeCab在某些同学的电脑上无法工作的问题。
+
 3/4/2014 TUE
   * Fixed the issue that UniDic MLJ cannot be downloaded.
     Thanks for @qdbkrc sama's report!

@@ -8,7 +8,7 @@ Since 6/18/2011
 
   * 我换了一个下载UniDic的sourceforge.jp的mirror。希望可以解决大陆某些地方下载UniDic很慢的问题。
 
-  * Change the encoding for SHIFT-JIS from standard SHIFT-JIS to SHIFT-JIS_2004.
+  * Change the encoding for SHIFT-JIS from the standard SHIFT-JIS to SHIFT-JIS_2004.
     This will fix the issue that some uncommon kanjis such as 「昱」 were missing.
     Thanks for @tidus2310 sama's report!
 

@@ -2,6 +2,17 @@
 Visual Novel Reader
 Since 6/18/2011
 
+3/7/2014 FRI
+  * Add game engine CMVS2 for recent games from パープルソフト.
+    Specifically, ハピメアFD does not need /H code any more.
+    CMVS2 is actually better the the current /H code for that game.
+    The existing /H code will extract duplicate threads while CMVS2 will not.
+    I think it might be better you enable CMVS2 in Text Settings and disable the current /H code for that game.
+
+    为パープルソフト添加了新的CMVS2游戏引擎。
+    这个引擎比当前的ハピメアFD的特殊码要好，因为当前的特殊码会产生大量分裂的重复文本。
+    我想，如果可以在【文本设定】中将对话文本改为CMVS2会好些吧。
+
 3/5/2014 WED
   * Fixed the issue that MeCab does not work on some computers.
     修正了MeCab在某些同学的电脑上无法工作的问题。

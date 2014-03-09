@@ -2,6 +2,10 @@
 Visual Novel Reader
 Since 6/18/2011
 
+3/9/2014 SUN
+  * Fix a bug of Malie3 that the garbage texts sometimes are not removed
+    修正了Malie3有时会有垃圾字符的问题。
+
 3/8/2014 SAT
   * Add a new Malie3 engine for 相州戦神館學園 八命陣.
     You can find Malie3@ok123 in Text Settings crediting to @ok123 sensei.

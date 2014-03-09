@@ -18,7 +18,7 @@ Since 6/18/2011
     Now, VNR will preprocess the Shared Dictionary in another thread so that it will not block the startup.
     The green ring will be spinning on the startup when VNR is processing the dictionary.
     The trade-off it that, if you are trying to open the Shared Dictionary immediately after startup,
-    VNR might complain to you that is still processing the dictionary.
+    VNR might complain to you that it is still processing the dictionary.
     Please wait a few seconds until the green ring disappear.
 
     加快了VNR的启动速度。

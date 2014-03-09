@@ -14,7 +14,7 @@ Since 6/18/2011
 
   * The startup time of VNR is reduced.
     In the old version of VNR, a large amount of the startup time is spent on preprocessing the Shared Dictionary.
-    As the size of the Shared Dictionary increases, the processing time is becoming longer and longer.
+    As the size of the Shared Dictionary increases, the processing time becomes longer and longer.
     Now, VNR will preprocess the Shared Dictionary in another thread so that it will not block the startup.
     The green ring will be spinning on the startup when VNR is processing the dictionary.
     The trade-off it that, if you are trying to open the Shared Dictionary immediately,

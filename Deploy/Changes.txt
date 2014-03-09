@@ -2,10 +2,36 @@
 Visual Novel Reader
 Since 6/18/2011
 
-3/6/2014 WED
-  * Avoid growling repeating messages.
+3/8/2014 SAT
+  * Add a new Malie3 engine for 相州戦神館學園 八命陣.
+    You can find Malie3@ok123 in Text Settings crediting to @ok123 sensei.
+    The new engine does not have the issue of showing texts before it is painted on the screen.
+    You can say thanks to @ok123 here: http://sakuradite.com/topic/157
+
+    为「相州戦神館學園 八命陣」添加了新的游戏引擎。
+    你可以在【文本设定】中选择【Malie3@ok123】的文本。
+    新的引擎不再有提取大段大段的文本的问题了。
+
+  * By default, VNR will display the number of online users on the Spring Board.
+    You can disable this in Preferences/UI.
+
+    VNR默认时会显示在线的同学的数量。
+    你可以在【使用偏好/界面】中选择不显示它。
+
+3/7/2014 FRI
+  * Add game engine CMVS2 for recent games from パープルソフト.
+    Specifically, ハピメアFD does not need /H code any more.
+    CMVS2 is actually better the the current /H code for that game.
+    The existing /H code will extract duplicate threads while CMVS2 will not.
+    I think it might be better you enable CMVS2 in Text Settings and disable the current /H code for that game.
+
+    为パープルソフト添加了新的CMVS2游戏引擎。
+    这个引擎比当前的ハピメアFD的特殊码要好，因为当前的特殊码会产生大量分裂的重复文本。
+    我想，如果可以在【文本设定】中将对话文本改为CMVS2会好些吧。
 
 3/5/2014 WED
+  * Avoid growling repeating messages.
+
   * Fixed the issue that MeCab does not work on some computers.
     修正了MeCab在某些同学的电脑上无法工作的问题。
 
@@ -16,6 +42,9 @@ Since 6/18/2011
     Thanks for @tidus2310 sama's report!
 
     修正了部分生僻汉字（比如「昱」）会丢失的问题。
+
+  * Fix the bug that the comment is not saved for newly-created terms in the Shared Dictionary.
+    修正了创建享辞书词条是注释没有保存的bug。
 
 3/4/2014 TUE
   * Fixed the issue that UniDic MLJ cannot be downloaded.

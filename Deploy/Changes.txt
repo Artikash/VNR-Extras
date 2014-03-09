@@ -13,7 +13,7 @@ Since 6/18/2011
     新的引擎不再有提取大段大段的文本的问题了。
 
   * The startup time of VNR is reduced.
-    In the old version of VNR, a large amount of the startup time is used to preprocess the Shared Dictionary.
+    In the old version of VNR, a large amount of the startup time is spent on preprocessing the Shared Dictionary.
     As the size of the Shared Dictionary increases, the processing time is becoming longer and longer.
     Now, VNR will preprocess the Shared Dictionary in another thread so that it will not block the startup.
     The green ring will be spinning on the startup when VNR is processing the dictionary.

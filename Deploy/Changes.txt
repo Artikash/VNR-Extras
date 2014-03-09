@@ -2,6 +2,16 @@
 Visual Novel Reader
 Since 6/18/2011
 
+3/8/2014 SAT
+  * Add a new Malie3 engine for 相州戦神館學園 八命陣.
+    You can find Malie3@ok123 in Text Settings crediting to @ok123 sensei.
+    The new engine does not have the issue of showing texts before it is painted on the screen.
+    You can say thanks to @ok123 here: http://sakuradite.com/topic/157
+
+    为「相州戦神館學園 八命陣」添加了新的游戏引擎。
+    你可以在【文本设定】中选择【Malie3@ok123】的文本。
+    新的引擎不再有提取大段大段的文本的问题了。
+
 3/7/2014 FRI
   * Add game engine CMVS2 for recent games from パープルソフト.
     Specifically, ハピメアFD does not need /H code any more.

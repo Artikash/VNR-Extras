@@ -12,6 +12,23 @@ Since 6/18/2011
     你可以在【文本设定】中选择【Malie3@ok123】的文本。
     新的引擎不再有提取大段大段的文本的问题了。
 
+  * The startup time of VNR is reduced.
+    In the old version of VNR, a large amount of the startup time is used to preprocess the Shared Dictionary.
+    As the size of the Shared Dictionary increases, the processing time is becoming longer and longer.
+    Now, VNR will preprocess the Shared Dictionary in another thread so that it will not block the startup.
+    The green ring will be spinning on the startup when VNR is processing the dictionary.
+    The trade-off it that, if you are trying to open the Shared Dictionary immediately,
+    VNR might complain to you that is still processing the dictionary.
+    Please wait a few seconds until the green ring disappear.
+
+    加快了VNR的启动速度。
+    在上一版的VNR，很多启动时间花费在处理共享辞书上。
+    随着共享辞书越来越大，启动等待的时间越来越长。
+    现在，VNR会另外开辟一个线程来处理辞书，这样启动时就不会卡在那里了。
+    在VNR处理辞书时，左下角的绿色的环会转动。
+    不过这样做的代价是，如果你在启动VNR后立刻打开共享辞书，
+    因为还没有处理完词条，VNR可能会抱怨要再等几秒钟才可以打开共享辞书。
+
   * By default, VNR will display the number of online users on the Spring Board.
     You can disable this in Preferences/UI.
 

@@ -2,6 +2,9 @@
 Visual Novel Reader
 Since 6/18/2011
 
+3/11/2014 TUE
+  * @djz020815 sensei改进了JBeijng的自定义辞书。
+
 3/10/2014 MON
   * VNR will display the guessed encoding for the text threads in Text Settings.
     VNR will not force you to change the encoding.

@@ -4,7 +4,8 @@ Since 6/18/2011
 
 3/10/2014 MON
   * VNR will display the guessed encoding for the text threads in Text Settings.
-    It is usually correct, unless you are playing a mod/translated game.
+    VNR will not force you to change the encoding.
+    But it is usually correct, unless you are playing a mod/translated game.
     VNR在文本设定中会显示文本的编码。
     这个编码通常是正确的，除非你在玩修改了的或者翻译的游戏。
 

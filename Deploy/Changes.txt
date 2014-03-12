@@ -5,6 +5,13 @@ Since 6/18/2011
 3/11/2014 TUE
   * @djz020815 sensei改进了JBeijng的自定义辞书。
 
+  * Fixed a severe bug in VNR that might crash TanukiSoft games,
+    and might cause certain game engines (such as Debomosu) randomly unable to find game threads.
+    Thanks for @Kodoku sensei's report!
+    修正了一个VNR的严重的bug。
+    这个bug会导致TanukiSoft的游戏崩溃，还可能会让个别引擎（Debonosu）在有些同学的笔记本上随机性的提取不到文本。
+    非常感谢Kodoku sensei的报告！
+
 3/10/2014 MON
   * VNR will display the guessed encoding for the text threads in Text Settings.
     VNR will not force you to change the encoding.

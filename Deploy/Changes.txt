@@ -17,6 +17,11 @@ Since 6/18/2011
     在游戏左边的选项中可以打开。
     现在，只可以为语音合成指定快捷键。
 
+  * Pressing the Close button (X) on the top-right corner of the text box no longer stops the text extraction.
+    If you want to disable VNR, you have to manually press the "Pause" button on the left dock.
+    单击文本框框左上角的关闭按钮（X）不再停止提取文本。
+    如果想要让VNR停止提取文本，请手动单击游戏窗口左边的【暂停】按钮。
+
 3/11/2014 TUE
   * @djz020815 sensei改进了JBeijng的自定义辞书。
 

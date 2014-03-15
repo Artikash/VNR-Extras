@@ -2,13 +2,20 @@
 Visual Novel Reader
 Since 6/18/2011
 
-3/12/2014 WED
+3/15/2014 SAT
   Note: If you are experiencing the issue that VNR is reading out unwanted character names through TTS,
   please do a manual update to the Shared Dictionary.
   There was an important rule to eliminate character names in voices which was disabled by some users by accident.
 
   注：如果你遇到VNR使用TTS读出不需要的人物姓名的问题，那么请手动更新下共享辞书吧。
   辞书中一条删除姓名的词条被其他同学错误的禁用了。
+
+  * You can specify global mouse/keyboard shortcuts in Preferences/Shortcuts.
+    You can enable the shortcut in the option dock on the left of the game window.
+    Currently, you can bind the shortcuts only with TTS.
+    在【使用偏好/快捷键】中可以指定键盘和鼠标快捷键。
+    在游戏左边的选项中可以打开。
+    现在，只可以为语音合成指定快捷键。
 
 3/11/2014 TUE
   * @djz020815 sensei改进了JBeijng的自定义辞书。

@@ -2,6 +2,10 @@
 Visual Novel Reader
 Since 6/18/2011
 
+3/16/2014 SUN
+  * Support using Alt / Ctrl modifiers for mouse and keyboard shortcuts.
+    可以用Alt/Ctrl和鼠标键盘的组合键来做快捷键了。
+
 3/15/2014 SAT
   Note: If you are experiencing the issue that VNR is reading out unwanted character names through TTS,
   please do a manual update to the Shared Dictionary.

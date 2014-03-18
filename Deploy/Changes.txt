@@ -17,6 +17,36 @@ Since 6/18/2011
   * Fix a bug that might games from Eushully randomly losing texts.
     修正了E社游戏有时会丢失文本的bug。
 
+  * Support for extracting texts from MultiByteToWideChar and WideCharToMultiByte are temporarily disabled.
+    暂时禁止从MultiByteToWideChar和WideCharToMultiByte提取文本。
+
+    Certain games require extracting texts from MultiByteToWideChar or WideCharToMultiByte.
+    But due to technical difficulties, hooking these two functions could cause a large number of games to lose text.
+    A as a result, I temporarily disabled hooking to these two functions.
+    If your existing games need to extract texts from these functions, you have to manually download vnrcli.dll
+    from the following place, and replace the default DLLs in Library/Frameworks/Sakura/bin.
+
+        Google Drive: http://goo.gl/t31MqY
+        Baidu Disk: http://pan.baidu.com/s/1jGftD9W
+
+    某些游戏需要从MultiByteToWideChar或者WideCharToMultiByte这两个函数提取文本。
+    但是由于技术困难，注入这两个函数会造成很多游戏丢失文本。
+    所以，VNR暂时停止从这两个函数提取文本了。
+    如果你在玩的游戏恰好需要这两个函数，请暂时手动从上面的位置下载vnrcli.dll，
+    然后替换掉Library/Frameworks/Sakura/bin中默认的DLL。
+
+    Since this issue is very difficult to fix, it might more than a week.
+    I will try to fix this issue as soon as possible.
+    Really sorry for the inconvenience! m(_ _)m
+    More information about this issue could be found in the following place:
+
+        http://sakuradite.com/topic/175
+        http://sakuradite.com/topic/159
+
+    由于这个问题很难修正，可能会花费一两周的时间。
+    带来不便，非常抱歉！我会尽快修正这个问题的。
+    关于这个问题的更多描述，可以从上面的地方找到。
+
 3/16/2014 SUN
   * Support using Alt / Ctrl modifiers for mouse and keyboard shortcuts.
     可以用Alt/Ctrl和鼠标键盘的组合键来做快捷键了。

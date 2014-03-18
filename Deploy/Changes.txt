@@ -7,7 +7,7 @@ Since 6/18/2011
     It supports several European languages, but I believe Russian is its best.
     Thanks for @1dat1 sama's suggestion.
 
-    Note: You cannot see this translator in Preferences if you have blocked Russian language.
+    Note: You cannot see this translator in Preferences if you have blocked Russian language in Preferences/i18n.
 
 3/16/2014 SUN
   * Support using Alt / Ctrl modifiers for mouse and keyboard shortcuts.

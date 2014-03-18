@@ -9,6 +9,11 @@ Since 6/18/2011
 
     Note: You cannot see this translator in Preferences if you have blocked Russian language in Preferences/i18n.
 
+  * VNR's updater is temporarily rolled back to command line script.
+    It is uglier, but much faster and stabler than the previous GUI version.
+    VNR的更新程序暂时变回命令行的形式。
+    虽然看上去更丑了，但是比之前的图形界面要稳定。
+
 3/16/2014 SUN
   * Support using Alt / Ctrl modifiers for mouse and keyboard shortcuts.
     可以用Alt/Ctrl和鼠标键盘的组合键来做快捷键了。

@@ -14,7 +14,7 @@ Since 6/18/2011
     VNR的更新程序暂时变回命令行的形式。
     虽然看上去更丑了，但是比之前的图形界面要稳定。
 
-  * Fix a bug that might games from Eushully randomly losing texts.
+  * Fix a bug that might cause games from Eushully randomly losing texts.
     修正了E社游戏有时会丢失文本的bug。
 
   * Support for extracting texts from MultiByteToWideChar and WideCharToMultiByte are temporarily disabled.

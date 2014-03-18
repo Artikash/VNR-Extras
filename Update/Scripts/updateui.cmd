@@ -15,13 +15,10 @@ echo       Do you want to update now? Internet connection is required.
 echo ----------------------------------------------------------------------
 echo.
 pause
+echo.
 
 call update.cmd
 
-::            1         2         3         4         5         6         7
-echo ----------------------------------------------------------------------
-echo                          Update accomplished!
-echo ----------------------------------------------------------------------
 echo.
 pause
 

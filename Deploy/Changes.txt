@@ -35,7 +35,7 @@ Since 6/18/2011
     如果你在玩的游戏恰好需要这两个函数，请暂时手动从上面的位置下载vnrcli.dll，
     然后替换掉Library/Frameworks/Sakura/bin中默认的DLL。
 
-    Since this issue is very difficult to fix, it might more than a week.
+    Since this issue is very difficult to fix, it might take more than a week.
     I will try to fix this issue as soon as possible.
     Really sorry for the inconvenience! m(_ _)m
     More information about this issue could be found in the following place:

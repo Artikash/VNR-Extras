@@ -2,6 +2,14 @@
 Visual Novel Reader
 Since 6/18/2011
 
+3/22/2014 SAT
+  * Add a simple web browser which could be used to visit certain web sites that at blocked outside of Japan.
+    Currently, it only looks well in Windows Vista and later when Aero is enabled.
+    The GUI will lock very ugly on Windows XP.
+    添加了一个可以在日本外访问日本部分网站的浏览器。 
+    当前，浏览器只在支持Aero的Vista以及以后版本的Windows上才可以正常显示。
+    在Windows XP上，浏览器的界面会非常的丑。
+
 3/19/2014 WED
   * Bugfix for the CMVS engine.
 

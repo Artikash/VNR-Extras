@@ -15,7 +15,7 @@ Since 6/18/2011
 
   * The underlying mechanism for saving manual subtitles is changed.
     In short, the subs are less likely to get lost due to the changes/updates to the games.
-    The UI are not changed, and you don't need do anything to enable this change.
+    The UI are not changed, and you don't need to do anything to enable this change.
 
     Additionally, I also manually shared subtitles between 「暁の護衛 トリニティコンプリートエディション」
     and 「暁の護衛 ～罪深き終末論～」at the server side.

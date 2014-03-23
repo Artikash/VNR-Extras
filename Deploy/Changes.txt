@@ -44,11 +44,11 @@ Since 6/18/2011
     (which encoding to decode text, whether eliminate repetitions, whether display user name, whether
     use Shared Dictionary to reorder character names and to remove garbage characters, etc.).
 
-    Then, I was trying to import subtitles made for 「暁の護衛 ～罪深き終末論～」(assume this to be A3) to
+    Then, I tried importing subtitles made for 「暁の護衛 ～罪深き終末論～」(assume this to be A3) to
     「暁の護衛 トリニティコンプリートエディション」(let this game be AT).
-    But because A3 and AT are made using different game engines and the subtitle scripts are in different encoding
+    But because A3 and AT were made using different game engines and the subtitle scripts were in different encodings
     (A3 = MAJIRO with SHIFT-JIS, AT = KiriKiri with UTF-16),
-    the raw memory are different for these two games, which makes it impossible
+    the raw memory were different for these two games, which made it impossible
     to share subtitles between them.
 
     So, I changed the mechanism for saving subtitles to that:

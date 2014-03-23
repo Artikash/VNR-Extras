@@ -27,11 +27,11 @@ Since 6/18/2011
     改进了保存字幕的机制。
     简单的说，字幕会更不容易由于游戏的变更或者更新而丢失了。
     另外，我手动的将「暁の護衛 トリニティコンプリートエディション」和「暁の護衛 ～罪深き終末論～」
-    两个游戏间的字幕和弹幕设定位共享了。
+    两个游戏间的字幕和弹幕设定为共享了。
     也就是说，在一个游戏中的字幕和弹幕，另一个游戏也可以看到了。
-    如果你真正玩Trinity，右键点击下侧边栏，选择【更新人工字幕】就可以得到罪深的字幕了。
+    如果你正在玩Trinity，右键点击下侧边栏，选择【更新人工字幕】就可以得到罪深的字幕了。
 
-    In the old version of VNR, all subtitles are saved with the raw data of the text in the memory instead
+    In the old version of VNR, all subtitles were saved with the raw data of the text in the memory instead
     of the game text that you can see in the screen.
     For example, assume the current game text is "海斗「こんにちは」", and my subtitle is "Kaido: Hello".
     In the old version of VNR, "Kaito: Hello" will be saved not with  "海斗「こんにちは」",
@@ -45,7 +45,7 @@ Since 6/18/2011
 
     Then, I was trying to import subtitles made for 「暁の護衛 ～罪深き終末論～」(assume this to be A3) to
     「暁の護衛 トリニティコンプリートエディション」(let this game be AT).
-    But because A3 and KiriKir are made using different game engines with different encoding
+    But because A3 and AT are made using different game engines and the subtitle scripts are in different encoding
     (A3 = MAJIRO with SHIFT-JIS, AT = KiriKiri with UTF-16),
     the raw memory are different for these two games, which makes it impossible
     to share subtitles between them.

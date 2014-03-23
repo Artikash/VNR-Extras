@@ -15,6 +15,7 @@ Since 6/18/2011
 
   * The mechanism for saving manual subtitles is changed.
     In short, the subs are less likely to get lost due to the changes/updates to the games.
+
     Additionally, I also manually shared subtitles between 「暁の護衛 トリニティコンプリートエディション」
     and 「暁の護衛 ～罪深き終末論～」at the server side.
     Currently, there is no public UI to specify which games to share subs
@@ -28,28 +29,30 @@ Since 6/18/2011
     另外，我手动的将「暁の護衛 トリニティコンプリートエディション」和「暁の護衛 ～罪深き終末論～」
     两个游戏间的字幕和弹幕设定位共享了。
     也就是说，在一个游戏中的字幕和弹幕，另一个游戏也可以看到了。
+    如果你真正玩Trinity，右键点击下侧边栏，选择【更新人工字幕】就可以得到罪深的字幕了。
 
-    In the old version of VNR, all subtitles are saved with the raw data of the game instead of the game text.
-    For example, assume the current game text is "海斗「こんにちは」", and my subtitle is "Hello".
+    In the old version of VNR, all subtitles are saved with the raw data of the text in the memory instead
+    of the game text that you can see in the screen.
+    For example, assume the current game text is "海斗「こんにちは」", and my subtitle is "Kaido: Hello".
     In the old version of VNR, "Kaito: Hello" will be saved not with  "海斗「こんにちは」",
-    but with the current data in the memory behind "海斗「こんにちは」".
+    but with the current data in the memory behind "海斗「こんにちは」" which you cannot see.
 
-    The reason behind this decision is that: I feel raw memory is more stable then the extracted game text.
+    The reason behind this decision is that: I feel raw memory is usually more stable then
+    the extracted game text.
     Because the game text might be different depending how we view/process it
     (which encoding to decode text, whether eliminate repetitions, whether display user name, whether
-    user Shared Dictionary to remove garbage characters, etc.).
+    user Shared Dictionary to reorder character names and to remove garbage characters, etc.).
 
-    Then, I was trying to import subtitles made from 「暁の護衛 ～罪深き終末論～」(assume this to be A3) to
-    「暁の護衛 トリニティコンプリートエディション」(let this to be AT).
-    But I found it was impossible for in old version of VNR.
-    Because A3 is made using MAJIRO engine with SHIFT-JIS encoding,
-    while AT is created using KiriKiri with UTF-16 encoding.
-    The raw memory of the text data are different for these two games,
-    which makes it impossible to share subtitles between them.
+    Then, I was trying to import subtitles made for 「暁の護衛 ～罪深き終末論～」(assume this to be A3) to
+    「暁の護衛 トリニティコンプリートエディション」(let this game be AT).
+    But because A3 and KiriKir are made using different game engines with different encoding
+    (A3 = MAJIRO with SHIFT-JIS, AT = KiriKiri with UTF-16),
+    the raw memory are different for these two games, which makes it impossible
+    to share subtitles between them.
 
     So, I changed the mechanism for saving subtitles to that:
-    the subtitle will be saved with both raw memory data and the game text.
-    Now, the subs in A3 and AT can be shared since there processed game text are the same.
+        the subtitle will be saved with both raw memory data and the game text.
+    Now, the subs in A3 and AT can be shared since their processed game text are the same.
     To be more precise, the subtitle is not really saved with game text,
     but the "normalized" game text.
     The normalization includes removing spaces, reordering text and eliminate repetitions.

@@ -53,14 +53,13 @@ Since 6/18/2011
     So, I changed the mechanism for saving subtitles to that:
         the subtitle will be saved with both raw memory data and the game text.
     Now, the subs in A3 and AT can be shared since their processed game text are the same.
-    To be more precise, the subtitle is not really saved with game text,
-    but the "normalized" game text.
+    To be more precise, the subtitle is not really saved with game text, but the "normalized" game text.
     The normalization includes removing spaces, reordering text and eliminate repetitions.
     This will make it less possible to suffer from the changes of different game engines,
     and how user select to process the game text.
 
     Additionally, in the old version of VNR, because the memory extracted from certain game engines
-    (such as KiriKiri and YU-RIS) are unstable, manual subtitles could randomly get lost.
+    (such as KiriKiri and YU-RIS) were unstable, manual subtitles could randomly get lost.
     This update will also fix such issue.
 
 3/19/2014 WED

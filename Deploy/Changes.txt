@@ -63,6 +63,10 @@ Since 6/18/2011
     (such as KiriKiri and YU-RIS) were unstable, manual subtitles could randomly get lost.
     This update will also fix such issue.
 
+    btw, 暁の護衛 was THE game that changed my personality, and motivated me to create VNR so that
+    more (Chinese) users could enjoy the game.
+    If you know same basic Japanese, I personally strongly recommend you to give this game a try.
+
 3/19/2014 WED
   * Bugfix for the CMVS engine.
 

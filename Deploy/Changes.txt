@@ -2,6 +2,9 @@
 Visual Novel Reader
 Since 6/18/2011
 
+3/24/2014 MON
+  * Handle the cookies so that the browser can visit DMM properly.
+
 3/22/2014 SAT
   * Add a simple web browser which could be used to visit certain web sites that are blocked outside of Japan.
     Currently, it works well on Windows Vista and later when Aero is enabled.

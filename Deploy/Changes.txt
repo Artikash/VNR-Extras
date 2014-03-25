@@ -2,6 +2,10 @@
 Visual Novel Reader
 Since 6/18/2011
 
+3/25/2014 TUE
+  * Modify the theme of the web browser to look better when Aero is not supported.
+    让浏览器在Aero不支持时会看起来好些。
+
 3/24/2014 MON
   * Handle the cookies so that the browser can visit DMM properly.
 

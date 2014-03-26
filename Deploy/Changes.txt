@@ -6,6 +6,9 @@ Since 6/18/2011
   * Modify the theme of the web browser to look better when Aero is not supported.
     让浏览器在Aero不支持时会看起来好些。
 
+  * You can disable the notification at the corner of the screen in the left dock.
+    在左边的选项中可以关闭右上角的提醒。
+
 3/24/2014 MON
   * Handle the cookies so that the browser can visit DMM properly.
 

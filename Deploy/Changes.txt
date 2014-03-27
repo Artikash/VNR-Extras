@@ -2,6 +2,12 @@
 Visual Novel Reader
 Since 6/18/2011
 
+3/26/2014 WED
+  * 如果你暂时居住在中国大陆地区，并且无法正常通过VNR下载某些辞书（比如UniDic），
+    那么，出现问题的原因很可能是大陆人众所周知的原因。
+    这时，只好手动通过下载提示中的任何地址下载需要的辞书，然后解压缩到提示中的位置就好了。
+    除了Lingoes辞书和EDICT辞书不可以这样，其他的都是直接解压缩到指定的位置就好了。
+
 3/25/2014 TUE
   * Modify the theme of the web browser to look better when Aero is not supported.
     让浏览器在Aero不支持时会看起来好些。

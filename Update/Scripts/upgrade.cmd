@@ -140,7 +140,8 @@ for %%i in (
       popd
 )))
 
-attrib +h *Mac*
+::attrib +h *Mac*
+attrib +h *.cmd
 if exist "VNR for Mac.app" attrib +h "VNR for Mac.app"
 
 attrib +r +s .

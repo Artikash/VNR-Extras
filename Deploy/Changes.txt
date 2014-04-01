@@ -2,6 +2,10 @@
 Visual Novel Reader
 Since 6/18/2011
 
+3/31/2014 MON
+  * Modify the built-in browser to support parsing website using MeCab and reading Japanese sentences.
+    VNR自带的浏览器可以为日文的网页分词和使用TTS读出日文的句子了。
+
 3/27/2014 THU
   * 修正了浏览器在大陆访问某些需要flash的网站时会出现的地址错误的不具合。
 

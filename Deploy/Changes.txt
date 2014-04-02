@@ -7,6 +7,11 @@ Since 6/18/2011
     Thanks for @ok123 sensei's report!
     修正了light社的Malie3引擎会丢字的问题。
 
+  * Add a new AUEngine game engine for 英雄・戦姫シリーズ.
+    These games usually have several updates.
+    Hope this engine could help reduce the dependence on H-code for different updates.
+    为「英雄・戦姫」シリーズ添加了新的AUEngine引擎。
+
 3/31/2014 MON
   * Modify the built-in browser to support parsing website using MeCab and reading Japanese sentences using TTS.
     The role of the Japanese word is rendered in the tooltip.

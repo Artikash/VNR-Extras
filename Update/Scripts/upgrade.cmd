@@ -113,7 +113,8 @@ echo ----------------------------------------------------------------------
 :: Remove *.pyc and *.pyo. Ignore errors.
 ::echo.
 ::echo update: removing python byte code ...
-::del /s /q /f *.pyc *.pyo
+>nul 2>nul del /s /q /f *.pyc *.pyo
+
 ::
 ::echo update: touching python source code ...
 ::for /f "tokens=* delims=|" %%i in ('dir /s /b *.py') do touch "%%~i"

@@ -119,7 +119,6 @@ echo ----------------------------------------------------------------------
 ::for /f "tokens=* delims=|" %%i in ('dir /s /b *.py') do touch "%%~i"
 
 rm -f Frameworks/Python/GPS.txt
-
 for %%i in (
     . ^
     Caches ^
@@ -140,8 +139,8 @@ for %%i in (
       popd
 )))
 
+attrib -h *.cmd
 attrib +h *Mac*
-attrib +h *.cmd
 if exist "VNR for Mac.app" attrib +h "VNR for Mac.app"
 
 attrib +r +s .
@@ -151,6 +150,8 @@ if exist .hg attrib +h .hg
 if exist .hgignore attrib +h .hgignore
 
 if exist ../Scripts copy /y *.cmd ..\Scripts\ >nul
+
+attrib +h *.cmd
 
 ::            1         2         3         4         5         6         7
 echo.

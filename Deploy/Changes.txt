@@ -3,7 +3,7 @@ Visual Novel Reader
 Since 6/18/2011
 
 4/2/2014 WED
-  * Add AOS engine for games from Sugar Pot and other game brands under 彩文館.
+  * Add AOS engine for games from SugarPot and other game brands under the umbrella of 彩文館.
     Tested working with 恋する少女と想いのキセキ, ツクモノツキ and some nuki games from LiLiM.
     为包括Sugar Pot在内的彩文館伞下的会社的游戏添加了AOS的引擎。
     二月的「恋する少女と想いのキセキ」不再需要特殊码了。

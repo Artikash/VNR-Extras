@@ -2,6 +2,10 @@
 Visual Novel Reader
 Since 6/18/2011
 
+4/3/2014 THU
+  * Prevent VNR from hooking to Notepad++.
+    禁止VNR从Notepad++提取文本。
+
 4/2/2014 WED
   * Add AOS engine for games from SugarPot and other game brands under the umbrella of 彩文館.
     Tested working with 恋する少女と想いのキセキ, ツクモノツキ and some nuki games from LiLiM.

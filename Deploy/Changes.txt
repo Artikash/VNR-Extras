@@ -2,6 +2,13 @@
 Visual Novel Reader
 Since 6/18/2011
 
+4/4/2014 FRI
+  * @djz020815 sensei把三本J北京的辞书合并为一本了。这样可以大大加快J北京翻译的速度。
+    非常感谢@djz020815大先生的工作！
+
+    如果你不喜欢VNR而在用喵翻或者TranslationPendant，你也可以下载这本辞书并手动添加到J北京中。
+    @djz020815的自定义辞书的下载地址：http://pan.baidu.com/s/1kT2trON
+
 4/3/2014 THU
   * Prevent VNR from hooking to Notepad++.
     禁止VNR从Notepad++提取文本。

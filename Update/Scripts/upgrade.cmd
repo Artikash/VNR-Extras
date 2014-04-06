@@ -94,7 +94,7 @@ for %%i in (
 ::            1         2         3         4         5         6         7
 echo.
 echo ----------------------------------------------------------------------
-echo                    Updating EDICT if out of date ...
+echo                     Update EDICT if out of date ...
 echo ----------------------------------------------------------------------
 
 set PATH=%CD%/Frameworks/Python;%PATH%

@@ -2,6 +2,9 @@
 Visual Novel Reader
 Since 6/18/2011
 
+4/8/2014 TUE
+  * UniDic保存到VNR的服务器上了，以避免暂时居住在大陆地区的同学无法下载UniDic的问题。
+
 4/4/2014 FRI
   * @djz020815 sensei把三本J北京的辞书合并为一本了。这样可以大大加快J北京翻译的速度。
     非常感谢@djz020815大先生的工作！

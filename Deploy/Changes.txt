@@ -2,6 +2,11 @@
 Visual Novel Reader
 Since 6/18/2011
 
+4/2/2014 SAT
+  * 我把MeCab需要的辞书上传到VNR的百度网盘了。
+    如果你因为暂时居住在中国大陆地区而无法下载MeCab的辞书，只好手动从网盘下载，
+    然后解压缩到Caches/Dictionaries中。
+
 4/4/2014 FRI
   * @djz020815 sensei把三本J北京的辞书合并为一本了。这样可以大大加快J北京翻译的速度。
     非常感谢@djz020815大先生的工作！

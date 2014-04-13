@@ -6,6 +6,7 @@ Since 6/18/2011
   * UniDic保存到VNR的服务器上了，以避免暂时居住在大陆地区的同学无法下载UniDic的问题。
 
   * Launch Voiceroid using AppLocale on non-Japanese Windows.
+    Thanks for CC. sama's suggestion!
     使用AppLocale启动Voiceroid。
 
 4/4/2014 FRI

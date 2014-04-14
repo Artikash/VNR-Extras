@@ -17,6 +17,12 @@ Since 6/18/2011
 
     比方说，如果你有装VoiceText的Liang（男生）或者Hui（女生）的TTS，那么在指定中文TTS为角色配音后，VNR会使用中文读出翻译的字幕。
 
+    btw., if you would like to try TTS+VNR, personally I would recommend VoiceText.
+    Some of its supported languages and sizes of the voices are as follows:
+    - Japanese: VM Misaki (female, 755MB) and VM Show (male, 724MB）
+    - English: VM Julie (female, 565MB) and VM Paul (male, 448MB)
+    - Chinese: VM Hui (female, 368MB) and VM Liang (male, 241MB)
+
 4/12/2014 SAT
   * 我把MeCab需要的辞书上传到VNR的百度网盘了。
     如果你因为暂时居住在中国大陆地区而无法下载MeCab的辞书，只好手动从网盘下载，

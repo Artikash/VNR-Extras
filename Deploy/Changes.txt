@@ -2,10 +2,29 @@
 Visual Novel Reader
 Since 6/18/2011
 
-4/2/2014 SAT
+4/13/2014 SUN
+  * Restored support to read translations using TTS.
+    By default, VNR will use TTS to read the original game text (usually in Japanese).
+    Now, if the language of your selected global TTS or character-specific TTS is different from game's language,
+    VNR will try to read the translation using your selected TTS.
+    The translation could come from either user-shared subtitles or machine translators.
+
+    For example, if you are speaking Korean, after installing VoiceText YUMI, VNR can use that TTS to read Korean translation instead of Japanese game text.
+
+    恢复了使用TTS读出翻译的支持。
+    VNR以前仅会用TTS读出日文的游戏文本。
+    现在，当你选择的TTS的语言和游戏的语言不同时，VNR会转而使用你选定的TTS来读出人工翻译或者机器翻译。
+
+    比方说，如果你有装VoiceText的Liang（男生）或者Hui（女生）的TTS，那么在指定中文TTS为角色配音后，VNR会使用中文读出翻译的字幕。
+
+4/12/2014 SAT
   * 我把MeCab需要的辞书上传到VNR的百度网盘了。
     如果你因为暂时居住在中国大陆地区而无法下载MeCab的辞书，只好手动从网盘下载，
     然后解压缩到Caches/Dictionaries中。
+
+  * Launch Voiceroid using AppLocale on non-Japanese Windows.
+    Thanks for @CC. sama's suggestion!
+    使用AppLocale启动Voiceroid。
 
 4/4/2014 FRI
   * @djz020815 sensei把三本J北京的辞书合并为一本了。这样可以大大加快J北京翻译的速度。

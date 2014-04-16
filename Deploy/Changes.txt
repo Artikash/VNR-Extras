@@ -6,9 +6,15 @@ Since 6/18/2011
   * VNR will automatically back up local games settings.
     If VNR has crashed for whatever reason and corrupted current game settings, VNR will restore the last settings.
     Thanks for @najizhimo sama's report!
+
     VNR会自动备份保存的游戏设定。
     如果VNR因为崩溃而造成当前的设定损坏和丢失掉游戏，VNR会自动恢复上次备份的游戏设定。
     感谢@najizhimo sama的报告。
+
+  * Add game engine for Adobe AIR.
+    Tested working with「華アワセ 蛟編」and「華アワセ 姫空木編」.
+    为Adobe AIR添加了游戏引擎。
+    「華アワセ 蛟編」和「華アワセ 姫空木編」不再需要特殊码了。
 
 4/13/2014 SUN
   * Restored support to read user-shared/machine translations using TTS.

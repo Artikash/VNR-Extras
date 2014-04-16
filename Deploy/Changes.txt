@@ -28,6 +28,8 @@ Since 6/18/2011
     另外，由于「バルドスカイゼロ」和「バルドスカイゼロ2」会自动共享词条，
     这样就不需要再为「バルドスカイゼロ2」设计删除垃圾字符的规则了。
 
+  * Add game engine for sol-fa-soft.
+
 4/13/2014 SUN
   * Restored support to read user-shared/machine translations using TTS.
     By default, VNR will use TTS to read the original game text (usually in Japanese).

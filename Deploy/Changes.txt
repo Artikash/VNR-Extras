@@ -5,8 +5,10 @@ Since 6/18/2011
 4/15/2014 TUE
   * VNR will automatically back up local games settings.
     If VNR has crashed for whatever reason and corrupted game settings, VNR will restore the last settings.
+    Thanks for @najizhimo sama's report!
     VNR会自动备份保存的游戏设定。
     如果VNR因为崩溃而造成当前的设定损坏和丢失掉游戏，VNR会自动恢复上次备份的游戏设定。
+    感谢@najizhimo sama的报告。
 
 4/13/2014 SUN
   * Restored support to read user-shared/machine translations using TTS.

@@ -21,7 +21,7 @@ Since 6/18/2011
 
     Additionally, since バルドスカイゼロ and バルドスカイゼロ2 share the same terms in the Shared Dictionary
     (both of them are in the same series of バルド),
-    the garbage elimination rules for バルドスカイゼロ also works for バルドスカイゼロ2.
+    the garbage elimination rules for バルドスカイゼロ also work for バルドスカイゼロ2.
     No extra modifications to the Shared Dictionary are required.
 
     修改了BALDR的引擎来支持「バルドスカイゼロ2」。新的引擎重命名为“Unity”。

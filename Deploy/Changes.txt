@@ -17,14 +17,14 @@ Since 6/18/2011
     「華アワセ 蛟編」和「華アワセ 姫空木編」不再需要特殊码了。
 
   * Modify the old BALDR engine so that it works with バルドスカイゼロ2.
-    BALDR engine is renamed to "Unity" to be more generalized.
+    The new engine is renamed to "Unity" to be more generalized.
 
     Additionally, since バルドスカイゼロ and バルドスカイゼロ2 share the same terms in the Shared Dictionary
     (both of them are in the same series of バルド),
     the garbage elimination rules for バルドスカイゼロ also works for バルドスカイゼロ2.
     No extra modifications to the Shared Dictionary are required.
 
-    修改了BALDR的引擎来支持「バルドスカイゼロ2」。引擎的名字重命名为了“Unity”。
+    修改了BALDR的引擎来支持「バルドスカイゼロ2」。新的引擎重命名为“Unity”。
     另外，由于「バルドスカイゼロ」和「バルドスカイゼロ2」会自动共享词条，
     这样就不需要再为「バルドスカイゼロ2」设计删除垃圾字符的规则了。
 

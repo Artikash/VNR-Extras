@@ -2,6 +2,10 @@
 Visual Novel Reader
 Since 6/18/2011
 
+4/19/2014 SAT
+  * Add game engine for BL games from Marine Heart.
+    为Margine Heart的BL游戏添加了引擎。那些游戏不再需要特殊码了。
+
 4/18/2014 FRI
   * Fixed a severe bug for extracting text from Ryokucha game engine (games from すたじお緑茶).
     Thanks for @djz020815 sama's report!

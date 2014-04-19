@@ -2,6 +2,11 @@
 Visual Novel Reader
 Since 6/18/2011
 
+4/18/2014 FRI
+  * Fixed a severe bug for extracting text from Ryokucha game engine (games from すたじお緑茶).
+    Thanks for @djz020815 sama's report!
+    修正了从すたじお緑茶的游戏提取文本的bug。
+
 4/15/2014 TUE
   * VNR will automatically back up local games settings.
     If VNR has crashed for whatever reason and corrupted current game settings, VNR will restore the last settings.

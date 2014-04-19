@@ -7,6 +7,8 @@ Since 6/18/2011
     Thanks for @djz020815 sama's report!
     修正了从すたじお緑茶的游戏提取文本的bug。
 
+  * 更新@djz020815 sensei的J北京的辞书到140417的版本。
+
 4/15/2014 TUE
   * VNR will automatically back up local games settings.
     If VNR has crashed for whatever reason and corrupted current game settings, VNR will restore the last settings.

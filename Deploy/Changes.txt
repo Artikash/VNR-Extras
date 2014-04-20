@@ -2,6 +2,14 @@
 Visual Novel Reader
 Since 6/18/2011
 
+4/20/2014 SAT
+  * 修正了Voiceroid部分单词会被NG的问题。
+    感谢的@CC sama建议！
+
+    如果你发现了其他的单词会被Voiceroid屏蔽，可以追加到下面这里：
+        http://sakuradite.com/wiki/zh/VNR/語音設定
+    我在以后会添加到VNR中的。
+
 4/19/2014 SAT
   * Add game engine for BL games from Marine Heart.
     为Margine Heart的BL游戏添加了引擎。那些游戏不再需要特殊码了。

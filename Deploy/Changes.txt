@@ -2,7 +2,7 @@
 Visual Novel Reader
 Since 6/18/2011
 
-4/20/2014 SAT
+4/20/2014 SUN
   * 修正了Voiceroid部分单词会被NG的问题。
     感谢的@CC sama建议！
 

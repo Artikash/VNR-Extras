@@ -6,6 +6,13 @@ Since 6/18/2011
   * Add game engine for BL games from Marine Heart.
     为Margine Heart的BL游戏添加了引擎。那些游戏不再需要特殊码了。
 
+  * Fix the issue that VNR could crash BALDRSKY ZERO2.
+    The reason of the issue was that the latest AlphaROM games would close itself
+    if VNR was gaining debug privileges.
+    This bugfix might also save other AlphaROM games from crashing.
+
+    修正了BALDRSKY ZERO2会自己退出的问题。
+
 4/18/2014 FRI
   * Fixed a severe bug for extracting text from Ryokucha game engine (games from すたじお緑茶).
     Thanks for @djz020815 sama's report!

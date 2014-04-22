@@ -2,6 +2,12 @@
 Visual Novel Reader
 Since 6/18/2011
 
+4/21/2014 MON
+  * @ok123 sensei added new Mono game engine for BALDRSKY ZERO, which contains no garbage texts.
+    Garbage elimination terms in Shared Dictionaries can be abandoned now.
+    @ok123大先生为BALDRSKY ZERO系列添加了新的Mono游戏引擎。提取到的文本不再会有垃圾字符了。
+    另外，共享辞书中区垃圾的词条也不需要了呢。
+
 4/20/2014 SUN
   * 修正了Voiceroid部分单词会被NG的问题。
     感谢的@CC sama建议！

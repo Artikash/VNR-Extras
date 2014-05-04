@@ -2,6 +2,9 @@
 Visual Novel Reader
 Since 6/18/2011
 
+5/3/2014 SAT
+  * 更新了@djz020815大先生的J北京辞书到5月1日的版本。
+
 4/21/2014 MON
   * @ok123 sensei added new Mono game engine for BALDRSKY ZERO, which contains no garbage texts.
     Garbage elimination terms in Shared Dictionaries can be abandoned now.

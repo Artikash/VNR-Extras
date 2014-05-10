@@ -8,6 +8,9 @@ Since 6/18/2011
 
     更新了@CC. sama的民安ずん子的NG单词。
 
+  * 更新djz大先生的J北京的词条到140509的版本了。
+    你可以到这里向@djz020815表示感谢：http://pan.baidu.com/s/1kT2trON
+
   * Added a new hook supporting embedding machine/manual translations into the game.
     You can find its settings in Preferences/Embed.
     The new hook is fully independent of ITH (and it does conflict with ITH).

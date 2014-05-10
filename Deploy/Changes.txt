@@ -2,6 +2,92 @@
 Visual Novel Reader
 Since 6/18/2011
 
+5/10/2014 SAT
+  * Update the NG words for Voiceroid 民安ずん子.
+    Thanks for @CC. sama's report!
+
+    更新了@CC. sama的民安ずん子的NG单词。
+
+  * Added a new hook supporting embedding machine/manual translations into the game.
+    You can find its settings in Preferences/Embed.
+    The new hook is fully independent of ITH (and it does conflict with ITH).
+    Currently, it only supports the games made by MAJIRO game engine.
+    The current substitution method is not generic and will need descriptions for each game engine.
+    I will gradually add more game engines to the new hook later.
+
+    Depending on your language and the encoding of the game, embedding translation might or might not work properly:
+    - English and all other Latin-based languages are supported no matter which encoding the game is.
+    - For UTF-16 games, all languages are fully supported.
+    - For SHIFT-JIS games, Chinese and Korean partially work with hacks (I will describe later).
+    - For SHIFT-JIS games, embedding Thai translation does NOT work.
+
+    Currently, the font of the embedded translation might not look well for all languages.
+    If that happens, I hope if you can help me by letting me know the proper font family in your language.
+
+    Here are some screenshot from レミニセンス with embedded translations:
+      Chinese
+      - Scenario: http://sakuradite.com/images/screenshots/remini_zhs.jpg
+      - Internal translation: http://sakuradite.com/images/screenshots/remini_save_zhs.jpg
+      English: http://sakuradite.com/images/screenshots/remini_en.jpg
+      Russian: http://sakuradite.com/images/screenshots/remini_ru.jpg
+      Korean: http://sakuradite.com/images/screenshots/remini_ko.jpg
+
+    More information could be found at: http:sakuradite.com/wiki/en/Game Settings
+
+    Some of the important issues are described as follows:
+
+    * Translation fonts
+      Currently, the font family of different languages for the embedded translations are not specified.
+      Basically, I just don't know the proper fonts for all kinds of languages.
+      Here are some screenshots illustration the font problem
+      - When the selected font does not support your language, some characters might become "・" or "?" or "口".
+        http://sakuradite.com/images/screenshots/remini_zht_font.jpg
+      - The non-English latin characters might be rendered with double-width so that it is too long to be displayed in the game.
+        http://sakuradite.com/images/screenshots/remini_ru_font.jpg
+
+      If you know the proper font usually used to display your language, I hope if you could let me know.
+
+    * Embedding Chinese and Korean into SHIFT-JIS games
+      To display characters in your language above, VNR has to launch the game using your language's encoding.
+      This means the locale launchers such as NTLEA and LocaleEmulator will be disabled.
+
+      For Chinese, if the game is able to launch, then there are no more problems.
+
+      For Korean, the original Japanese texts no longer be displayed.
+      All texts must be translated to Korean in order to be displayed properly.
+
+      This is because the Chinese character set is basically a superset of Japanese.
+      But the Korean character set only partially supports Japanese.
+
+      添加了内嵌翻译的功能。在【使用偏好/内嵌翻译】中可以打开（默认就是打开的）。
+      这个功能完全独立于ITH（并且和ITH冲突）。
+      现在，这个功能仅仅支持MAJIRO的游戏，我在以后会逐渐添加对其他游戏引擎的支持的。
+
+      下面是两张「レミニセンス」的截图。
+      - 游戏界面：http://sakuradite.com/images/screenshots/remini_zhs.jpg
+      - 保存界面：http://sakuradite.com/images/screenshots/remini_save_zhs.jpg
+
+      当前，这个功能只对英文和其他拉丁语言能够完美的支持。
+      关于内嵌中文翻译，如果游戏是UNF-16的编码，那么没有任何问题。
+      但是，内嵌中文到SHIFT-JIS的游戏会有一些问题。
+
+      * 游戏启动的问题
+      SHIFT—JJIS的游戏必需以中文区域启动才可以。这意味着NTLEA，LocaleEmulator之类的转区工具都会失效。
+      另外，要内嵌中文翻译，必需用VNR启动游戏，而不能先启动游戏，再启动VNR。
+      UTF16的游戏，或者要嵌入英文翻译则无此问题。
+      但是，有很多日文游戏无法在中文区域下启动。
+      现在，如果要显示内嵌翻译，最好先将Windows调整位日文编码，再来用VNR启动游戏才可以。
+
+      这个问题的原因是需要让游戏显示日文和中文混杂的文字。
+      但是游戏内部的SHIFT-JIS编码并不支持混杂的文字，如果不转区，在日文环境下的中文就会变成乱码。
+      但是，万幸的是中文编码基本上是日文编码的超集，所以需要使用中文编码来启动游戏。
+
+      * 正体中文字体的问题
+      当前的hook没有专门为正体中文指定字体，内嵌的正体中文可能会变成乱码，比如下面这样：
+          http://sakuradite.com/images/screenshots/remini_zht_font.jpg
+      请暂时内嵌简体中文。
+      关于正体中文字体的问题，我在以后会修正的。
+
 5/3/2014 SAT
   * 更新了@djz020815大先生的J北京辞书到5月1日的版本。
 

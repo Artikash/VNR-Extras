@@ -58,7 +58,7 @@ Since 6/18/2011
 
       For Chinese, if the game is able to launch, then there are no more problems.
 
-      For Korean, the original Japanese texts no longer be displayed.
+      For Korean, the original Japanese texts can no longer be displayed.
       All texts must be translated to Korean in order to be displayed properly.
 
       This is because the Chinese character set is basically a superset of Japanese.

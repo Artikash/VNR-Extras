@@ -72,7 +72,7 @@ Since 6/18/2011
       - 游戏界面：http://sakuradite.com/images/screenshots/remini_zhs.jpg
       - 保存界面：http://sakuradite.com/images/screenshots/remini_save_zhs.jpg
 
-      更多的信息可以can'k参看这里：
+      更多的信息可以参看这里：
       - http://sakuradite.com/topic/226
       - http://sakuradite.com/wiki/zh/Game Settings
 

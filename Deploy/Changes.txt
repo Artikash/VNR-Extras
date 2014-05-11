@@ -2,6 +2,9 @@
 Visual Novel Reader
 Since 6/18/2011
 
+5/11/2014 SUN
+  * Bugfix for the new embedded Majiro engine.
+
 5/10/2014 SAT
   * Update the NG words for Voiceroid 民安ずん子.
     Thanks for @CC. sama's report!

@@ -3,6 +3,8 @@ Visual Novel Reader
 Since 6/18/2011
 
 5/11/2014 SUN
+  Note: Embedding translation currently does not work under Wine.
+
   * Bugfix for the new embedded Majiro engine.
 
 5/10/2014 SAT

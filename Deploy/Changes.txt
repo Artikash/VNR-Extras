@@ -2,6 +2,9 @@
 Visual Novel Reader
 Since 6/18/2011
 
+5/12/2014 MON
+  * Modify the new embedded Majiro engine to be consistent with VNR's old online Text Settings and thread settings.
+
 5/11/2014 SUN
   Note: Embedding translation currently does not work under Wine.
 

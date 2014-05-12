@@ -5,7 +5,10 @@ Since 6/18/2011
 5/11/2014 SUN
   Note: Embedding translation currently does not work under Wine.
 
-  * Bugfix for the new embedded Majiro engine.
+  * Fixed a severe bug that the machine translations might not be displayed properly.
+    Thanks for @goodboyye sama and @najizhimo sama's reports!
+    修正了机器翻译没有正确显示的问题。
+    感谢 @goodboyye sama和@najizhimo sama的报告！
 
 5/10/2014 SAT
   * Update the NG words for Voiceroid 民安ずん子.

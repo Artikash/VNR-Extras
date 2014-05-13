@@ -2,6 +2,11 @@
 Visual Novel Reader
 Since 6/18/2011
 
+5/13/2014 TUE
+  * Fixed a regression that Preferences/i18n did not work.
+    修正了【使用偏好/国际化】失效的bug。
+    感谢@najizhimo sama的报告！
+
 5/12/2014 MON
   * Modify the new embedded Majiro engine to be consistent with VNR's old online Text Settings and thread settings.
 

@@ -5,6 +5,52 @@ Since 6/18/2011
 5/12/2014 MON
   * Modify the new embedded Majiro engine to be consistent with VNR's old online Text Settings and thread settings.
 
+  * Add support for embedding English/Latin translations for BGI2 games.
+    However, it only works well for English and Latin languages.
+    A screenshot for 「世界と世界の真ん中で」 with embeded English translations is as follows:
+        http://sakuradite.com/images/screenshots/sekai_bgi2_en.jpg
+
+    For Chinese, Korean, and Thai, this does not work well that it will have garbage characters of "?".
+    An example of problematic Chinese translations is as follows:
+        http://sakuradite.com/images/screenshots/sekai_bgi2_zh.jpg
+    The problem is that, I am not able to launch BGI games in non-Japanese locale like Majiro.
+    The game will simply crash on the startup.
+    If you have any clue on how to fix the locale issue, ぜひ教えてください！
+
+    Currently, the new embedded engine is lacking a Text Settings GUI.
+    If you want to adjust the text threads, please switch back to ITH by disabling
+    the new engine in Preferences/Embed, change the Text Settings, and re-enable the new engine.
+
+    Additionally, I temporarily disabled the support for for old BGI games.
+    It works well, and a screenshot of translated 「FORTUNE ARTERIAL」 is as follows:
+        http://sakuradite.com/images/screenshots/fa_bgi1_en.jpg
+    But the problem is that I have to hook to a totally different place comparing to ITH.
+    As a result, the text and thread settings for the new engine are different from ITH.
+    Currently, the online database only has ITH's settings saved per game.
+    I will need to extend the database to be able to save more than one settings per game
+    so that the new engine will not mess up the existing game settings for ITH.
+    This might take another one or two weeks to implement, and I will enable support
+    for old BGI games after it is done.
+
+    BGI2引擎可以正常的嵌入英文翻译了。下面是「世界と世界の真ん中で」的英文翻译的截图：
+        http://sakuradite.com/images/screenshots/sekai_bgi2_en.jpg
+    但是，中文嵌入翻译会变成这样：
+        http://sakuradite.com/images/screenshots/sekai_bgi2_zh.jpg
+    部分字符可能会变成问号（？）。
+    要像MAJIRO的游戏一样显示中文，会需要使用中文编码启动游戏。
+    但是BGI的游戏无法在中文环境下启动（游戏会自己关闭）。
+    我不知道这种问题该如何处理才好。
+    如果大家有汉化BGI游戏的经验，希望可以教我该怎样修正BGI编码的问题才好。
+
+    现在，新的引擎还不支持调整【文本设定】。我在这几天会加上的。
+
+    另外，虽然新版的引擎可以嵌入翻译老版的BGI游戏，但是这个功能被暂时禁用了。
+    下面是使用了老版BGI的FORTUNE ARTERIAL的嵌入翻译的截图：
+        http://sakuradite.com/images/screenshots/fa_bgi1_en.jpg
+    由于内嵌BGI的文本设定和ITH老版的BGI引擎不兼容，造成两者的文本设定完全不同。
+    这会需要扩展服务器端的数据库来为每个游戏保存ITH和新引擎两个设定。
+    这在实现起来，可能会花费一两周的时间。
+
 5/11/2014 SUN
   Note: Embedding translation currently does not work under Wine.
 

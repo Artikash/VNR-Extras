@@ -20,6 +20,15 @@ Or:
 因为在Google Code上的安装程序在某些地方会被屏蔽。
 这个命令只对Windows 7/8有效，在Windows XP上无法工作。
 
+Here are some tutorial videos made by @Sakimichi sama (http://sakimichi.wordpress.com) that might be helpful:
+- Part 1. How to install Visual Novel Reader: http://www.youtube.com/watch?v=9HvSy_gJQcY
+- Part 2. Basic Visual Novel Reade: http://www.youtube.com/watch?v=5LJ5RN1GLIw
+
+这里是@飘渺笑 sama (http://tieba.baidu.com/home/main?un=%C6%AE%C3%EC%D0%A6) 录制的关于VNR基本使用的动画，也许可以帮上忙：
+- Part 1. VNR的下载和安装: http://www.tudou.com/programs/view/veoeFfX8sfU
+- Part 2. 游戏的转区和启动: http://www.tudou.com/programs/view/se9NocFZU_4
+- Part 3. VNR的具体使用: http://www.tudou.com/programs/view/8iuDdiJHGn0
+
 RELEASE NOTE
 
 Name:       Visual Novel Reader

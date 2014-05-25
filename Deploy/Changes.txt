@@ -2,6 +2,9 @@
 Visual Novel Reader
 Since 6/18/2011
 
+5/25/2014 SUN
+  * 更新djz大先生的J北京的词条到140517的版本了。
+
 5/13/2014 TUE
   * Fixed a regression that Preferences/i18n did not work.
     修正了【使用偏好/国际化】失效的bug。
@@ -83,7 +86,7 @@ Since 6/18/2011
     Depending on your language and the encoding of the game, embedding translation might or might not work properly:
     - English and all other Latin-based languages are supported no matter which encoding the game is.
     - For UTF-16 games, all languages are fully supported.
-    - For SHIFT-JIS games, Chinese and Korean partially work with hacks (I will describe later).
+    - For SHIFT-JIS games, Chinese and Korean partially work with hacks (I will describe it later).
     - For SHIFT-JIS games, embedding Thai translation does NOT work.
 
     Currently, the font of the embedded translation might not look well for all languages.
@@ -106,7 +109,7 @@ Since 6/18/2011
     * Translation fonts
       Currently, the font family of different languages for the embedded translations are not specified.
       Basically, I just don't know the proper fonts for all kinds of languages.
-      Here are some screenshots illustration the font problem
+      Here are some screenshots illustrating the font problem
       - When the selected font does not support your language, some characters might become "・" or "?" or "口".
         http://sakuradite.com/images/screenshots/remini_zht_font.jpg
       - The non-English latin characters might be rendered with double-width so that it is too long to be displayed in the game.

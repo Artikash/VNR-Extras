@@ -12,7 +12,7 @@ Since 6/18/2011
   * Add support of embedding translations for SiglusEngine2 games.
     However, currently, it only works for languages in THIN characters, such as English.
     And it also cannot translate 選択肢 like ITH.
-    A screenshot of「聖娼女」 with English translation is as follows:
+    A screenshot of「聖娼女」 with English translations inlined is as follows:
         http://sakuradite.com/images/screenshots/siglus_en.jpg
 
     For languages containing wide characters such as Chinese and Korean,

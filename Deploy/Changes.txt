@@ -5,6 +5,10 @@ Since 6/18/2011
 5/25/2014 SUN
   * 更新djz大先生的J北京的词条到140517的版本了。
 
+  * Add Text Settings GUI for embedded game engines.
+    It is quite similar but simpler comparing to the Text Settings for ITH threads.
+    为内嵌翻译的引擎添加了【文本设定】。
+
 5/13/2014 TUE
   * Fixed a regression that Preferences/i18n did not work.
     修正了【使用偏好/国际化】失效的bug。

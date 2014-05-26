@@ -9,6 +9,29 @@ Since 6/18/2011
     It is quite similar but simpler comparing to the Text Settings for ITH threads.
     为内嵌翻译的引擎添加了【文本设定】。
 
+  * Add support of embedding translations for SiglusEngine2 games.
+    However, currently, it only works for languages with THIN characters, such as English.
+    And it also cannot translate 選択肢 like ITH.
+    A screenshot of English translation for 「聖娼女」 is as follows:
+        http://sakuradite.com/images/screenshots/siglus_en.jpg
+
+    For languages containing wide characters such as Chinese and Korean,
+    embedded translations might suffer from overlapping characters.
+    A screenshot illustrating the issue is as follows:
+        http://sakuradite.com/images/screenshots/siglus_zh_font.jpg
+
+    Fixing this issue requires hijacking font creation functions before the game is launched,
+    which might take more time to implement.
+    Basically, if your language is not a Latin language, currently you might have to disable
+    the support of embedding translations.
+
+    添加了对SiglusEngine2的游戏嵌入字幕的支持。
+    当前，这个功能只支持拉丁文字的语言。对中文会出现字体重叠的问题，如下：
+        http://sakuradite.com/images/screenshots/siglus_zh_font.jpg
+
+  * Embedding translation is disabled by default until it becomes stable for all languages.
+    由于对中文支持不佳，嵌入翻译的功能暂时默认禁用了。
+
 5/13/2014 TUE
   * Fixed a regression that Preferences/i18n did not work.
     修正了【使用偏好/国际化】失效的bug。

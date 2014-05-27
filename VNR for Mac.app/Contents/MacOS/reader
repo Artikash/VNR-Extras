@@ -36,7 +36,7 @@ PYTHON=Frameworks/Python/pythonw.exe
 FLAGS=-B
 APP=Frameworks/Sakura/py/apps/reader
 #APP_OPT=--debug
-echo "$ME: $WINE $PYTHON $APP $@"
+#echo "$ME: $WINE $PYTHON $APP $@"
 exec $WINE "$PYTHON" $FLAGS "$APP" "$@"
 
 # EOF

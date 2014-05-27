@@ -9,7 +9,7 @@ Since 6/18/2011
   * Add support for embedding translations for all BGI games.
     It works for all languages EXCEPT Chinese, Korean, and Thai.
 
-    There is a region lock in BGI games preventing launching it in non-Japanese locale,
+    There is a region lock in BGI games preventing launching them in non-Japanese locale,
     which is needed to display Chinese and Korean translations.
     Fixing the issue requires injecting VNR's DLLs before the game is launched.
     But currently, VNR's DLLs are injected after the game is launched.
@@ -32,7 +32,7 @@ Since 6/18/2011
     embedded translations might suffer from overlapping characters.
     A screenshot illustrating the issue is as follows:
         http://sakuradite.com/images/screenshots/siglus_zh_font.jpg
-    Non-Japanese wide characters might overlap with each other and become difficult to tell.
+    Non-Japanese wide characters might overlap with each other and become difficult to read.
 
     Fixing this issue requires hijacking font creation functions before the game is launched,
     which might take more time to implement.

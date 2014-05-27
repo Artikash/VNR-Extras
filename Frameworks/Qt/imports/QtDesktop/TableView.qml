@@ -236,13 +236,7 @@ FocusScope{
         visible: frame
         anchors.fill: parent
         anchors.rightMargin: frame ? (frameAroundContents ? (verticalScrollBar.visible ? verticalScrollBar.width + 2 * frameMargins : 0) : 0) : 0
-
-        // jichi 5/25/2014 BEGIN
-        // Always treat scrollbar as visible
-        //anchors.bottomMargin: frame ? (frameAroundContents ? (horizontalScrollBar.visible ? horizontalScrollBar.height + 2 * frameMargins : 0) : 0) : 0
-        anchors.bottomMargin: frame ? (frameAroundContents ? (horizontalScrollBar.height + 2 * frameMargins) : 0) : 0
-        // jichi 5/25/2014 END
-
+        anchors.bottomMargin: frame ? (frameAroundContents ? (horizontalScrollBar.visible ? horizontalScrollBar.height + 2 * frameMargins : 0) : 0) : 0
         anchors.topMargin: frame ? frameAroundContents : 0
         anchors.leftMargin: frame ? frameAroundContents : 0
         property int frameWidth

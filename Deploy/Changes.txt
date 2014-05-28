@@ -6,6 +6,8 @@ Since 6/18/2011
   * Add multiple-selection support to the Shared Dictionary for bulk deleting/disabling terms.
     为【共享辞书】添加了多项选择的列，来批量删除/禁用词条。
 
+  * Reduce machine translation time for character names.
+
 5/26/2014 MON
   * Add paginators to the Shared Dictionary and Subtitle Editor.
     为词条和字幕的界面添加了分页。

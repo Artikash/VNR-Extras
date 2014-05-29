@@ -6,6 +6,9 @@ Since 6/18/2011
   * Add multiple-selection support to the Subtitle Editor.
     为【编辑字幕】的界面添加了多项选择的列，来批量删除/禁用条目。
 
+  * Update the NG words for Voiceroid 民安ずん子 summarized by @CC., such as 強姦 and チョン.
+    更新了@CC. sama的民安ずん子的NG单词，包括比如：強姦、チョン
+
 5/27/2014 TUE
   * Add multiple-selection support to the Shared Dictionary for bulk deleting/disabling terms.
     为【共享辞书】添加了多项选择的列，来批量删除/禁用词条。

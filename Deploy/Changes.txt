@@ -2,6 +2,10 @@
 Visual Novel Reader
 Since 6/18/2011
 
+5/28/2014 WED
+  * Add multiple-selection support to the Subtitle Editor.
+    为【编辑字幕】的界面添加了多项选择的列，来批量删除/禁用条目。
+
 5/27/2014 TUE
   * Add multiple-selection support to the Shared Dictionary for bulk deleting/disabling terms.
     为【共享辞书】添加了多项选择的列，来批量删除/禁用词条。

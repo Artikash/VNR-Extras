@@ -2,6 +2,11 @@
 Visual Novel Reader
 Since 6/18/2011
 
+5/29/2014 THU
+  * Fix the bug that Preferences/Downloads might always display "Installing" after terminate the download window.
+    Thanks for @angelonth sama's report.
+    修正了当强制关闭安装其他辞书窗口后，【使用偏好/下载】仍然会显示【安装中】。
+
 5/28/2014 WED
   * Add multiple-selection support to the Subtitle Editor.
     为【编辑字幕】的界面添加了多项选择的列，来批量删除/禁用条目。

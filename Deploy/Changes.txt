@@ -2,6 +2,12 @@
 Visual Novel Reader
 Since 6/18/2011
 
+5/30/2014 FRI
+  * There is no longer "Japanese" language in the Shared Dictionary.
+    If you want to add a generic rule for all languages, please specify "all" as the language.
+    共享辞书中不再包含【日语】词条。
+    如果你需要创建一条对所有语言都适用的规则，请选择【全部】为词条的语言。
+
 5/29/2014 THU
   * Fix the bug that Preferences/Downloads might always display "Installing" after terminate the download window.
     Thanks for @angelonth sama's report.

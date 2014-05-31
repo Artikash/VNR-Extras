@@ -8,6 +8,9 @@ Since 6/18/2011
     共享辞书中不再包含【日语】词条。
     如果你需要创建一条对所有语言都适用的规则，请选择【全部】为词条的语言。
 
+  * Share subtitles between 「your diary」and 「your diary +H」.
+    Share subtitles between 「euphoria」and 「euphoria HD」.
+
 5/29/2014 THU
   * Fix the bug that Preferences/Downloads might always display "Installing" after terminate the download window.
     Thanks for @angelonth sama's report.

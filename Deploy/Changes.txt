@@ -2,6 +2,10 @@
 Visual Novel Reader
 Since 6/18/2011
 
+6/1/2014 SUN
+  * Add game engine for Silky's games.
+   为Silky's社的游戏添加了游戏引擎。
+
 5/30/2014 FRI
   * There is no longer "Japanese" language in the Shared Dictionary.
     If you want to add a generic rule for all languages, please specify "all" as the language.

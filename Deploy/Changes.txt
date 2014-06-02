@@ -8,8 +8,13 @@ Since 6/18/2011
     I mean, it won't work for Chinese/Korean/Thai.
     Due to encoding issue, characters that do not exist in SHIFT-JIS will become "?".
 
+    A screenshot of「天秤のLaDEA」 with English translations is as follows:
+        http://sakuradite.com/images/screenshots/ladea_en.jpg
+
     为Eushully的游戏添加了嵌入翻译的支持。
     但是，当前只支持拉丁语言。嵌入的中文会因为编码问题而变成【？】。
+    下面是一张英文翻译后的「天秤のLaDEA」的截图：
+        http://sakuradite.com/images/screenshots/ladea_en.jpg
 
 6/1/2014 SUN
   * Add game engine for Silky's games.

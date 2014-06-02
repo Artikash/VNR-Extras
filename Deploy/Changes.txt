@@ -2,6 +2,15 @@
 Visual Novel Reader
 Since 6/18/2011
 
+6/2/2014 MON
+  * Add embedded game engine for Eushully games.
+    Currently, embedding translation only works for Latin languages.
+    I mean, it won't work for Chinese/Korean/Thai.
+    Due to encoding issue, characters that do not exist in SHIFT-JIS will become "?".
+
+    为Eushully的游戏添加了嵌入翻译的支持。
+    但是，当前只支持拉丁语言。嵌入的中文会因为编码问题而变成【？】。
+
 6/1/2014 SUN
   * Add game engine for Silky's games.
    为Silky's社的游戏添加了游戏引擎。

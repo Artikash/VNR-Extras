@@ -16,6 +16,9 @@ Since 6/18/2011
     下面是一张英文翻译后的「天秤のLaDEA」的截图：
         http://sakuradite.com/images/screenshots/ladea_en.jpg
 
+  * Automatically hook to WideCharToMultiByte for AlterEgo and TEATIME games.
+   当游戏是AlterEgo或者TEATIME社的游戏时，会自动从需要的函数提取文本。
+
 6/1/2014 SUN
   * Add game engine for Silky's games.
    为Silky's社的游戏添加了游戏引擎。

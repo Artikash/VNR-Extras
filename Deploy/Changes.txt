@@ -17,7 +17,11 @@ Since 6/18/2011
         http://sakuradite.com/images/screenshots/ladea_en.jpg
 
   * Automatically hook to WideCharToMultiByte for AlterEgo and TEATIME games.
-   当游戏是AlterEgo或者TEATIME社的游戏时，会自动从需要的函数提取文本。
+    当游戏是AlterEgo或者TEATIME社的游戏时，会自动从需要的函数提取文本。
+
+  * Support embedding translations for Silky's games such as 愛姉妹4.
+    Again, it does not support Chinese/Korean/Thai.
+    支持嵌入英文翻译到Silky's的游戏。但是这个功能并不支持中文。
 
 6/1/2014 SUN
   * Add game engine for Silky's games.

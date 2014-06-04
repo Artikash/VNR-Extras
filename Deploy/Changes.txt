@@ -2,6 +2,23 @@
 Visual Novel Reader
 Since 6/18/2011
 
+6/3/2014 TUE
+  * Game ITH game engine for games from AMUSE CRAFT.
+    The game engine credits to @ok123 大先生's H-code.
+    AMUSE CRAFT is a large company owning several brands such as:
+
+      Qoobrand, STRIKES, UNiSONSHIFT, piriri, and ErectLip
+
+   If you are playing games such as 魔女こいにっき, please adjust Text Settings
+   to AMUSE CRAFT@ok123 threads.
+   In the old version of VNR, text threads were extracted from lstrlenA
+   which worked quite unstable under ITH.
+   As a result, lstrlenA is disabled for AMUSE CRAFT games.
+
+   为AMUSE CRAFT的游戏添加了游戏引擎。
+   如果你在玩这个社的游戏，比如「魔女こいにっき」、「時計仕掛けのレイライン」,
+   请调整【文本设定】选择正确的文本为：AMUSE CRAFT@ok123.
+
 6/2/2014 MON
   * Add embedded game engine for Eushully games.
     Currently, embedding translation only works for Latin languages.

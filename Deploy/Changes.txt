@@ -3,7 +3,7 @@ Visual Novel Reader
 Since 6/18/2011
 
 6/3/2014 TUE
-  * Game ITH game engine for games from AMUSE CRAFT.
+  * Add ITH game engine for games from AMUSE CRAFT.
     The game engine credits to @ok123 大先生's H-code.
     AMUSE CRAFT is a large company owning several brands such as:
 

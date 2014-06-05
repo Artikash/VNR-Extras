@@ -2,6 +2,11 @@
 Visual Novel Reader
 Since 6/18/2011
 
+6/4/2014 WED
+  * Fix a bug that on Windows XP VNR might not work.
+    Thanks for @goodboyye sama's report!
+    修正了VNR在Windows XP上可能出现的无法工作的问题。
+
 6/3/2014 TUE
   * Game ITH game engine for games from AMUSE CRAFT.
     The game engine credits to @ok123 大先生's H-code.

@@ -9,7 +9,8 @@ Since 6/18/2011
 
   * Add embedding translation support for CIRCUS games.
     It works for all languages except Chinese/Korean/Thai.
-	An example screenshot of DC3 is as follows:
+    An example screenshot of DC3 is as follows:
+      http://sakuradite.com/images/screenshots/dc3_en.jpg
 
 6/3/2014 TUE
   * Add ITH game engine for games from AMUSE CRAFT.

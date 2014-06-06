@@ -2,6 +2,12 @@
 Visual Novel Reader
 Since 6/18/2011
 
+6/5/2014 THU
+  * Microsoft Translator changed their API. Fix VNR to work with the new API.
+    Thanks for @goodboyye sama's report!
+    微软修改了Bing的页面。修正VNR可以使用新的微软Bing翻译。
+    感谢@goodboyye sama的报告！
+
 6/4/2014 WED
   * Fix a bug that on Windows XP VNR might not work.
     Thanks for @goodboyye sama's report!

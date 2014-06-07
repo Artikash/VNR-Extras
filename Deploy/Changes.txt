@@ -5,8 +5,10 @@ Since 6/18/2011
 6/6/2014 FRI
   * Able to display duplicate rows in the Shared Dictionary and Subtitle Editor.
     Duplicate rows are supposed to be avoided.
+    Due to performance reason, duplicates from different games in the シリーズ are currently not detected.
     在共享辞书和字幕编辑中可以显示重复的行。
     应该尽量避免出现重复的行。
+    由于搜索速度的原因，相同系列的不同游戏的重复的词条暂时没有显示。
 
 6/5/2014 THU
   * Microsoft Translator changed their API. Fix VNR to work with the new API.

@@ -2,6 +2,12 @@
 Visual Novel Reader
 Since 6/18/2011
 
+6/6/2014 FRI
+  * Able to display duplicate rows in the Shared Dictionary and Subtitle Editor.
+    Duplicate rows are supposed to be avoided.
+    在共享辞书和字幕编辑中可以显示重复的行。
+    应该尽量避免出现重复的行。
+
 6/5/2014 THU
   * Microsoft Translator changed their API. Fix VNR to work with the new API.
     Thanks for @goodboyye sama's report!

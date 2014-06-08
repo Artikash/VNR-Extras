@@ -5,6 +5,11 @@ Since 6/18/2011
 6/7/2014 SAT
   * 屏蔽把百度浏览器识别为游戏。
 
+  * Game engine "Silkys" is renamed to "Elf", as Silky's belongs to elf, and it supports
+    several other elf games such as 「麻呂の患者はガテン系」.
+    It does not require modifying AI6WIN.ini for elf games.
+    elf的游戏可以用游戏引擎提取了。不再需要修改AI6WIN.ini了。
+
 6/6/2014 FRI
   * Able to display duplicate rows in the Shared Dictionary and Subtitle Editor.
     Duplicate rows are supposed to be avoided.

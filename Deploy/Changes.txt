@@ -2,6 +2,9 @@
 Visual Novel Reader
 Since 6/18/2011
 
+6/7/2014 SAT
+  * 屏蔽把百度浏览器识别为游戏。
+
 6/6/2014 FRI
   * Able to display duplicate rows in the Shared Dictionary and Subtitle Editor.
     Duplicate rows are supposed to be avoided.

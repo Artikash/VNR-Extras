@@ -2,6 +2,12 @@
 Visual Novel Reader
 Since 6/18/2011
 
+6/9/2014 MON
+  * You can always use the mouse to "select" the text in Shared Dictionary and CTRL+C to copy it
+    even if you don't have edit permissions.
+    在共享辞书中可以用鼠标选定其他人词条的文字，按下CTRL+C来复制。
+    感谢@najizhimo sama的request！
+
 6/7/2014 SAT
   * 屏蔽把百度浏览器识别为游戏。
 

@@ -8,6 +8,21 @@ Since 6/18/2011
     在共享辞书中可以用鼠标选定其他人词条的文字，按下CTRL+C来复制。
     感谢@najizhimo sama的request！
 
+  * Japanese lines are wrapped by MeCab words.
+    修正日文分行显示时，边界单词被断开的问题。
+
+  * Display game series name in Shared Dictionary.
+    The game column is represented by:
+        [Series Name] Game Name (File ID)
+    For example: [マジ恋] 真剣で私に恋しなさい!! (6365)
+    The series-specific terms will be shared by the games having the same series ID,
+    or game ID, or file ID.
+
+    在共享辞书中可以看到游戏的シリーズ名了。
+    彼方说：  [マジ恋] 真剣で私に恋しなさい!! (6365)
+    分别表示：[Series Name] Game Name (File ID)
+    这三者中任意一个相同的游戏之间会共享系列专用的词条。
+
 6/7/2014 SAT
   * 屏蔽把百度浏览器识别为游戏。
 

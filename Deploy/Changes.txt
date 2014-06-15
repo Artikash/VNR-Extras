@@ -7,6 +7,60 @@ Since 6/18/2011
     results are quite similar to UniDic Modern Dictionary for most eroge.
     由于UniDic近代日本语辞书和UniDic现代日本语辞书的分词结果差不多，移除了对近代日本语辞书的支持。
 
+  * Add support for highlighting Japanese using CaboCha.
+    This is an unimportant feature, and is only for Japanese learners who are able to read some extend of Japanese.
+    If you are not able to read any Japanese, you can ignore the following texts.
+
+    To turn it on, CaboCha models for the used MeCab dictionary has to be downloaded in Preferences/Downloads.
+    And then, you can enable CaboCha syntax highlighter in Preferences/Translation.
+    You can also search for "CaboCha" in the left-bottom edit in Preferences for the related settings.
+
+    A screenshot of the highlighted Japanese is as follows:
+
+      http://sakuradite.com/images/screenshots/cabocha_remini.jpg
+
+    While reading long Japanese sentences, our brain has to split it into short segments and try to understand each piece.
+    TTS is one of the tools that could help us split long sentences.
+    CaboCha is able to split a sentence by grouping the related words together, which is similar to TTS.
+
+    You know, VNR mainly uses MeCab for parsing Japanese to furigana.
+    From the compiler point of view, MeCab is basically a lexical parser that tokenizes Japanese into flat words;
+    while CaboCha is a syntax parser that can construct a hierarchical syntax tree from the tokenized Japanese words.
+    An example of the CaboCha tree is as follows:
+
+        % cabocha
+        太郎は花子が読んでいる本を次郎に渡した
+            太郎は---------D
+              花子が-D     |
+            読んでいる-D   |
+                    本を---D
+                    次郎に-D
+                      渡した
+        EOS
+        (See: https://code.google.com/p/cabocha)
+
+    VNR currently only uses the syntax tree to colorize the Japanese sentences.
+    Other features such as using it to improving machine translation quality might be added later.
+
+    可以使用CaboCha来对日文做语法加亮。
+    这个功能没什么用，也许仅对懂得日语的读者有帮助。
+    如果你并不懂日语，那么忽略下面这些文字吧！
+
+
+    要开启CaboCha，需要先从【使用偏好/下载】中下载MeCab辞书需要的CaboCha模型，
+    然后再从【使用偏好翻译】z中da'k打开CaboChajiu'hjiu'hao'l就好了。
+    你也可以在使用偏好的左下角来sou's搜索CaboCha，来得到相同设定的页面。
+
+    下面是打开CaboCha后日文的截图：
+
+        http://sakuradite.com/images/screenshots/cabocha_remini.jpg
+
+    在大家读长句子的日语时，用人脑断句其实蛮辛苦的。
+    TTS其实就是帮助大家来断句的。
+    CaboCha和TTS类似，也可以分割长句子把相关度很高的词组和在一起。
+    这样，读句子的时候，也许可以帮助大家断句吧。
+
+
 6/9/2014 MON
   * You can always use the mouse to "select" the text in Shared Dictionary and CTRL+C to copy it
     even if you don't have edit permissions.

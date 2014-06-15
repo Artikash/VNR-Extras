@@ -5,7 +5,7 @@ Since 6/18/2011
 6/15/2014 SUN
   * Support for UniDic Classical Dictionary (UniDic MLJ) is removed, as its parsing
     results are quite similar to UniDic Modern Dictionary for most eroge.
-    由于UniDic近代日本语辞书和UniDic现代日本语辞书的分词结果差不多，移除了对近代日本语辞书的支持。
+    由于UniDic近代日本语辞书和UniDic现代日本语辞书的分词结果差不多，移除了对近代日本语辞书的支持。
 
   * Add support for highlighting Japanese using CaboCha.
     This is an unimportant feature, and is only for Japanese learners who are able to read some extend of Japanese.
@@ -46,7 +46,6 @@ Since 6/18/2011
     这个功能没什么用，也许仅对懂得日语的读者有帮助。
     如果你并不懂日语，那么忽略下面这些文字吧！
 
-
     要开启CaboCha，需要先从【使用偏好/下载】中下载MeCab辞书需要的CaboCha模型，
     然后再从【使用偏好翻译】z中da'k打开CaboChajiu'hjiu'hao'l就好了。
     你也可以在使用偏好的左下角来sou's搜索CaboCha，来得到相同设定的页面。
@@ -59,7 +58,6 @@ Since 6/18/2011
     TTS其实就是帮助大家来断句的。
     CaboCha和TTS类似，也可以分割长句子把相关度很高的词组和在一起。
     这样，读句子的时候，也许可以帮助大家断句吧。
-
 
 6/9/2014 MON
   * You can always use the mouse to "select" the text in Shared Dictionary and CTRL+C to copy it

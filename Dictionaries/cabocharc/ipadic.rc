@@ -2,9 +2,11 @@
 # 6/12/2014 jichi
 # See: etc/cabocharc from CaboCha 0.68
 
-charset = UTF8
+charset = UTF-8
+#charset = SHIFT-JIS
 
 # charset-file = /opt/local/lib/cabocha/model/charset-file.txt
+charset-file = $(rcpath)/charset-file.txt
 
 posset = IPA
 # posset = IPA

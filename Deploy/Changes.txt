@@ -2,6 +2,11 @@
 Visual Novel Reader
 Since 6/18/2011
 
+6/15/2014 SUN
+  * Support for UniDic Classical Dictionary (UniDic MLJ) is removed, as its parsing
+    results are quite similar to UniDic Modern Dictionary for most eroge.
+    由于UniDic近代日本语辞书和UniDic现代日本语辞书的分词结果差不多，移除了对近代日本语辞书的支持。
+
 6/9/2014 MON
   * You can always use the mouse to "select" the text in Shared Dictionary and CTRL+C to copy it
     even if you don't have edit permissions.

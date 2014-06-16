@@ -49,7 +49,7 @@ Since 6/18/2011
     如果你并不懂日语，那么忽略下面这些文字吧！
 
     要开启CaboCha，需要先从【使用偏好/下载】中下载MeCab辞书需要的CaboCha模型，
-    然后再从【使用偏好翻译】z中da'k打开CaboChajiu'hjiu'hao'l就好了。
+    然后再从【使用偏好翻译】中打开CaboCha就好了。
     你也可以在使用偏好的左下角来sou's搜索CaboCha，来得到相同设定的页面。
 
     下面是打开CaboCha后日文的截图：

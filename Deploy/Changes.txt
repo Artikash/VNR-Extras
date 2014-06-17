@@ -2,6 +2,10 @@
 Visual Novel Reader
 Since 6/18/2011
 
+6/16/2014 MON
+  * Display link to erogame-tokuten.com in Game Information.
+    游戏情报中会显示游戏在erogame-tokuten.com上的链接。
+
 6/15/2014 SUN
   * 更新了@djz大先生在维护的J北京词库。
 

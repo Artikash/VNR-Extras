@@ -2,6 +2,10 @@
 Visual Novel Reader
 Since 6/18/2011
 
+6/18/2014 WED
+  * Allow associate games with those on Holyseal.net.
+  * Add basic mouse gestures to VNR's web browser.
+
 6/16/2014 MON
   * Display link to erogame-tokuten.com in Game Information.
     游戏情报中会显示游戏在erogame-tokuten.com上的链接。
@@ -45,7 +49,7 @@ Since 6/18/2011
         EOS
         (See: https://code.google.com/p/cabocha)
 
-    VNR currently only uses the syntax tree to colorize the Japanese sentences.
+    VNR currently only uses the CaboCha tree to colorize the Japanese sentences.
     Other features such as using it to improving machine translation quality might be added later.
 
     可以使用CaboCha来对日文做语法加亮。
@@ -53,7 +57,7 @@ Since 6/18/2011
     如果你并不懂日语，那么忽略下面这些文字吧！
 
     要开启CaboCha，需要先从【使用偏好/下载】中下载MeCab辞书需要的CaboCha模型，
-    然后再从【使用偏好翻译】中打开CaboCha就好了。
+    然后再从【使用偏好/翻译】中打开CaboCha就好了。
     你也可以在使用偏好的左下角来搜索CaboCha，来得到相同设定的页面。
 
     下面是打开CaboCha后日文的截图：
@@ -63,7 +67,7 @@ Since 6/18/2011
     在大家读长句子的日语时，用人脑断句其实蛮辛苦的。
     TTS其实就是帮助大家来断句的。
     CaboCha和TTS类似，也可以分割长句子把相关度很高的词组和在一起。
-    这样，读句子的时候，也许可以帮助大家断句吧。
+    这样，读句子的时候，也许可以减轻大家断句负担。
 
 6/9/2014 MON
   * You can always use the mouse to "select" the text in Shared Dictionary and CTRL+C to copy it

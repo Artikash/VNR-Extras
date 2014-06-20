@@ -2,6 +2,10 @@
 Visual Novel Reader
 Since 6/18/2011
 
+6/19/2014 THU
+  * Add a global keyboard shortcut for toggling visibility of VNR's text box.
+    添加了可以显示或隐藏文本框框的全局快捷键。
+
 6/18/2014 WED
   * Allow associate games with those on Holyseal.net.
   * Add basic mouse gestures to VNR's web browser.

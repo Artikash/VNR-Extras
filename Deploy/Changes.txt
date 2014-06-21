@@ -12,6 +12,9 @@ Since 6/18/2011
   * Display game file size from dlsite/digiket in Game Information.
     在游戏情报中可能会显示在dlsite或者digiket上的游戏原始文件的大小。
 
+  * In the Spring Board, the color behind the icon will reflect the type of the game:
+       blue for 純愛, purple for 抜き, and green for 乙女, and snow for unknown.
+
 6/19/2014 THU
   * Add a global keyboard shortcut for toggling visibility of VNR's text box.
     添加了可以显示或隐藏文本框框的全局快捷键。

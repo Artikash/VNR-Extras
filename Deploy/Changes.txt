@@ -2,6 +2,10 @@
 Visual Novel Reader
 Since 6/18/2011
 
+6/20/2014 FRI
+  * Add a game type filter to the bottom right corner of the SpringBoard.
+    在SpringBoard的右下角添加了一个游戏类型过滤器。
+
 6/19/2014 THU
   * Add a global keyboard shortcut for toggling visibility of VNR's text box.
     添加了可以显示或隐藏文本框框的全局快捷键。

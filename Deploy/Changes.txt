@@ -9,6 +9,9 @@ Since 6/18/2011
   * You can also enable a group of selected rows in Shared Dictionary and Subtitle Editor
     as requested by @najizhimo.
 
+  * Display game file size from dlsite/digiket in Game Information.
+    在游戏情报中可能会显示在dlsite或者digiket上的游戏原始文件的大小。
+
 6/19/2014 THU
   * Add a global keyboard shortcut for toggling visibility of VNR's text box.
     添加了可以显示或隐藏文本框框的全局快捷键。

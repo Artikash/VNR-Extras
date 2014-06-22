@@ -5,6 +5,8 @@ Since 6/18/2011
 6/21/2014 SAT
   * 更新了@djz大先生在维护的J北京词库。
 
+  * Support linking games with DiGiket.com. It has more BL games than other sites.
+
 6/20/2014 FRI
   * Add a game type filter to the bottom right corner of the SpringBoard.
     在SpringBoard的右下角添加了一个游戏类型过滤器。

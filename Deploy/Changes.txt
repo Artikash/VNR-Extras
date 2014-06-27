@@ -4,9 +4,10 @@ Since 6/18/2011
 
 6/26/2014 THU
   * 禁止VNR把BlueStacks当成游戏。
+    感谢@CO830409 sama的建议。
 
   * VNR no longer prefetches all game cover images into offline caches.
-    This was suggested by @andrix and might save some disk space.
+    This was suggested by @andrix sama and might save some disk space.
     VNR默认不会提前缓冲全部游戏封面图片了。
 
   * Game Information window is simplified.

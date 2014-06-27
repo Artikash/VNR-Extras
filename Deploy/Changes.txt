@@ -2,6 +2,18 @@
 Visual Novel Reader
 Since 6/18/2011
 
+6/26/2014 THU
+  * 禁止VNR把BlueStacks当成游戏。
+
+  * VNR no longer prefetches all game cover images into offline caches.
+    This was suggested by @andrix and might save some disk space.
+    VNR默认不会提前缓冲全部游戏封面图片了。
+
+  * Game Information window is simplified.
+    Certain previous features (such as game intro with furigana) haven't got implemented, though.
+    简化了游戏情报的界面。
+    部分以前的功能（比如对G网介绍的翻译）还没有写完。
+
 6/21/2014 SAT
   * 更新了@djz大先生在维护的J北京词库。
 

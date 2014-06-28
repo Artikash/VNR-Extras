@@ -5,6 +5,7 @@ Since 6/18/2011
 6/27/2014 FRI
   * Display subtitle/danmaku counts in the Game Board.
     GameBoard会显示游戏的字幕，弹幕数目。
+	比方说：123/456，表示游戏字幕数=123，游戏再生数=456
 
 6/26/2014 THU
   * 禁止VNR把BlueStacks当成游戏。

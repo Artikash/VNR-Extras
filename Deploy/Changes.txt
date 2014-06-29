@@ -2,16 +2,6 @@
 Visual Novel Reader
 Since 6/18/2011
 
-6/28/2014 SAT
-  * Add support for reading Japanese using CeVIO TTS.
-    After installation, you can find it in Preferences/TTS.
-    The latest CeVIO (non-free version) has 3 TTS including a Male one.
-    If you are replying VNR's TTS feature, feel free to give CeVIO a try.
-    Thanks for @青龙圣者 sama's suggestion!
-
-    添加了对CeVIO TTS的支持。
-    在安装后，在【使用偏好/语音合成】中开启CeVIO的语言就好了。
-
 6/27/2014 FRI
   * Display subtitle/danmaku counts in the Game Board.
     GameBoard会显示游戏的字幕，弹幕数目。

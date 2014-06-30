@@ -11,6 +11,14 @@ Since 6/18/2011
         https://mega.co.nz/#F!g00SQJZS!pm3bAcS6qHotPzJQUT596Q
     感谢@goodboyye sama的建议！
 
+  * Add support of 小学館 大辞泉 EPWING dictionary as an alternative of 広辞苑.
+    It is smaller than 広辞苑, but it seems to have a larger vocabulary.
+    Additionally, it also has English translations for some words.
+
+    添加了对【小学館・大辞泉】EPWING辞书的支持。
+    和広辞苑比起来，我个人感觉小学館的词汇量其实更大些。
+    另外，大辞泉还包含部分常用词的英文翻译。
+
 6/27/2014 FRI
   * Display subtitle/danmaku counts in the Game Board.
     GameBoard会显示游戏的字幕，弹幕数目。

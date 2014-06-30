@@ -2,23 +2,13 @@
 
 For Mac OS X support, Library/Readme (Mac).txt might be helpful.
 
-If VNR is corrupted and you would like to re-download VNR on Windows 7 or above,
-you can simply execute the following script in Command Prompt:
-
-    @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('http://sakuradite.org/reader.ps1'))"
-
-Alternatively, if VNR's server is down again, you can get a recent version at Google Drive:
+If you have problem to update VNR, you can get a recent version at Google Drive:
     http://goo.gl/t31MqY
 Or:
     https://drive.google.com/folderview?id=0B3YXxE6u-4bzc1RKWHpoLWZROTQ
 
-如果VNR的服务里有down了，你也许可以在这里下载一个最近的版本：
-    http://pan.baidu.com/s/1jGftD9W
-
-如果你需要安装或重新安装新的VNR，那么直接把上面的那行@powershell开头的命令粘贴到Command Prompt里执行下就好了。
-如果你暂时居住在大陆地区，那么最好使用这种方法来下载VNR。
-因为在Google Code上的安装程序在某些地方会被屏蔽。
-这个命令只对Windows 7/8有效，在Windows XP上无法工作。
+如果Google无法访问，你也可以在这里下载一个最近的版本：
+    https://mega.co.nz/#F!g00SQJZS!pm3bAcS6qHotPzJQUT596Q
 
 Here are some tutorial videos made by @Sakimichi sama (http://sakimichi.wordpress.com) that might be helpful:
 - Part 1. How to install Visual Novel Reader: http://www.youtube.com/watch?v=9HvSy_gJQcY

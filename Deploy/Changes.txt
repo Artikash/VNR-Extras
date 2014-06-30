@@ -11,14 +11,14 @@ Since 6/18/2011
         https://mega.co.nz/#F!g00SQJZS!pm3bAcS6qHotPzJQUT596Q
     感谢@goodboyye sama的建议！
 
-  * Add support of 小学館 大辞林 EPWING dictionary as an alternative of 広辞苑.
+  * Add support of 三省堂 大辞林 EPWING dictionary as an alternative of 岩波書店's 広辞苑.
     It is smaller than 広辞苑 (大辞林 is only 600MB), but it seems to have a larger vocabulary.
     It also has English translations for some words.
     Additionally, its explanations seems to be more concise to the point, while 広辞苑 is sometimes so verbose.
-    I personally strongly recommend you to replace 広辞苑 with 大辞泉.
-    I am going to remove the 広辞苑 support in the near future.
+    I personally recommend you to replace 広辞苑 with 大辞泉.
+    I might remove the 広辞苑 support in the near future.
 
-    添加了对【小学館・大辞林】EPWING辞书的支持。
+    添加了对【三省堂・大辞林】EPWING辞书的支持。
     和広辞苑比起来大辞林不但小很多（只有600MB），我个人感觉大辞林的词汇量其实更大些，
     解释也更精辟（不像広辞苑经常弄很多例句解释很啰嗦）。
     另外，大辞泉还包含部分常用词的英文翻译。

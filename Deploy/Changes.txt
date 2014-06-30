@@ -14,7 +14,7 @@ Since 6/18/2011
   * Add support of 小学館 大辞林 EPWING dictionary as an alternative of 広辞苑.
     It is smaller than 広辞苑, but it seems to have a larger vocabulary.
     It also has English translations for some words.
-    Additionally, its translation is more concise to the point, while 広辞苑 is sometimes so verbose.
+    Additionally, its explanations seems to be more concise to the point, while 広辞苑 is sometimes so verbose.
     I personally strongly recommend you to replace 広辞苑 with 大辞泉.
     I am going to remove the 広辞苑 support in the near future.
 

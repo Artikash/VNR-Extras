@@ -19,9 +19,9 @@ Since 6/18/2011
     I am going to remove the 広辞苑 support in the near future.
 
     添加了对【小学館・大辞林】EPWING辞书的支持。
-    和広辞苑比起来，我个人感觉小学館的词汇量其实更大些，解释更精辟。
+    和広辞苑比起来大辞林不但小很多，我个人感觉小学館的词汇量其实更大些，解释更精辟。
     另外，大辞泉还包含部分常用词的英文翻译。
-    如果你在使用広辞苑的日日翻译，那么我很推荐你来用大辞林来替换掉広辞苑。
+    如果你在使用広辞苑的日日翻译，那么我很推荐你来用大辞林替换掉広辞苑。
 
 6/27/2014 FRI
   * Display subtitle/danmaku counts in the Game Board.

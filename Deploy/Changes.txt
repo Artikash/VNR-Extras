@@ -8,7 +8,8 @@ Since 6/18/2011
     Thanks for @1dat1 sama's suggestion!
 
   * 如果你暂时居住的地方无法访问Google，可以到如下的地方下载VNR：
-    https://mega.co.nz/#F!g00SQJZS!pm3bAcS6qHotPzJQUT596Q
+        https://mega.co.nz/#F!g00SQJZS!pm3bAcS6qHotPzJQUT596Q
+    感谢@goodboyye sama的建议！
 
 6/27/2014 FRI
   * Display subtitle/danmaku counts in the Game Board.

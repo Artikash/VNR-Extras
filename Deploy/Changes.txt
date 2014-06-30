@@ -2,7 +2,7 @@
 Visual Novel Reader
 Since 6/18/2011
 
-6/29/2014 FRI
+6/29/2014 SUN
   * Fix a bug that VNR is not able to load TTS when TTS's path contains unicode characters.
   * VNR will look for both HKCU and HKLM for TTS keys in order to support Infovox TTS.
     Thanks for @1dat1 sama's suggestion!

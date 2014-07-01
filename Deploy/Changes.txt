@@ -3,8 +3,8 @@ Visual Novel Reader
 Since 6/18/2011
 
 6/30/2014 MON
-  * Display Text Settings in Game Information.
-    在游戏情报中会显示服务器端的【文本设定】。
+  * Display Text Settings and subtitle makers in Game Information.
+    在游戏情报中会显示服务器端的【文本设定】和分析人工字幕的同学。
 
 6/29/2014 SUN
   * Fix a bug that VNR is not able to load TTS when TTS's path contains unicode characters.

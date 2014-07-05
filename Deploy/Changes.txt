@@ -5,6 +5,9 @@ Since 6/18/2011
 7/4/2014 FRI
   * 更新了@djz大先生在维护的J北京词库。
 
+  * Display Japanese reviews on ErogameScape in Game Information.
+    游戏情报中会显示批评空间上的日文评论。
+
 6/30/2014 MON
   * Display Text Settings and subtitle makers in Game Information.
     在游戏情报中会显示服务器端的【文本设定】和分析人工字幕的同学。

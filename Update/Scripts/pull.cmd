@@ -6,7 +6,8 @@ cd /d %~dp0
 cd ../..
 set PATH=%CD%/Frameworks/Python/Scripts
 set HG_OPT=-v --debug
-set HG=call hg
+set HG=hg
+::set HG=call hg
 
 if not exist .hgignore exit /b 1
 

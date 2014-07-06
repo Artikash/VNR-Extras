@@ -4,7 +4,9 @@
 setlocal
 cd /d %~dp0
 cd ../..
-SEt HG_OPT=-v --debug
+set PATH=%CD%/../../Frameworks/Python/Scripts
+set HG_OPT=-v --debug
+set HG=call hg
 
 if not exist .hgignore exit /b 1
 
@@ -17,7 +19,7 @@ for %%i in (
   if exist %%i (
     pushd %%i
     echo hg pullup: %%i
-    hg %HG_OPT% pull && hg up
+    %HG% %HG_OPT% pull && hg up
     popd
   )
 )

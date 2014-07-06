@@ -4,7 +4,7 @@
 setlocal
 cd /d %~dp0
 cd ../..
-set PATH=%CD%/../../Frameworks/Python/Scripts
+set PATH=%CD%/Frameworks/Python/Scripts
 set HG_OPT=-v --debug
 set HG=call hg
 

@@ -2,6 +2,13 @@
 Visual Novel Reader
 Since 6/18/2011
 
+7/6/2014 SUN
+  * SolfaSoft engine is extended and renamed to ScenarioPlayer.
+    It now supports more games such as 「こいなか 小田舎で初恋」 from eRONDO and 「らぶらぼ」 from bolero.
+    The name "ScenarioPlayer" comes from the resource string of the executable "scenario player program for XXX".
+
+    添加了ScenarioPlayer引擎来提取「こいなか 小田舎で初恋」的文本。
+
 7/4/2014 FRI
   * 更新了@djz大先生在维护的J北京词库。
 

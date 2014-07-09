@@ -10,6 +10,9 @@ Since 6/18/2011
     为戯画和みなとそふと的游戏添加了新的游戏引擎。
     如果你在玩这个月的Harvest，那么非常建议你在【文本设定】中指定NeXAS为新的对话文本。
 
+  * Fixed a severe bug in CaramelBox engine.
+    修正饿了キャラメルBOX引擎中一个严重的bug。
+
 7/6/2014 SUN
   * SolfaSoft engine is extended and renamed to ScenarioPlayer.
     It now supports more games such as 「こいなか 小田舎で初恋」 from eRONDO and 「らぶらぼ」 from bolero.

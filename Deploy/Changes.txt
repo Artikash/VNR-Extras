@@ -2,6 +2,14 @@
 Visual Novel Reader
 Since 6/18/2011
 
+7/8/2014 TUE
+  * Add new game engine for NeXAS games from 戯画 or みなとそふと.
+    Tested working with Harvest, BALDRSKY EXTREME, and まじこい.
+    Unlike GetGlyphOutlineA, it can properly extract scenario threads from other texts.
+    If you are playing Harvest now, I highly recommend you to switch to NeXAS in Text Settings.
+    为戯画和みなとそふと的游戏添加了新的游戏引擎。
+    如果你在玩这个月的Harvest，那么非常建议你在【文本设定】中指定NeXAS为新的对话文本。
+
 7/6/2014 SUN
   * SolfaSoft engine is extended and renamed to ScenarioPlayer.
     It now supports more games such as 「こいなか 小田舎で初恋」 from eRONDO and 「らぶらぼ」 from bolero.

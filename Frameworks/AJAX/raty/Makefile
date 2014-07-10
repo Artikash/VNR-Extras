@@ -1,31 +1,24 @@
+# Makefile
 # 3/19/2014
 # https://github.com/wbotelhos/raty
-# wbotelhos.com/raty
+# http://wbotelhos.com/raty
+include ../env.mk
 
-WGET = wget
-ifeq ($(OS),Windows_NT)
-  #YUI = yuicompressor.cmd
-  CLOSURE = closure.cmd
-else
-  #YUI = yuicompressor
-  CLOSURE = closure
-  #CLOSURE = closure --compilation_level ADVANCED_OPTIMIZATIONS
-endif
+#REPO = http://raw.githubusercontent.com/wbotelhos/raty/master/lib
+REPO = http://rawgithub.com/wbotelhos/raty/master/lib
 
 all: $(wildcard *.min.js) $(wildcard images/*.png)
 
 %.min.js: %.js
 	$(CLOSURE) --js $^ --js_output_file $@
 
-#REPO = http://raw.githubusercontent.com/wbotelhos/raty/master/lib
-REPO = http://rawgithub.com/wbotelhos/raty/master/lib
 jquery.raty.js:
-	$(WGET) -O $@ $(REPO)/$@
+	make .wget OUT=$@ IN=$(REPO)/$@
 
 images/%.png:
-	$(WGET) -O $@ $(REPO)/$@
+	make .wget OUT=$@ IN=$(REPO)/$@
 
 #fonts/raty.%:
-#	$(WGET) -O $@ $(REPO)/$@
+#	make .wget OUT=$@ IN=$(REPO)/$@
 
 # EOF

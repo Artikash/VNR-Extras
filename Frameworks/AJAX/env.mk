@@ -1,7 +1,7 @@
-# Makefile
+# env.mk
 # 8/8/2013 jichi
 
-all: compress
+.PHONY: all compress download clean
 
 WGET = wget
 ifeq ($(OS),Windows_NT)
@@ -12,9 +12,6 @@ else
   CLOSURE = closure
   #CLOSURE = closure --compilation_level ADVANCED_OPTIMIZATIONS
 endif
-
-compress: $(wildcard *.min.js)
-download: $(wildcard *.js)
 
 .closure:
 	$(CLOSURE) --js_output_file $(OUT) --js $(IN)

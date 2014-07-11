@@ -13,12 +13,12 @@ all: $(wildcard *.min.js) $(wildcard images/*.png)
 	$(CLOSURE) --js $^ --js_output_file $@
 
 jquery.raty.js:
-	make .wget OUT=$@ IN=$(REPO)/$@
+	$(MAKE) .wget OUT=$@ IN=$(REPO)/$@
 
 images/%.png:
-	make .wget OUT=$@ IN=$(REPO)/$@
+	$(MAKE) .wget OUT=$@ IN=$(REPO)/$@
 
 #fonts/raty.%:
-#	make .wget OUT=$@ IN=$(REPO)/$@
+#	$(MAKE) .wget OUT=$@ IN=$(REPO)/$@
 
 # EOF

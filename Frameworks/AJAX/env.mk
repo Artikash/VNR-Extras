@@ -14,16 +14,16 @@ else
 endif
 
 .closure:
-	$(CLOSURE) --js_output_file $(OUT) --js $(IN)
+	$(CLOSURE) $(OPT) --js_output_file $(OUT) --js $(IN)
 
 .wget:
-	$(WGET) -O $(OUT) $(IN)
+	$(WGET) $(OPT) -O $(OUT) $(IN)
 
 .yui:
 ifdef TYPE
-	$(YUI) --type $(TYPE) -o $(OUT) $(IN)
+	$(YUI) $(OPT) --type $(TYPE) -o $(OUT) $(IN)
 else
-	$(YUI) -o $(OUT) $(IN)
+	$(YUI) $(OPT) -o $(OUT) $(IN)
 endif
 
 # EOF

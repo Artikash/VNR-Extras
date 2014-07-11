@@ -8,9 +8,9 @@ compress: $(wildcard *.min.js)
 download: $(wildcard *.js)
 
 %.min.js: %.js
-	make .yui OUT=$@ IN=$^
+	$(MAKE) .yui OUT=$@ IN=$^
 
 haml.js:
-	make .wget OUT=$@ IN=https://raw.github.com/creationix/haml-js/master/lib/haml.js
+	$(MAKE) .wget OUT=$@ IN=https://raw.github.com/creationix/haml-js/master/lib/haml.js
 
 # EOF

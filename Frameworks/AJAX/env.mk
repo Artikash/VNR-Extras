@@ -6,15 +6,20 @@
 WGET = wget
 ifeq ($(OS),Windows_NT)
   YUI = yuicompressor.cmd
+  UGLIFY = uglifyjs.cmd
   CLOSURE = closure.cmd
 else
   YUI = yuicompressor
+  UGLIFY = uglifyjs
   CLOSURE = closure
   #CLOSURE = closure --compilation_level ADVANCED_OPTIMIZATIONS
 endif
 
 .closure:
 	$(CLOSURE) $(OPT) --js_output_file $(OUT) --js $(IN)
+
+.uglify:
+	$(UGLIFY) $(OPT) -o $(OUT) $(IN)
 
 .wget:
 	$(WGET) $(OPT) -O $(OUT) $(IN)

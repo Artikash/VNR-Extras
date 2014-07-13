@@ -2,6 +2,36 @@
 Visual Novel Reader
 Since 6/18/2011
 
+7/12/2014 SAT
+  * Add hooks to HLE functions in PPSSPP.
+    However, most games (such as Alchemist's games) still need game-specific engines.
+    If you have PPSSPP installed, you could give it a try.
+    If you don't, please hold a while until more game engines are added for popular makers.
+
+    The current hooked HLE functions are from PPSSPP 0.9.8 as follows.
+    UTF-8 functions are excluded as they are not supported by current ITH (need to modify vnrcli.dll).
+    If you have other requests, feel free to let me know!
+      Core/HLE/sceCcc.cpp
+        int sceCccStrlenSJIS(u32 strAddr)
+        int sceCccStrlenUTF16(u32 strAddr)
+        int sceCccSJIStoUTF8(u32 dstAddr, u32 dstSize, u32 srcAddr)
+        int sceCccSJIStoUTF16(u32 dstAddr, u32 dstSize, u32 srcAddr)
+        int sceCccUTF16toUTF8(u32 dstAddr, u32 dstSize, u32 srcAddr)
+        int sceCccUTF16toSJIS(u32 dstAddr, u32 dstSize, u32 srcAddr)
+        int sceCccStrlenSJIS(u32 strAddr)
+      Core/HLE/sceFont.cpp
+        int sceFontGetCharInfo(u32 fontHandle, u32 charCode, u32 charInfoPtr)
+        int sceFontGetShadowInfo(u32 fontHandle, u32 charCode, u32 charInfoPtr)
+        int sceFontGetCharImageRect(u32 fontHandle, u32 charCode, u32 charRectPtr)
+        int sceFontGetShadowImageRect(u32 fontHandle, u32 charCode, u32 charRectPtr)
+        int sceFontGetCharGlyphImage(u32 fontHandle, u32 charCode, u32 glyphImagePtr)
+        int sceFontGetCharGlyphImage_Clip(u32 fontHandle, u32 charCode, u32 glyphImagePtr, int clipXPos, int clipYPos, int clipWidth, int clipHeight)
+        int sceFontGetShadowGlyphImage(u32 fontHandle, u32 charCode, u32 glyphImagePtr)
+        int sceFontGetShadowGlyphImage_Clip(u32 fontHandle, u32 charCode, u32 glyphImagePtr, int clipXPos, int clipYPos, int clipWidth, int clipHeight)
+      Core/HLE/sceKernelInterrupt.cpp
+        u32 sysclib_strlen(u32 src)
+        u32 sysclib_strcat(u32 dst, u32 src)
+
 7/8/2014 TUE
   * Add new game engine for NeXAS games from 戯画 or みなとそふと.
     Tested working with Harvest, BALDRSKY EXTREME, and まじこい.

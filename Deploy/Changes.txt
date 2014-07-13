@@ -7,7 +7,7 @@ Since 6/18/2011
     However, it only works for games existed in VNR's database.
 
     If you are adding a very new game file to VNR that does not exist in VNR's database,
-    (i.e. VNR asked you to added new game by Game Board),
+    (i.e. VNR asks you to add the new game by Game Board),
     game series will not work until you edit Game Information to link the new game
     with a online reference, and run Update Game Database again after that.
 

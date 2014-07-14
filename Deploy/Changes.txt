@@ -58,7 +58,7 @@ Since 6/18/2011
       and VNR's embed translation engine (vnragent.dll) for extracting text directly from memory.
       It seems that most PSP games do have a stable address where the texts could be read.
       Before I have time to add an engine for you, you can easily tell VNR the memory address of
-      the game text you find using Cheat Engine or Ollydbg.
+      the game texts you found using Cheat Engine or Ollydbg.
       The memory address can also be saved online and shared among users.
       I feel this approach might be even more stable for extracting texts from PPSSPP comparing
       to using ITH, which might crash if the JIT-compiled code region is trashed.

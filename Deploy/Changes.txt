@@ -32,6 +32,14 @@ Since 6/18/2011
     如果你很懒，那么你在添加游戏后什么也不做，也是可以的。
     反正VNR每天是会自动更新游戏数据库的。
 
+  * Add game engine for Alchemist-net.co.jp games on PPSSPP.
+    A screenshot of your diary+ on PPSSPP 0.9.8 is as follows:
+        http://sakuradite.com/images/screenshots/psp_alchemist.jpg
+
+    为PPSSPP上Alchemist代工的游戏添加了游戏引擎。
+    下面是your diary+在PPSSPP 0.9.8上的截图：
+        http://sakuradite.com/images/screenshots/psp_alchemist.jpg
+
 7/12/2014 SAT
   * Add hooks to HLE functions in PPSSPP.
     However, most games (such as Alchemist's games) still need game-specific engines.

@@ -1,4 +1,4 @@
-﻿ChangeLog (UTF-8, ff=dos)
+ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
@@ -36,9 +36,56 @@ Since 6/18/2011
     A screenshot of your diary+ on PPSSPP 0.9.8 is as follows:
         http://sakuradite.com/images/screenshots/psp_alchemist.jpg
 
+    Currently, translating PPSSPP games is not as convenient as PC games.
+    There are several limitations comparing to hooking to Windows games, as follows:
+
+    - Game settings cannot be saved based on per-game fashion.
+      For instance, you cannot have per-game Text Settings, Voice Settings, subtitles, dictionary terms, etc.
+      As a result, every time you switch the PSP ISO, you might have to re-adjust EVERYTHING.
+      I am going to change the VNR to be able to identify game by the PSP ISO in the future.
+
+    - The game engines will only work AFTER you have launched the ISO and entered the game!
+      If you directly launch PPSSPP in VNR, IT WON'T WORK.
+
+    - You MUST NOT close/change the current PSP ISO BEFORE closing VNR.
+      Otherwise, the behavior is undefined that either VNR or PPSSPP might crash.
+
+    - A large amount of PSP games will also need game-specific engines, such as 5pb games, etc.
+      But currently, only Alchemist games are supported.
+      It might take me at least half a year to add as many PSP game engines as the PC game engines.
+
+      Before that, I also plan to add a Memory Reader as an alternative of current ITH and VNR's embed translation engine (vnragent.dll)
+      for extracting text directly from memory.
+      It seems that most PSP games do have a stable address where the texts could be read.
+      Before I have time to add an engine for you, you can easily tell VNR the memory address of the game text you find using Cheat Engine or Ollydbg.
+      The memory address can also be saved online and shared among users.
+      I feel this approach might be even more stable for extracting texts from PPSSPP comparing to using ITH, which might crash if the JIT-compiled code region is trashed.
+
+
+    I am going to put more information later here:
+        http://sakuradite.com/wiki/en/VNR/PSP
+
+
     为PPSSPP上Alchemist代工的游戏添加了游戏引擎。
     下面是your diary+在PPSSPP 0.9.8上的截图：
         http://sakuradite.com/images/screenshots/psp_alchemist.jpg
+
+    不过当前版本的VNR，从PPSSPP提取文本要比PC不方便很多很多，如下：
+
+    - 游戏的设定不能够根据不同的PSP游戏保存。
+      简单的说，你每次更换游戏，都会需要手工调整全部游戏设定，比如：文本设定，语音设定。
+      另外人工字幕、弹幕、词条也无法保存PSP游戏的信息。
+
+    - 要使用PSP的游戏引擎，你一定要先打开PPSSPP，载入ISO，开始游戏，最后再打开VNR。
+      否则，VNR将无法找到任何游戏文本。
+
+    - 如果你打算退出ISO或者更换ISO，你一定要先关闭VNR，再关闭/更换ISO，最后重新打开VNR来处理新的游戏。
+      如果你在VNR正在运行的途中就关闭或者更换了PSP的ISO，那么VNR或者PPSSPP将可能会崩溃。
+
+    - 现在绝大部分PSP游戏还缺少游戏引擎。要添加像PC版那么多的引擎，至少需要半年以上的时间。
+
+    我在有时间的时候，会把PPSSPP有关的东西放到下面的地方：
+        http://sakuradite.com/wiki/en/VNR/PSP
 
 7/12/2014 SAT
   * Add hooks to HLE functions in PPSSPP.

@@ -50,7 +50,7 @@ Since 6/18/2011
     - You MUST NOT close/change the current PSP ISO BEFORE closing VNR.
       Otherwise, the behavior is undefined that either VNR or PPSSPP might crash.
 
-    - A large amount of PSP games will also need game-specific engines, such as 5pb games, etc.
+    - A large amount of PSP games will also need game-specific engines, such as 5pb games, Final Fantasy, etc.
       But currently, only Alchemist games are supported.
       It might take me at least half a year to add as many PSP game engines as the PC game engines.
 

@@ -2,6 +2,13 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/14/2014 MON
+  * Add a PPSSPP engine for 5pb games.
+    为5pb的PSP游戏添加了游戏引擎。
+
+	A screenshot of STEINS;GATE on PPSSPP is as follows:
+        http://sakuradite.com/images/screenshots/psp_5pb.jpg
+
 7/13/2014 SUN
   * Fix the bugs that the series-specific terms might not be shared by game series.
     However, it only works for games existed in VNR's database.
@@ -85,7 +92,7 @@ Since 6/18/2011
     - 现在绝大部分PSP游戏还缺少游戏引擎。要添加像PC版那么多的引擎，至少需要半年以上的时间。
 
     我在有时间的时候，会把PPSSPP有关的东西放到下面的地方：
-        http://sakuradite.com/wiki/en/VNR/PSP
+        http://sakuradite.com/wiki/zh/VNR/PSP
 
 7/12/2014 SAT
   * Add hooks to HLE functions in PPSSPP.

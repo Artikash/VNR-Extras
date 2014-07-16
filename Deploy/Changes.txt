@@ -3,10 +3,25 @@ Visual Novel Reader
 Since 6/18/2011
 
 7/14/2014 MON
+  * Add a PPSSPP engine for Imageepoch.co.jp (jrpg.jp) games.
+    为Imageepoch的PSP游戏添加了游戏引擎。
+
+    A screenshot of BLACK☆ROCK SHOOTER on PPSSPP is as follows.
+    下面是一张BLACK☆ROCK SHOOTER的截图。
+
+        http://sakuradite.com/images/screenshots/psp_brs.jpg
+
+  * Add UTF-8 encoding to Text Settings which might be needed only by PSP games.
+    在文本设定中添加了UTF-8的编码。有些PSP游戏会需要。
+
+  * Restore furigana and TTS support to Game Information.
+    恢复游戏情报中振仮名和TTS的支持。
+
+7/14/2014 MON
   * Add a PPSSPP engine for 5pb games.
     为5pb的PSP游戏添加了游戏引擎。
 
-	A screenshot of STEINS;GATE on PPSSPP is as follows:
+    A screenshot of STEINS;GATE on PPSSPP is as follows:
         http://sakuradite.com/images/screenshots/psp_5pb.jpg
 
 7/13/2014 SUN

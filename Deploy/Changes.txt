@@ -18,7 +18,7 @@ Since 6/18/2011
     恢复游戏情报中振仮名和TTS的支持。
 
   * Add YukaSystem2 game engine for 「セミラミスの天秤」.
-    Note: The text encoding if UTF-8 (this is the first UTF-8 PC engine in VNR).
+    Note: The text encoding is UTF-8 (this is the first UTF-8 PC engine added to VNR).
     为「セミラミスの天秤」添加了YukaSystem2引擎。
     注：文本设定中的文本编码为新添加的UTF-8.
 

@@ -12,7 +12,7 @@ Since 6/18/2011
     I guess the hooked function was in certain common PSP SDK/Library.
 
     The Imageepoch's hooked function was also found in SEGA's SHINING BLADE, though not called.
-    It seems that PSP games share more similarities that I expected so that I don't
+    It seems that PSP games share more similarities than I expected so that I don't
     have to write game engines for each different maker.
 
     修正了Alchemist PSP引擎的一个bug。

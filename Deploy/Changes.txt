@@ -2,6 +2,9 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/16/2014 FRI
+  * Fix the text duplication issue for 5pb PSP engine.
+
 7/15/2014 TUE
   * Add a PPSSPP engine for Imageepoch.co.jp (jrpg.jp) games.
     为Imageepoch的PSP游戏添加了游戏引擎。

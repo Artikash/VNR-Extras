@@ -5,6 +5,19 @@ Since 6/18/2011
 7/16/2014 FRI
   * Fix the text duplication issue for 5pb PSP engine.
 
+  * Fix a bug in Alchemist PSP engine.
+    btw., it seems that this engine works for various game makers.
+    It also works for SEGA PSP games such as SHINING BLADE.
+    The hooked function can also be found in STEINS;GATE (@5pb.), though not called.
+    I guess the hooked function was in certain common PSP SDK/Library.
+
+    The Imageepoch's hooked function was also found in SEGA's SHINING BLADE, though not called.
+    It seems that PSP games share more similarities that I expected so that I don't
+    have to write game engines for each different maker.
+
+    修正了Alchemist PSP引擎的一个bug。
+    修正的引擎还可以从SEGA的SHINING BLADE游戏提取文本。
+
 7/15/2014 TUE
   * Add a PPSSPP engine for Imageepoch.co.jp (jrpg.jp) games.
     为Imageepoch的PSP游戏添加了游戏引擎。

@@ -6,6 +6,9 @@ Since 6/18/2011
   * Add KID PSP engine for old KID games which does not have repetition texts.
     为KID添加了PSP游戏引擎来解决文本重复的问题。
 
+  * Add CYBERFRONT PSP engine for old KID games.
+    为KID添加了CYBERFRONT游戏引擎。
+
   * Add Yeti PSP engine for Secret Game.
     为Secret Game添加了PSP游戏引擎。
 
@@ -14,12 +17,14 @@ Since 6/18/2011
 
     Work - 可以工作
     - [KID] Monochrome <= 文本设定请选择蓝色的KID的文本，而不要选择sceFont开头的文本
+
     - [5pb.] STEINS;GATE
     - [5pb.] Chaos Head Noah
     - [5pb.] DUNAMIS15
     - [Alchemist] 処女はお姉さまに恋してる 2人のエルダー
     - [Alchemist] 俺の彼女のウラオモテ
     - [Alchemist] your diary+
+    - [CYBERFRONT] 想いのかけら
     - [Imageepoch] BLACK☆ROCK SHOOTER
     - [SEGA] SHINING BLADE
     - [Yeti] Secret Game
@@ -33,7 +38,6 @@ Since 6/18/2011
     - [Spike] ダンガンロンパ
     - [Shade] とある科学の超電磁砲
     - [Shade] とある魔術と科学の群奏活劇
-    - [CYBERFRONT] 想いのかけら
 
     Additional game engines are needed for the games that are not supported at the time.
     Note: None of the above games works on Windows XP.

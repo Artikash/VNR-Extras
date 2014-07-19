@@ -13,10 +13,10 @@ Since 6/18/2011
     修正了PSP引擎的一些Bug。
 
     Work - 可以工作
+    - [KID] Monochrome <= 文本设定请选择蓝色的KID的文本，而不要选择sceFont开头的文本
     - [5pb.] STEINS;GATE
     - [5pb.] Chaos Head Noah
     - [5pb.] DUNAMIS15
-    - [KID] Monochrome <= 文本设定请选择蓝色的KID的文本，而不要选择sceFont开头的文本
     - [Alchemist] 処女はお姉さまに恋してる 2人のエルダー
     - [Alchemist] 俺の彼女のウラオモテ
     - [Alchemist] your diary+

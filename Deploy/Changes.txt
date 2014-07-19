@@ -18,7 +18,7 @@ Since 6/18/2011
 
     Work, but have repetition in texts - 可以提取文本，但有重复文本
     - [KID] Monochrome
-    - [NAMCO] Hack//.link
+    - [NAMCO] .hack//.link
 
     Not work - 完全不能工作
     - [スクエニ] Final Fantasy

@@ -2,6 +2,9 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/19/2014 SAT
+  * Bug fix PSP game engines.
+
 7/16/2014 WED
   * Bug fix PSP game engines, which should now work on both Windows 7 and 8, x86 or x64.
     But it does NOT support Windows XP.

@@ -3,8 +3,8 @@ Visual Novel Reader
 Since 6/18/2011
 
 7/19/2014 SAT
-  * Add PSP engine for Regista.co.jp games.
-    为Regista.co.jp的PSP游戏添加了游戏引擎。
+  * Add PSP engine for yetigame.jp games.
+    为yetigame.jp的PSP游戏添加了游戏引擎。
 
   * Bug fix PSP game engines.  I tested several PSP games, as follows:
     修正了PSP引擎的一些Bug。
@@ -18,7 +18,7 @@ Since 6/18/2011
     - [5pb.] STEINS;GATE
     - [5pb.] Chaos Head Noah
     - [5pb.] DUNAMIS15
-    - [Regista] Secret Game
+    - [Yeti] Secret Game
 
     Work, but have repetition in texts - 可以提取文本，但有重复文本
     - [KID] Monochrome

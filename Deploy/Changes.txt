@@ -3,7 +3,39 @@ Visual Novel Reader
 Since 6/18/2011
 
 7/19/2014 SAT
-  * Bug fix PSP game engines.
+  * Bug fix PSP game engines.  I tested several PSP games, as follows:
+    修正了PSP引擎的一些Bug。
+
+    Work - 可以工作
+    - [Alchemist] 処女はお姉さまに恋してる 2人のエルダー
+    - [Alchemist] 俺の彼女のウラオモテ
+    - [Alchemist] your diary+
+    - [SEGA] SHINING BLADE
+    - [Imageepoch] BLACK☆ROCK SHOOTER
+    - [5pb.] STEINS;GATE
+    - [5pb.] Chaos Head Noah
+    - [5pb.] DUNAMIS15
+
+    Work, but have repetition in texts - 可以提取文本，但有重复文本
+    - [KID] Monochrome
+    - [NAMCO] Hack//.link
+
+    Not work - 完全不能工作
+    - [スクエニ] Final Fantasy
+    - [Imageepoch] 那由多の軌跡
+    - [Spike] ダンガンロンパ
+    - [Shade] とある科学の超電磁砲
+    - [Shade] とある魔術と科学の群奏活劇
+    - [Regista] Secret Game
+    - [CYBERFRONT] 想いのかけら
+
+    Additional game engines are needed for the games that are not supported at the time.
+    Note: None of the above games works on Windows XP.
+    Note2: Just to emphasize, you MUST ENTER THE GAME (not only load PSP ISO) before launching VNR.
+
+    注：
+    1. 这些游戏在Windows XP上不能工作。
+    2. 再次强调下，一定要先进入游戏（不只是插入PSP ISO，而是要进入游戏看到对话），再打开VNR。
 
 7/16/2014 WED
   * Bug fix PSP game engines, which should now work on both Windows 7 and 8, x86 or x64.
@@ -13,7 +45,7 @@ Since 6/18/2011
 
     修正了PSP的游戏引擎。VNR应该可以从任何版本的Windows 7/8提取文本了。
     但是，PSP的游戏引擎不支持Windows XP！！
-    如果你正在使用Windows 7/8，而VNR无法从Alchemist，5pb，SEGA，或是Imagepoch的游戏提取文本，
+    如果你正在使用Windows 7/8，而VNR无法从Alchemist，5pb，SEGA，或是Imageepoch的游戏提取文本，
     很希望你可以让我知道出现问题的游戏的名字。
 
 7/16/2014 WED

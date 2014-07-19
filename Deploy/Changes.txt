@@ -3,25 +3,28 @@ Visual Novel Reader
 Since 6/18/2011
 
 7/19/2014 SAT
-  * Add PSP engine for yetigame.jp games.
-    为yetigame.jp的PSP游戏添加了游戏引擎。
+  * Add KID PSP engine for old KID games which does not have repetition texts.
+    为KID添加了PSP游戏引擎来解决文本重复的问题。
+
+  * Add Yeti PSP engine for Secret Game.
+    为Secret Game添加了PSP游戏引擎。
 
   * Bug fix PSP game engines.  I tested several PSP games, as follows:
     修正了PSP引擎的一些Bug。
 
     Work - 可以工作
-    - [Alchemist] 処女はお姉さまに恋してる 2人のエルダー
-    - [Alchemist] 俺の彼女のウラオモテ
-    - [Alchemist] your diary+
-    - [SEGA] SHINING BLADE
-    - [Imageepoch] BLACK☆ROCK SHOOTER
     - [5pb.] STEINS;GATE
     - [5pb.] Chaos Head Noah
     - [5pb.] DUNAMIS15
+    - [KID] Monochrome <= 文本设定请选择蓝色的KID的文本，而不要选择sceFont开头的文本
+    - [Alchemist] 処女はお姉さまに恋してる 2人のエルダー
+    - [Alchemist] 俺の彼女のウラオモテ
+    - [Alchemist] your diary+
+    - [Imageepoch] BLACK☆ROCK SHOOTER
+    - [SEGA] SHINING BLADE
     - [Yeti] Secret Game
 
     Work, but have repetition in texts - 可以提取文本，但有重复文本
-    - [KID] Monochrome
     - [NAMCO] .hack//.link
 
     Not work - 完全不能工作

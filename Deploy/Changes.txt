@@ -21,7 +21,7 @@ Since 6/18/2011
     - [NAMCO] .hack//.link
 
     Not work - 完全不能工作
-    - [スクエニ] Final Fantasy
+    - [スクエニ] Final Fantasy Zero
     - [Imageepoch] 那由多の軌跡
     - [Spike] ダンガンロンパ
     - [Shade] とある科学の超電磁砲

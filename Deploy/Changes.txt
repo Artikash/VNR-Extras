@@ -2,6 +2,20 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/20/2014 SUN
+  * Add a Vanillaware engine for Wii game 朧村正.
+    Tested on Dolphin 4.0, and a screenshot is as follows:
+
+      http://sakuradite.com/images/screenshots/dolphin_oboro.jpg
+
+   This is just a test for extracting texts from Dolphin.
+   Please hold until this feature become stable.
+
+   btw, the compatibility and limitation of Dolphin support is similar to PSP:
+   1. Do not work on Windows XP
+   2. Must launch VNR AFTER the GameCube/Wii ISO has been loaded
+   3. Changing game ISO requires restarting VNR
+
 7/19/2014 SAT
   * Add KID PSP engine for old KID games which does not have repetition texts.
     为KID添加了PSP游戏引擎来解决文本重复的问题。

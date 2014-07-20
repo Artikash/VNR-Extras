@@ -16,6 +16,8 @@ Since 6/18/2011
    2. Must launch VNR AFTER the GameCube/Wii ISO has been loaded
    3. Changing game ISO requires restarting VNR
 
+  * Reduce garbage characters for Rejet PSP games.
+
 7/19/2014 SAT
   * Add KID PSP engine for old KID games which does not have repetition texts.
     为KID添加了PSP游戏引擎来解决文本重复的问题。

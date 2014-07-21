@@ -17,6 +17,11 @@ Since 6/18/2011
    3. Changing game ISO requires restarting VNR
 
   * Reduce garbage characters for Rejet PSP games.
+    Thanks for @Sakamichi sama's report!
+
+  * Add alternative engine for old Alchemist PSP game のーふぇいと.
+    为老的Alchemist PSP游戏「のーふぇいと」添加了游戏引擎。
+    感谢的@三十张sama报告！
 
 7/19/2014 SAT
   * Add KID PSP engine for old KID games which does not have repetition texts.

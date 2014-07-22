@@ -1,0 +1,3 @@
+http://pythonnet.sourceforge.net
+http://pythonnet.sourceforge.net/license.txt
+http://pythonnet.sourceforge.net/readme.html#license

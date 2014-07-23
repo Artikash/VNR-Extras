@@ -9,6 +9,8 @@ Since 6/18/2011
   * Add BANDAI PSP engine for School Rumble PSP.
     为「スクールランブル 姉さん事件です」添加了BANDAI PSP的引擎。
 
+  * Add Brocolli PSP engine for うたの☆プリンスさまっ.
+
 7/20/2014 SUN
   * Add a Vanillaware engine for Wii game 朧村正.
     Tested on Dolphin 4.0, and a screenshot is as follows:

@@ -2,6 +2,14 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/23/2014 WED
+  * Add Hán Việt Chinese-Vietnamese offline translator (漢越辭典).
+    The dictionary is from Quick Translator TAO (http://www.tangthuvien.vn/forum/showthread.php?t=30151).
+    You can enable it in Preferences/Translation if you want to cross-translate
+    Chinese-translated eroge to Vietnamese.
+    To translate Chinese games, you also need to change the game language
+    from Japanese to Chinese in Text Settings.
+
 7/22/2014 TUE
   * Fix the regression for Ryokucha engine. Sorry for the problem!
     修正了绿茶社引擎的bug。带来不便，非常抱歉！

@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/22/2014 TUE
+  * Fix the regression for Ryokucha engine. Sorry for the problem!
+    修正了绿茶社引擎的bug。带来不便，非常抱歉！
+
 7/20/2014 SUN
   * Add a Vanillaware engine for Wii game 朧村正.
     Tested on Dolphin 4.0, and a screenshot is as follows:

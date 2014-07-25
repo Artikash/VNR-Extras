@@ -23,7 +23,7 @@ Since 6/18/2011
 
     This is requested by @goodboyye ONLY for people who have very small screen size.
     Since context menu would break full screen in most games, you normally don't
-    want to enable this unless you have a very small screen size.
+    want to enable this unless your laptop has a very small screen size.
 
     在【使用偏好/功能】恢复了在全屏时强迫开启右键菜单的选项。
 

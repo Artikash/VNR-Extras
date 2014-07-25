@@ -2,6 +2,22 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/24/2014 THU
+  * Add support for Arabic language.
+    You can switch the language in Preferences/Account.
+    If your language is not supported by VNR, feel free to let me know.
+
+    When Arabic language is selected, VNR will try to switch the alignment
+    from left-right to right-left.
+    A screenshot of the current Arabic UI is as follows:
+
+        http://sakuradite.com/images/screenshots/vnr_ar.jpg
+
+    However, since I don't know any Arabic, I am not able to verify myself
+    if an Arabic sentence is from left-to-right or right-to-left.
+    If you find the text alignment is wrong in certain places, feel free to
+    complain to me.
+
 7/23/2014 WED
   * Add Hán Việt Chinese-Vietnamese offline translator (漢越辭典).
     The dictionary is from Quick Translator TAO (http://www.tangthuvien.vn/forum/showthread.php?t=30151).

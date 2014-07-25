@@ -21,7 +21,7 @@ Since 6/18/2011
   * Restore the toggle in Preferences/Features to force enabling context menu in
     full screen game.
 
-    This is required by @goodboyye ONLY for people who have very small screen size.
+    This is requested by @goodboyye ONLY for people who have very small screen size.
     Since context menu would break full screen in most games, you normally don't
     want to enable this unless you have a very small screen size.
 

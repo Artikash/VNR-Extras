@@ -18,6 +18,19 @@ Since 6/18/2011
     If you find the text alignment is wrong in certain places, feel free to
     complain to me.
 
+  * Restore the toggle in Preferences/Features to force enabling context menu in
+    full screen game.
+
+    This is required by @goodboyye ONLY for people who have very small screen size.
+    Since context menu would break full screen in most games, you normally don't
+    want to enable this unless you have a very small screen size.
+
+    在【使用偏好/功能】恢复了在全屏时强迫开启右键菜单的选项。
+
+    然而，这个仅仅是@goodboyye为了小屏幕同学的request。
+    由于右键菜单会让很多游戏离开全屏状态，除非你因为笔记本屏幕太小迫不得已，
+    否则千万不要打开这选项。
+
 
   btw., I rewrote the comet service from scratch at the server side.
   There should be no more network errors while signing in VNR or updating

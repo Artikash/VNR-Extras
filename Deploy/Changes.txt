@@ -18,6 +18,14 @@ Since 6/18/2011
     If you find the text alignment is wrong in certain places, feel free to
     complain to me.
 
+
+  btw., I rewrote the comet service from scratch at the server side.
+  There should be no more network errors while signing in VNR or updating
+  database when lots of users are using VNR.
+
+  简单的说，在每天晚上VNR使用的高峰期，不会再出现无法登陆或者无法更新数据库
+  之类的网络错误了。
+
 7/23/2014 WED
   * Add Hán Việt Chinese-Vietnamese offline translator (漢越辭典).
     The dictionary is from Quick Translator TAO (http://www.tangthuvien.vn/forum/showthread.php?t=30151).

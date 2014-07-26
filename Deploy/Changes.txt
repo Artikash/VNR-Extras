@@ -3,8 +3,9 @@ Visual Novel Reader
 Since 6/18/2011
 
 7/25/2014 FRI
-  * Modify BANDAI PSP hook to support SEGA's Shining Hearts.
-    添加了对PSP游戏Shining Hearts的支持。
+  * Modify BANDAI PSP hook to support SEGA's Shining Hearts and Shape's
+    とある科学の超電磁砲.
+    添加了对PSP游戏「Shining Hearts」和「とある科学の超電磁砲」的支持。
 
 7/24/2014 THU
   * Add support for Arabic language.

@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/25/2014 FRI
+  * Modify BANDAI PSP hook to support SEGA's Shining Hearts.
+    添加了对PSP游戏Shining Hearts的支持。
+
 7/24/2014 THU
   * Add support for Arabic language.
     You can switch the language in Preferences/Account.

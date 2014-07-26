@@ -14,6 +14,7 @@ Since 6/18/2011
     这个引擎也可以解决「炎の孕ませ」シリーズ中文本重复的问题。
 
   * Add Brocolli engine for PSP game 「明治東亰恋伽」.
+  * Remove garbage text for PSP game 「Are you Alice?」.
 
 7/25/2014 FRI
   * Modify BANDAI PSP hook to support SEGA's Shining Hearts and Shape's

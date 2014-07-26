@@ -7,6 +7,15 @@ Since 6/18/2011
     とある科学の超電磁砲.
     添加了对PSP游戏「Shining Hearts」和「とある科学の超電磁砲」的支持。
 
+    I created a wiki page for the known game that are not supported by VNR.
+    If you find a game does not work with VNR, you can also put it there.
+    I will try to make the games on the list to work when I have time.
+
+            http://sakuradite.com/wiki/en/VNR/Compatibility
+
+    我把已知的VNR无法提取文本的游戏放在上面了。
+    如果你有发现VNR不支持某个游戏，也可以把游戏的信息放到那里去。
+
 7/24/2014 THU
   * Add support for Arabic language.
     You can switch the language in Preferences/Account.

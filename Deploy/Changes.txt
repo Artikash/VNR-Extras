@@ -2,12 +2,24 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/26/2014 SAT
+  * Add EAGLS engine for games from TechArts which does not have text duplication issue.
+    TechArts owns several popular nuki-ge brand, including G.J?, SQUEEZ（孕ませシリーズ）
+    and May-Be Soft.
+    If you are playing 「ちぇ～んじ！」released this month, please re-adjust Text Settings.
+    There will be several EAGLS threads, and be careful about the subtle differences that only 1 is correct.
+
+    为本月的「ちぇ～んじ！」添加了游戏引擎。
+    请重新调整文本设定。尽管会有很多EAGLS，要仔细看下区别才好，只有一个EAGLS的文本才是对的。
+    这个引擎也可以解决孕ませシリーズ中文本重复的问题。
+
+
 7/25/2014 FRI
   * Modify BANDAI PSP hook to support SEGA's Shining Hearts and Shape's
     とある科学の超電磁砲.
     添加了对PSP游戏「Shining Hearts」和「とある科学の超電磁砲」的支持。
 
-    I created a wiki page for the known game that are not supported by VNR.
+    I created a wiki page for the known games that are not supported by VNR.
     If you find a game does not work with VNR, you can also put it there.
     I will try to make the games on the list to work when I have time.
 

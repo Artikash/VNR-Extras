@@ -13,6 +13,7 @@ Since 6/18/2011
     请重新调整文本设定。尽管会有很多EAGLS，要仔细看下区别才好，只有一个EAGLS的文本才是对的。
     这个引擎也可以解决「炎の孕ませ」シリーズ中文本重复的问题。
 
+  * Add Brocolli engine for PSP game 「明治東亰恋伽」.
 
 7/25/2014 FRI
   * Modify BANDAI PSP hook to support SEGA's Shining Hearts and Shape's

@@ -13,11 +13,16 @@ Since 6/18/2011
     请重新调整文本设定。尽管会有很多EAGLS，要仔细看下区别才好，只有一个EAGLS的文本才是对的。
     这个引擎也可以解决「炎の孕ませ」シリーズ中文本重复的问题。
 
+  Otome:
   * Add Brocolli engine for PSP game 「明治東亰恋伽」.
   * Add Otomate engine for PSP game 「クロノスタシア」 and 「忍び、恋うつつ」.
   * Add 日本一SOFTWARE engine for PSP game 「神々の悪戯」.
-  * Add PSP engine for KADOKAWA game 「フォトカノ」.
   * Remove garbage text for PSP game 「Are you Alice?」.
+
+  Non-otome:
+  * Add PSP engine for KADOKAWA game 「フォトカノ」.
+  * Add alternative CYBERFRONT engine for Never7, Remember1, Ever17.
+    However, 12Riven does not work.
 
 7/25/2014 FRI
   * Modify BANDAI PSP hook to support SEGA's Shining Hearts and Shape's

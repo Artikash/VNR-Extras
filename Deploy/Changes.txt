@@ -16,6 +16,7 @@ Since 6/18/2011
   * Add Brocolli engine for PSP game 「明治東亰恋伽」.
   * Add Otomate engine for PSP game 「クロノスタシア」 and 「忍び、恋うつつ」.
   * Add 日本一SOFTWARE engine for PSP game 「神々の悪戯」.
+  * Add PSP engine for KADOKAWA game 「フォトカノ」.
   * Remove garbage text for PSP game 「Are you Alice?」.
 
 7/25/2014 FRI

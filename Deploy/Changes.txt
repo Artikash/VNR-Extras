@@ -25,7 +25,6 @@ Since 6/18/2011
   Non-otome:
   * Add PSP engine for KADOKAWA game 「フォトカノ」.
   * Add alternative Yeti engine for Never7, Remember1, Ever17.
-    However, 12Riven does not work.
 
 7/25/2014 FRI
   * Modify BANDAI PSP hook to support SEGA's Shining Hearts and Shape's

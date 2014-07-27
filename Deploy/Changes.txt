@@ -2,6 +2,9 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/27/2014 SUN
+  * Add Intense PSP engine for 「密室のサクリファイス」.
+
 7/26/2014 SAT
   * Add EAGLS engine for games from TechArts which does not have text duplication issue.
     TechArts owns several popular nuki-ge brand, including G.J?, SQUEEZ（炎の孕ませシリーズ）

@@ -21,7 +21,7 @@ Since 6/18/2011
 
   Non-otome:
   * Add PSP engine for KADOKAWA game 「フォトカノ」.
-  * Add alternative CYBERFRONT engine for Never7, Remember1, Ever17.
+  * Add alternative Yeti engine for Never7, Remember1, Ever17.
     However, 12Riven does not work.
 
 7/25/2014 FRI

@@ -6,12 +6,11 @@ Since 6/18/2011
   * Add Intense PSP engine for 「密室のサクリファイス」.
 
   Note: It is reported by @roninmedia that certain games did not work on PPSSPP 0.9.9.
-  If you are playing PSP games with VNR, you might have to stay on PPSSPP 0.9.8 for a while.
   I am going to investigate the changes from 0.9.8 to 0.9.9 which broke VNR.
   If you find certain games working on 0.9.8 no longer working on 0.9.9, you can also let me know the game.
   Sorry for the inconvenience!
 
-  注：VNR当前只支持0.9.8，还不能支持PPSSPP 0.9.9。
+  注：VNR当前只在0.9.8下完全测试过。
   如果你发现一些游戏在0.9.8上可以工作，但是0.9.9上不能工作了，很希望可以让我知道无法工作的游戏的名字。
 
   * Reduce VNR's memory usage from 330MB to 190MB.

@@ -14,7 +14,7 @@ Since 6/18/2011
   注：VNR当前只支持0.9.8，还不能支持PPSSPP 0.9.9。
   如果你发现一些游戏在0.9.8上可以工作，但是0.9.9上不能工作了，很希望可以让我知道无法工作的游戏的名字。
 
-  * Reduce VNR's memory usage from 330MB to 190MB.
+  * Significantly reduce VNR's memory usage from 330MB to 190MB.
     VNR的内存使用量从330MB降低为190MB。
 
 7/26/2014 SAT

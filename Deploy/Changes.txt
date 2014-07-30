@@ -2,6 +2,25 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/29/2014 TUE
+  * Add Otomate PSP hook for PPSSPP 0.9.9.
+    A bad news is that there is no way to create engines to work both on PPSSPP 0.9.8 and 0.9.9.
+    Though the new hook for 0.9.9 is also named as Otomate, it is totally different from 0.9.8.
+    As a result, there is not guarantee that a game work under 0.9.8 would also work under 0.9.9.
+    And there is no guarantee that a game work under 0.9.9 would also work under 0.9.8.
+
+    The thing is that in PSP 0.9.9, certain PSP code was replaced by native Windows implementation.
+    As a result, the original hooked PSP functions might never be invoked by games on PPSSPP 0.9.9.
+    I have to hook to a different place in PPSSPP 0.9.9, which is not guaranteed to be invoked by
+    the same games that work under 0.9.8.
+
+    However, the new 0.9.9 hook might also support certain games that the old 0.9.8 hook does not support.
+
+    In short, the supported games on PPSSPP 0.9.8 and 0.9.9 might intersect.
+    And it would be difficult to tell which one would be better to use in the future.
+
+    为Otomate的PSP游戏添加了对PPSSPP 0.9.9的支持。
+
 7/27/2014 SUN
   * Add Intense PSP engine for 「密室のサクリファイス」.
 

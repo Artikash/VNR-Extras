@@ -21,6 +21,12 @@ Since 6/18/2011
 
     为Otomate的PSP游戏添加了对PPSSPP 0.9.9的支持。
 
+  * Display required PPSSPP version in Text Settings
+    If it shows =0.9.x, then the hook works for all PSP versions.
+    If it shows =0.9.9 or 0.9.8, then the hook might work only for the specified PPSSPP.
+
+    在文本设定中会显示提取文本需要的PPSSPP版本。
+
 7/27/2014 SUN
   * Add Intense PSP engine for 「密室のサクリファイス」.
 

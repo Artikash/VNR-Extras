@@ -4,7 +4,7 @@ Since 6/18/2011
 
 7/29/2014 TUE
   * Add Otomate PSP hook for PPSSPP 0.9.9.
-    It should covers most cases where 0.9.8 hooks (BANDAI, Alchemist, and Otomate) do not work
+    It should cover most cases where 0.9.8 hooks (BANDAI, Alchemist, and Otomate) do not work.
 
     为Otomate的PSP游戏添加了对PPSSPP 0.9.9的支持。
 

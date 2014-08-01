@@ -5,6 +5,8 @@ Since 6/18/2011
 7/31/2014 THU
   * 禁止把QQDownload添加到VNR。
 
+  * Increase the black padding border's width in full screen.
+
 7/29/2014 TUE
   * Add Otomate PSP hook for PPSSPP 0.9.9.
     It should cover most cases where 0.9.8 hooks (BANDAI, Alchemist, and Otomate) do not work.

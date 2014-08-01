@@ -26,6 +26,13 @@ Since 6/18/2011
     添加了--pid的命令行参数可以指定要提取文本的游戏的PID。
     参看： http://www.sakuradite.com/wiki/zh/VNR/命令行
 
+  * Bug fix for PPSSPP 0.9.9. Most engines should work now.
+    But in order to support 0.9.9, VNR is 10 times slower than before to scan the memory.
+    It could take up to 10 seconds to determine the PSP game engine to use.
+    After VNR is launched, you might have to wait for 10 seconds for the text to appear.
+
+    修正了对PPSSPP的0.9.9支持。
+
 7/29/2014 TUE
   * Add Otomate PSP hook for PPSSPP 0.9.9.
     It should cover most cases where 0.9.8 hooks (BANDAI, Alchemist, and Otomate) do not work.

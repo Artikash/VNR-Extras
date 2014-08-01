@@ -11,7 +11,7 @@ Since 6/18/2011
 
     I am sorry that I failed to find a way to load LEC translator's DLL for non-English translation.
     If you want to translate Japanese to non-English  using LEC, currently, you might have to
-    turn on this "Sub to clipboard" toggle for to re-translate English to your native language.
+    turn on this "Sub to clipboard" toggle to re-translate English to your native language.
     through clipboard.
 
 7/29/2014 TUE

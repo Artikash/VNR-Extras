@@ -16,6 +16,16 @@ Since 6/18/2011
 
   * Able to add/detect games running on a network drive, such as a NAS drive, or Parallels Desktop's host.
 
+  * Add a command line parameter --pid for specifying which game process to attach.
+    For instance, run "Debug VNR.cmd --pid 1234" will attach to process whose PID is 1234.
+    If there are multiple games running at the same time, or if there are multiple game processes
+    for the same game, you can use this parameter to select which game process to attach.
+
+    I posted current supported parameters here: http://www.sakuradite.com/wiki/en/VNR/Command_Line
+
+    添加了--pid的命令行参数可以指定要提取文本的游戏的PID。
+    参看： http://www.sakuradite.com/wiki/zh/VNR/命令行
+
 7/29/2014 TUE
   * Add Otomate PSP hook for PPSSPP 0.9.9.
     It should cover most cases where 0.9.8 hooks (BANDAI, Alchemist, and Otomate) do not work.

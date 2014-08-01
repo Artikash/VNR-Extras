@@ -3,8 +3,7 @@ Visual Novel Reader
 Since 6/18/2011
 
 8/1/2014 FRI
-  请不要将QQ之类的软件当成新游戏添加到VNR中。
-  警告IP：175.155.38.XX (成都)
+  请不要将QQ之类的软件当成新游戏添加到VNR中！！！
 
 7/31/2014 THU
   * 禁止把QQDownload添加到VNR。

@@ -7,6 +7,13 @@ Since 6/18/2011
 
   * Increase the black padding border's width in full screen.
 
+  * Add a toggle to the left dock for copying machine/shared translation to the clipboard.
+
+    I am sorry that I failed to find a way to load LEC translator's DLL for non-English translation.
+    If you want to translate Japanese to non-English  using LEC, currently, you might have to
+    turn on this "Sub to clipboard" toggle for to re-translate English to your native language.
+    through clipboard.
+
 7/29/2014 TUE
   * Add Otomate PSP hook for PPSSPP 0.9.9.
     It should cover most cases where 0.9.8 hooks (BANDAI, Alchemist, and Otomate) do not work.

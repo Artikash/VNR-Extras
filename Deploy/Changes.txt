@@ -11,8 +11,8 @@ Since 6/18/2011
 
     I am sorry that I failed to find a way to load LEC translator's DLL for non-English translation.
     If you want to translate Japanese to non-English  using LEC, currently, you might have to
-    turn on this "Sub to clipboard" toggle to re-translate English to your native language.
-    through clipboard.
+    turn on this "Sub to clipboard" toggle to re-translate English to your native language
+    through clipboard using LEC or any other translators.
 
 7/29/2014 TUE
   * Add Otomate PSP hook for PPSSPP 0.9.9.

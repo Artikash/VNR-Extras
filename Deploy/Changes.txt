@@ -14,6 +14,8 @@ Since 6/18/2011
     turn on this "Sub to clipboard" toggle to re-translate English to your native language
     through clipboard using LEC or any other translators.
 
+  * Able to add/detect games running on a network drive, such as a NAS drive, or Parallels Desktop's host.
+
 7/29/2014 TUE
   * Add Otomate PSP hook for PPSSPP 0.9.9.
     It should cover most cases where 0.9.8 hooks (BANDAI, Alchemist, and Otomate) do not work.

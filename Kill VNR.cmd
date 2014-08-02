@@ -13,10 +13,6 @@ echo.
 echo tskill pythonw
 tskill pythonw
 
-echo.
-echo tskill lftp
-tskill lftp
-
 ::echo.
 ::echo tskill hg
 ::tskill hg

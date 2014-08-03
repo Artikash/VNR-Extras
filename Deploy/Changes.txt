@@ -2,6 +2,21 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/3/2014 SUN
+  * Add support for Fate/stay night on PCSX2.
+    A screenshot is as follows (tested on pcsx2-v1.2.1-328-gef0e3fe-windows-x86):
+
+      http://sakuradite.com/images/screenshots/pcsx2_fate.jpg
+
+    This is currently the only working PS2 game.
+    The compatibility issue is the same as PSP:
+      1. Do not work on Windows XP
+      2. Must launch VNR AFTER the PS2 ISO has been loaded
+      3. Changing game ISO requires restarting VNR
+
+    可以从PCSX2上的「Fate/stay night」提取文本了。
+    这个是当前唯一支持的PS2游戏。
+
 8/2/2014 SAT
   * 更新了djz大先生的J北京辞书。
 
@@ -173,13 +188,13 @@ Since 6/18/2011
 
       http://sakuradite.com/images/screenshots/dolphin_oboro.jpg
 
-   This is just a test for extracting texts from Dolphin.
-   Please hold until this feature become stable.
+    This is just a test for extracting texts from Dolphin.
+    Please hold until this feature become stable.
 
-   btw, the compatibility and limitation of Dolphin support is similar to PSP:
-   1. Do not work on Windows XP
-   2. Must launch VNR AFTER the GameCube/Wii ISO has been loaded
-   3. Changing game ISO requires restarting VNR
+    btw, the compatibility and limitation of Dolphin support is similar to PSP:
+    1. Do not work on Windows XP
+    2. Must launch VNR AFTER the GameCube/Wii ISO has been loaded
+    3. Changing game ISO requires restarting VNR
 
   * Reduce garbage characters for Rejet PSP games.
     Thanks for @Sakamichi sama's report!

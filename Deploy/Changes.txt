@@ -7,6 +7,13 @@ Since 6/18/2011
 
   * Add 2RM engine for PC games from エロイット.
 
+  * Add side-B engine for PC game メルトピア.
+    The existing H-code have the issue of floating address.
+    It is better to use this hook than the H-code so that you don't have to adjust Text Settings
+    everytime before the game starts.
+
+    为side-B的「メルトピア」添加了游戏引擎。
+
 8/1/2014 FRI
   请大家不要将QQ之类的软件当成新游戏添加到VNR中！
 

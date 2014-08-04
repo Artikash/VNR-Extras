@@ -8,14 +8,12 @@ Since 6/18/2011
 
       http://sakuradite.com/images/screenshots/pcsx2_fate.jpg
 
-    This is currently the only working PS2 game.
     The compatibility issue is the same as PSP:
       1. Do not work on Windows XP
       2. Must launch VNR AFTER the PS2 ISO has been loaded
       3. Changing game ISO requires restarting VNR
 
     可以从PCSX2上的「Fate/stay night」提取文本了。
-    这个是当前唯一支持的PS2游戏。
 
   * Add Marvelous engine for School Rumble ねる娘は育つ on PS2.
     为PS2上的「School Rumble ねる娘は育つ」添加了Marvelous引擎。

@@ -17,6 +17,9 @@ Since 6/18/2011
     可以从PCSX2上的「Fate/stay night」提取文本了。
     这个是当前唯一支持的PS2游戏。
 
+  * Add Marvelous engine for School Rumble ねる娘は育つ on PS2.
+    为PS2上的「School Rumble ねる娘は育つ」添加了Marvelous引擎。
+
 8/2/2014 SAT
   * 更新了djz大先生的J北京辞书。
 

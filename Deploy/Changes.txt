@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/5/2014 TUE
+  * Add new BGI engine for 「蒼の彼方のフォーリズム」.
+    Thanks for @98549177 sama's report!
+    为「蒼の彼方のフォーリズム」添加了新的BGI引擎。
+
 8/3/2014 SUN
   * Add support for Fate/stay night on PCSX2.
     A screenshot is as follows (tested on pcsx2-v1.2.1-328-gef0e3fe-windows-x86):

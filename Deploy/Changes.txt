@@ -7,6 +7,13 @@ Since 6/18/2011
     Thanks for @98549177 sama's report!
     为「蒼の彼方のフォーリズム」添加了新的BGI引擎。
 
+  * Add embedding translation support for the new BGI engine.
+    A screenshot of 「蒼の彼方のフォーリズム」 with embedded Engish translation is as follows
+
+      http://i859.photobucket.com/albums/ab155/jichi/84BC306E5F7C65B9306E30D530A930FC30EA30B9309930E0_zpsa69ea4f1.png
+
+    It ONLY works for LATIN languages.
+
 8/3/2014 SUN
   * Add support for Fate/stay night on PCSX2.
     A screenshot is as follows (tested on pcsx2-v1.2.1-328-gef0e3fe-windows-x86):

@@ -14,6 +14,9 @@ Since 6/18/2011
     Excite的日中翻译可以匹敌JBeijing的（两者基本相同）。
     如果你没有被q的问题，又没有安装JBeijing，那么也许可以尝试下。
 
+  * Hide text box when no visible texts.
+    当没有文本显示时，自动隐藏文本框，不再显示上边的黑边。
+
 8/5/2014 TUE
   * Add new BGI engine for 「蒼の彼方のフォーリズム」.
     Thanks for @98549177 sama's report!

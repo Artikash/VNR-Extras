@@ -12,7 +12,7 @@ Since 6/18/2011
 
   * 修正了Excite由于网站变更无法翻译中文的问题。
     Excite的日中翻译可以匹敌JBeijing的（两者基本相同）。
-    如果你没有被q的问题，有没有安装JBeijing，那么也许可以尝试下。
+    如果你没有被q的问题，又没有安装JBeijing，那么也许可以尝试下。
 
 8/5/2014 TUE
   * Add new BGI engine for 「蒼の彼方のフォーリズム」.

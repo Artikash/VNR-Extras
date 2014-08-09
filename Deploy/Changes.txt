@@ -2,6 +2,53 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/9/2014 SAT
+  * Add machine translation ability to VNR's built-in browser.
+    I hope if could help ease reading online Visual Novels or any other Japanese websites.
+
+    It now supports using machine translator to translate Japanese websites,
+    using MeCab to add ruby 振仮名, and using TTS to read clicked sentence.
+    A screenshot of translate http://ja.wikipedia.org/wiki/Clover Day's is as follows:
+
+      http://sakuradite.com/images/screenshots/wr_wiki_en.png
+
+    Additionally, VNR's Game Information page also supports the same machine translation.
+
+      http://sakuradite.com/images/screenshots/wr_vnr_en.png
+
+    Comparing to VNR:
+    - Shared Dictionary is not supported in the Browser.
+    - Dictionaries such as EPWING and EDICT are not supported in the Browser.
+    - Most Preferences cannot be changed in the Browser.
+      If you want to change, say, the default TTS to use, you have to change VNR's  Preferences.
+
+    There are currently four buttons can be toggled to adjust how to translate the website, as follows:
+    - あ: Use VNR's MeCab and UniDic to add 振仮名 to all texts
+    - 訳: Use the machine translation to replace all texts (slow if you are using online translator)
+    - 示: Display machine translation for the hovered sentence in the tooltip
+    - ♪: Use TTS to read the clicked sentence (Don't forget to install QuickTime if you want to used Google TTS)
+
+    为VNR自带的浏览器添加了机翻功能。
+    下面是一张 http://ja.wikipedia.org/wiki/Clover Day's 的截图：
+
+      http://sakuradite.com/images/screenshots/wr_wiki_zh.png
+
+    另外，VNR的游戏情报中也采用了相同的翻译机制：
+
+      http://sakuradite.com/images/screenshots/wr_vnr_zh.png
+
+    这个浏览器当前可以支持机翻，振仮名，以及TTS。
+    可以通过点击上方的按钮来开启这些功能。按钮的含义如下：
+    - あ: 为日文添加ruby振仮名
+    - 訳: 用机翻替换原始文字。最好使用离线的J北京。在线翻译会很慢。
+    - 示: 不替换原始文字，但是用tooltip弹出机翻
+    - ♪: 使用TTS读出点击的日文。如果你要用Google TTS，不要忘记安装QuickTime。
+
+    这个浏览器还处在alpha的阶段，和VNR比起来还缺少的功能如下：
+    - 不支持共享辞书。
+    - 不支持用EPWING辞书查字典
+    - 很多使用偏好无法在浏览器中修改，需要打开VNR在VNR的使用偏好中修改。
+
 8/7/2014 THU
   * VNR内部不再使用百度翻译网站的API。当选定百度翻译时，VNR会调用金山词霸的API。
     两者翻译的内容应该是一样的。但是至少在我这里和日本的服务器上，金山词霸翻译的时间只有百度的一半。

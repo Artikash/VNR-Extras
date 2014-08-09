@@ -7,28 +7,28 @@ Since 6/18/2011
     I hope if could help ease reading online Visual Novels or any other Japanese websites.
 
     It now supports using machine translator to translate Japanese websites,
-    using MeCab to add ruby 振仮名, and using TTS to read clicked sentence.
-    A screenshot of translate http://ja.wikipedia.org/wiki/Clover Day's is as follows:
+    using MeCab to add ruby 振仮名, and using TTS to read the clicked sentence.
+    A screenshot of the translated http://ja.wikipedia.org/wiki/Clover Day's is as follows:
 
       http://sakuradite.com/images/screenshots/wr_wiki_en.png
 
-    Additionally, VNR's Game Information page also supports the same machine translation.
+    Additionally, VNR's Game Information page also supports the same translation system.
 
       http://sakuradite.com/images/screenshots/wr_vnr_en.png
 
-    Comparing to VNR:
+    Comparing to VNR, a couple of features are still missing in the browser:
     - Shared Dictionary is not supported in the Browser.
     - Dictionaries such as EPWING and EDICT are not supported in the Browser.
     - Most Preferences cannot be changed in the Browser.
-      If you want to change, say, the default TTS to use, you have to change VNR's  Preferences.
+      If you want to, say, change the default TTS to use, you have to change VNR's Preferences.
 
-    There are currently four buttons can be toggled to adjust how to translate the website, as follows:
+    There are currently four buttons that can be toggled to adjust how to translate the website, as follows:
     - あ: Use VNR's MeCab and UniDic to add 振仮名 to all texts
-    - 訳: Use the machine translation to replace all texts (slow if you are using online translator)
+    - 訳: Use the machine translation to replace all texts (slow unless using an offline translator)
     - 示: Display machine translation for the hovered sentence in the tooltip
-    - ♪: Use TTS to read the clicked sentence (Don't forget to install QuickTime if you want to used Google TTS)
+    - ♪: Use TTS to read the clicked sentence (don't forget to install QuickTime if you want to use Google TTS)
 
-    为VNR自带的浏览器添加了机翻功能。
+    为VNR自带的浏览器添加了机翻功能。这个工具也许可以帮助翻译在线的Visual Novel或者其他日文网站。
     下面是一张 http://ja.wikipedia.org/wiki/Clover Day's 的截图：
 
       http://sakuradite.com/images/screenshots/wr_wiki_zh.png

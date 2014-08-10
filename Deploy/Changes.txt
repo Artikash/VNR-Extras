@@ -13,6 +13,9 @@ Since 6/18/2011
   那么，我也许可以为你添加新的功能来翻译非游戏的程序。
   但是，现在请不要直接把非游戏程序添加到VNR中！
 
+  * Add alternative Imageepoch engine for PSP game SOL TRIGGER.
+    为PSP上的「SOL TRIGGER」添加了引擎.
+
   * Add machine translation ability to VNR's built-in browser.
     I hope if could help ease reading online Visual Novels or any other Japanese websites.
 

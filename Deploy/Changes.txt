@@ -3,6 +3,15 @@ Visual Novel Reader
 Since 6/18/2011
 
 8/9/2014 SAT
+
+  请不要将QQ之类的软件添加到VNR中！ 添加的IP：123.244.x.x（沈阳）
+  添加QQ到VNR，会对其他同学造成很糟糕的影响。同时使用VNR和QQ软体，VVR会误认为QQ是游戏而hook上去。
+  我非常不希望通过屏蔽IP来禁止添加QQ程序到VNR的数据库。
+
+  如果你一定要添加QQ的软件到VNR，可以告诉我原因吗？
+  如果，比方说，如果你希望把中文QQ翻译为越南文，那么，我也许可以添加新的功能来翻译非游戏的软件。
+  但是，现在请不要把非游戏程序添加到VNR中。
+
   * Add machine translation ability to VNR's built-in browser.
     I hope if could help ease reading online Visual Novels or any other Japanese websites.
 

@@ -6,7 +6,7 @@ Since 6/18/2011
   * Bug fix CYBERFRONT PSP engine for old KID games.
     修正了CYBERFRONT PSP引擎。
 
-  * Add KONAMI engine for PSP game Ω 「幻想水滸伝 紡がれし百年の時」.
+  * Add KONAMI engine for PSP game 「幻想水滸伝 紡がれし百年の時」.
     为PSP上的幻想水浒传添加了引擎。
 
 8/9/2014 SAT

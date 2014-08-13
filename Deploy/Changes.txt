@@ -2,14 +2,17 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/12/2014 TUE
+  * Bug fix CYBERFRONT PSP game engine.
+
 8/9/2014 SAT
 
-  请不要将QQ之类的软件添加到VNR中！ 添加的IP：123.244.x.x（沈阳）
-  添加QQ到VNR，会对其他同学造成很糟糕的影响。同时使用VNR和QQ的软件，VVR会误认为QQ是游戏而hook上去。
+  请不要将QQ之类的软件添加到VNR中了！ 添加的IP：123.244.x.x（沈阳）
+  添加QQ到VNR，会对其他同学造成很糟糕的影响。同时使用VNR和QQ的软件，VNR会误认为QQ是游戏而hook上去。
   我非常不希望通过屏蔽IP来禁止添加QQ程序到VNR的数据库。
 
   如果你一定要添加QQ的软件到VNR，可以告诉我原因吗？
-  比方说，如果你中文不好，希望把中文QQ翻译为越南文。
+  比方说，如果你的中文不好，希望把中文QQ翻译为越南文。
   那么，我也许可以为你添加新的功能来翻译非游戏的程序。
   但是，现在请不要直接把非游戏程序添加到VNR中！
 
@@ -21,7 +24,7 @@ Since 6/18/2011
 
     It now supports using machine translator to translate Japanese websites,
     using MeCab to add ruby 振仮名, and using TTS to read the clicked sentence.
-    A screenshot of the translated http://ja.wikipedia.org/wiki/Clover Day's is as follows:
+    A screenshot of the translated http://ja.wikipedia.org/wiki/Clover_Day's is as follows:
 
       http://sakuradite.com/images/screenshots/wr_wiki_en.png
 
@@ -42,7 +45,7 @@ Since 6/18/2011
     - ♪: Use TTS to read the clicked sentence (don't forget to install QuickTime if you want to use Google TTS)
 
     为VNR自带的浏览器添加了机翻功能。这个工具也许可以帮助翻译在线的Visual Novel或者其他日文网站。
-    下面是一张 http://ja.wikipedia.org/wiki/Clover Day's 的截图：
+    下面是一张 http://ja.wikipedia.org/wiki/Clover_Day's 的截图：
 
       http://sakuradite.com/images/screenshots/wr_wiki_zh.png
 
@@ -54,12 +57,12 @@ Since 6/18/2011
     可以通过点击上方的按钮来开启这些功能。按钮的含义如下：
     - あ: 为日文添加ruby振仮名
     - 訳: 用机翻替换原始文字。最好使用离线的J北京。在线翻译会很慢。
-    - 示: 不替换原始文字，但是用tooltip弹出机翻
+    - 示: 不替换原始文字，但是用tooltip弹出机翻。
     - ♪: 使用TTS读出点击的日文。如果你要用Google TTS，不要忘记安装QuickTime。
 
     这个浏览器还处在alpha的阶段，和VNR比起来还缺少的功能如下：
     - 不支持共享辞书。
-    - 不支持用EPWING辞书查字典
+    - 不支持用EPWING辞书查字典。
     - 很多使用偏好无法在浏览器中修改，需要打开VNR在VNR的使用偏好中修改。
     - 浏览器中有些地方是英文或日文的，还没有添加中文翻译。
 
@@ -119,7 +122,7 @@ Since 6/18/2011
     为side-B的「メルトピア」添加了游戏引擎。
 
 8/1/2014 FRI
-  请大家不要将QQ之类的软件当成新游戏添加到VNR中！
+  请大家不要将QQ之类的软件当成新游戏添加到VNR中了！
 
   * 添加了简明和汉字典。
     这个字典比VNR当前的日中辞书词汇量要小（一共只有2MB），解释也少，没什么用。

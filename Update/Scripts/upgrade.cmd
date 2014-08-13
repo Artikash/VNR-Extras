@@ -154,6 +154,13 @@ if exist .hgignore attrib +h .hgignore
 
 if exist ../Scripts copy /y *.cmd ..\Scripts\ >nul
 
+:: Backward compatibility
+rm -f ^
+  "../Scripts/Debug Browser.cmd" ^
+  "../Scripts/Debug Update.cmd" ^
+  "../Scripts/Debug VNR.cmd" ^
+  "../Scripts/Kill VNR.cmd"
+
 attrib +h *.cmd
 
 ::            1         2         3         4         5         6         7

@@ -1,4 +1,4 @@
-:: Debug Browser.cmd
+:: Visual Novel Reader (Debug).cmd
 :: 11/1/2012 jichi
 @echo off
 setlocal
@@ -13,7 +13,7 @@ set ME=Debug VNR
 set PYTHON=Library\Frameworks\Python\python.exe
 set FLAGS=-B
 set PYTHON_OPT=
-set SCRIPT=Library/Frameworks/Sakura/py/apps/browser
+set SCRIPT=Library/Frameworks/Sakura/py/apps/reader
 set SCRIPT_OPT=--debug
 
 set PATH=%windir%;%windir%\system32

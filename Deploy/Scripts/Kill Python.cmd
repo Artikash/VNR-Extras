@@ -1,9 +1,9 @@
-:: Kill Reader.cmd
+:: Kill Python.cmd
 :: 9/29/2013 jichi
 @echo off
 setlocal
 
-title Kill Reader
+title Kill Python
 
 echo.
 echo tskill python

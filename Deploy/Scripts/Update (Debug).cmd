@@ -1,4 +1,4 @@
-:: Debug Update.cmd
+:: Update (Debug).cmd
 :: 11/1/2012 jichi
 @echo off
 setlocal

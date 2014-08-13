@@ -3,7 +3,7 @@ Visual Novel Reader
 Since 6/18/2011
 
 8/12/2014 TUE
-  * Bug fix CYBERFRONT PSP game engine.
+  * Bug fix CYBERFRONT PSP engine for old KID games.
 
 8/9/2014 SAT
 

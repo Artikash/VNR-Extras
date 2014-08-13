@@ -44,14 +44,14 @@ Trash this folder, and delete the following:
 - In regedit:   HKCU/Software/sakuradite.org/reader
 
 DEBUG
-- Library/Debug Reader: you can get the debug output of VNR
-- Library/Debug Update: you can get the debug output of Update
-- Library/Kill Reader: if VNR hangs, you can use this script to kill VNR
+- Scripts/Visual Novel Reader (Debug): you can get the debug output of VNR
+- Scripts/Update (Debug): you can get the debug output of Update
+- Scripts/Kill Python: if VNR hangs, you can use this script to kill VNR
 
 UPDATE
 - Just launch Update.exe. Internet access is needed.
 
-- If Update.exe does not work for you, please try "Update/Debug Update.cmd"
+- If Update.exe does not work for you, please try "Scripts/Update (Debug).cmd"
 
 - If you have difficulties to get the apps by updating, please try this:
       http://sakuradite.org/reader.7z
@@ -125,14 +125,14 @@ You can also find them in Preferences/Locations.
 - 注册表(regedit）： HKCU/Software/sakuradite.org/reader
 
 【调试】
-- Library/Debug Reader: 你可以使用这个脚本来得到VNR的调试信息
-- Library/Debug Update: 你可以使用这个脚本来得到更新的调试信息
-- Library/Kill Reader: 如果VNR卡住了，你可以用这个脚本来杀掉VNR
+- Scripts/Visual Novel Reader (Debug): 你可以使用这个脚本来得到VNR的调试信息
+- Scripts/Update (Debug): 你可以使用这个脚本来得到更新的调试信息
+- Scripts/Kill Python: 如果VNR卡住了，你可以用这个脚本来杀掉VNR
 
 【更新】
 - 在有网络连接时，直接运行Update.exe就可以了。
 
-- 如果Update.exe不能正常工作，可以尝试Update/Debug Update.cmd。
+- 如果Update.exe不能正常工作，可以尝试Scripts/Update (Debug).cmd。
 
 - 如果实在是不可以，你可以从这里下载：
     http://sakuradite.org/reader.7z
@@ -140,7 +140,7 @@ You can also find them in Preferences/Locations.
 
 【常见问题】
 - 如果你无法启动VNR，通常是因为32位的msvc没有安装。
-  运行Library/Debug Reader.cmd也许会帮助你找到问题的原因。
+  运行Scripts/Visual Novel Reader (Debug).cmd也许会帮助你找到问题的原因。
   如果实在无法启动，你也可以通过邮件可以向我抱怨！
 
 - 关于UAC（用户权限），VNR和ITH不同，通常不需要管理员的权限来执行。

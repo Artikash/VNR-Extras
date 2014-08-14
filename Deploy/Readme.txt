@@ -39,7 +39,12 @@ INSTALL
 Not required.
 
 UNINSTALL
-Trash this folder, and delete the following:
+Either run the following Scripts:
+
+    Scripts/Remove VNR Profiles.cmd
+    Scripts/Remove VNR Settings.reg
+
+Or manually trash the following folder and registry entry:
 - In explorer:  %APPDATA%/org.sakuradite.reader
 - In regedit:   HKCU/Software/sakuradite.org/reader
 
@@ -120,7 +125,12 @@ You can also find them in Preferences/Locations.
 不需要。
 
 【卸载】
-删除这个文件夹，然后清理下面的地方：
+可以执行如下脚本：
+
+    Scripts/Remove VNR Profiles.cmd
+    Scripts/Remove VNR Settings.reg
+
+或者手动删除这个文件夹已经注册表：
 - 资源管理器：       %APPDATA%/org.sakuradite.reader
 - 注册表(regedit）： HKCU/Software/sakuradite.org/reader
 

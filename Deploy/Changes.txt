@@ -2,6 +2,16 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/13/2014 WED
+  * Add scripts to totally uninstall VNR.
+    If you want uninstall VNR or reset its settings, you can run the following files:
+
+        Scripts/Remove VNR Profiles.cmd  -- This will delete %APPDATA%/org.sakuradite.*
+        Scripts/Remove VNR Settings.reg  -- This will delete HKCU/Software/sakuradite.org
+
+    添加了完全删除VNR的脚本。
+    你可以执行上边的文件来移除VNR，或者重置VNR在本地的设定。
+
 8/12/2014 TUE
   * Bug fix CYBERFRONT PSP engine for old KID games.
     修正了CYBERFRONT PSP引擎。

@@ -1,15 +1,15 @@
-﻿You can find some helper scripts in this directory.
+You can find some helper scripts in this directory.
 You can double-click the file to run the script.
 
-在这个目录中包含一些脚本。
-你可以双击脚本文件来执行它的。
+你可以雙擊腳本文件來執行它的。
+击脚本文件来执行它的。
 
 * Visual Novel Reader (Debug).cmd
 Run VNR with debug output.
 If VNR crashes or malfunctions, this might output the error causing the issue.
 
-运行VNR并显示调试信息。
-如果VNR崩溃了或者出处了，在这里也许可以找到原因的。
+運行VNR並顯示調試信息。
+如果VNR崩潰了或者出處了，在這裡也許可以找到原因的。
 
 * Update (Debug).cmd
 Update VNR with debug output.
@@ -17,4 +17,21 @@ Update VNR with debug output.
 
 * Kill Python.cmd
 Kill all python instances, including VNR's.
-关闭包括VNR在内的所有Python的程序。
+關閉包括VNR在內的所有Python的程序。
+
+* Remove VNR Profiles.cmd
+Delete VNR's user profiles as follows.
+Local game settings, text settings, voice settings, and caches will be deleted.
+
+    %APPDATA%/org.sakuradite.reader
+    %APPDATA%/org.sakuradite.browser
+
+刪除上面路徑中VNR的配置文件。
+本地保存的遊戲情報，文本設定，語音設定之類的都會被完全刪除。
+
+* Remove VNR Settings.reg
+Reset VNR's Preferences. The following registry engtry will be deleted:
+
+    HKEY_CURRENT_USER\Software\sakuradite.org
+
+刪除上面註冊表中VNR的設定。VNR的使用偏好會被重置。

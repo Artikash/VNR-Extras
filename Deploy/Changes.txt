@@ -12,6 +12,10 @@ Since 6/18/2011
     添加了完全删除VNR的脚本。
     你可以执行上边的文件来移除VNR，或者重置VNR在本地的设定。
 
+  * Fixed the random crash for certain PPSSPP games.
+    Some hooks (Alchemist, 5pb and Nippon1) sometimes do not work on PPSSPP 0.9.9.
+    If you find a game does not work on PPSSPP 0.9.9, you might try switch back to 0.9.8.
+
 8/12/2014 TUE
   * Bug fix CYBERFRONT PSP engine for old KID games.
     修正了CYBERFRONT PSP引擎。

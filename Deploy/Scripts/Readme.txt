@@ -23,8 +23,7 @@ Kill all python instances, including VNR's.
 Delete VNR's user profiles as follows.
 Local game settings, text settings, voice settings, and caches will be deleted.
 
-    %APPDATA%/org.sakuradite.reader
-    %APPDATA%/org.sakuradite.browser
+    %APPDATA%/org.sakuradite.*
 
 刪除上面路徑中VNR的配置文件。
 本地保存的遊戲情報，文本設定，語音設定之類的都會被完全刪除。

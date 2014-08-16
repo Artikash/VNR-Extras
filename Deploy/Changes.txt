@@ -2,6 +2,29 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/15/2014 FRI
+  * Add support to use TA Helper replacement scripts to improve machine translation quality.
+    The current version is modified from @errzotl sensei 's 0.16 version.
+    The TAH scripts are equivalent to VNR's Japanase terms in the Shared Dictionary.
+    VNR will automatically update the scripts on the following wiki:
+
+        http://sakuradite.com/wiki/en/VNR/Translation_Scripts
+
+    Since the scripts on the wiki will affect all users,
+    PLEASE BE VERY VERY VERY CAREFUL if you want to edit it.
+    If you want to edit it, please first try your modification in Test Machine Translation
+    offline before adding it to the online wiki!
+
+    添加了对在日英翻译的community中非常有名的TAH翻译脚本的支持。
+    VNR默认是开启这个脚本的。不过，你也可以在使用偏好的翻译中禁用这个脚本。
+
+    这个脚本和VNR中的日文词条是等价的，包含大量（8000+）的规则用来修正日文的口语。
+    这些规则包含去除垃圾，改写关西方言，纠正口癖等。
+    比方说，打开翻译脚本可以将 「れ、恋さん！？」 =>  「恋さん！？」
+
+    另外，由于这个功能是用C++而不是Python实现的，速度非常快（0.006秒即可完成）。
+    不用担心因为打开这选项而让机翻变慢。
+
 8/13/2014 WED
   * Add scripts to totally uninstall VNR.
     If you want uninstall VNR or reset its settings, you can run the following files:
@@ -14,7 +37,7 @@ Since 6/18/2011
 
   * Fixed the random crash for certain PPSSPP games.
     Some hooks (Alchemist, 5pb and Nippon1) sometimes do not work on PPSSPP 0.9.9.
-    If you find a game does not work on PPSSPP 0.9.9, you might try switch back to 0.9.8.
+    If you find a game does not work on PPSSPP 0.9.9, you might try switching back to 0.9.8.
 
 8/12/2014 TUE
   * Bug fix CYBERFRONT PSP engine for old KID games.

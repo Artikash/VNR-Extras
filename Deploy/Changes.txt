@@ -20,6 +20,9 @@ Since 6/18/2011
     Locale Emulator在绝大多数情况下都是更好的选择。
     不过如果Locale Emulator无法工作，你也许可以尝试下LocaleSwitch。
 
+  * Add alternative NEXTON engine for old NEXTON brands such as Nomad.
+    为Nomad「淫烙の巫女」添加了游戏引擎。
+
 8/16/2014 SAT
   * Add very primitive OCR support.
     A screenshot of レミニセンス's Config UI with OCR popup and translations are as follows:

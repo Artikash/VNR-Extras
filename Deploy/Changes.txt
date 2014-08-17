@@ -2,6 +2,61 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/16/2014 SAT
+  * Add very primitive OCR support.
+    A screenshot of レミニセンス's Config UI with OCR popup and translations are as follows:
+
+        http://sakuradite.com/images/screenshots/ocr_popup.jpg
+
+    You can press Shift+Mouse to select an area, and VNR will popup translation in the selected rectangle.
+    You can enable it in Preferences/OCR.
+    It could work without launching games.
+    It might be used to identify texts in games as well as anime, manga, websites, or any other texts on the screen.
+
+    REQUIREMENTS
+    - You must have Microsoft MODI OCR installed.
+      You can either purchase Microsoft Office 2007 and manually enabled it, or get it from here:
+
+          https://mega.co.nz/#F!g00SQJZS!pm3bAcS6qHotPzJQUT596Q
+
+      Currently, it is only 36MB, and only Japanese/Chinese fonts are included.
+
+    LIMITATIONS
+    - VNR must be launched as Administrator to make MODI OCR work.
+      The trade-off is that several features (including SAPI TTS) will not work when VNR is launched as admin.
+    - Currently, only machine translation works.
+      TTS, 振仮名, and popup dictionaries including EDICT and EPWING are not implemented yet.
+    - Currently, no settings can be adjusted for OCR.
+      You cannot specify the target text color, size, and orientation which are critical enhance OCR accuracy.
+      As a result, unusual texts (fat, large, outlined) or texts on the fancy background or vertical texts
+      can not be correctly identified.
+
+    添加了使用微软的MODI OCR来识别和翻译屏幕是任何可见日文的功能。
+    下边是「レミニセンス」Config界面中OCR的截图。
+
+        http://sakuradite.com/images/screenshots/ocr_popup.jpg
+
+    在【使用偏好/光学识别】中可以开启OCR。
+    开启后，可以使用SHIFT+鼠标左键来选定需要提取文本和翻译的区域。
+    使用OCR不需要运行游戏。你也可以用它来识别动画或者漫画中的文字。
+
+    MODI OCR的idea来着【寒风游戏翻译机】。之前都没注意到可以通过微软实现OCR。
+    在这里感谢信寒风游戏翻译机的作者hhyjq007！
+
+    亚欧使用光学识别的功能，首先要安装MODI OCR。
+    你可到微软购买正版的Office 2007，并开启MODI OCR；也可以从下边地址自己安装：
+
+          https://mega.co.nz/#F!g00SQJZS!pm3bAcS6qHotPzJQUT596Q
+
+    因为只包含日文和中文的字体，安装后只有36MB。
+
+    现在VNR的OCR功能还非常的原始，有很多局限性：
+    - 要使用OCR，必需以管理员权限打开VNR
+    - 当前的版本只支持机器翻译，不支持振仮名，不支持EPWING字典查词，不支持TTS。
+      这些在以后有空会加上的。
+    - 不可以指定OCR文本的颜色，大小，orientation什么的。
+      这导致很多不规则的文字，过大的文字，背景很花的文字，或者竖排的文字无法通过OCR提取。
+
 8/15/2014 FRI
   * Add support to use TA Helper replacement scripts to improve machine translation quality.
     The current version is modified from @errzotl sensei 's 0.16 version.

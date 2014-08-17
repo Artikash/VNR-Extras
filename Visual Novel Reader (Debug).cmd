@@ -5,10 +5,10 @@ setlocal
 
 cd /d %~dp0/..
 
-title Debug VNR
+title Visual Novel Reader (Debug)
 ::color 8f
 
-set ME=Debug VNR
+set ME=Debug
 
 set PYTHON=Library\Frameworks\Python\python.exe
 set FLAGS=-B

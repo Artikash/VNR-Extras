@@ -6,6 +6,15 @@ Since 6/18/2011
   * Add an OCR type to the Shared Dictionary for correcting OCR text, which is not accurate.
     在共享辞书中添加了OCR类型的词条用来矫正OCR提取出的文字。
 
+  * Restore the support of using Locale Swicth to change game locale.
+    You can turn it on in Preferences/Launch, which requies admin privileges.
+    Locale Emulator is better in most cases.
+    But if Locale Emulator does not work, you could also give LocaleSwitch a try.
+
+    恢复了对Locale Switch的支持，在【使用偏好/启动】中可以开启。
+    Locale Emulator在绝大多数情况下都是更好的选择。
+    不过如果Locale Emulator无法工作，你也许可以尝试下LocaleSwitch。
+
 8/16/2014 SAT
   * Add very primitive OCR support.
     A screenshot of レミニセンス's Config UI with OCR popup and translations are as follows:

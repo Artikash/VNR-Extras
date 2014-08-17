@@ -27,7 +27,7 @@ Since 6/18/2011
     - Currently, only machine translation works.
       TTS, 振仮名, and popup dictionaries including EDICT and EPWING are not implemented yet.
     - Currently, no settings can be adjusted for OCR.
-      You cannot specify the target text color, size, and orientation which are critical enhance OCR accuracy.
+      You cannot specify the target text color, size, and orientation which are critical to enhance OCR accuracy.
       As a result, unusual texts (fat, large, outlined) or texts on the fancy background or vertical texts
       can not be correctly identified.
 

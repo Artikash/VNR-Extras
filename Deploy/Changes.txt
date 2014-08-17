@@ -28,7 +28,7 @@ Since 6/18/2011
       TTS, 振仮名, and popup dictionaries including EDICT and EPWING are not implemented yet.
     - Currently, no settings can be adjusted for OCR.
       You cannot specify the target text color, size, and orientation which are critical to enhance OCR accuracy.
-      As a result, unusual texts (fat, large, outlined) or texts on the fancy background or vertical texts
+      As a result, irregular texts (fat, large, outlined), texts on the fancy background, and vertical texts
       can not be correctly identified.
 
     添加了使用微软的MODI OCR来识别和翻译屏幕是任何可见日文的功能。

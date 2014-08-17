@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/17/2014 SUN
+  * Add an OCR type to the Shared Dictionary for correcting OCR text, which is not accurate.
+    在共享辞书中添加了OCR类型的词条用来矫正OCR提取出的文字。
+
 8/16/2014 SAT
   * Add very primitive OCR support.
     A screenshot of レミニセンス's Config UI with OCR popup and translations are as follows:

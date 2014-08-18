@@ -2,6 +2,9 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/18/2014 MON
+  * Fixed a bug for detecting MODI OCR on x64 system.
+
 8/17/2014 SUN
   * Add an OCR type to the Shared Dictionary for correcting OCR text, which is not accurate.
     在共享辞书中添加了OCR类型的词条用来矫正OCR提取出的文字。
@@ -11,8 +14,8 @@ Since 6/18/2011
         http://ntlea.codeplex.com
     添加了对使用Ntleas改变游戏日文编码的支持。
 
-  * Restore the support of using Locale Swicth to change game locale.
-    You can turn it on in Preferences/Launch, which requies admin privileges.
+  * Restore the support of using Locale Switch to change game locale.
+    You can turn it on in Preferences/Launch, which requires admin privileges.
     Locale Emulator is better in most cases.
     But if Locale Emulator does not work, you could also give LocaleSwitch a try.
 

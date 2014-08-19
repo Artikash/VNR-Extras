@@ -3,7 +3,31 @@ Visual Novel Reader
 Since 6/18/2011
 
 8/18/2014 MON
-  * Fixed a bug for detecting MODI OCR on x64 system.
+  * Bugfix for OCR.
+    I forgot to register DLLs for MODI OCR.
+    If you would like to try OCR, you can either re-download MODI OCR (36MB) and re-run the scripts here:
+
+        https://mega.co.nz/#F!g00SQJZS!pm3bAcS6qHotPzJQUT596Q
+
+    Or, if you don't want to re-download, you can manually run the following commands AS ADMINISTRATOR:
+
+        regsvr32 "C:\Program Files (x86)\Common Files\Microsoft Shared\MODI\12.0\MDIVWCTL.DLL"
+        regsvr32 "C:\Program Files (x86)\Common Files\Microsoft Shared\MODI\12.0\MSPCORE.DLL"
+
+    Please remove x86 if you are on a x86 Windows.
+
+
+    和抱歉，忘记注册OCR的DLL了。
+    如果你想尝试下OCR的功能，请重新在这里下载MODI OCR（36MB）并重新运行安装的脚本：
+
+        https://mega.co.nz/#F!g00SQJZS!pm3bAcS6qHotPzJQUT596Q
+
+    或者，如果你不想重新下载了，你也可以使用管理员的权限手动运行下边的命令
+
+        regsvr32 "C:\Program Files (x86)\Common Files\Microsoft Shared\MODI\12.0\MDIVWCTL.DLL"
+        regsvr32 "C:\Program Files (x86)\Common Files\Microsoft Shared\MODI\12.0\MSPCORE.DLL"
+
+    请手动删掉x86如果你在32位的Windows上。
 
 8/17/2014 SUN
   * Add an OCR type to the Shared Dictionary for correcting OCR text, which is not accurate.

@@ -3,6 +3,11 @@ Visual Novel Reader
 Since 6/18/2011
 
 8/19/2014 TUE
+  * Fix the OCR selection bug.
+    Thanks so much for 1dat1 sensei's patch!!
+
+    修正了OCR无法选择文本框的Bug。非常感谢1dat1 sensei的修正！
+
   * VNR will popup confirmation if you want clone other's terms in the Shared Dictionary.
     You don't need clone others' the terms to enable them. They have already been enabled.
     Cloning will result in duplicate rules which will make it more difficult to manage the rules.
@@ -13,6 +18,7 @@ Since 6/18/2011
 
   * Forbid adding terms whose pattern and translation are the same except for escaped terms.
     Having pattern == translation is meaningless except for escaping.
+
     禁止向共享辞书添加匹配文本等于替换文本的词条（除了转义和姓名词条）。
     两者相等的规则是没有意义的。
 

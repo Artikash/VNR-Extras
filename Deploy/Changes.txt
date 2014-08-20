@@ -3,9 +3,11 @@ Visual Novel Reader
 Since 6/18/2011
 
 8/19/2014 TUE
+  * Fix the NEXTON engine for 淫烙の巫女.
+    修正了从Normad的淫烙の巫女提取文本的问题。
+
   * Fix the OCR selection bug.
     Thanks so much for 1dat1 sensei's patch!!
-
     修正了OCR无法选择文本框的Bug。非常感谢1dat1 sensei的修正！
 
   * VNR will popup confirmation if you want clone other's terms in the Shared Dictionary.

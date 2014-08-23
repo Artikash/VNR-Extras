@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/23/2014 SAT
+  * 禁止把猎豹浏览器当成游戏添加到VNR。
+    如果你要翻译网页，可以用VNR自带的浏览器来做日中翻译。
+    但是不要把浏览器当初游戏来翻译才好。ITH是无法提取到网页中的文本的。
+
 8/21/2014 THU
   * Fixed a bug that OCR might stop working after a while.
     修正了OCR用过一会后鼠标无法选择的bug。

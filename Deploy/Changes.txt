@@ -6,6 +6,8 @@ Since 6/18/2011
   * Fixed the OCR bug. Sorry for the inconvenience! m(_ _)m
     修正了OCR的问题。带来不便，很抱歉！ m(_ _)m
 
+  * Reduce memory usage for network access to online machine translators.
+
 8/23/2014 SAT
   * 禁止把猎豹浏览器当成游戏添加到VNR。
     如果你要翻译网页，可以用VNR自带的浏览器来做日中翻译。

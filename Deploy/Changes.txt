@@ -6,6 +6,13 @@ Since 6/18/2011
   * Fixed the OCR bug. Sorry for the inconvenience! m(_ _)m
     修正了OCR的问题。带来不便，很抱歉！ m(_ _)m
 
+  * Add a TTS button to read OCR text.
+    Note that currently only Google TTS and Voiceroid works.
+    SAPI TTS does not work when VNR is launched as Administrator.
+
+    添加了读出OCR文本的按键。
+    不过，SAPI的TTS无法在管理员权限下工作。只有Google TTS和Voiceroid可以工作。
+
   * Reduce memory usage for network access to online machine translators.
 
 8/23/2014 SAT

@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/25/2014 MON
+  * Fixed the OCR bug. Sorry for the inconvenience!
+    修正了OCR的问题。带来不便，很抱歉！
+
 8/23/2014 SAT
   * 禁止把猎豹浏览器当成游戏添加到VNR。
     如果你要翻译网页，可以用VNR自带的浏览器来做日中翻译。

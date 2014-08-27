@@ -35,6 +35,8 @@ Since 6/18/2011
   If you feel TAH is usually making the English translation better or worse, I hope
   if you could let me know your option. Thanks!
 
+  * Bugfix when applying name and title terms in Shared Dictionary.
+
 8/25/2014 MON
   * Fixed the OCR bug. Sorry for the inconvenience! m(_ _)m
     修正了OCR的问题。带来不便，很抱歉！ m(_ _)m

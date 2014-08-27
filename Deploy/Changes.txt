@@ -24,16 +24,16 @@ Since 6/18/2011
       「はぁ、はぁっ……やぁっ、ぁぁっ…そんな場合じゃないのにっ……んんっ、んあふうぅ……へ、変な気分になっちゃうっ……はぁ……はぁ……」
   to
       「……そんな場合じゃないのに……あふ……変な気分になう……」
-  The ecchi voices such as "はぁ、はぁっ" was removed.
+  The ecchi voices such as "はぁ、はぁっ" were removed.
   The emotional sentence such as "へ、変な気分になっちゃうっ" was written to plain Japanese "変な気分になう" where the emotion is lost.
   As a result, after applying TAH, the Chinese translation is much much much worse.
 
   Currently, all TAH rules are still enabled for English by default.
   But I am not maintaining it for English, and I don't know whether it makes the English
   translation better or worse.
-  I would suggest you to try enablsing/disabling TAH based on your own judgment.
+  I would suggest you to try enabling/disabling TAH based on your own judgment.
   If you feel TAH is usually making the English translation better or worse, I hope
-  you could let me know your option. Thanks!
+  if you could let me know your option. Thanks!
 
 8/25/2014 MON
   * Fixed the OCR bug. Sorry for the inconvenience! m(_ _)m

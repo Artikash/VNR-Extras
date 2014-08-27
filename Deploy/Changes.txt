@@ -2,6 +2,39 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/26/2014 TUE
+  对日中翻译禁用了绝大部分的TAH翻译脚本。
+
+  I disabled 99.999% of the TAH scripts and changed them to be for English translation only.
+  You can revert my changes here:
+
+      http://www.sakuradite.com/wiki/en/VNR/Translation_Scripts
+
+  To be honest, I don't know why lots of people love these rules.
+  To me, TAH is far too aggressive that it will remove the EMOTIONs and kawaii/ecchi sounds
+  from Japanese, which can be at least recognized by All online/offline Chinese translators.
+  I don't know how bad the existing English translators are, and I have no idea whether
+  non-ATLAS English translators such as Google can recognize the TAH deleted structures or not.
+
+  One example of the Japanese before/after applying TAH is here:
+
+      http://sakuradite.com/upload/image/396.jpg
+
+  TAH scripts will turn
+      「はぁ、はぁっ……やぁっ、ぁぁっ…そんな場合じゃないのにっ……んんっ、んあふうぅ……へ、変な気分になっちゃうっ……はぁ……はぁ……」
+  to
+      「……そんな場合じゃないのに……あふ……変な気分になう……」
+  The ecchi voices such as "はぁ、はぁっ" was removed.
+  The emotional sentence such as "へ、変な気分になっちゃうっ" was written to plain Japanese "変な気分になう" where the emotion is lost.
+  As a result, after applying TAH, the Chinese translation is much much much worse.
+
+  Currently, all TAH rules are still enabled for English by default.
+  But I am not maintaining it for English, and I don't know whether it makes the English
+  translation better or worse.
+  I would suggest you to try enablsing/disabling TAH based on your own judgment.
+  If you feel TAH is usually making the English translation better or worse, I hope
+  you could let me know your option. Thanks!
+
 8/25/2014 MON
   * Fixed the OCR bug. Sorry for the inconvenience! m(_ _)m
     修正了OCR的问题。带来不便，很抱歉！ m(_ _)m

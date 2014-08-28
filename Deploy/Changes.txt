@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/28/2014 THU
+  * The dictionary popup and OCR text box can be horizontally resized by dragging its left/right borders.
+    字典和OCR弹出的文本框可以通过拖动左边或者右边的边界来改变宽度。
+
 8/26/2014 TUE
   对日中翻译禁用了绝大部分的TAH翻译脚本。
 

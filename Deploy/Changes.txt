@@ -3,7 +3,7 @@ Visual Novel Reader
 Since 6/18/2011
 
 8/28/2014 THU
-  * I changed the behaviors of the text boxes (subtitles, dictionary, OCR, etc.)
+  * I changed the mouse behaviors of the text boxes (subtitles, dictionary, OCR, etc.)
     - Drag the center of the box: vertically scoll the text
 	- Drag the top/bottom border: move the text box
 	- Drag the left/right border: resize the text box

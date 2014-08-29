@@ -10,7 +10,7 @@ Since 6/18/2011
       It is the same as adjusting the width in the left dock.
 
     字幕、字典、OCR等的文本框可以通过拖动左边或者右边的边界来改变宽度，拖动上边
-    或下边的边界来改变位置，拖动中间来滚动文本。
+    或下边的边界来改变位置，拖动中间来翻页。
     这样调整的宽度和左边选项中的宽度是一样的。
 
 8/26/2014 TUE
@@ -54,7 +54,7 @@ Since 6/18/2011
     修正了OCR的问题。带来不便，很抱歉！ m(_ _)m
 
   * Add a TTS button to read OCR text.
-    Note that currently only Google TTS and Voiceroid works.
+    Note that currently only Google TTS and Voiceroid work.
     SAPI TTS does not work when VNR is launched as Administrator.
 
     添加了读出OCR文本的按键。

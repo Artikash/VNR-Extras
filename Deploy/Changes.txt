@@ -4,9 +4,9 @@ Since 6/18/2011
 
 8/28/2014 THU
   * I changed the mouse behaviors of the text boxes (subtitles, dictionary, OCR, etc.)
-    - Drag the center of the box: vertically scoll the text
+    - Drag the center of the box: vertically scroll the text
 	- Drag the top/bottom border: move the text box
-	- Drag the left/right border: resize the text box
+	- Drag the left/right border: horizontally resize the text box
       It is the same as adjusting the width in the left dock.
 
     字幕、字典、OCR等的文本框可以通过拖动左边或者右边的边界来改变宽度，拖动上边

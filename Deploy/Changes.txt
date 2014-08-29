@@ -3,8 +3,12 @@ Visual Novel Reader
 Since 6/18/2011
 
 8/28/2014 THU
-  * The dictionary popup and OCR text box can be horizontally resized by dragging its left/right borders.
-    字典和OCR弹出的文本框可以通过拖动左边或者右边的边界来改变宽度。
+  * The text boxes (subtitles, dictionary, OCR, etc.) can be horizontally resized
+    by dragging its left/right borders, or moved by dragging its top/bottom borders.
+    It is the same as adjusting the width in the left dock.
+    字幕、字典、OCR等的文本框可以通过拖动左边或者右边的边界来改变宽度，拖动上边
+    或下边的边界来改变位置。
+    这样调整的宽度和左边选项中的宽度是一样的。
 
 8/26/2014 TUE
   对日中翻译禁用了绝大部分的TAH翻译脚本。

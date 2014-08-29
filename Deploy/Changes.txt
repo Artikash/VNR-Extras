@@ -2,6 +2,9 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/29/2014 FRI
+  * Add support for PPSSPPEX.exe and PPSSPPSP.exe that is the same as PPSSPPWindows.exe.
+
 8/28/2014 THU
   * I changed the mouse behaviors of the text boxes (subtitles, dictionary, OCR, etc.)
     - Drag the center of the box: vertically scroll the text

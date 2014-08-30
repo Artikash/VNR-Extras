@@ -12,5 +12,6 @@ download: $(wildcard *.js)
 
 bbcode.js:
 	$(MAKE) .wget OUT=$@ IN=http://rawgithub.com/ncb000gt/node-bbcode/master/lib/bbcode.js
+	perl -p -i -e 's/exports/window.bbcode={};window.bbcode/' $@
 
 # EOF

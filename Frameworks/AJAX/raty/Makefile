@@ -10,7 +10,7 @@ REPO = http://rawgithub.com/wbotelhos/raty/master/lib
 all: $(wildcard *.min.js) $(wildcard images/*.png)
 
 %.min.js: %.js
-	$(CLOSURE) --js $^ --js_output_file $@
+	$(MAKE) .closure OUT=$@ IN=$^
 
 jquery.raty.js:
 	$(MAKE) .wget OUT=$@ IN=$(REPO)/$@

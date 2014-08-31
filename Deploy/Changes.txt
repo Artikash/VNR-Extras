@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/30/2014 SAT
+  * Add zoom buttons to the header of the text boxes.
+    你可以用文本框上边的-和+按钮来缩放文字的大小。
+
 8/29/2014 FRI
   * Add support for PPSSPPEX.exe and PPSSPPSP.exe that is the same as PPSSPPWindows.exe.
 

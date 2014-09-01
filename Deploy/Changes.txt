@@ -2,6 +2,15 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/31/2014 SUN
+  * Add a shared window for leaving messages.
+    When new messages are received, the message button will flash.
+    You can discuss everything there EXCEPT DISTRIBUTING PIRATE SOFTWARE AND GAMES!
+
+    添加了一个留言板。
+    收到新留言时，留言按钮会闪烁。
+    在那里讨论什么都可以的，除了不要张贴海贼版的软件和游戏！
+
 8/30/2014 SAT
   * Add zoom buttons to the header of the text boxes.
     你可以用文本框上边的-和+按钮来缩放文字的大小。
@@ -12,8 +21,8 @@ Since 6/18/2011
 8/28/2014 THU
   * I changed the mouse behaviors of the text boxes (subtitles, dictionary, OCR, etc.)
     - Drag the center of the box: vertically scroll the text
-	- Drag the top/bottom border: move the text box
-	- Drag the left/right border: horizontally resize the text box
+    - Drag the top/bottom border: move the text box
+    - Drag the left/right border: horizontally resize the text box
       It is the same as adjusting the width in the left dock.
 
     字幕、字典、OCR等的文本框可以通过拖动左边或者右边的边界来改变宽度，拖动上边

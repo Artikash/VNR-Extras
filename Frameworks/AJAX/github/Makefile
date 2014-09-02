@@ -22,6 +22,11 @@ bootstrap-switch.css:
 # http://bootstrap-growl.remabledesigns.com
 # https://github.com/mouse0270/bootstrap-growl
 bootstrap-growl.js:
-	$(MAKE) .wget OUT=$@ IN=https://rawgithub.com/mouse0270/bootstrap-growl/master/bootstrap-growl.min.js
+	$(MAKE) .wget OUT=$@ IN=http://rawgithub.com/mouse0270/bootstrap-growl/master/bootstrap-growl.min.js
+
+sprintf.js:
+	$(MAKE) .wget OUT=$@ IN=http://rawgithub.com/alexei/sprintf.js/master/dist/sprintf.min.js
+sprintf.map:
+	$(MAKE) .wget OUT=$@ IN=http://rawgithub.com/alexei/sprintf.js/master/dist/sprintf.min.map
 
 # EOF

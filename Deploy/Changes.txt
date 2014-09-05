@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+9/5/2014 THU
+  * TAH script is changed to be ATLAS only, only for Japanese-English machine translation.
+    TAH script is also updated to the latest version from @errzotl sensei.
+    Please report bugs to TAHscript@outlook.com.
+
 8/31/2014 SUN
   * Add a shared window for leaving messages.
     When new messages are received, the message button will flash.

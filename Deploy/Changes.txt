@@ -2,7 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
-9/5/2014 THU
+9/5/2014 FRI
+  * Add Felistella engine for PSP game Summon Night 5.
+
+9/4/2014 THU
   * TAH script is changed to be ATLAS only, only for Japanese-English machine translation.
     TAH script is also updated to the latest version from @errzotl sensei.
     Please report bugs to TAHscript@outlook.com.

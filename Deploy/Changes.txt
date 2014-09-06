@@ -23,7 +23,7 @@ Since 6/18/2011
 
 	Since there are currently so many languages in VNR, some of the languages
 	supported by MODI are not enabled in VNR.
-	If you need support certain languages that are enabled, feel free to let me know.
+	If you need support certain languages that are disabled, feel free to let me know.
 
 	Enabled MODI Languages and Locales in VNR
     - 1028: Chinese - Republic of China (Taiwan)

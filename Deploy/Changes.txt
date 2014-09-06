@@ -21,6 +21,36 @@ Since 6/18/2011
     如果你已经安装了VNR老版的MODI OCR程式，请重新在Mega下载新版的OCR。
     你可以在Readme.txt中找到升级的方法。带来不便很抱歉！
 
+	Since there are currently so many languages in VNR, some of the languages
+	supported by MODI are not enabled in VNR.
+	If you need support certain languages that are enabled, feel free to let me know.
+
+	Enabled MODI Languages and Locales in VNR
+    - 1028: Chinese - Republic of China (Taiwan)
+    - 1029: Czech - Czech Republic
+    - 1031: German - Germany
+    - 1033: English - United States
+    - 1036: French - France
+    - 1040: Italian - Italy
+    - 1041: Japanese - Japan
+    - 1042: Korean - Korea
+    - 1043: Dutch - Netherlands
+    - 1045: Polish - Poland
+    - 1046: Portuguese - Brazil
+    - 1049: Russian - Russia
+    - 2052: Chinese (Simplified) - People's Republic of China
+    - 3076: Chinese - Hong Kong (S.A.R.)
+    - 3082: Spanish (Modern Sort) - Spain
+
+	Disabled MODI Languages and Locales in VNR
+    - 1030: Danish - Denmark
+    - 1032: Greek - Greece
+    - 1035: Finnish - Finland
+    - 1038: Hungarian - Hungary
+    - 1044: Norwegian (Bokmål) - Norway
+    - 1053: Swedish - Sweden
+    - 1055: Turkish - Turkey
+
 9/5/2014 FRI
   * Add Felistella engine for PSP game Summon Night 5.
 

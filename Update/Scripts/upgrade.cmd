@@ -145,7 +145,7 @@ for %%i in (
 attrib -h *.cmd
 
 if exist *.sh attrib +h *.sh
-if exist *.app attrib +h *.app
+if exist "Visual Novel Reader (Mac).app" attrib +h "Visual Novel Reader (Mac).app"
 
 attrib +r +s .
 if exist desktop.ini attrib +h +s desktop.ini

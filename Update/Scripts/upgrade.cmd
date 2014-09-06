@@ -143,8 +143,9 @@ for %%i in (
 )))
 
 attrib -h *.cmd
-attrib +h *Mac*
-if exist "VNR for Mac.app" attrib +h "VNR for Mac.app"
+
+if exist *.sh attrib +h *.sh
+if exist *.app attrib +h *.app
 
 attrib +r +s .
 if exist desktop.ini attrib +h +s desktop.ini
@@ -154,14 +155,14 @@ if exist .hgignore attrib +h .hgignore
 
 if exist ../Scripts copy /y *.cmd ..\Scripts\ >nul
 
+attrib +h *.cmd
+
 :: Backward compatibility
 rm -f ^
   "../Scripts/Debug Browser.cmd" ^
   "../Scripts/Debug Update.cmd" ^
   "../Scripts/Debug VNR.cmd" ^
   "../Scripts/Kill VNR.cmd"
-
-attrib +h *.cmd
 
 ::            1         2         3         4         5         6         7
 echo.

@@ -10,11 +10,11 @@ Since 6/18/2011
     MOD OCR from VNR's mega repo, then check Readme.txt for how to update.
     Sorry for the inconvenience!
 
-      Japanese: http://sakuradite.org/images/screenshots/ocr_wiki_ja.png
-      English:  http://sakuradite.org/images/screenshots/ocr_wiki_en.png
-      Korean:   http://sakuradite.org/images/screenshots/ocr_wiki_ko.png
-      Russian:  http://sakuradite.org/images/screenshots/ocr_wiki_ru.png
-      Chinese:  http://sakuradite.org/images/screenshots/ocr_wiki_zh.png
+      Japanese: http://sakuradite.com/images/screenshots/ocr_wiki_ja.png
+      English:  http://sakuradite.com/images/screenshots/ocr_wiki_en.png
+      Korean:   http://sakuradite.com/images/screenshots/ocr_wiki_ko.png
+      Russian:  http://sakuradite.com/images/screenshots/ocr_wiki_ru.png
+      Chinese:  http://sakuradite.com/images/screenshots/ocr_wiki_zh.png
 
     OCR可以支持多语言了。在上边的是一些语言和机器翻译的截图。
     安装完成后，新版的OCR会占用61MB的硬盘空间。

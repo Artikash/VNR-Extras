@@ -24,9 +24,6 @@ Since 6/18/2011
     如果你已经安装了VNR老版的MODI OCR程式，请重新在Mega下载新版的OCR。
     你可以在Readme.txt中找到升级的方法。带来不便很抱歉！
 
-    另外，如果你有安装，比方说，英文或者韩文的VoiceText TTS，那么，
-    点击上边的♪可以用TTS读出英文或者韩文的文字的。
-
     Since there are currently so many languages in VNR, some of the languages
     supported by MODI are not enabled in VNR.
     If you need support certain languages that are disabled, feel free to let me know.

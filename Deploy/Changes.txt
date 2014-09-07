@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+9/7/2014 SUN
+  * Make sure OCR works for Direct X and full screen games.
+    修正了OCR在游戏全屏后或者有些游戏启动后失效的问题。
+
 9/6/2014 SAT
   * OCR text boxes will follow the position of the first-clicked window.
     OCR的文本框会跟随第一次点击的窗口而移动。

@@ -18,7 +18,7 @@ Since 6/18/2011
       http://i859.photobucket.com/albums/ab155/jichi/VNROCRColorIntensity_zps48f059b6.png
 
     Let's say, if the selected range is from 30% to 70%.
-    Then, only the pixel whose color satisfy the following logic will be identified as or not as "text".
+    Then, only the pixel whose color satisfy the following logic will be identified as "text".
 
       function isTextColor(color) {
         var intensity = sqrt(color.red*color.red + color.green*color.green + color.blue*color.blue);
@@ -28,7 +28,7 @@ Since 6/18/2011
       }
 
     The OCR support is still under construction.
-    I am going to create a help page to the wiki about how to use OCR in VNR after I finish
+    I am going to create a help page on the wiki regarding how to use OCR in VNR after I finish
     implementing all the OCR features in my mind.
 
     添加了选择OCR文本颜色强度的功能。

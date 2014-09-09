@@ -6,6 +6,9 @@ Since 6/18/2011
   * Add TAH script for LEC online/offline Japanese-English translation.
     The script is from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
 
+  * Add EXP engine for 剣の街の異邦人.
+    为「剣の街の異邦人」添加了引擎。
+
   * Add an option to select the range of the color intensity to identify the target text.
     This might help eliminate irregular colorful background behind the target text.
     An screenshot is as follows:

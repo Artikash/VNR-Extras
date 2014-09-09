@@ -4,7 +4,8 @@ Since 6/18/2011
 
 9/8/2014 MON
   * Add an option to select the range of the color intensity to identify the target text.
-    An screen shot is as follows:
+    This might help eliminate irregular colorful background behind the target text.
+    An screenshot is as follows:
 
       http://i859.photobucket.com/albums/ab155/jichi/VNROCRColorIntensity_zps48f059b6.png
 
@@ -22,7 +23,9 @@ Since 6/18/2011
    I am going to create a help page to the wiki for how to use OCR in VNR after I finish
    implementing all the OCR features in my mind.
 
-   添加了选择OCR文本颜色强度的功能。下边是张截图。
+   添加了选择OCR文本颜色强度的功能。
+   这样也许可以帮助过滤掉游戏中不规则的背景颜色。
+   下边是张截图。
 
       http://i859.photobucket.com/albums/ab155/jichi/VNROCRColorIntensity_zps48f059b6.png
 

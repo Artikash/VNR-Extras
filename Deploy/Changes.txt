@@ -12,8 +12,8 @@ Since 6/18/2011
   * Add an option to select the range of the color intensity to identify the target text.
     This might help eliminate irregular colorful background behind the target text.
     A screenshot is as follows.
-    Windows native UI buttons, text editors, etc. are not used so that it could work with
-    full screen game.
+    Windows native UI widgets (buttons, text editors, etc.) are not used so that it could work with
+    full screen games.
 
       http://i859.photobucket.com/albums/ab155/jichi/VNROCRColorIntensity_zps48f059b6.png
 

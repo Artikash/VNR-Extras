@@ -2,6 +2,30 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+9/8/2014 MON
+  * Add an option to select the range of the color intensity to identify the target text.
+    An screen shot is as follows:
+
+      http://i859.photobucket.com/albums/ab155/jichi/VNROCRColorIntensity_zps48f059b6.png
+
+   Let's say, if the selected range is from 0.3 to 0.7.
+   Then, only the text whose color satisfy the following logic will be identified as "text".
+
+      function isTextColor(color) {
+        var intensity = Math.sqrt(color.red*color.red + color.green*color.green + color.blue*color.blue);
+        var min = 0.3 * sqrt(255 * 255 * 3);
+        var max = 0.7 * sqrt(255 * 255 * 3);
+        return min <= intensity  && intensity <= max;
+      }
+
+   The OCR support is still under construction.
+   I am going to create a help page to the wiki for how to use OCR in VNR after I finish
+   implementing all the OCR features in my mind.
+
+   添加了选择OCR文本颜色强度的功能。下边是张截图。
+
+      http://i859.photobucket.com/albums/ab155/jichi/VNROCRColorIntensity_zps48f059b6.png
+
 9/7/2014 SUN
   * Make sure OCR works for Direct X and full screen games.
     修正了OCR在游戏全屏后或者有些游戏启动后失效的问题。

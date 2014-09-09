@@ -13,7 +13,7 @@ Since 6/18/2011
    Then, only the pixel whose color satisfy the following logic will be identified as "text".
 
       function isTextColor(color) {
-        var intensity = Math.sqrt(color.red*color.red + color.green*color.green + color.blue*color.blue);
+        var intensity = sqrt(color.red*color.red + color.green*color.green + color.blue*color.blue);
         var min = 0.3 * sqrt(255 * 255 * 3);
         var max = 0.7 * sqrt(255 * 255 * 3);
         return min <= intensity  && intensity <= max;

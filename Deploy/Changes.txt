@@ -5,7 +5,7 @@ Since 6/18/2011
 9/9/2014 TUE
   * I made a wiki as follows for what to do if you cannot find correct text in the game.
 
-        http://www.sakuradite.com/wiki/en/VNR/Game_Settings
+        http://sakuradite.com/wiki/en/VNR/Game_Settings
 
     The above link can also be found in Text Settings.
     Sometimes, the game settings has to be adjusted in order to work with VNR,
@@ -16,7 +16,7 @@ Since 6/18/2011
     创建一个wiki来总结下哪些会社的游戏需要调整文本速度到最快，哪些游戏需要设置字体为MS Gothic，
     在找不到正确的文本时该怎么做什么的。
 
-        http://www.sakuradite.com/wiki/en/VNR/Game_Settings
+        http://sakuradite.com/wiki/zh/VNR/Game_Settings
 
     这个链接也可以在文本设定中找到。
 

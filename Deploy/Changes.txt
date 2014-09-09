@@ -10,7 +10,7 @@ Since 6/18/2011
       http://i859.photobucket.com/albums/ab155/jichi/VNROCRColorIntensity_zps48f059b6.png
 
    Let's say, if the selected range is from 30% to 70%.
-   Then, only the text whose color satisfy the following logic will be identified as "text".
+   Then, only the pixel whose color satisfy the following logic will be identified as "text".
 
       function isTextColor(color) {
         var intensity = Math.sqrt(color.red*color.red + color.green*color.green + color.blue*color.blue);

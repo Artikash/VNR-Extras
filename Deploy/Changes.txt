@@ -3,6 +3,9 @@ Visual Novel Reader
 Since 6/18/2011
 
 9/8/2014 MON
+  * Add TAH script for LEC online/offline Japanese-English translation.
+    The script is from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
+
   * Add an option to select the range of the color intensity to identify the target text.
     This might help eliminate irregular colorful background behind the target text.
     An screenshot is as follows:
@@ -16,7 +19,7 @@ Since 6/18/2011
         var intensity = sqrt(color.red*color.red + color.green*color.green + color.blue*color.blue);
         var min = 0.3 * 255 * sqrt(3);
         var max = 0.7 * 255 * sqrt(3);
-        return min <= intensity  && intensity <= max;
+        return min <= intensity && intensity <= max;
       }
 
    The OCR support is still under construction.

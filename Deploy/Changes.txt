@@ -14,13 +14,13 @@ Since 6/18/2011
 
       function isTextColor(color) {
         var intensity = sqrt(color.red*color.red + color.green*color.green + color.blue*color.blue);
-        var min = 0.3 * sqrt(255 * 255 * 3);
-        var max = 0.7 * sqrt(255 * 255 * 3);
+        var min = 0.3 * 255 * sqrt(3);
+        var max = 0.7 * 255 * sqrt(3);
         return min <= intensity  && intensity <= max;
       }
 
    The OCR support is still under construction.
-   I am going to create a help page to the wiki for how to use OCR in VNR after I finish
+   I am going to create a help page to the wiki about how to use OCR in VNR after I finish
    implementing all the OCR features in my mind.
 
    添加了选择OCR文本颜色强度的功能。

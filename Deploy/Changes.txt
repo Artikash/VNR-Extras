@@ -28,8 +28,8 @@ Since 6/18/2011
       }
 
     The OCR support is still under construction.
-    I am going to create a help page on the wiki regarding how to use OCR in VNR after I finish
-    implementing all the OCR features in my mind.
+    I am going to create a help page on the wiki regarding how to use OCR in VNR later after I
+    finish implementing all the OCR features in my mind.
 
     添加了选择OCR文本颜色强度的功能。
     这样也许可以帮助过滤掉游戏中不规则的背景颜色。

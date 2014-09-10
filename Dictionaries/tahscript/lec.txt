@@ -1,10 +1,9 @@
-*this is an example of a simple regex script for TAHelper
-*Update:
-*the script adapting LEC behaviour now, so might not work on ATLAS or other translation engine
+﻿*this is an example of a simple regex script for TAHelper on VNR
+*originally it was made based on ATLAS V14 (+TA) behaviour
+*Update: the script adapting LEC behaviour now, so might not work on ATLAS or other translation engine
 *basically only for conversation text, so might not work on RPG or games with lots of "status" thing..
 *
-*remember:
-*"Replace all names" must be ON, checklist it on TAHelper
+*
 *
 *
 *
@@ -139,32 +138,6 @@
 *--------------------------------------------
 *temporary codes
 *
-*Konyu Fantasy 2 (Waffle)
-*remove romaji
-*((（)([あ-ん]+)(）))
-*
-*Green Green (Groover)
-*adding "「" and "」"
-*^([^「])	「$1
-*([^」])$	$1」
-*(祐介)どん	$1さん
-*(で)ごわ(す|した)	$1$2
-*
-*Electro Arms (Light)
-*『	「
-*』	」
-*^([^「])	「$1
-*([^」])$	$1」
-*
-*Kissato(Giga)
-*Arisa
-*ヒト	人
-*hide these words
-*(.<<ＮＯＤＡＴＡ>>.)
-*
-*LEC
-*([「])
-*([…」])	。
 *
 *---------------------------------------------
 *templates
@@ -251,7 +224,8 @@
 *2. punctuation (えへへ☆) => (えへへ。)
 *how to properly detect it I'm still blank...
 (([あ-ん])☆([あ-ん]))	$2　$3
-(♪|★|☆)	。
+*♪ already handled by VNR
+(★|☆)	。
 *
 *remove "（？）", dunno what does this  means, but I often see this...
 (([一-龠あ-んア-ヴ])(（？）)([一-龠あ-んア-ヴ]))	$2$4
@@ -939,9 +913,10 @@
 (([一-龠]|[あ-ん])ナイ([、。？！…」』）]))	$2ない$4
 (([一-龠]|[あ-ん])ナカッタ([、。？！…」』）]))	$2なかった$4
 (([一-龠]|[あ-ん])デース([、。？！…」』）]))	$2です$3
-(([一-龠]|[あ-ん])(デス|デス[ヨネね])([、。？！…」』）]))	$2です$4
-(([一-龠]|[あ-ん])(デス)([かがの])([、。？！…」』）]))	$2です$4$5
-(([一-龠]|[あ-ん])(です)([カ])([、。？！…」』）]))	$2$3か$5
+(([一-龠]|[あ-ん])(デス|デス[ヨネよね]|デス(よね))([、。？！…」』）]))	$2です$5
+(([一-龠]|[あ-ん])(デス)([かがの]|から)([、。？！…」』）]))	$2です$4$5
+(([一-龠]|[あ-ん])(デス)([か]|から)([ね])([、。？！…」』）]))	$2です$4$6
+(([一-龠]|[あ-ん]|[ア-ヴ])(です)([カ])([、。？！…」』）]))	$2$3か$5
 (([一-龠]|[あ-ん])(デスガ)([、。？！…」』）]))	$2ですが$4
 (([一-龠]|[あ-ん])(デシタ|デシタネ)([、。？！…」』）]))	$2でした$4
 (([一-龠]|[あ-ん])(デショウ|デショウネ)([、。？！…」』）]))	$2でしょう$4
@@ -961,7 +936,7 @@
 (([一-龠あ-ん])ナ([、。？！…」』）]))	$2$3
 (([一-龠あ-ん])ケド([、。？！…」』）]))	$2けど$3
 ([一-龠]|[あ-ん])(クン)	$1くん
-((下)サイ([、。？！…」』）]))	$2さい$3
+((下|くだ)サイ([、。？！…」』）]))	$2さい$3
 (ハマ)ッ(たら)	$1っ$2
 *interweb terms
 (([一-龠あ-んア-ヴ])ｗ{1,3}([、。？！…」』）]))	$2、lol$3
@@ -995,12 +970,15 @@
 *1. almost have no meaning except "about"　which is safe to be removed
 *2. on a long sentence this word sometimes broken the translation.
 *ex: 私のことを心配するな -> 私を心配するな
-*save
-((.|^)([あこそをがにへとでのはもな]のこと)(を))	$2$3x$4
+*optimization test
+(?<![あこそをがにへとでのはもな])のこと(?=を)
 *
-(のこと(を))	$2
+*save
+*((.|^)([あこそをがにへとでのはもな]のこと)(を))	$2$3x$4
+*
+*(のこと(を))	$2
 *restore
-((.|^)([あこそをがにへとでのはもな]のこと)x(を))	$2$3$4
+*((.|^)([あこそをがにへとでのはもな]のこと)x(を))	$2$3$4
 *
 *handling おっ, a counter humble form
 ((お)っ([一-龠])(て))	$2$3$4
@@ -4514,7 +4492,9 @@
 *save
 (([あ-んア-ヴ一-龠』])([、…]+)(よりによって|たらたら))	$2x$3$4
 (([、。？！…「『（])([あそこ]の|うん)([、…]+))	$2$3x$4
-((けど)([、…]+)(とか)([、。…？！」』）]))	$2x$3$4$5
+*test
+(けど)([、…]+)(とか)([、。…？！」』）])	$1x$2$3$4
+*((けど)([、…]+)(とか)([、。…？！」』）]))	$2x$3$4$5
 *
 *from a partial -te form
 (([っせべげけめねれて来きしくういえ]|[さわばがかまならあた][れせ]|しえ|なく|まし|[あえ来こ](られ|させ)|あっ)(て)([、…]+)(い(ません|す)|ください))	$2$4$6
@@ -4747,20 +4727,21 @@
 *=============================end of script================================
 *=======================================================
 *LEC
+*disabled : VNR already handled it
 *a sentence ended with question mark "？" always translated along with the next sentence
 *therefore we need to separate it with "。"
-([？])([^。！」])	$1。$2
+*([？])([^。！」])	$1。$2
 *replacing quotes so can be translated by LEC
-[《『]	“
-[》』]	”
+*[《『]	“
+*[》』]	”
 *removing open brackets "「" because LEC can't accept it
-([「])
+*([「])
 *handling "…" based on some pattern
 *"…" could act as separator like "。" or as comma "、"
-…+([？])	$1
-…+[」]	。
-…+	。
+*…+([？])	$1
+*…+[」]	。
+*…+	。
 *removing close brackets "」" because LEC can't accept it
-([！？])[」]	$1
-([^！？])[」]	$1。
+*([！？])[」]	$1
+*([^！？])[」]	$1。
 *

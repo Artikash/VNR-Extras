@@ -12,8 +12,7 @@ Since 6/18/2011
     such as changing Text Speed to fastest or changing Text Font to MS Gothic.
     You can find these game-specific information on that page.
 
-
-    创建一个wiki来总结下哪些会社的游戏需要调整文本速度到最快，哪些游戏需要设置字体为MS Gothic，
+    创建了一个wiki来总结下哪些会社的游戏需要调整文本速度到最快，哪些游戏需要设置字体为MS Gothic，
     在找不到正确的文本时该怎么做什么的。
 
         http://sakuradite.com/wiki/zh/VNR/Game_Settings

@@ -2,6 +2,9 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+9/10/2014 MON
+  * Update the TAH script for LEC from @errzotl sensei.
+
 9/9/2014 TUE
   * I made a wiki as follows for what to do if you cannot find correct text in the game.
 

@@ -30,6 +30,8 @@ Since 6/18/2011
     The subtitles and danmaku are temporarily disabled for OCR texts as they are unreliable.
     I will turn them on after I finish implementing all the image filters for OCR.
 
+   It also works for full-screen games, but context menu will be disabled as usual.
+
     Currently, this feature cannot be enabled unless a game is launched.
     I will move this feature out of VNR into a standalone application in the future.
 
@@ -47,7 +49,9 @@ Since 6/18/2011
     - 有效：开启后，VNR会不断的从选定的区域提取文字。提取的时间间隔可以在使用偏好中调整。
 
     由于OCR会占用很多CPU，并且提取的文本并不准确，所以如果VNR的文本设定可以工作，
-    还是不建议使用OCR提取文本。。
+    还是不建议使用OCR提取文本。
+
+    OCR可以在游戏全屏时使用，但是右键菜单会被禁用（因为包含的focus会导致游戏退出全屏）。
 
     由于从OCR提取的文本经常包含错误，暂时对OCR禁止了字幕和弹幕的机能。
 

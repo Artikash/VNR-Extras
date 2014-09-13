@@ -13,7 +13,7 @@ Since 6/18/2011
     As you know, by default, you can Shift+Mouse to select one region for instant machine translation.
     After launching the game, there is a new OCR button on the left dock which contains two sub buttons.
     - Edit: The new Shift+Mouse region will become persistent.
-    - Enable: Periodically capturing image in the persistent regions and extracting texts in it.
+    - Enable: Periodically capture image in the persistent regions and extract texts in them.
     The interval of the capturing can be adjusted in Preferences/OCR.
 
     The region can be both resized and moved.
@@ -37,7 +37,10 @@ Since 6/18/2011
 
       http://i859.photobucket.com/albums/ab155/jichi/ocr-region_zps009469c1.png
 
-    打开游戏后，这个功能可以在左边的选项中开启。
+    打开游戏后，这个功能可以在左边的OCR按钮中开启。
+    在OCR按钮中包含有两个子按钮：
+    - 编辑：开启后可以用Shift+鼠标来选定OCR的区域。
+    - 有效：开启后，VNR会不断的从选定的区域提取文字。提取的时间间隔可以在使用偏好中调整。
 
     由于OCR会占用很多CPU，并且提取的文本并不准确，所以如果VNR的文本设定可以工作，
     还是不建议不要使用OCR提取文本。。

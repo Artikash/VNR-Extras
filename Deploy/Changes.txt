@@ -12,7 +12,7 @@ Since 6/18/2011
 
     As you know, by default, you can Shift+Mouse to select one region for instant machine translation.
     After launching the game, there is a new OCR button on the left dock which contains two sub buttons.
-    - Edit: The persistent regions will become visible, and the new Shift+Mouse region will become persistent.
+    - Edit: The new Shift+Mouse region will become persistent.
     - Enable: Periodically capturing image in the persistent regions and extracting texts in it.
     The interval of the capturing can be adjusted in Preferences/OCR.
 

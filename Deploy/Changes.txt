@@ -2,6 +2,35 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+9/13/2014 SAT
+  * Add a Desktop button to the game OCR dock.
+    By default, VNR will only capture images in the game window for OCR.
+    However, certain images might not be captured this way, such as MPEG videos.
+    When that happen, you can toggle the Desktop button so that VNR will capture
+    the entire visible desktop to make sure the images are visible.
+
+    btw, when the "Desktop" button is enabled, the OCR region can also track other
+     windows outside of the game, such as anime subtitles in video players.
+    Here's a screenshot of the captured subtitles on Youtube:
+
+        http://i859.photobucket.com/albums/ab155/jichi/youtube_zpscd6bf9cb.png
+
+    However, currently, one game has to be launched in VNR in order to capture
+    the video players, which is very inconvenient.
+    I am going to create an independent app for OCR videos in the future.
+
+    在OCR的按钮中添加了【桌面】按钮。
+    VNR默认只会从游戏窗口截图，这样可能会无法从，比如，MPEG的动画中截图。
+    打开【桌面】后，VNR会转而从桌面的截图中提取文本。
+
+    btw, 当这个选项开启后，VNR其实就可以，彼方说，通过OCR提取动画中的字幕了。
+    下边是从Youtube的动画中提取字幕的截图：
+
+        http://i859.photobucket.com/albums/ab155/jichi/youtube_zpscd6bf9cb.png
+
+    不过，VNR当前需要先启动任何一个游戏，才可以从屏幕任何地方截图。这样很不方便。
+    我在以后会把这部分功能从VNR中分离出来，OCR时就不需要打开游戏了。
+
 9/12/2014 FRI
   * Able to select OCR regions where VNR will periodically capture the image and extracing text in them.
     I hope if this could serve as an alternative text extractor when the game does have supported game engines.
@@ -15,7 +44,7 @@ Since 6/18/2011
     As you know, by default, you can Shift+Mouse to select one region for instant machine translation.
     After launching the game, there is a new OCR button on the left dock which contains two sub buttons.
     - Edit: The new Shift+Mouse region will become persistent.
-    - Enable: Periodically capture image in the persistent regions and extract texts in them.
+    - Monitor: Monitor the persistent regions and periodically extract texts in them.
     The interval of the capturing can be adjusted in Preferences/OCR.
 
     The region can be both resized and moved.
@@ -30,7 +59,7 @@ Since 6/18/2011
     The subtitles and danmaku are temporarily disabled for OCR texts as they are unreliable.
     I will turn them on after I finish implementing all the image filters for OCR.
 
-   It also works for full-screen games, but context menu will be disabled as usual.
+    It also works for full-screen games, but context menu will be disabled as usual.
 
     Currently, this feature cannot be enabled unless a game is launched.
     I will move this feature out of VNR into a standalone application in the future.
@@ -6975,7 +7004,7 @@ Since 6/18/2011
 
 9/15/2011  touch.player  0.0.3.1
   * Added local cache using SQLite to implement SOAP client functions.
-  * Added persistant storage.
+  * Added persistent storage.
   * Added licences
 
 9/10/2011  touch.player  0.0.3

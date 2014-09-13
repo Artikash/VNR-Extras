@@ -25,7 +25,7 @@ Since 6/18/2011
     Comparing to ITH, the texts from OCR are slower and more unreliable.
     It is still better to stick to ITH if it works.
 
-    The subtitles and danmaku are temporarily disabled for OCR texts that are still unreliable.
+    The subtitles and danmaku are temporarily disabled for OCR texts as they are unreliable.
     I will turn them on after I finish implementing all the image filters for OCR.
 
     Currently, this feature cannot be enabled unless a game is launched.

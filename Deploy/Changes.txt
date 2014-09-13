@@ -3,6 +3,9 @@ Visual Novel Reader
 Since 6/18/2011
 
 9/13/2014 SAT
+  * Fix a bug existing for a long time that the subtitles are sometimes displayed below the game window.
+    修正了字幕有时候会跑到游戏窗口的下边去的bug。
+
   * Add a Desktop button to the game OCR dock.
     By default, VNR will only capture images in the game window for OCR.
     However, certain images might not be captured this way, such as MPEG videos.

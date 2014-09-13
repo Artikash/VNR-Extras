@@ -10,7 +10,7 @@ Since 6/18/2011
     the entire visible desktop to make sure the images are visible.
 
     btw, when the "Desktop" button is enabled, the OCR region can also track other
-     windows outside of the game, such as anime subtitles in video players.
+    windows outside of the game, such as anime subtitles in video players.
     Here's a screenshot of the captured subtitles on Youtube:
 
         http://i859.photobucket.com/albums/ab155/jichi/youtube_zpscd6bf9cb.png

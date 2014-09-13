@@ -2,7 +2,51 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
-9/10/2014 MON
+9/12/2014 FRI
+  * Able to select OCR regions where VNR will periodically capture the image and extracing text in them.
+    I hope if this could serve as an alternative text extractor when the game does have supported game engines.
+
+    A screenshot is as follows:
+
+      http://i859.photobucket.com/albums/ab155/jichi/ocr-region_zps009469c1.png
+
+    By default, when you can Shift+Mouse to select one region for instant machine translation.
+    After launching the game, there is a new OCR button on the left dock which contains two sub buttons.
+    - Edit: The persistent regions will become visible, and the new Shift+Mouse region will become persistent.
+    - Enable: Periodically capturing image in the persistent regions and extracting texts in it.
+    The interval of the capturing can be adjusted in Preferences/OCR.
+
+    The region can be both resized and moved.
+    There are current three buttons on the top-left of the persistent regions:
+    - × : Permanently destroy the region.
+    - ◯ : Temporarily enable/disable the region.
+    - ⌘ : Edit the image filtering option for the region.
+
+    Comparing to ITH, the texts from OCR are slower and more unreliable.
+    It is still better to stick to ITH if it works.
+
+    The subtitles and danmaku are temporarily disabled for OCR texts that are still unreliable.
+    I will turn them on after I finish implementing all the image filters for OCR.
+
+    Currently, this feature cannot be enabled unless a game is launched.
+    I will move this feature out of VNR into a standalone application in the future.
+
+    添加了通过OCR来从选定的区域连续提取文本的功能。
+    如果VNR不支持从某个游戏的内存提取文本，那么，OCR也许可以作为暂时的提取文本的方法。
+    下边是一张截图：
+
+      http://i859.photobucket.com/albums/ab155/jichi/ocr-region_zps009469c1.png
+
+    打开游戏后，这个功能可以在左边的选项中开启。
+
+    由于OCR会占用很多CPU，并且提取的文本并不准确，所以如果VNR的文本设定可以工作，
+    还是不建议不要使用OCR提取文本。。
+
+    由于从OCR提取的文本经常包含错误，暂时对OCR禁止了字幕和弹幕的机能。
+
+    当前，开启这个功能需要先用VNR打开游戏。我在以后会将这个功能从VNR和游戏中分离出来的。
+
+9/10/2014 WED
   * Update the TAH script for LEC from @errzotl sensei.
 
   * 更新了djz大先生的J北京辞书。

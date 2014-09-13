@@ -10,7 +10,7 @@ Since 6/18/2011
 
       http://i859.photobucket.com/albums/ab155/jichi/ocr-region_zps009469c1.png
 
-    By default, when you can Shift+Mouse to select one region for instant machine translation.
+    As you know, by default, you can Shift+Mouse to select one region for instant machine translation.
     After launching the game, there is a new OCR button on the left dock which contains two sub buttons.
     - Edit: The persistent regions will become visible, and the new Shift+Mouse region will become persistent.
     - Enable: Periodically capturing image in the persistent regions and extracting texts in it.

@@ -10,7 +10,7 @@ Since 6/18/2011
 
       http://i859.photobucket.com/albums/ab155/jichi/ocr-region_zps009469c1.png
 
-    (Note that 「剣の街の異邦人」 does have a EXP game engine, and it does not need OCR to work.)
+    (Note that 「剣の街の異邦人」 does have an EXP game engine, and it does not need OCR to work.)
 
     As you know, by default, you can Shift+Mouse to select one region for instant machine translation.
     After launching the game, there is a new OCR button on the left dock which contains two sub buttons.

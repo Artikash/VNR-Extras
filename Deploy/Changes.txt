@@ -2,6 +2,13 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+9/14/2014 SUN
+  * When the underline option in Shared Dictionary is enabled, texts modified by chara terms
+    for Kanji-based language (Chinese, Korean) will also be underlined.
+    Due to technical difficulties, changes by Latin-based languages such as English will not be underlined.
+
+    当共享辞书中的下划线选项开启后，中文和韩文的人物词条的翻译也会显示下划线。
+
 9/13/2014 SAT
   * Add an option to underline the modified text by escape or translation terms in the Shared Dictionary.
     The changes that made by Japanese terms are not marked, which might sacrifice the translation quality

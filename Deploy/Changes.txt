@@ -3,6 +3,15 @@ Visual Novel Reader
 Since 6/18/2011
 
 9/13/2014 SAT
+  * Add an option to underline the modified text by escape or translation terms in the Shared Dictionary.
+    The changes that made by Japanese terms are not marked, which might sacrifice the translation quality
+    in order to implement the marks.
+    You don't have to bother this unless you are actively editing the Shared Dictionary.
+
+    在共享辞书中，添加了选项可以下划线被转义或翻译词条修改了的文字。
+    日文词条还不可以被下划线，因为如果实现这个功能，将可能以降低机翻质量为代价。
+    如果你不常编辑共享辞书，那么并不需要打开这个选项。
+
   * Fix a bug existing for a long time that the subtitles are sometimes displayed below the game window.
     修正了字幕有时候会跑到游戏窗口的下边去的bug。
 

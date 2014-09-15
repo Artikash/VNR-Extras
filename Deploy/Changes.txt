@@ -13,8 +13,8 @@ Since 6/18/2011
     添加了为游戏窗口截图的快捷键 as request。
 
   * Add more image filters for OCR, mainly filters for HSI color model.
-    - Usually, if the font color is always white/black, the "I" (intensity) filter might sufficient.
-    - Otherwise, if the font is a single color, the "H" (hue) might help.
+    - Usually, if the font color is always white/black, the "I" (intensity) filter might be sufficient.
+    - Otherwise, if the font is in a single color, the "H" (hue) might help.
     - The worse case, if the font color usually changes, but always in a pure color, the "S" (saturation) might help.
 
       You can find the formulation of these concepts here:

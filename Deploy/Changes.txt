@@ -21,6 +21,10 @@ Since 6/18/2011
     - Additionally, if the game text is extremely large/small, then the "Z" (zoom) filter could be used.
 
     为OCR提取文本添加了更多的过滤器。
+    - 通常情况下，如果文字是白色或者黑色的，那么亮度过滤器就足够了。
+    - 否则，如果文字总是其他的某个颜色，那么，色度过滤器也许可以帮上忙。
+    - 最差的情况，如果文字的颜色经常变化，但是总是纯净的，那么，也许可以尝试饱和度过滤器。
+    - 此外，如果文字的字体非常大或者非常小，那么可以使用缩放过滤器。
 
 9/13/2014 SAT
   * Add an option to underline the modified text by escape or translation terms in the Shared Dictionary.

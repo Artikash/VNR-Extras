@@ -9,6 +9,9 @@ Since 6/18/2011
 
     当共享辞书中的下划线选项开启后，中文和韩文的人物词条的翻译也会显示下划线。
 
+  * Add global keyboard shortcuts for taking snapshot as request.
+    添加了为游戏窗口截图的快捷键 as request。
+
   * Add more image filters for OCR, mainly filters for HSI color model.
     - Usually, if the font color is always white/black, the "I" (intensity) filter might sufficient.
     - Otherwise, if the font is a single color, the "H" (hue) might help.

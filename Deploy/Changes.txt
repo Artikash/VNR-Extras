@@ -17,7 +17,7 @@ Since 6/18/2011
     - Otherwise, if the font is in a single color, the "H" (hue) might help.
     - The worse case, if the font color usually changes, but always in a pure color, the "S" (saturation) might help.
 
-      You can find the formulation of these concepts here:
+      You can find the formulation of these terminologies here:
 
         https://en.wikipedia.org/wiki/HSL_and_HSV#Lightness
 

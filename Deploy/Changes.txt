@@ -2,6 +2,34 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+9/16/2014 TUE
+  * Add a new Macro type to the Shared Dictionary.
+    You can ignore the following text if you don't know Japanese.
+
+    Macro terms will be used to replace regular expression patterns.
+    For example, I defined the following macro to express the beginning of a sentence.
+
+      bos => (?:^|(?<=[「。？]))
+
+    Then, you can use it like this to capture "あなた" at the beginning of a sentence:
+
+        {{bos}}あなた
+
+    The text within {{}} will be replaced by macros. This only apply to regex patterns.
+
+    在共享辞书中添加了宏类型词条。
+    如果你不懂日文，那么可以忽略下边的文字的。
+
+    比方说，下边会定义一个叫bos的宏来代表句子的开始：
+
+      bos => (?:^|(?<=[「。？]))
+
+    随后，你就可以使用下边的规则来匹配仅仅出现在句子开始的「あなた」。
+
+        {{bos}}あなた
+
+    在{{}}中间的文字会被定义的宏替换掉。这个仅对正则表达式的匹配文本有效。
+
 9/15/2014 MON
 
   由于众所周之的原因，VNR在沦陷区不可以使用google翻译了。我会想办法修正这个问题的。

@@ -6,6 +6,8 @@ Since 6/18/2011
 
   由于众所周之的原因，VNR在沦陷区不可以使用google翻译了。我会想办法修正这个问题的。
 
+  * OCR operations are moved to threads so that the GUI won't get blocked while analyzing images.
+
 9/14/2014 SUN
   * When the underline option in Shared Dictionary is enabled, character names defined by Chara terms
     for Kanji-based languages (Chinese, Korean, etc.) will also be underlined.

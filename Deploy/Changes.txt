@@ -15,7 +15,7 @@ Since 6/18/2011
 
         {{bos}}あなた
 
-    The text within {{}} will be replaced by macros. This only apply to regex patterns.
+    The text within {{}} will be replaced by macros. This only applies to regex patterns.
 
     在共享辞书中添加了宏类型词条。
     如果你不懂日文，那么可以忽略下边的文字的。

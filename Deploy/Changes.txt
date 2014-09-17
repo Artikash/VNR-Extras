@@ -17,6 +17,9 @@ Since 6/18/2011
 
     The text within {{}} will be replaced by macros. This only applies to regex patterns.
 
+    btw., we can filter certain of the terms in the Shared Dictionary.
+    If we search "Macro", all macro terms will show up.
+
     在共享辞书中添加了宏类型词条。
     如果你不懂日文，那么可以忽略下边的文字的。
 
@@ -29,7 +32,10 @@ Since 6/18/2011
         {{bos}}あなた
 
     在{{}}中间的文字会被定义的宏替换掉。这个仅对正则表达式的匹配文本有效。
-    btw., 你也可以用中文来定义宏的名字的。
+    你也可以用中文或者任意的符号来定义宏的名字的。
+
+    btw, 共享辞书是可以检索词条类别的。
+    比方说，搜索【宏】，会显示全部宏类型的词条。搜索【人物】，会显示全部姓名词条。
 
 9/15/2014 MON
 

@@ -17,7 +17,7 @@ Since 6/18/2011
 
     The text within {{}} will be replaced by macros. This only applies to regex patterns.
 
-    btw., we can filter certain of the terms in the Shared Dictionary.
+    btw., we can filter certain types of the terms in the Shared Dictionary.
     If we search "Macro", all macro terms will show up.
 
     You can name the macro in whatever way you like.

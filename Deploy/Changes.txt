@@ -28,6 +28,8 @@ Since 6/18/2011
         hira => [:hira:]   -- express positive predicate by default
         !hira => [^:hira:] -- use leading "!" to represent negative predicate
 
+    If you need intermediate tmp macros, you might make it starts with "_".
+
     在共享辞书中添加了宏类型词条。
     如果你不懂日文，那么可以忽略下边的文字的。
 
@@ -51,6 +53,8 @@ Since 6/18/2011
         :hira: => あ-ん    -- 用一对":"来代表字符集，这和正则表达中的:digit:之类的是类似的
         hira => [:hira:]   -- 默认使用肯定语气的逻辑
         !hira => [^:hira:] -- 用!来表达否定语气的逻辑
+
+    如果需要定义一些临时的变量，最好使用_（下划线）来作为宏名称的开头。
 
 9/15/2014 MON
 

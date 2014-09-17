@@ -21,7 +21,7 @@ Since 6/18/2011
     If we search "Macro", all macro terms will show up.
 
     You can name the macro in whatever way you like.
-    But lets make some convention so that it is easier to understand each other.
+    But lets make some conventions so that it is easier to understand each other's macros.
     For example, I want to define some macros to match all 平仮名, and I did it this way:
 
         :hira: => あ-ん        -- use a pair of ":" to represent a character set, just like :digit: in regex.

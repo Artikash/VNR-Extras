@@ -28,7 +28,7 @@ Since 6/18/2011
         hira => [:hira:]   -- express positive predicate by default
         !hira => [^:hira:] -- use leading "!" to represent negative predicate
 
-    If you need intermediate tmp macros, you might make it starts with "_".
+    If you need intermediate tmp macros, you might name it to start with "_".
 
     在共享辞书中添加了宏类型词条。
     如果你不懂日文，那么可以忽略下边的文字的。

@@ -20,6 +20,14 @@ Since 6/18/2011
     btw., we can filter certain of the terms in the Shared Dictionary.
     If we search "Macro", all macro terms will show up.
 
+    You can name the macro in whatever way you like.
+    But lets make some convention so that it is easier to understand each other.
+    For example, I want to define some macros to match all 平仮名, and I did it this way:
+
+        :hira: => あ-ん    -- use a pair of ":" to represent a character set, just like :digit: in regex.
+        hira => [:hira:]   -- express positive predicate by default
+        !hira => [^:hira:] -- use leading "!" to represent negative predicate
+
     在共享辞书中添加了宏类型词条。
     如果你不懂日文，那么可以忽略下边的文字的。
 
@@ -32,10 +40,17 @@ Since 6/18/2011
         {{bos}}あなた
 
     在{{}}中间的文字会被定义的宏替换掉。这个仅对正则表达式的匹配文本有效。
-    你也可以用中文或者任意的符号来定义宏的名字的。
 
     btw, 共享辞书是可以检索词条类别的。
     比方说，搜索【宏】，会显示全部宏类型的词条。搜索【人物】，会显示全部姓名词条。
+
+    你也可以用中文或者任意的符号来定义宏的名字的。
+    但是，大家还是约定下命名convention，让其他同学可以更加容易理解macro的含义。
+    比方说，我要定义一些匹配平仮名的宏，我是这样命名的：
+
+        :hira: => あ-ん    -- 用一对":"来代表字符集，这和正则表达中的:digit:之类的是类似的
+        hira => [:hira:]   -- 默认使用肯定语气的逻辑
+        !hira => [^:hira:] -- 用!来表达否定语气的逻辑
 
 9/15/2014 MON
 

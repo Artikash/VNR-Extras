@@ -25,8 +25,8 @@ Since 6/18/2011
     For example, I want to define some macros to match all 平仮名, and I did it this way:
 
         :hira: => あ-ん    -- use a pair of ":" to represent a character set, just like :digit: in regex.
-        hira => [:hira:]   -- express positive predicate by default
-        !hira => [^:hira:] -- use leading "!" to represent negative predicate
+        hira => [{{:hira:}}]   -- express positive predicate by default
+        !hira => [^{{:hira:}}] -- use leading "!" to represent negative predicate
 
     If you need intermediate tmp macros, you might give it a name starting with "_".
 
@@ -51,8 +51,8 @@ Since 6/18/2011
     比方说，我要定义一些匹配平仮名的宏，我是这样命名的：
 
         :hira: => あ-ん    -- 用一对":"来代表字符集，这和正则表达中的:digit:之类的是类似的
-        hira => [:hira:]   -- 默认使用肯定语气的逻辑
-        !hira => [^:hira:] -- 用!来表达否定语气的逻辑
+        hira => [{{:hira:}}]   -- 默认使用肯定语气的逻辑
+        !hira => [^{{:hira:}}] -- 用!来表达否定语气的逻辑
 
     如果需要定义一些临时的变量，最好使用_（下划线）来作为宏名称的开头。
 

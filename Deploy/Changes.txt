@@ -6,7 +6,7 @@ Since 6/18/2011
   * The mouse hotkey to select OCR region can be changed in Preferences (default is SHIFT).
     在使用偏好中可以变更选定OCR区域的快捷键（之前默认是SHIFT）。
 
-  * Bugfix for the hue filter calculation in OCR filter.
+  * Bugfix for the hue calculation in OCR filter.
     修正了对OCR中色度过滤的计算方法。
 
   * Add support for Kingsoft FastAIT that is a free Chinese offline translator.
@@ -15,7 +15,7 @@ Since 6/18/2011
 
         http://ky.iciba.com  (534MB after installation)
 
-    It does not contain any nasty ads like Baidu products. So, free to use.
+    It does not contain any nasty ads like Baidu products. So, feel free to use.
 
     添加了对金山快译的支持。
     这个程式是免费的，可以提供离线的日中、英中翻译。可以从上边链接的地方下载到。

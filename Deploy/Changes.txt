@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+9/18/2014 THU
+  * The hotkey to select OCR region can be changed in Preferences (default is SHIFT).
+    在使用偏好中可以变更选定OCR区域的快捷键（默认是SHIFT）。
+
 9/16/2014 TUE
   * Add a new Macro type to the Shared Dictionary.
     You can ignore the following text if you don't know Japanese.

@@ -2,6 +2,12 @@ mvChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+9/20/2014 SAT
+  * Fix a bug that might crash Elf engine on Windows XP.
+    Thanks for @goodboyye sama's report!
+    修正了Elf引擎在Windows XP上可能会崩溃的问题。
+    带来不便很抱歉！
+
 9/18/2014 THU
   * The mouse hotkey to select OCR region can be changed in Preferences (default is SHIFT).
     在使用偏好中可以变更选定OCR区域的快捷键（之前默认是SHIFT）。
@@ -77,7 +83,7 @@ Since 6/18/2011
         快译：「做帶那個人逃的準備……」 -- exact原始的逻辑，虽然有些拗口
 
     总的感觉吧，百度更倾向于润色翻译，但是从而导致一些日文单词直接被删掉。
-    J北京则很少删词，但是有时会根据上下文替换单词的含义，或者改变词组和从句的顺序。
+    J北京则很少删词，但是有时会根据上下文替换单词的含义，或者改变词组或从句的顺序。
 
     而金山快译则倾向于直译，使用日文本来的含义，保留本来的词语顺序。
     这样也许在中文翻译和日文之间更容易建立一对一的关系吧。
@@ -101,7 +107,7 @@ Since 6/18/2011
     If we search "Macro", all macro terms will show up.
 
     You can name the macro in whatever way you like.
-    But lets make some conventions so that it is easier to understand each other's macros.
+    But let's make some conventions so that it is easier to understand each other's macros.
     For example, I want to define some macros to match all 平仮名, and I did it this way:
 
         :hira: => あ-ん        -- use a pair of ":" to represent a character set, just like :digit: in regex.

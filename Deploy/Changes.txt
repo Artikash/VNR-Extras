@@ -8,6 +8,8 @@ Since 6/18/2011
     修正了Elf引擎在Windows XP上可能会崩溃的问题。
     带来不便很抱歉！
 
+  * SAPI tts is moved to a different thread so that it won't block GUI.
+
 9/18/2014 THU
   * The mouse hotkey to select OCR region can be changed in Preferences (default is SHIFT).
     在使用偏好中可以变更选定OCR区域的快捷键（之前默认是SHIFT）。

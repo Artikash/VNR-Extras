@@ -2,6 +2,19 @@ mvChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+9/21/2014 SUN
+  * Bypass the issue for embedding Chinese translations where Kanji becomes "?".
+    内嵌正体中文翻译到游戏可以正常显示了。
+
+    但是简体中文仍然无法正常显示。VNR会自动将简体中文转换为正体中文来绕过这个问题。
+    下边是内嵌对话和选项的中文翻译到BGI引擎的截图：
+
+        http://sakuradite.com/images/screenshots/sekai_bgi2_zh.jpg
+        http://sakuradite.com/images/screenshots/sekai_bgi2_choice_zh.jpg
+
+    不过目前，只有非常少的几个引擎支持内嵌翻译，绝大部分游戏都不支持。
+    感谢青龙sama的报告！
+
 9/20/2014 SAT
   * Fix a bug that might crash Elf engine on Windows XP.
     Thanks for @goodboyye sama's report!

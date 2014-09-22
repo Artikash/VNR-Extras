@@ -2,6 +2,13 @@ mvChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+9/22/2014 MON
+  * Disable the keeping spaces option in Text Settings for Japanese/Chinese games.
+    It does not make sense to keep spaces for these languages.
+
+    如果游戏语言是日文或中文，VNR会禁止文本设定中【保存单词空格】的选项。
+    这样做没有道理。
+
 9/21/2014 SUN
   * Bypass the issue for embedding Chinese translations where Kanji becomes "?".
     内嵌正体中文翻译到游戏可以正常显示了。
@@ -21,7 +28,7 @@ Since 6/18/2011
     修正了Elf引擎在Windows XP上可能会崩溃的问题。
     带来不便很抱歉！
 
-  * SAPI tts is moved to a different thread so that it won't block GUI.
+  * SAPI TTS is moved to a different thread so that it won't block GUI.
 
 9/18/2014 THU
   * The mouse hotkey to select OCR region can be changed in Preferences (default is SHIFT).

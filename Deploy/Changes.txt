@@ -2,6 +2,11 @@ mvChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+9/23/2014 TUE
+  * Dictionary lookup was moved to threads.
+    When "Popup when hover" is enabled, it won't block GUI any more.
+    即时【翻译鼠标下边的文本】不会卡GUI了。
+
 9/22/2014 MON
   * Disable the keeping spaces option in Text Settings for Japanese/Chinese games.
     It does not make sense to keep spaces for these languages.

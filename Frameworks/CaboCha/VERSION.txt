@@ -1,0 +1,3 @@
+4/26/2014 jichi
+CaboCha 0.68
+https://code.google.com/p/cabocha

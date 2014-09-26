@@ -28,7 +28,7 @@ Since 6/18/2011
     感谢青龙sama的报告！
 
 9/20/2014 SAT
-  * Fix a bug that might crash Elf engine on Windows XP.
+  * Fix a bug that might crash the Elf engine on Windows XP.
     Thanks for @goodboyye sama's report!
     修正了Elf引擎在Windows XP上可能会崩溃的问题。
     带来不便很抱歉！

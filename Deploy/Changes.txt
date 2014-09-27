@@ -4,7 +4,10 @@ Since 6/18/2011
 
 9/27/2014 SAT
   * Modify the ScenarioPlayer engine to support new すたじお緑茶 games.
-    修正了南十字星恋歌的游戏引擎。
+    修正了本月「南十字星恋歌」的游戏引擎。
+
+  * Fix the ApRicoT engine for to support イセカイ・ラヴァーズ this month.
+    修正了本月「イセカイ・ラヴァーズ」的游戏引擎。
 
 9/26/2014 FRI
   * The text processing using the Shared Dictionary is reimplemented using C++ with Boost.Regex.
@@ -56,7 +59,7 @@ Since 6/18/2011
      + Boost is intentionally not compiled with ICU so that regex is not aware of unicode characters.
        For instance:
        - "\s" will match ascii spaces, but won't match \u3000.
-       - :digit: only matches ascii [0-9], and won't match "一", "二", "三", etc..
+       - :digit: only matches ascii [0-9], and won't match "一", "二", "三", etc.
 
     共享辞书处理文本改为用C++来实现。正则表达式从Python.re改为Boost.Regex。
     处理辞书花费的时间和内存都比以前要小很多了。

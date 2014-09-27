@@ -28,8 +28,7 @@ Since 6/18/2011
 
     + The regex library used in the Shared Dictionary is changed from Python.re to Boost.Regex.
       Boost's implementation is a superset of Python's and is more powerful, which supports
-      recursive regular expressions.
-      The detailed syntax of Boost.Regex could be found in the following page.
+      recursive syntax. More details about Boost.Regex's syntax could be found in the following pages.
 
         http://www.boost.org/doc/libs/1_56_0/libs/regex/doc/html/boost_regex/syntax.html
         http://www.boost.org/doc/libs/1_56_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html

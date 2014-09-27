@@ -2,6 +2,59 @@ mvChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+9/26/2014 FRI
+  * The text processing using the Shared Dictionary is reimplemented using C++ with Boost.Regex.
+    It is more powerful, much faster (time < 0.01 second) and using less memory (about 25MB for 20k rules).
+    If you have never used the Shared Dictionary before, you can ignore the following text.
+
+    The major changes about the Shared Dictionary are as follows:
+
+    + VNR no longer processes the Shared Dictionary on the startup any more.
+
+    + VNR won't process the Shared Dictionary until the first time you use it, such as
+      when a sentence is translated, or when TTS is triggered.
+      The bad thing is, for example, that the first machine translated subtitle will not
+      use the Shared Dictionary, and the translation quality might be bad.
+      But after that, the follow-up translations will be processed by the Shared Dictionary.
+
+    + After the first time the Shared Dictionary is used, you can find the enabled text replacement
+      rules in the following directory:
+
+          Caches/tmp/reader/dict
+
+      VNR will rebuild the cache there when the Shared Dictionary is modified, or the current game
+      is changed, or when your language is changed.
+      You can also open that directory by pressing the "Browse" tool button in the Shared Dictionary.
+
+    + The regex library used in the Shared Dictionary is changed from Python.re to Boost.Regex.
+      Boost's implementation is a superset of Python's and is more powerful, which supports
+      recursive regular expressions.
+      The detailed syntax of Boost.Regex could be found in the following page.
+
+         http://www.boost.org/doc/libs/1_56_0/libs/regex/doc/html/boost_regex/syntax.html
+         http://www.boost.org/doc/libs/1_56_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html
+
+      I haven't explored all available features in boost.regex yet.
+      But here are some example usage of the recursive syntax "(?+-N", which might be interesting:
+
+      - Multiple replacement. For example:
+
+          薫(?:(ちゃん)|(さん)|(くん)|) => Kaoru(?1-chan)(?2-san)(?3-kun)
+
+        The above rule could translate "薫" to Kaoru, "薫ちゃん" to Kaoru-chan,
+        "薫さん" to Kaoru-san, and "薫くん" to Kaoru-kun together.
+
+      - Conditionals. For example:
+
+           薫(ちゃん) => Kaoru-(?1chan:san)
+
+        The above rule will translate "薫ちゃん" to "Kaoru-chan", and "薫 whatever" to "薫-san whatever"
+
+     + Additionally, boost is intentionally not compiled with ICU so that regex is not aware of
+       unicode characters. For instance:
+       - :digit: only matches ascii [0-9], and won't match "一", "二", "三".
+       - "\s" will match ascii spaces, but won't match \u3000.
+
 9/23/2014 TUE
   * Dictionary lookup was moved to threads.
     When "Popup when hover" is enabled, it won't block GUI any more.

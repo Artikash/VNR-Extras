@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+9/27/2014 SAT
+  * Modify the ScenarioPlayer engine to support new すたじお緑茶 games.
+    修正了南十字星恋歌的游戏引擎。
+
 9/26/2014 FRI
   * The text processing using the Shared Dictionary is reimplemented using C++ with Boost.Regex.
     It is more powerful, much faster (time < 0.01 second) and using less memory (about 20MB for 20k rules).

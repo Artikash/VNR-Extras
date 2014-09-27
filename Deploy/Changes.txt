@@ -50,10 +50,28 @@ Since 6/18/2011
 
         The above rule will translate "薫ちゃん" to "Kaoru-chan", and "薫 whatever" to "薫-san whatever"
 
-     + Additionally, boost is intentionally not compiled with ICU so that regex is not aware of
-       unicode characters. For instance:
-       - :digit: only matches ascii [0-9], and won't match "一", "二", "三".
+     + Boost is intentionally not compiled with ICU so that regex is not aware of unicode characters.
+       For instance:
        - "\s" will match ascii spaces, but won't match \u3000.
+       - :digit: only matches ascii [0-9], and won't match "一", "二", "三".
+
+    共享辞书处理文本改为用C++来实现。正则表达式从Python.re改为Boost.Regex.
+    处理辞书花费的时间和内存都比以前要小很多了。
+    如果你并没有使用过共享辞书，那么忽略下边的文字吧。
+
+
+    + VNR会将当期开启的规则保存到下边，也许可以帮助大家编辑辞书。
+
+          Caches/tmp/reader/dict
+
+    + VNR在启动后，默认不再处理辞书。直到辞书第一次使用后（比方说处理机器翻译或者TTS），
+      才会去神鹅观草上边的Caches。
+
+    + Boost.Regex比Python.re要支持更多的正则表达式语法（主要是增加了递归语法）。
+      具体的可以参看下边的文献。
+
+         http://www.boost.org/doc/libs/1_56_0/libs/regex/doc/html/boost_regex/syntax.html
+         http://www.boost.org/doc/libs/1_56_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html
 
 9/23/2014 TUE
   * Dictionary lookup was moved to threads.

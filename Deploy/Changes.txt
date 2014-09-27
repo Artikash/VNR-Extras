@@ -38,25 +38,25 @@ Since 6/18/2011
         http://www.boost.org/doc/libs/1_56_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html
 
       I haven't explored all available features in boost.regex yet.
-      But here is some example usage of the recursive syntax "(?+-N", which might be interesting:
+      But here are some usage examples of the recursive syntax "(?+-N", which might be interesting:
 
       - Multiple replacement. For example:
 
-          薫(?:(ちゃん)|(さん)|(くん)|) => Kaoru(?1-chan)(?2-san)(?3-kun)
+          薫(?:(ちゃん)|(さん)|(くん)) => Kaoru-(?1chan)(?2san)(?3kun)
 
-        The above rule could translate "薫" to Kaoru, "薫ちゃん" to Kaoru-chan,
-        "薫さん" to Kaoru-san, and "薫くん" to Kaoru-kun together.
+        The above rule could translate "薫ちゃん" to Kaoru-chan, "薫さん" to Kaoru-san, and
+        "薫くん" to Kaoru-kun at the same time.
 
       - Conditionals. For example:
 
           薫(ちゃん) => Kaoru-(?1chan:san)
 
-        The above rule will translate "薫ちゃん" to "Kaoru-chan", and "薫 whatever" to "Kaoru-san whatever"
+        The above rule will translate "薫ちゃん" to "Kaoru-chan", and "薫 otherwise" to "Kaoru-san otherwise"
 
      + Boost is intentionally not compiled with ICU so that regex is not aware of unicode characters.
        For instance:
        - "\s" will match ascii spaces, but won't match \u3000.
-       - :digit: only matches ascii [0-9], and won't match "一", "二", "三".
+       - :digit: only matches ascii [0-9], and won't match "一", "二", "三", etc..
 
     共享辞书处理文本改为用C++来实现。正则表达式从Python.re改为Boost.Regex。
     处理辞书花费的时间和内存都比以前要小很多了。

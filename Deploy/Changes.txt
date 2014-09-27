@@ -54,11 +54,11 @@ Since 6/18/2011
        - "\s" will match ascii spaces, but won't match \u3000.
        - :digit: only matches ascii [0-9], and won't match "一", "二", "三".
 
-    共享辞书处理文本改为用C++来实现。正则表达式从Python.re改为Boost.Regex.
+    共享辞书处理文本改为用C++来实现。正则表达式从Python.re改为Boost.Regex。
     处理辞书花费的时间和内存都比以前要小很多了。
     如果你并没有使用过共享辞书，那么忽略下边的文字吧。
 
-    + VNR会将当期开启的规则保存到下边，也许可以帮助大家编辑辞书。
+    + VNR会将当期开启的规则保存到下边，也许可以帮助大家编辑和了解辞书。
 
         Caches/tmp/reader/dict
 

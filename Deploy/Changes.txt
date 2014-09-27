@@ -31,8 +31,8 @@ Since 6/18/2011
       recursive regular expressions.
       The detailed syntax of Boost.Regex could be found in the following page.
 
-         http://www.boost.org/doc/libs/1_56_0/libs/regex/doc/html/boost_regex/syntax.html
-         http://www.boost.org/doc/libs/1_56_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html
+        http://www.boost.org/doc/libs/1_56_0/libs/regex/doc/html/boost_regex/syntax.html
+        http://www.boost.org/doc/libs/1_56_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html
 
       I haven't explored all available features in boost.regex yet.
       But here are some example usage of the recursive syntax "(?+-N", which might be interesting:
@@ -46,7 +46,7 @@ Since 6/18/2011
 
       - Conditionals. For example:
 
-           薫(ちゃん) => Kaoru-(?1chan:san)
+          薫(ちゃん) => Kaoru-(?1chan:san)
 
         The above rule will translate "薫ちゃん" to "Kaoru-chan", and "薫 whatever" to "薫-san whatever"
 
@@ -62,7 +62,7 @@ Since 6/18/2011
 
     + VNR会将当期开启的规则保存到下边，也许可以帮助大家编辑辞书。
 
-          Caches/tmp/reader/dict
+        Caches/tmp/reader/dict
 
     + VNR在启动后，默认不再处理辞书。直到辞书第一次使用后（比方说处理机器翻译或者TTS），
       才会去神鹅观草上边的Caches。
@@ -70,8 +70,8 @@ Since 6/18/2011
     + Boost.Regex比Python.re要支持更多的正则表达式语法（主要是增加了递归语法）。
       具体的可以参看下边的文献。
 
-         http://www.boost.org/doc/libs/1_56_0/libs/regex/doc/html/boost_regex/syntax.html
-         http://www.boost.org/doc/libs/1_56_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html
+        http://www.boost.org/doc/libs/1_56_0/libs/regex/doc/html/boost_regex/syntax.html
+        http://www.boost.org/doc/libs/1_56_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html
 
 9/23/2014 TUE
   * Dictionary lookup was moved to threads.

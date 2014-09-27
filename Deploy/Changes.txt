@@ -1,4 +1,4 @@
-mvChangeLog (UTF-8, ff=dos)
+ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 

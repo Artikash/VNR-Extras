@@ -6,7 +6,7 @@ Since 6/18/2011
   * Modify the ScenarioPlayer engine to support new すたじお緑茶 games.
     修正了本月「南十字星恋歌」的游戏引擎。
 
-  * Fix the ApRicoT engine for to support イセカイ・ラヴァーズ this month.
+  * Fix the ApRicoT engine to support イセカイ・ラヴァーズ this month.
     修正了本月「イセカイ・ラヴァーズ」的游戏引擎。
 
 9/26/2014 FRI

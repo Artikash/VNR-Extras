@@ -34,7 +34,7 @@ Since 6/18/2011
         http://www.boost.org/doc/libs/1_56_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html
 
       I haven't explored all available features in boost.regex yet.
-      But here are some example usage of the recursive syntax "(?+-N", which might be interesting:
+      But here is some example usage of the recursive syntax "(?+-N", which might be interesting:
 
       - Multiple replacement. For example:
 

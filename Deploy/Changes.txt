@@ -4,7 +4,7 @@ Since 6/18/2011
 
 9/26/2014 FRI
   * The text processing using the Shared Dictionary is reimplemented using C++ with Boost.Regex.
-    It is more powerful, much faster (time < 0.01 second) and using less memory (about 25MB for 20k rules).
+    It is more powerful, much faster (time < 0.01 second) and using less memory (about 20MB for 20k rules).
     If you have never used the Shared Dictionary before, you can ignore the following text.
 
     The major changes about the Shared Dictionary are as follows:

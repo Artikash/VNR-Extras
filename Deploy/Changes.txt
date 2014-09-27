@@ -26,8 +26,8 @@ Since 6/18/2011
 
           Caches/tmp/reader/dict
 
-      VNR will rebuild the cache there when the Shared Dictionary is modified, or when the current
-      game is changed, or when your language is changed.
+      VNR will rebuild the cache there whenever the Shared Dictionary is modified, or the current
+      game is changed, or your language is changed.
       You can also open that directory by pressing the "Browse" tool button in the Shared Dictionary.
 
     + The regex library used in the Shared Dictionary is changed from Python.re to Boost.Regex.
@@ -62,7 +62,7 @@ Since 6/18/2011
     处理辞书花费的时间和内存都比以前要小很多了。
     如果你并没有使用过共享辞书，那么忽略下边的文字吧。
 
-    + VNR会将当期开启的规则保存到下边，也许可以帮助大家编辑和了解辞书。
+    + VNR会将当前开启的规则保存到下边，也许可以帮助大家编辑和了解辞书。
 
         Caches/tmp/reader/dict
 

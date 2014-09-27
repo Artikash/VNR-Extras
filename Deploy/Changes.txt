@@ -47,7 +47,7 @@ Since 6/18/2011
 
           薫(ちゃん) => Kaoru-(?1chan:san)
 
-        The above rule will translate "薫ちゃん" to "Kaoru-chan", and "薫 whatever" to "薫-san whatever"
+        The above rule will translate "薫ちゃん" to "Kaoru-chan", and "薫 whatever" to "Kaoru-san whatever"
 
      + Boost is intentionally not compiled with ICU so that regex is not aware of unicode characters.
        For instance:

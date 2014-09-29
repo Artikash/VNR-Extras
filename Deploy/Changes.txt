@@ -2,6 +2,12 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+9/28/2014 SUN
+  * Fixed a severe bug that OCR might stop working when the inserting space option is enabled.
+    Sorry for the issue!
+    修正了插入空格打开时，OCR无法使用的问题。
+    带来不便很抱歉！
+
 9/27/2014 SAT
   * Modify the ScenarioPlayer engine to support new すたじお緑茶 games.
     修正了本月「南十字星恋歌」的游戏引擎。

@@ -4,15 +4,15 @@ Since 6/18/2011
 
 9/30/2014 TUE
   * The types of the terms in the Shared Dictionary is slightly changed.
-    You can ignore the following text if you have never used it.
+    You can ignore the following text if you have never used it before.
 
     + For Chinese and Korean
       Nothing has been changed except the names of the term types, as follows:
       - Translation: the same as "Escape"   -- the translation will be escaped before/after the machine translation.
       - Input: the same as "Japanese"       -- used to repair the Japanese text before applying machine translation
       - Output: the same as "Translation"   -- used to repair the Chinese/Korean text after applying machine translation
-      - Name: the same as "Chara"           -- Japanese names
-      - Suffix: the same as "Title"         -- the titles after Japanese names
+      - Name: the same as "Chara"           -- Japanese names, such as 「釘宮」
+      - Suffix: the same as "Title"         -- the titles after Japanese names, such as 「ちゃん」
       - TTS: not changed                    -- used to repair the text before applying TTS
       - OCR: not changed                    -- used to repair the text after applying OCR
       - Macro: not changed                  -- reusable regular expression patterns.
@@ -22,7 +22,7 @@ Since 6/18/2011
       2. A new "translation" type is added, which is the same as the old "Japanese" terms
       3. The names of the terms are changed, as follows:
 
-      - Translation: the same as "Japanese" -- The same as the "Input" type
+      - Translation: the same as "Japanese" -- The same as the old "Japanese" type
 
       - Input: the same as "Japanese"       -- (the same as Chinese/Korean)
       - Output: the same as "Translation"   -- (the same as Chinese/Korean)
@@ -50,11 +50,11 @@ Since 6/18/2011
       - 翻译: 即以前的【转义】词条 -- 通过转义来将日文翻译为中文
       - 输入: 即以前的【日文】词条 -- 在翻译前，修正输入的日文文字
       - 输出: 即以前的【翻译】词条 -- 在翻译后，修正输出的中文文字
-      - 姓名: 即以前的【人物】词条 -- 日本人的名字
+      - 姓名: 即以前的【人物】词条 -- 日本人的名字，比如「釘宮」
       - 后缀: 即以前的【称谓】词条 -- 跟在名字后边的称谓，比如「ちゃん」
-      - 语音合成: 和以前一样，     -- 在TTS前修正输入的文字
-      - 光学识别: 和以前一样，     -- 在OCR后修正输出的文字
-      - 宏: 和以前一样，           -- 可以重用的正则表达式
+      - 语音合成: 和以前一样       -- 在TTS前修正输入的文字
+      - 光学识别: 和以前一样       -- 在OCR后修正输出的文字
+      - 宏: 和以前一样             -- 可以重用的正则表达式
 
 9/28/2014 SUN
   * Fixed a severe bug that OCR might stop working when the inserting space option is enabled.

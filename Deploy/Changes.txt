@@ -13,7 +13,7 @@ Since 6/18/2011
       - Output: the same as "Translation"   -- used to repair the Chinese/Korean text after applying machine translation
       - Name: the same as "Chara"           -- Japanese names, such as 「釘宮」
       - Suffix: the same as "Title"         -- the titles after Japanese names, such as 「ちゃん」
-      - Game: the same as "Original text"   -- used repair the text extracted from the game
+      - Game: the same as "Original text"   -- used to repair the text extracted from the game
       - TTS: not changed                    -- used to repair the text before applying TTS
       - OCR: not changed                    -- used to repair the text after applying OCR
       - Macro: not changed                  -- reusable regular expression patterns.
@@ -23,7 +23,7 @@ Since 6/18/2011
       2. A new "translation" type is added, which is the same as the old "Japanese" terms
       3. The names of the terms are changed, as follows:
 
-      - Translation: the same as "Japanese" -- The same as the old "Japanese" type
+      - Translation: the same as "Japanese" -- the same as the old "Japanese" type, different from Chinese/Korean
 
       - Input: the same as "Japanese"       -- (the same as Chinese/Korean)
       - Output: the same as "Translation"   -- (the same as Chinese/Korean)

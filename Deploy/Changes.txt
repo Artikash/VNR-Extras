@@ -40,10 +40,14 @@ Since 6/18/2011
       Currently, the "Translation" and the "Input" terms are handled the same way for Latin languages,
       both of which are equivalent to the old "Japanese" terms.
       But they will be handled differently soon in the future version of VNR.
-      If you would like to add new rules to the Shared Dictionary, please distinguish Translation from Input.
+
+      If you would like to add new rules to the Shared Dictionary, I hope if you could distinguish
+      "Translation" and "Input" types. For example:
+      - to transform "あたし" to "I", "Translation" should be used
+      - to transform "あたし" to "私", "Input" should be used
 
       Let's wait for two weeks until most people get this version of VNR.
-      And then I am going to revise the Shared Dictionary to distinguish Input and Translation types
+      And then I am going to revise the Shared Dictionary to distinguish Translation from Input type
       for old terms in Latin languages.
 
     主要是变更了处理中文和韩文以外语言的共享辞书词条的方法。

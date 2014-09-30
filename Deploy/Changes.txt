@@ -34,7 +34,7 @@ Since 6/18/2011
       - OCR: not changed                    -- (the same as Chinese/Korean)
       - Macro: not changed                  -- (the same as Chinese/Korean)
 
-      The "Translation" terms should be used to translate Japanese to English or other Latin languages.
+      The "Translation" terms should be used to translate Japanese to English or any other Latin languages.
       The "Input" terms should be used to translate Japanese to Japanese.
 
       Currently, the "Translation" and the "Input" terms are handled the same way for Latin languages,
@@ -46,7 +46,7 @@ Since 6/18/2011
       - to transform "あたし" to "I", "Translation" should be used
       - to transform "あたし" to "私", "Input" should be used
 
-      Let's wait for two weeks until most people get this version of VNR.
+      Let's wait for two weeks until most people have updated to this version of VNR.
       And then I am going to revise the Shared Dictionary to distinguish Translation from Input type
       for old terms in Latin languages.
 

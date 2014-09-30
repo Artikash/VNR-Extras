@@ -13,6 +13,7 @@ Since 6/18/2011
       - Output: the same as "Translation"   -- used to repair the Chinese/Korean text after applying machine translation
       - Name: the same as "Chara"           -- Japanese names, such as 「釘宮」
       - Suffix: the same as "Title"         -- the titles after Japanese names, such as 「ちゃん」
+      - Game: the same as "Original text"   -- used repair the text extracted from the game
       - TTS: not changed                    -- used to repair the text before applying TTS
       - OCR: not changed                    -- used to repair the text after applying OCR
       - Macro: not changed                  -- reusable regular expression patterns.
@@ -28,6 +29,7 @@ Since 6/18/2011
       - Output: the same as "Translation"   -- (the same as Chinese/Korean)
       - Name: the same as "Chara"           -- (the same as Chinese/Korean)
       - Suffix: the same as "Title"         -- (the same as Chinese/Korean)
+      - Game: the same as "Original text"   -- (the same as Chinese/Korean)
       - TTS: not changed                    -- (the same as Chinese/Korean)
       - OCR: not changed                    -- (the same as Chinese/Korean)
       - Macro: not changed                  -- (the same as Chinese/Korean)
@@ -38,7 +40,7 @@ Since 6/18/2011
       Currently, the "Translation" and the "Input" terms are handled the same way for Latin languages,
       both of which are equivalent to the old "Japanese" terms.
       But they will be handled differently soon in the future version of VNR.
-	  If you would like to add new rules to the Shared Dictionary, please distinguish Translation from Input.
+      If you would like to add new rules to the Shared Dictionary, please distinguish Translation from Input.
 
       Let's wait for two weeks until most people get this version of VNR.
       And then I am going to revise the Shared Dictionary to distinguish Input and Translation types
@@ -52,6 +54,7 @@ Since 6/18/2011
       - 输出: 即以前的【翻译】词条 -- 在翻译后，修正输出的中文文字
       - 姓名: 即以前的【人物】词条 -- 日本人的名字，比如「釘宮」
       - 后缀: 即以前的【称谓】词条 -- 跟在名字后边的称谓，比如「ちゃん」
+      - 游戏: 即以前的【原文】词条 -- 在翻译前首先修正从游戏中提取出的文字
       - 语音合成: 和以前一样       -- 在TTS前修正输入的文字
       - 光学识别: 和以前一样       -- 在OCR后修正输出的文字
       - 宏: 和以前一样             -- 可以重用的正则表达式

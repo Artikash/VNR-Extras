@@ -16,7 +16,7 @@ Since 6/18/2011
       - Game: the same as "Original text"   -- used to repair the text extracted from the game
       - TTS: not changed                    -- used to repair the text before applying TTS
       - OCR: not changed                    -- used to repair the text after applying OCR
-      - Macro: not changed                  -- reusable regular expression patterns.
+      - Macro: not changed                  -- reusable regular expression patterns
 
     + For any other languages including English
       1. The "escape" type is removed
@@ -56,7 +56,7 @@ Since 6/18/2011
       - 翻译: 即以前的【转义】词条 -- 通过转义来将日文翻译为中文
       - 输入: 即以前的【日文】词条 -- 在翻译前，修正输入的日文文字
       - 输出: 即以前的【翻译】词条 -- 在翻译后，修正输出的中文文字
-      - 姓名: 即以前的【人物】词条 -- 日本人的名字，比如「釘宮」
+      - 名字: 即以前的【人物】词条 -- 日本人的名字，比如「釘宮」
       - 后缀: 即以前的【称谓】词条 -- 跟在名字后边的称谓，比如「ちゃん」
       - 游戏: 即以前的【原文】词条 -- 在翻译前首先修正从游戏中提取出的文字
       - 语音合成: 和以前一样       -- 在TTS前修正输入的文字

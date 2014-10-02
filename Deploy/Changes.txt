@@ -8,7 +8,7 @@ Since 6/18/2011
 
         330102505@qq.com
 
-  * Reduce VNR's memory usage by 50MB.
+  * Reduce VNR's memory usage by 70MB by adding __slots__ to Python classes.
     减少了VNR的内存使用量。
 
 9/30/2014 TUE

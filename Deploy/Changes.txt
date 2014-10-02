@@ -8,6 +8,9 @@ Since 6/18/2011
 
         330102505@qq.com
 
+  * Reduce VNR's memory usage by 50MB.
+    减少了VNR的内存使用量。
+
 9/30/2014 TUE
   * The types of the terms in the Shared Dictionary are slightly changed.
     You can ignore the following text if you have never used it before.

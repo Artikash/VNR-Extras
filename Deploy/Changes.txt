@@ -35,7 +35,6 @@ Since 6/18/2011
     I guess it might take at least half a year to get every thing done and have
     enough translation rules for daily Japanese sentences.
 
-
     If you have questions or suggestions, feel free to post them to the following topic.
 
         http://sakuradite.com/topic/471
@@ -59,7 +58,7 @@ Since 6/18/2011
 
         白い髪の娘は白ちゃんです。
 
-    If I want to translate, say, 【白】=>【Haku】, the it will break 【白い】.
+    If I want to translate, say, 【白】=>【Haku】using a Translation term, it will break 【白い】.
     This problem can be solved in the new translation system.
 
     In the new system, VNR will first construct a Syntax Parse Tree for the sentence,

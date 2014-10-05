@@ -135,8 +135,8 @@ Since 6/18/2011
 
     Capture variables.
     A Japanese-Chinese example (I don't know how to express this in a single English word):
-       ($x の） => ($x 的)  -- $x represents a single node
-       (@x の） => (@x 的)  -- @x represents a list of sibling nodes, similar to @array in Perl
+       ($x の) => ($x 的)  -- $x represents a single node
+       (@x の) => (@x 的)  -- @x represents a list of sibling nodes, similar to @array in Perl
     You might know that Japanese is an Agglutinative language.
     The above two logic are used to express the trailing 的 in the adjectives.
 
@@ -145,7 +145,7 @@ Since 6/18/2011
        ($x:verb で) => (通过 $x:verb) -- :verb means $x must be a verb.
 
     Express optional nodes. Example:
-        ($x? の） => ($x 的)  -- "?" means $x can be missing
+        ($x? の) => ($x 的)  -- "?" means $x can be missing
         (分か らない の? です?  。?) -- の? and です? can be missing
 
     Integrate regular expression. Example:
@@ -264,8 +264,8 @@ Since 6/18/2011
     下边是一些例子。
 
     capture变量，比如：
-       ($x の） => ($x 的)  -- 这里$x代表单个节点。
-       (@x の） => (@x 的)  -- 这里@x代表a list of节点，参考Perl中的array
+       ($x の) => ($x 的)  -- 这里$x代表单个节点。
+       (@x の) => (@x 的)  -- 这里@x代表a list of节点，参考Perl中的array
     你可能知道，日语是粘滞语言(Agglutinative language)。
     这两个逻辑表示仅仅用于修饰语后边的【的】（仅仅出现在词组的最右边）。
 
@@ -274,7 +274,7 @@ Since 6/18/2011
        ($x:verb で) => (通过 $x:verb) -- 这里:verb表示$x必需是动词。
 
     表达可选，比如：
-        ($x? の） => ($x 的)  -- 这里?代表单$x可以为空
+        ($x? の) => ($x 的)  -- 这里?代表单$x可以为空
         (分か らない の? です?  。?) -- 这里的【の?】【です?】这些节点可以是空。
 
     结合正则表达式，比如：

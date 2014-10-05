@@ -2,6 +2,294 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+10/4/2014 SAT
+  * Fixed a cache inconsistency bug for the Shared Dictionary.
+
+  * Add a new kind of syntax-based translation terms to the Shared Dictionary.
+    It might help improve machine translation quality.
+    Comparing to the old terms which work at Japanese-character level, the new terms can catch
+    lexical or syntactical patterns.
+    You can enable it in Preferences/Shared Dictionary.
+    The new translation system requires MeCab, CaboCha, and UniDic to work.
+    All of them are open-sourced libraries and can be downloaded for free in Preferences/Downloads.
+
+    You can ignore the following text if you don't know any Japanese or have never used the
+    Shared Dictionary before.
+
+    There is a also a Japanese Syntax Tester for debugging the terms.
+    But currently, the new syntax terms cannot be debugged in the Machine Translation Tester
+    (I haven't got time to implemented the support in this tester yet).
+
+    As none of the existing machine translators is open-sourced, we cannot have fine-control
+    over the translation process, and the machine translation quality is always bound by
+    the 3rd translator being used.
+    Though there are Shared Dictionary and TAH script, but all of the existing rules
+    are context-insensitive lexical-level text replacement, is limited.
+
+    My ultimate goal is to a design new rule-based machine translator in VNR based only on
+    the community-contributed translation rules in the Shared Dictionary.
+    The other machine translators will become optional, and only serve as alternatives
+    or dictionaries for looking up seldom used words.
+
+    The current syntax-based translation system is still very primitive, though.
+    I guess it might take at least half a year to get every thing done and have
+    enough translation rules for daily Japanese sentences.
+
+        http://sakuradite.com/topic/471
+
+    You can play with the new syntax terms, but please don't extensively add tons of rules
+    at the moment. I am going to add more grammar to describe the syntax soon.
+
+    Currently, my focus is on Japanese-Chinese translation.
+    It might also work well for Japanese-Korean translation.
+    But my current focus is NOT on Japanese-English translation.
+    The current translation system does not address the challenges in English translation,
+    such as how to deal with plurals/articles, which do not exist in Chinese/Japanese/Korean.
+    I might come back to think about English and other languages after the Chinese/Korean
+    translation support is mostly done.
+
+    In the following text, I am going to discuss the new system and the future plan in my mind.
+
+    I. Motivation
+
+    Let's start with an example:
+
+        白い髪の娘は白ちゃんです。
+
+    If I want to translate, say, 【白】=>【Haku】, the it will break 【白い】.
+    This problem can be solved in the new translation system.
+
+    In the new system, VNR will first construct a Syntax Parse Tree for the sentence,
+    as follows:
+
+        (((白い (髪 の)) (娘 は)) (白 ちゃん です 。))
+
+    There are 9 leaves in total: 白い, 髪, の, 娘, は, 白, ちゃん, です, and 。.
+    These nodes are separated by either " " (space) or "()" (parentheses).
+    The content in-out of the parentheses are parent-child.
+    The content next to each other are sibling nondes.
+    For instance: (白い (髪 の)) is the parent of(髪 の), and the grand-parent of【髪】.
+    And 【髪】 and 【の】are silblings.
+
+    Additionally, I also now the types of each node, such if it is a noun, name, verb, etc.
+    The current VNR does not support matching the types of the nodes, though.
+    Going to add this support soon.
+
+    After the syntax parse tree is constructed, VNR will use the syntax terms from the community
+    to translate the tree.
+    The pattern of the term will be used to match any subtree in the Syntax Tree.
+    If matched, the node will be replaced by the subtree created from the replacement text.
+    You can debug this process in the "Japanese Syntax Tester" widget.
+
+    For example, 【白】 will match 白 which used independently, but will not match 白い.
+    And【髪 の】won't match【白髪 の】, because ，【白髪】is a single node.
+
+    Additionally, nested parentheses can be used to express trees whose height > 1,
+    such as 【(白い (髪 の))】.
+
+    Besides, just one to mention that with/without parentheses are different.
+    【白髪 の】and【(白髪 の)】 are different.
+
+    For example, giving the following two syntax trees:
+
+        (((((こう 言う) 時) どんな) (顔 すれ ば いい の か)) (分から ない の)) 」)
+        (((((こう 言う) 時) どんな) (顔 すれ ば いい の か)) (分から ない の です か)) 」)
+
+    【分から ない の】(without parentheses) will match the nodes in both of the sentences.
+    But 【(分から ない の)】(with parentheses) will only match the first sentence.
+
+    II. Translation workflow
+
+    If you know Compiler, the translation process is quite similar to compile one language to another:
+
+                              front-end                              mid-end                          back-end
+        Japanese sentence    =>  token stream  => Japanese parse tree => Chinese parse tree => token stream => Chinese sentence
+                   (lexical tokenizer)     (syntax parser)          (translator)          (unparser)      (join)
+
+    Below is the the actual translation workflow in VNR:
+
+                             front-end                              mid-end              back-end
+        Japanese sentence   => token stream    => Japanese parse tree => Chinese parse tree => Chinese sentence
+                  (MeCab+CaboCha+UniDic)  (VNR syntax parser)    (VNR translator)    (VNR unparser)
+
+    Current, our shared syntax translation rules are applied at mid-end (VNR translator).
+    Later, I am going to add support for Input/Output terms as well, which will be applied
+    to front-end parser and back-end unparser respectively.
+
+    After the translation, if VNR found there are untranslated nodes, then VNR will use
+    the existing machine translation you selected, such as Google, to translate the
+    untranslated subtrees.
+
+    The order to apply the syntax rules and the other existing types of the terms are as follows:
+
+        Apply input term => Apply general translation term => (Apply syntax translatio terms) => Apply machine translation => Apply output terms
+
+    It is done like this which is easier to implement. But it does not make sense.
+    I am going to change the order to the following one soon.
+
+        Apply input term => (Apply syntax translatio terms) => Apply general translation term => Apply machine translation => Apply output terms
+
+    III. Future work
+    The current grammar for the pattern still cannot describe all Japanese syntax.
+    I am planning to add the following grammars one by one.
+
+    Capture variables.
+    A Japanese-Chinese example (I don't know how to express this in a single English word):
+       ($x の） => ($x 的)  -- $x represents a single node
+       (@x の） => (@x 的)  -- @x represents a list of sibling nodes, similar to @array in Perl
+    You might know that Japanese is an Agglutinative language.
+    The above two logic are used to express the trailing 的 in the adjectives.
+
+    Types of the words. Japanese-Chinese Example:
+       ($x:noun:name の) => ($x 的) -- Here, :noun:name means $x must be either a noun or a name
+       ($x:verb で) => (通过 $x:verb) -- :verb means $x must be a verb.
+
+    Express optional nodes. Example:
+        ($x? の） => ($x 的)  -- "?" means $x can be missing
+        (分か らない の? です?  。?) -- の? and です? can be missing
+
+    Integrate regular expression. Example:
+        (/[わ分]か/ らない の) -- the text within // is a regular expression
+        (/[わ分]か/:v らない の) -- the ":v" means the regular expression must be a verb
+        ($x=/[わ分]か/:v らない の) -- capture the regular expression using $x
+
+    Use quotes to escape special characters
+        $x="English word with space" -- the quotes here is used to escape " " (space)
+
+    Currently, we cannot directly modify the generated parse tree from CaboCha.
+    I am going to add a new MeCab typed terms that will be compiled into MeCab user-defined dictionary.
+    The term will have a weight parameter used to express the expected frequency of the word.
+    This might be a way to combine the syntax-based MT with the statistical MT.
+
+    If you have other suggestions, for instance, if a Japanese syntax cannot be expressed
+    under the current system, feel free to suggest to me.
+
+    添加了一个新的基于语法的日文翻译体系开改进日文翻译的质量。
+    可以在【使用偏好/共享辞书】中开启。
+    打开这个选项会需要在【使用偏好/下载】中安装MeCab、CaboCha和UniDic。
+
+    你可以忽略下边如果你从来没有使用过共享辞书。
+
+    我在共享辞书中添加了新的【语法】的选项。
+    当前，只有翻译词条可以开启这个选项。其他类型的词条我还没有实现。
+    开启了【语法】的词条和以往的词条截然不同。
+    以往的词条都不过是简单的文本替换。而语法词条可以识别和描述日文的文法。
+
+    新添加的【语法】词条可以使用新添加的【测试日文文法】的widget来debug。
+    【测试机器翻译】的widget暂时不能够debug语法词条。
+
+    我的最终的目标，是希望可以最终实现VNR自己的基于community的日文翻译系统，
+    而不再依赖第三方的J北京之类的翻译器。
+    不过当前的实现还是原始。另外，有很多我想做的东西还没有来的及实现。
+    如果你有需要或者建议，比方说，你想要实现的逻辑在当前的体系中不支持，
+    那么可以下边的topic里留言。
+
+        http://sakuradite.com/topic/471
+
+    You can play with the new syntax terms, 但是请暂时不要大量添加这个类型的词条。
+    我在以后马上会添加更多的语法的。
+
+    I. Motivation
+
+    还是举个例子吧。
+
+        白い髪の娘は白ちゃんです。
+
+    彼方说，如果简单的定义【白】=>【白】的人物词条, 那么会破坏掉【白い】。
+    这个问题在新的翻译模式下就可以解决了的。
+
+    在新的翻译模式下，VNR会先利用UniDic创建一棵Syntax Parse Tree，如下：
+
+        (((白い (髪 の)) (娘 は)) (白 ちゃん です 。))
+
+    上边的树有9个leaves，分别是：白い、髪、の，娘，は，白，ちゃん，です，"。"
+    这些节点是靠空格或者括号分割的。
+    然后呢，括号内外表示父子关系，相邻的括号或者节点表示silbling的关系。
+    比方说：【(白い (髪 の))】是【(髪 の)】的爸爸，是【髪】的爷爷。
+    而【髪】和【の】互为兄弟。
+
+    除此之外，我可以知道所有节点的词性，比如名词、动词、名字，拟声词等。
+    不过当前版本的VNR的匹配文本的语法还不支持描述词性。
+
+    在建好树后，VNR用会大家提交的词条的【匹配的文本】来匹配这课语法树中的subtree。
+    当匹配时，VNR会用【替换的文本】来创建一个新的subtree，并替换掉原来的。
+    你可以在【测试日文语法】的widget中来尝试。
+
+    比方说：【白】只会匹配到【白】单独使用的情况，而不会匹配到【白い】。
+    而【髪 の】不会匹配到【白髪 の】，因为【白髪】是一个完整的词。
+
+    除此之外，比方说，还可以用【(白い (髪 の))】来匹配parse tree内部中间的一个node。
+
+    另外要说明的是，【白髪 の】和【(白髪 の)】，这里加不加括号是不同的。
+    比方说，给定下边的两颗syntax tree：
+
+        (((((こう 言う) 時) どんな) (顔 すれ ば いい の か)) (分から ない の)) 」)
+        (((((こう 言う) 時) どんな) (顔 すれ ば いい の か)) (分から ない の です か)) 」)
+
+    那么【分から ない の】（没有括号）这两句话都可以匹配到。
+    而【(分から ない の)】（有括号）只会匹配到第一句，而匹配不到第二句。
+
+    II. 翻译的workflow
+
+    如果你有学过编译原理，那么不妨把翻译的过程想象成compiler编译语言的过程。
+
+                          front-end                              mid-end                          back-end
+    Japanese sentence    =>  token stream  => Japanese parse tree => Chinese parse tree => token stream => Chinese sentence
+               (lexical tokenizer)     (syntax parser)          (translator)          (unparser)      (join)
+
+    VNR实际的翻译过程如下：
+
+                         front-end                              mid-end              back-end
+    Japanese sentence   => token stream    => Japanese parse tree => Chinese parse tree => Chinese sentence
+              (MeCab+CaboCha+UniDic)  (VNR syntax parser)    (VNR translator)    (VNR unparser)
+
+    当前，大家定义的规则是作用在mid-end的VNR translator的步骤上的。
+    我在之后，会为Input、Ouput的词条也添加语法的选项。
+    添加后，它们会分别作用在front-end和back-end的parser和unparser上。
+
+    当翻译后，VNR发现有部分节点没有被大家的词条翻译到，那么VNR会改用用户选择的其他翻译器，
+    比方说百度或者金山快译，来翻译剩余的节点。
+
+    当前语法词条和语法词条作用的顺序如下：
+
+        应用输入词条 => 应用一般翻译词条 => (应用语法翻译词条) => 进行机器翻译 => 应用输出词条
+
+    这样子做主要是因为好实现，但是并不make sense。我在以后会把顺序改成下边这样：
+
+        应用输入词条 => (应用语法翻译词条) => 应用一般翻译词条 => 进行机器翻译 => 应用输出词条
+
+    III. Future work
+    当前的匹配文本的语法还远远不能表达很多很多的日文文法。
+    我在之后会逐渐添加下边的语法，希望最终可以利用这个翻译体系来描述绝大部分日文的文法。
+    下边是一些例子。
+
+    capture变量，比如：
+       ($x の） => ($x 的)  -- 这里$x代表单个节点。
+       (@x の） => (@x 的)  -- 这里@x代表a list of节点，参考Perl中的array
+    你可能知道，日语是粘滞语言(Agglutinative language)。
+    这两个逻辑表示仅仅用于修饰语后边的【的】（仅仅出现在词组的最右边）。
+
+    表达词性，比如：
+       ($x:noun:name の) => ($x 的) -- 这里:noun:name表示$x必需是名词或者名字。
+       ($x:verb で) => (通过 $x:verb) -- 这里:verb表示$x必需是动词。
+
+    表达可选，比如：
+        ($x? の） => ($x 的)  -- 这里?代表单$x可以为空
+        (分か らない の? です?  。?) -- 这里的【の?】【です?】这些节点可以是空。
+
+    结合正则表达式，比如：
+        (/[わ分]か/ らない の) -- 这里的//表示中间的是正则表达式，参考Perl和JavaScript的语法
+        (/[わ分]か/:v らない の) -- 这里的//表示中间的是正则表达式，并且是个动词
+        ($x=/[わ分]か/:v らない の) -- 这里将正则表达式用$x的变量来capture
+
+    用引号来转义特殊的字符，比如：
+        $x="English word with space" -- 这里用引号来避免VNR把空格当成节点的分隔符。
+
+    另外，现在还不能直接修改搭建的parse tree。我打算在以后再添加一个MeCab的类型的词条，用来编译成MeCab的词典来控制parse tree的生成。
+    MeCab的词条会需要一个权重（即单词频度）的参数，这样就可以把syntax-based MT和statistical MT结合在一起了。
+
+    如果你有其他的建议，或者觉得这样定义语法并不方便，或者还是有很多逻辑无法表达，可以让我知道的。
+
 10/2/2014 THU
   * 更新了djz大先生的J北京辞书到141001的版本。
     你可以通过下边的qq向djz大先生表示感谢，或者询问关于J北京问题。

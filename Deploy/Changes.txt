@@ -22,9 +22,9 @@ Since 6/18/2011
 
     As none of the existing machine translators is open-sourced, we cannot have fine-control
     over the translation process, and the machine translation quality is always bound by
-    the 3rd translator being used.
-    Though there are Shared Dictionary and TAH script, but all of the existing rules
-    are context-insensitive lexical-level text replacement, is limited.
+    the 3rd-party translator being used.
+    Though there are Shared Dictionary and TAH scripts, but all of the existing rules
+    are context-insensitive lexical-level text replacement, and their capability is limited.
 
     My ultimate goal is to a design new rule-based machine translator in VNR based only on
     the community-contributed translation rules in the Shared Dictionary.

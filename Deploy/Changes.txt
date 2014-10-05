@@ -124,19 +124,18 @@ Since 6/18/2011
 
     The order to apply the syntax rules and the other existing types of the terms are as follows:
 
-        Apply input term => Apply general translation term => (Apply syntax translatio terms) => Apply machine translation => Apply output terms
+        Apply input term => Apply general translation term => (Apply syntax translation terms) => Apply machine translation => Apply output terms
 
     It is done like this which is easier to implement. But it does not make sense.
     I am going to change the order to the following one soon.
 
-        Apply input term => (Apply syntax translatio terms) => Apply general translation term => Apply machine translation => Apply output terms
+        Apply input term => (Apply syntax translation terms) => Apply general translation term => Apply machine translation => Apply output terms
 
     III. Future work
     The current grammar for the pattern still cannot describe all Japanese syntax.
     I am planning to add the following grammars one by one.
 
-    Capture variables.
-    A Japanese-Chinese example (I don't know how to express this in a single English word):
+    Capture variables. Below is a Japanese-Chinese example (I don't know how to express this in a single English word):
        ($x の) => ($x 的)  -- $x represents a single node
        ($x $y の) => ($x $y 的)  -- $x and $y represent two different nodes
        (@x の) => (@x 的)  -- @x represents a list of sibling nodes, similar to @array in Perl

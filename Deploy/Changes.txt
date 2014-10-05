@@ -140,20 +140,20 @@ Since 6/18/2011
        ($x $y の) => ($x $y 的)  -- $x and $y represent two different nodes
        (@x の) => (@x 的)  -- @x represents a list of sibling nodes, similar to @array in Perl
     You might know that Japanese is an Agglutinative language.
-    The above two logic are used to express the trailing 的 in the adjectives.
+    The above rules can be used to express the trailing の in Japanese adjectives.
 
     Types of the words. Japanese-Chinese Example:
        ($x:noun:name の) => ($x 的) -- here, :noun:name means $x must be either a noun or a name
        ($x:verb で) => (通过 $x:verb) -- :verb means $x must be a verb.
 
     Express optional nodes. Example:
-        ($x? の) => ($x 的)  -- "?" means $x can be missing
-        (分か らない の? です?  。?) -- の? and です? can be missing
+        ($x? の) => ($x 的)  -- "?" means $x can be optional
+        (分か らない の? です?  。?) -- の? and です? can be optional
 
-    Integrate regular expression. Example:
-        (/[わ分]か/ らない の) -- the text within // is a regular expression
-        (/[わ分]か/:v らない の) -- the ":v" means the regular expression must be a verb
-        ($x=/[わ分]か/:v らない の) -- capture the regular expression using $x
+    Integrate regular expressions. Example:
+        (/[わ分]から/ ない の) -- the text within // is a regular expression
+        (/[わ分]から/:v ない の) -- the ":v" means the regular expression must be a verb
+        ($x=/[わ分]から/:v ない の) -- capture the regular expression using $x
 
     Use quotes to escape special characters
         $x="English word with space" -- the quotes here is used to escape " " (space)
@@ -281,9 +281,9 @@ Since 6/18/2011
         (分か らない の? です?  。?) -- 这里的【の?】【です?】这些节点可以是空。
 
     结合正则表达式，比如：
-        (/[わ分]か/ らない の) -- 这里的//表示中间的是正则表达式，参考Perl和JavaScript的语法
-        (/[わ分]か/:v らない の) -- 这里的//表示中间的是正则表达式，并且是个动词
-        ($x=/[わ分]か/:v らない の) -- 这里将正则表达式用$x的变量来capture
+        (/[わ分]から/ ない の) -- 这里的//表示中间的是正则表达式，参考Perl和JavaScript的语法
+        (/[わ分]から/:v ない の) -- 这里的//表示中间的是正则表达式，并且是个动词
+        ($x=/[わ分]から/:v ない の) -- 这里将正则表达式用$x的变量来capture
 
     用引号来转义特殊的字符，比如：
         $x="English word with space" -- 这里用引号来避免VNR把空格当成节点的分隔符。

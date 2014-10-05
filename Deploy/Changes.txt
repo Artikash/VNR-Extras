@@ -148,7 +148,7 @@ Since 6/18/2011
 
     Express optional nodes. Example:
         ($x? の) => ($x 的)  -- "?" means $x can be optional
-        (分か らない の? です?  。?) -- の? and です? can be optional
+        (分から ない の? です?  。?) -- の? and です? can be optional
 
     Integrate regular expressions. Example:
         (/[わ分]から/ ない の) -- the text within // is a regular expression
@@ -279,7 +279,7 @@ Since 6/18/2011
 
     表达可选，比如：
         ($x? の) => ($x 的)  -- 这里?代表单$x可以为空
-        (分か らない の? です?  。?) -- 这里的【の?】【です?】这些节点可以是空。
+        (分から ない の? です?  。?) -- 这里的【の?】【です?】这些节点可以是空。
 
     结合正则表达式，比如：
         (/[わ分]から/ ない の) -- 这里的//表示中间的是正则表达式，参考Perl和JavaScript的语法

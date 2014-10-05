@@ -102,7 +102,7 @@ Since 6/18/2011
 
     II. Translation workflow
 
-    If you know Compiler, the translation process is quite similar to compile one language to another:
+    If you know Compiler, the translation process is quite similar to compiling one language to another:
 
                               front-end                              mid-end                          back-end
         Japanese sentence    =>  token stream  => Japanese parse tree => Chinese parse tree => token stream => Chinese sentence
@@ -111,14 +111,14 @@ Since 6/18/2011
     Below is the the actual translation workflow in VNR:
 
                              front-end                              mid-end              back-end
-        Japanese sentence   => token stream    => Japanese parse tree => Chinese parse tree => Chinese sentence
+        Japanese sentence   => word stream    => Japanese parse tree => Chinese parse tree => Chinese sentence
                   (MeCab+CaboCha+UniDic)  (VNR syntax parser)    (VNR translator)    (VNR unparser)
 
     Current, our shared syntax translation rules are applied at mid-end (VNR translator).
-    Later, I am going to add support for Input/Output terms as well, which will be applied
+    Later, I am going to add syntax support for Input/Output terms as well, which will be applied
     to front-end parser and back-end unparser respectively.
 
-    After the translation, if VNR found there are untranslated nodes, then VNR will use
+    After the translation, if VNR has found there are untranslated nodes, VNR will use
     the existing machine translation you selected, such as Google, to translate the
     untranslated subtrees.
 
@@ -237,13 +237,13 @@ Since 6/18/2011
     如果你有学过编译原理，那么不妨把翻译的过程想象成compiler编译语言的过程。
 
                           front-end                              mid-end                          back-end
-    Japanese sentence    =>  token stream  => Japanese parse tree => Chinese parse tree => token stream => Chinese sentence
+    Japanese sentence    =>  token stream  => Japanese parse tree => Chinese parse tree =>  stream => Chinese sentence
                (lexical tokenizer)     (syntax parser)          (translator)          (unparser)      (join)
 
     VNR实际的翻译过程如下：
 
                          front-end                              mid-end              back-end
-    Japanese sentence   => token stream    => Japanese parse tree => Chinese parse tree => Chinese sentence
+    Japanese sentence   => word stream    => Japanese parse tree => Chinese parse tree => Chinese sentence
               (MeCab+CaboCha+UniDic)  (VNR syntax parser)    (VNR translator)    (VNR unparser)
 
     当前，大家定义的规则是作用在mid-end的VNR translator的步骤上的。

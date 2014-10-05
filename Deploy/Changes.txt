@@ -20,6 +20,8 @@ Since 6/18/2011
     But currently, the new syntax terms cannot be debugged in the Machine Translation Tester
     (I haven't got time to implemented the support in this tester yet).
 
+    Currently, guest account is not allowed to create syntax terms.
+
     As none of the existing machine translators is open-sourced, we cannot have fine-control
     over the translation process, and the machine translation quality is always bound by
     the 3rd-party translator being used.
@@ -179,6 +181,8 @@ Since 6/18/2011
 
     新添加的【语法】词条可以使用新添加的【测试日文文法】的widget来debug。
     【测试机器翻译】的widget暂时不能够debug语法词条。
+
+    Guest用户暂时不可以提交语法词条。
 
     我的最终的目标，是希望可以最终实现VNR自己的基于community的日文翻译系统，
     而不再依赖第三方的J北京之类的翻译器。

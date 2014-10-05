@@ -84,12 +84,12 @@ Since 6/18/2011
     You can debug this process in the "Japanese Syntax Tester" widget.
 
     For example, 【白】 will match 白 which used independently, but will not match 白い.
-    And【髪 の】won't match【白髪 の】, because ，【白髪】is a single node.
+    And【髪 の】won't match【白髪 の】, because,【白髪】will be a single node.
 
     Additionally, nested parentheses can be used to express trees whose height > 1,
     such as 【(白い (髪 の))】.
 
-    Besides, just one to mention that with/without parentheses are different.
+    Besides, just one to mention that a list with/without parentheses are different.
     【白髪 の】and【(白髪 の)】 are different.
 
     For example, giving the following two syntax trees:

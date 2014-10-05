@@ -35,6 +35,9 @@ Since 6/18/2011
     I guess it might take at least half a year to get every thing done and have
     enough translation rules for daily Japanese sentences.
 
+
+    If you have questions or suggestions, feel free to post them to the following topic.
+
         http://sakuradite.com/topic/471
 
     You can play with the new syntax terms, but please don't extensively add tons of rules

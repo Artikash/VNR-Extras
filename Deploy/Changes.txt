@@ -136,12 +136,13 @@ Since 6/18/2011
     Capture variables.
     A Japanese-Chinese example (I don't know how to express this in a single English word):
        ($x の) => ($x 的)  -- $x represents a single node
+       ($x $y の) => ($x $y 的)  -- $x and $y represent two different nodes
        (@x の) => (@x 的)  -- @x represents a list of sibling nodes, similar to @array in Perl
     You might know that Japanese is an Agglutinative language.
     The above two logic are used to express the trailing 的 in the adjectives.
 
     Types of the words. Japanese-Chinese Example:
-       ($x:noun:name の) => ($x 的) -- Here, :noun:name means $x must be either a noun or a name
+       ($x:noun:name の) => ($x 的) -- here, :noun:name means $x must be either a noun or a name
        ($x:verb で) => (通过 $x:verb) -- :verb means $x must be a verb.
 
     Express optional nodes. Example:
@@ -265,6 +266,7 @@ Since 6/18/2011
 
     capture变量，比如：
        ($x の) => ($x 的)  -- 这里$x代表单个节点。
+       ($x $y の) => ($x $y 的)  -- 这里$x和$y代表两个节点。
        (@x の) => (@x 的)  -- 这里@x代表a list of节点，参考Perl中的array
     你可能知道，日语是粘滞语言(Agglutinative language)。
     这两个逻辑表示仅仅用于修饰语后边的【的】（仅仅出现在词组的最右边）。

@@ -118,8 +118,8 @@ Since 6/18/2011
     Later, I am going to add syntax support for Input/Output terms as well, which will be applied
     to front-end parser and back-end unparser respectively.
 
-    After the translation, if VNR has found there are untranslated nodes, VNR will use
-    the existing machine translation you selected, such as Google, to translate the
+    After the translation, if VNR has found there are untranslated nodes, VNR will use the
+    existing machine translator you have selected, such as Google, to translate the left
     untranslated subtrees.
 
     The order to apply the syntax rules and the other existing types of the terms are as follows:

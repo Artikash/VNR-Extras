@@ -69,11 +69,11 @@ Since 6/18/2011
     There are 9 leaves in total: 白い, 髪, の, 娘, は, 白, ちゃん, です, and 。.
     These nodes are separated by either " " (space) or "()" (parentheses).
     The content in-out of the parentheses are parent-child.
-    The content next to each other are sibling nondes.
+    The content next to each other are sibling nodes.
     For instance: (白い (髪 の)) is the parent of(髪 の), and the grand-parent of【髪】.
-    And 【髪】 and 【の】are silblings.
+    And 【髪】 and 【の】are siblings.
 
-    Additionally, I also now the types of each node, such if it is a noun, name, verb, etc.
+    Additionally, I also have the types of each node, such as if the node is a noun, name, verb, etc.
     The current VNR does not support matching the types of the nodes, though.
     Going to add this support soon.
 

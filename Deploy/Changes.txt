@@ -2,6 +2,26 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+10/6/2014 MON
+  * The default online TTS engine is switch from Apple QuickTime to native Windows Media Player (WMP).
+    If you have a genuine Windows, WMP has been already installed.
+    So, nothing is required to use the online TTS.
+
+    The performance of the online TTS is improved.
+    You can found the cached TTS audios in MP3 format in Caches/tmp/reader/tts.
+    The new online TTS implementation is surprisingly very fast. Even as fast as offline TTS.
+    And it works both with and without administrator privileges.
+    I am going to add more online TTS and support for adjusting TTS volume and speed soon.
+
+    在线TTS的音频改为使用Windows Media Player（WMP）来播放，而不再使用TTS。
+    如果你在使用的是正版的Windows，那么WMP默认已经安装了的。
+
+    另外改善了在线TTS的performance。
+    在线TTS的音频会以MP3的格式保存在Caches/tmp/reader/tts。
+    新的在线TTS的实现非常非常的快，甚至和离线的TTS一样快。
+    并且在线TTS在管理员和非管理员权限下都可以正常使用的。
+    我在之后会添加更多的在线TTS，和添加调整TTS语调和音量的设定。
+
 10/4/2014 SAT
   * Fixed a cache inconsistency bug for the Shared Dictionary.
 

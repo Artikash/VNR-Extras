@@ -3,6 +3,10 @@ Visual Novel Reader
 Since 6/18/2011
 
 10/7/2014 TUE
+  * Add Baidu TTS, which is the same as the old version of Google TTS.
+    But the old version sounds better.
+    添加了对百度TTS的支持。
+
   * The volume and speed for online TTS can be adjusted in Preferences.
     在使用偏好中可以调整在线TTS的速度和音量。
 

@@ -4,7 +4,7 @@ Since 6/18/2011
 
 10/6/2014 MON
   * The online TTS implementation is switched from Apple QuickTime to native Windows Media Player (WMP).
-    If you have a genuine Windows, WMP has been already installed.
+    If you have a genuine Windows, WMP has already been installed.
     So, nothing is required to use the online TTS.
 
     The performance of the online TTS is improved.
@@ -13,7 +13,7 @@ Since 6/18/2011
     And it works both with and without administrator privileges.
     I am going to add more online TTS and support for adjusting TTS volume and speed soon.
 
-    在线TTS的音频改为使用Windows Media Player（WMP）来播放，而不再使用TTS。
+    在线TTS的音频改为使用Windows Media Player（WMP）来播放，而不再使用QuickTime。
     如果你在使用的是正版的Windows，那么WMP默认已经安装了的。
 
     另外改善了在线TTS的performance。

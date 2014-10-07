@@ -3,12 +3,12 @@ Visual Novel Reader
 Since 6/18/2011
 
 10/6/2014 MON
-  * The default online TTS engine is switch from Apple QuickTime to native Windows Media Player (WMP).
+  * The online TTS implementation is switched from Apple QuickTime to native Windows Media Player (WMP).
     If you have a genuine Windows, WMP has been already installed.
     So, nothing is required to use the online TTS.
 
     The performance of the online TTS is improved.
-    You can found the cached TTS audios in MP3 format in Caches/tmp/reader/tts.
+    You can find the cached TTS audios in MP3 format in Caches/tmp/reader/tts.
     The new online TTS implementation is surprisingly very fast. Even as fast as offline TTS.
     And it works both with and without administrator privileges.
     I am going to add more online TTS and support for adjusting TTS volume and speed soon.

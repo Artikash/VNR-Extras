@@ -2,6 +2,15 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+10/7/2014 TUE
+  * The volume and speed for online TTS can be adjusted in Preferences.
+    在使用偏好中可以调整在线TTS的速度和音量。
+
+  * The pitch for SAPI TTS can be adjusted in Preferences.
+    Higher pitch will make the voice to sound younger.
+    在使用偏好中可以调整SAPI TTS的音调。
+    音调变大时，声音听起来会更年轻些。
+
 10/6/2014 MON
   * The online TTS implementation is switched from Apple QuickTime to native Windows Media Player (WMP).
     If you have a genuine Windows, WMP has already been installed.

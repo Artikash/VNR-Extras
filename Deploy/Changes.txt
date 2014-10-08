@@ -20,10 +20,10 @@ Since 6/18/2011
     在使用偏好中可以调整SAPI TTS的音调。
     音调变大时，声音听起来会更年轻些。
 
-  * You can toggle "Speak -> Original" or "Speak -> Translation" on the left dock,
+  * You can toggle "Speak -> Original" or "Speak -> Translation" on the left dock
     to select whether to read the original game texts or the subtitles.
 
-    运行游戏后，点击左边的【语音】=> 【翻译】，VNR会使用在线或离线TTS读出中文字幕。
+    运行游戏后，点击左边的【朗读】=> 【翻译】，VNR会使用在线或离线TTS读出中文字幕。
 
   * Online TTS support for VNR's website reader has not been implemented yet.
     VNR内置的浏览器暂时不支持在线的TTS。

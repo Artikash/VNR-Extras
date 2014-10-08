@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+10/8/2014 TUE
+  * Add a toggle in Preferences/Translation to convert Mandarin to Yue Chinese.
+    添加了使用百度将国语字幕转换为粤语的选项。在【共享辞书/翻译】中可以开启。。
+
 10/7/2014 TUE
   * Fixed a severe regression that might crash VNR.
     I am very sorry for the inconvenience! m(_ _)m
@@ -9,7 +13,7 @@ Since 6/18/2011
     修正了一个可能会让VNR崩溃的问题。
     给大家带来不便，非常抱歉！m(_ _)m
 
-  * Add Baidu TTS. The voice is the same as VW Misaki from Korean, except that
+  * Add Baidu TTS. The voice is the same as VW Misaki from Korea, except that
     the bitrate is lower than the offline version.
     添加了对百度TTS的支持。
     百度的日文TTS使用的是韩国的VoiceText Misaki。

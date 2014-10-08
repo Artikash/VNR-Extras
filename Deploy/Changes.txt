@@ -4,9 +4,10 @@ Since 6/18/2011
 
 10/7/2014 TUE
   * Add Baidu TTS. The voice is the same as VW Misaki from Korean, except that
-    the bitrate is smaller then the offline version.
+    the bitrate is lower then the offline version.
     添加了对百度TTS的支持。
-    百度的日文TTS使用的是韩国的VoiceText Misaki。和离线版本比起来，百度TTS的bitrate要更低。
+    百度的日文TTS使用的是韩国的VoiceText Misaki。
+    和离线版本比起来，百度TTS的bitrate更低，音质要差些。除此之外，没有区别。
 
   * Add Bing TTS.
     添加了对Bing TTS的支持。
@@ -20,7 +21,7 @@ Since 6/18/2011
     音调变大时，声音听起来会更年轻些。
 
   * You can toggle "Speak -> Original" or "Speak -> Translation" on the left dock,
-    to select whether to read the original game text or the subtitles.
+    to select whether to read the original game texts or the subtitles.
 
     运行游戏后，点击左边的【语音】=> 【翻译】，VNR会使用在线或离线TTS读出中文字幕。
 

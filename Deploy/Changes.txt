@@ -20,6 +20,9 @@ Since 6/18/2011
 
     运行游戏后，点击左边的【语音】=> 【翻译】，VNR会使用在线或离线TTS读出中文字幕。
 
+  * Online TTS support for VNR's website reader has not been implemented yet.
+    VNR内置的浏览器暂时不支持在线的TTS。
+
 10/6/2014 MON
   * The online TTS implementation is switched from Apple QuickTime to native Windows Media Player (WMP).
     If you have a genuine Windows, WMP has already been installed.

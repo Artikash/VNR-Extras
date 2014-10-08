@@ -3,6 +3,12 @@ Visual Novel Reader
 Since 6/18/2011
 
 10/7/2014 TUE
+  * Fixed a severe regression that might crash VNR.
+    Really sorry for the issue! m(_ _)m
+
+    修正了一个可能会让VNR崩溃的问题。
+    带来不便，非常抱歉！m(_ _)m
+
   * Add Baidu TTS. The voice is the same as VW Misaki from Korean, except that
     the bitrate is lower than the offline version.
     添加了对百度TTS的支持。

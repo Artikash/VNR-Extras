@@ -3,9 +3,13 @@ Visual Novel Reader
 Since 6/18/2011
 
 10/7/2014 TUE
-  * Add Baidu TTS, which is the same as the old version of Google TTS.
-    But the old version sounds better.
+  * Add Baidu TTS. The voice is the same as VW Misaki from Korean, except that
+    the bitrate is smaller then the offline version.
     添加了对百度TTS的支持。
+    百度的日文TTS使用的是韩国的VoiceText Misaki。和离线版本比起来，百度TTS的bitrate要更低。
+
+  * Add Bing TTS.
+    添加了对Bing TTS的支持。
 
   * The volume and speed for online TTS can be adjusted in Preferences.
     在使用偏好中可以调整在线TTS的速度和音量。

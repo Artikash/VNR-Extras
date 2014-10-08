@@ -4,7 +4,7 @@ Since 6/18/2011
 
 10/7/2014 TUE
   * Add Baidu TTS. The voice is the same as VW Misaki from Korean, except that
-    the bitrate is lower then the offline version.
+    the bitrate is lower than the offline version.
     添加了对百度TTS的支持。
     百度的日文TTS使用的是韩国的VoiceText Misaki。
     和离线版本比起来，百度TTS的bitrate更低，音质要差些。除此之外，没有区别。

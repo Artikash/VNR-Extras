@@ -7,7 +7,9 @@ Since 6/18/2011
     添加了使用百度将国语字幕转换为粤语的选项。在【使用偏好/翻译】中可以开启。
 
   * Display game sizes on the Game Board.
+    You can also search "GB" for large games >= 1GB, or "MB" for small game < 1GB.
     Game Board会显示游戏的大小。
+    你也可以搜索“GB”来得到大于1GB的游戏，或者“MB”来得到小于1GB的游戏。
 
 10/7/2014 TUE
   * Fixed a severe regression that might crash VNR.

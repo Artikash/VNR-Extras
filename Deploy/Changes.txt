@@ -4,7 +4,10 @@ Since 6/18/2011
 
 10/8/2014 TUE
   * Add a toggle in Preferences/Translation to convert Mandarin to Yue Chinese.
-    添加了使用百度将国语字幕转换为粤语的选项。在【共享辞书/翻译】中可以开启。。
+    添加了使用百度将国语字幕转换为粤语的选项。在【共享辞书/翻译】中可以开启。
+
+  * Display game sizes on the Game Board.
+    Game Board会显示游戏的大小。
 
 10/7/2014 TUE
   * Fixed a severe regression that might crash VNR.

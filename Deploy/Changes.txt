@@ -11,6 +11,13 @@ Since 6/18/2011
     Game Board会显示游戏的大小。
     你也可以搜索“GB”来得到大于1GB的游戏，或者“MB”来得到小于1GB的游戏。
 
+  * The texts modified by the Shared Dictionary are underlined by default now.
+    This could help remove the redundant spaces for Chinese/Korean escape terms.
+    If you don't like the underline, it can be disabled in Preferences/Shared Dictionary.
+    VNR现在默认会下划线被共享辞书修改的文本。
+    这样可以帮助删掉被替换文本两边的多余的空格。
+    如果你不希望看到下划线，可以在【使用偏好/共享辞书】中禁用下划线。
+
 10/7/2014 TUE
   * Fixed a severe regression that might crash VNR.
     I am very sorry for the inconvenience! m(_ _)m

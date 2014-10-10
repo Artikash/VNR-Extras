@@ -8,6 +8,8 @@ Since 6/18/2011
     添加了对全部VOICEROID+和VoiceText的在线TTS的支持。
     在【使用偏好】或者【语音设定】中可以选择这些TTS。
 
+  * 修正了金山快译使用一段时间后可能会失效的问题。
+
 10/8/2014 WED
   * Add a toggle in Preferences/Translation to convert Mandarin to Yue Chinese.
     添加了使用百度将国语字幕转换为粤语的选项。在【使用偏好/翻译】中可以开启。

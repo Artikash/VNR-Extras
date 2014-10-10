@@ -5,8 +5,7 @@ Since 6/18/2011
 10/9/2014 THU
   * Add support for all VOICEROID+ and VoiceText online TTS.
     You can select your favorite TTS in Preferences/Text-to-speech or per-game Voice Settings.
-    The online TTS is relative slow.
-    You might have to get the offline version for faster usage.
+    But the online TTS is relatively slow comparing to the offline version.
 
     添加了对全部VOICEROID+和VoiceText的在线TTS的支持。
     在【使用偏好】或者【语音设定】中可以选择这些TTS。

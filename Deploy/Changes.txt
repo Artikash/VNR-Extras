@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+10/11/2014 SAT
+  * Add rUGP2 engine for new マブラヴ series games from アージュ.
+    为アージュ社的新游戏添加了rUGP2的引擎。
+
 10/9/2014 THU
   * Add support for all VOICEROID+ and VoiceText online TTS.
     You can select your favorite TTS in Preferences/Text-to-speech or per-game Voice Settings.

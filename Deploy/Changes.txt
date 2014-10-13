@@ -9,9 +9,8 @@ Since 6/18/2011
     So, .NET is not required for zunko, and there is no blacklist of H-words.
     But currently, the pitch/speed/range of the voice cannot be adjusted like in zunko.
 
-    改善了对「東北ずん子」的支持。
-    VNR不需要启动她，就可以直接调用TTS了。
-    这个技能不需要.NET，也没有ずん子的H黑名单的问题。
+    改善了对「東北ずん子」的支持。VNR不需要启动她，就可以直接调用TTS了。
+    这个功能不需要.NET，也没有ずん子的H黑名单的问题。
     不过，当前还不支持调整ずん子的音调、语速和重音。
 
 10/11/2014 SAT

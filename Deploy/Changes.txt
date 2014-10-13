@@ -5,7 +5,7 @@ Since 6/18/2011
 10/13/2014 MON
   * Improve the support for 東北ずん子.
     VNR can directly play the TTS without launching zunko's program.
-    I dissembled zunko into C# code and reimiplement it using C++.
+    I dissembled zunko into C# code and reimiplemented the logic using C++.
     So, .NET is not required for zunko, and there is no blacklist of H-words.
     But currently, the pitch/speed/range of the voice cannot be adjusted like in zunko.
 

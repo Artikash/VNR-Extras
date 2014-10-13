@@ -13,6 +13,9 @@ Since 6/18/2011
     这个功能不需要.NET，不需要剪贴板，也没有ずん子的H黑名单的问题。
     不过，当前还不支持调整ずん子的音调、语速和重音。
 
+  * OSC buttons are flatter, which is easier to read and render.
+    部分按钮改为扁平。
+
 10/11/2014 SAT
   * Add rUGP2 engine for new マブラヴ series games from アージュ.
     为アージュ社的新游戏添加了rUGP2的引擎。

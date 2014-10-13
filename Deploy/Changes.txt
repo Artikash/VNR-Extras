@@ -14,7 +14,7 @@ Since 6/18/2011
     不过，当前还不支持调整ずん子的音调、语速和重音。
 
   * OSC buttons are flatter, which is easier to read and render.
-    部分按钮改为扁平。
+    部分按钮改为扁平了。
 
 10/11/2014 SAT
   * Add rUGP2 engine for new マブラヴ series games from アージュ.

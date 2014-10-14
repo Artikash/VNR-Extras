@@ -5,16 +5,16 @@ Since 6/18/2011
 10/13/2014 MON
   * Improve the support for 東北ずん子.
     VNR can directly play the TTS without launching zunko's program.
-    I dissembled zunko into C# code and reimiplemented the logic using C++.
-    So, .NET and clipboard are not needed, and there is no blacklist of H-words.
+    I dissembled zunko into C# code and reimplemented the logic using C++.
+    .NET and clipboard are not needed, and there is no blacklist of H-words.
     But currently, the pitch/speed/range of the voice cannot be adjusted like in zunko.
 
     改善了对「東北ずん子」的支持。VNR不需要启动她，就可以直接调用TTS了。
     这个功能不需要.NET，不需要剪贴板，也没有ずん子的H黑名单的问题。
     不过，当前还不支持调整ずん子的音调、语速和重音。
 
-  * OSC buttons are flatter, which are easier to read and render.
-    部分按钮改为扁平了。
+  * VNR's UI is flatter.
+    改为扁平界面了。
 
 10/11/2014 SAT
   * Add rUGP2 engine for new マブラヴ series games from アージュ.

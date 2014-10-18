@@ -3,7 +3,8 @@ Visual Novel Reader
 Since 6/18/2011
 
 10/18/2014 SAT
-  * Bugfix for generating romaji and hangul furigana.
+  * Bugfix for the correctness of the generated romaji and hangul furigana.
+    修正了罗马字和韩文的振仮名的部分错误。
 
 10/17/2014 FRI
   * Add variable syntax to VNR's new machine translation system.

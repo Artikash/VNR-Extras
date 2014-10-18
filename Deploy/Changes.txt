@@ -2,6 +2,36 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+10/17/2014 FRI
+  * Add variable syntax to VNR's new machine translation system.
+    It can be enabled in Preferences/Shared Dictionary.
+
+    Current, it is still at testing stage.
+    Please do enable it to translate real-world games except for testing purpose!!
+
+    Regarding the syntax, for example, $x can be used to match any node in the syntax tree.
+    And @x can be used to match any adjacent nodes in the syntax tree.
+    Here's some example illustrating how it works:
+
+    Given a syntax tree:  ((((お前 の) (物 は)) (俺 の)) 物)
+    The following replacement will translate の at the end of an adjective to "的" in Chinese.
+    - ($x の) => ($x 的) -- $x = お前
+    - (($x の) $y) => (($x 的) $y) -- $x = お前, $y = 物は
+    Here's an example for list variables:
+    - ((@adj) 物) => ((@adj) 东西) -- @adj = ((お前 の) (物 は)) and (俺 の), totally two nodes
+
+    向VNR的翻译系统添加了变量的语法。
+    在使用偏好的共享辞书中可以开启这个选项。
+
+    现在，这个技能还在测试中。除非测试目的，请不要打开这个选项！！
+
+    比方说，给定： ((((お前 の) (物 は)) (俺 の)) 物)
+    下边是scalar形变量的例子，可以把形容词后边的【の】翻译为【的】：
+    - ($x の) => ($x 的) -- $x = お前
+    - (($x の) $y) => (($x 的) $y) -- $x = お前, $y = 物は
+    下边是list型变量的例子：
+    - ((@adj) 物) => ((@adj) 东西) -- @adj可以捕获【((お前 の) (物 は))】和【(俺 の)】一共两个node
+
 10/13/2014 MON
   * Improve the support for 東北ずん子.
     VNR can directly play the TTS without launching zunko's program.

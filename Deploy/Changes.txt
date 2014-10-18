@@ -9,8 +9,8 @@ Since 6/18/2011
     Current, it is still at testing stage.
     Please do NOT enable it to translate real-world games except for testing purpose!!
 
-    Regarding the syntax, for example, $x can be used to match any node in the syntax tree.
-    And @x can be used to match any adjacent nodes in the syntax tree.
+    Regarding the syntax, for example, $x can be used to match any single node in the syntax tree.
+    And @x can be used to match a list of any adjacent nodes in the syntax tree.
     Here's some example illustrating how it works:
 
     Given a syntax tree:  ((((お前 の) (物 は)) (俺 の)) 物)

@@ -2,6 +2,9 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+10/18/2014 SAT
+  * Bugfix for generating romaji and hangul furigana.
+
 10/17/2014 FRI
   * Add variable syntax to VNR's new machine translation system.
     It can be enabled in Preferences/Shared Dictionary.

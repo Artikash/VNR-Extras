@@ -7,7 +7,7 @@ Since 6/18/2011
     It can be enabled in Preferences/Shared Dictionary.
 
     Current, it is still at testing stage.
-    Please do enable it to translate real-world games except for testing purpose!!
+    Please do NOT enable it to translate real-world games except for testing purpose!!
 
     Regarding the syntax, for example, $x can be used to match any node in the syntax tree.
     And @x can be used to match any adjacent nodes in the syntax tree.

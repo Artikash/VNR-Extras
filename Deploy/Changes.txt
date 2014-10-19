@@ -7,7 +7,7 @@ Since 6/18/2011
     Add an option in Preferences/Translation/Chinese for selecting default Kanji variants among
     Taiwan Standard Chinese (default), Hong Kong traditional Chinese, and Japanese Kanji.
 
-    The default Chinese UI translation is changed to use Taiwan Standard Chinese.
+    VNR's default Chinese UI translation is changed to use Taiwan Standard Chinese.
 
     改为使用OpenCC而不再用Google来做中文变体的转换。
     在【使用偏好/翻译/中文】中添加了选择中文变体的选项，可以在

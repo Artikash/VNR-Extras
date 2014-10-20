@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+10/20/2014 MON
+  * Fix a bug in 東北ずん子 TTS that sometimes only half of the sentence was read.
+    修正了東北ずん子有时只读出半句日文的bug。
+
 10/19/2014 SUN
   * Use OpenCC instead of Google to convert different Chinese variants.
     Add an option in Preferences/Translation/Chinese for selecting default Kanji variants among

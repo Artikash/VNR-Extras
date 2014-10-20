@@ -22,6 +22,10 @@ Since 6/18/2011
     用于提取文本的vnrcli.dll和vnreng.dll合并为了一个vnrhook.dll。
     如果你在使用杀毒软体，也许需要将那个dll加入白名单中。
 
+  * For certain game engines such as SiglusEngine, VNR no longer disables context menu
+    when game engines full screen.
+    对于游戏游戏引擎比方说SiglusEngine，VNR在游戏全屏后不再禁用右键菜单。
+
 10/18/2014 SAT
   * Add new SiglusEngine for リア充クラスメイト孕ませ催眠.
     为「リア充クラスメイト孕ませ催眠」添加了新的游戏引擎。

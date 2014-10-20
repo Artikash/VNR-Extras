@@ -16,7 +16,7 @@ Since 6/18/2011
     另外，VNR默认的中文界面改为使用OpenCC的正体中文。
     马英九总统有提倡简体中文的使用者「识正书简」。希望这样可以帮助大家回归正体中文。
 
-  * vnrcli.dll and vnreng.dll are merged to a single vnrhook.dll
+  * vnrcli.dll and vnreng.dll are merged into a single vnrhook.dll
     If you have anti-virus soft installed, you might have to add that dll onto the whitelist.
 
     用于提取文本的vnrcli.dll和vnreng.dll合并为了一个vnrhook.dll。

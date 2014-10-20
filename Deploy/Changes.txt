@@ -24,7 +24,7 @@ Since 6/18/2011
 
   * For certain game engines such as SiglusEngine, VNR no longer disables context menu
     when game enters full screen.
-    对于某些游戏游戏引擎比方说SiglusEngine，VNR在游戏全屏后不再禁用右键菜单。
+    对于某些游戏引擎比方说SiglusEngine，VNR在游戏全屏后不再禁用右键菜单。
 
 10/18/2014 SAT
   * Add new SiglusEngine for リア充クラスメイト孕ませ催眠.

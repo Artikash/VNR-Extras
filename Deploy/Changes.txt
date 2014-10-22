@@ -8,7 +8,7 @@ Since 6/18/2011
 
   * Add a new KAGParser game engine for 「VenusBlood HYPNO」, which uses KiriKiriZ.
     The existing KiriKiri1/KiriKiri2 seem to be broken for KiriKiriZ games.
-    However, the new engine currently cannot extract character name, and extracted
+    However, the new engine currently cannot extract character name, and the extracted
     text contains "[r]" garbage which requires Shared Dictionary rules to clean-up.
 
     As you known, KiriKiri is a very popular game engine.

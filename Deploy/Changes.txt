@@ -3,9 +3,6 @@ Visual Novel Reader
 Since 6/18/2011
 
 10/21/2014 TUE
-  * 修正了正体中文时的【我】会被替换为【緸】的问题。
-    带来不便，很抱歉！
-
   * Add a new KAGParser game engine for 「VenusBlood HYPNO」, which uses KiriKiriZ.
     The existing KiriKiri1/KiriKiri2 seem to be broken for KiriKiriZ games.
     However, the new engine currently cannot extract character name, and the extracted
@@ -20,6 +17,9 @@ Since 6/18/2011
     感谢jin70908469 sama的报告！
 
     另外，在KiriKiriZ的游戏全屏后，VNR的右键菜单仍然可以使用。
+
+  * 修正了正体中文时的【我】会被替换为【緸】的问题。
+    带来不便，很抱歉！
 
 10/20/2014 MON
   * Fix a bug in 東北ずん子 TTS that sometimes only half of the sentence was read.

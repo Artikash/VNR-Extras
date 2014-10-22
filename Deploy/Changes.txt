@@ -6,6 +6,17 @@ Since 6/18/2011
   * 修正了正体中文时的【我】会被替换为【緸】的问题。
     带来不便，很抱歉！
 
+  * Add a new KAGParser game engine for 「VenusBlood HYPNO」, which uses KiriKiriZ.
+    The existing KiriKiri1/KiriKiri2 seem to be broken for KiriKiriZ games.
+    The new engine currently cannot extract character name.
+    If you find a better way to handle KiriKiriZ games, feel free to let me know!
+    FYI, the source code of KiriKiriZ could be found at:
+
+          https://github.com/krkrz/krkrz
+
+    为VenusBlood HYPNO添加了新的KiriKiriZ引擎。
+    感谢jin70908469 sama的报告！
+
 10/20/2014 MON
   * Fix a bug in 東北ずん子 TTS that sometimes only half of the sentence was read.
     修正了東北ずん子有时只读出半句日文的bug。

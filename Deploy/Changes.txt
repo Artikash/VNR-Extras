@@ -9,9 +9,10 @@ Since 6/18/2011
   * Add a new KAGParser game engine for 「VenusBlood HYPNO」, which uses KiriKiriZ.
     The existing KiriKiri1/KiriKiri2 seem to be broken for KiriKiriZ games.
     The new engine currently cannot extract character name.
-    If you find a better way to handle KiriKiriZ games, feel free to let me know!
-    FYI, the source code of KiriKiriZ could be found at:
 
+    As you known, KiriKiri is a very popular game engine.
+	If you find a better way to handle KiriKiriZ games, feel free to let me know!
+    FYI, the source code of KiriKiriZ could be found at:
           https://github.com/krkrz/krkrz
 
     为VenusBlood HYPNO添加了新的KiriKiriZ引擎。

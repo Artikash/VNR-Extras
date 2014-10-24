@@ -2,6 +2,15 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+10/24/2014 FRI
+  * Remove garbage texts for KiriKiriZ and CIRCUS engines so that Share Dictionary
+    rules to repair text are no longer needed.
+    Additionally, ITH is extended to allow removing garbage text per game engine.
+    If you find certain game engine always has similar kind of garbage, feel free to
+    let me know!
+
+    自动从移除KiriKiriZ和CIRCUS引擎中文本的垃圾。
+
 10/21/2014 TUE
   * Add a new KAGParser game engine for 「VenusBlood HYPNO」, which uses KiriKiriZ.
     The existing KiriKiri1/KiriKiri2 seem to be broken for KiriKiriZ games.

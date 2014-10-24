@@ -9,7 +9,7 @@ Since 6/18/2011
     If you find certain game engine always has similar kind of garbage, feel free to
     let me know!
 
-    自动从移除KiriKiriZ和CIRCUS引擎中文本的垃圾。
+    自动移除KiriKiriZ和CIRCUS引擎文本中的垃圾。
 
 10/21/2014 TUE
   * Add a new KAGParser game engine for 「VenusBlood HYPNO」, which uses KiriKiriZ.

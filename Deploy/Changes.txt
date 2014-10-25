@@ -11,6 +11,10 @@ Since 6/18/2011
 
     自动移除KiriKiriZ和CIRCUS引擎文本中的垃圾。
 
+  * Add new KiriKiriZ game engine that can extract character name.
+
+  * 禁止把NK-Frontend.exe当做游戏添加到VNR。
+
 10/21/2014 TUE
   * Add a new KAGParser game engine for 「VenusBlood HYPNO」, which uses KiriKiriZ.
     The existing KiriKiri1/KiriKiri2 seem to be broken for KiriKiriZ games.

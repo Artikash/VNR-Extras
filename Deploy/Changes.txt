@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+10/25/2014 SAT
+  * Add alternative SiglusEngine that can extract character name thread.
+    为SiglusEngine添加了可以提取人物姓名的thread。
+
 10/24/2014 FRI
   * Remove garbage texts for KiriKiriZ and CIRCUS engines so that Share Dictionary
     rules to repair text are no longer needed.

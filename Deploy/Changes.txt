@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+10/28/2014 TUE
+  * Update TAH script for ATLAS/LEC.
+    The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
+
 10/25/2014 SAT
   * Add alternative SiglusEngine that can extract character name thread.
     为SiglusEngine添加了可以提取人物姓名的thread。

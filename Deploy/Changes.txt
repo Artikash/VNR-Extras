@@ -14,13 +14,13 @@ Since 6/18/2011
     This might save some memory and reduce the possible game slowdown caused by text extraction.
 
 10/24/2014 FRI
-  * Remove garbage texts for KiriKiriZ and CIRCUS engines so that Share Dictionary
+  * Remove garbage texts for KAGParser and CIRCUS engines so that Share Dictionary
     rules to repair text are no longer needed.
     Additionally, ITH is extended to allow removing garbage text per game engine.
     If you find certain game engine always has similar kind of garbage, feel free to
     let me know!
 
-    自动移除KiriKiriZ和CIRCUS引擎文本中的垃圾。
+    自动移除KAGParser和CIRCUS引擎文本中的垃圾。
 
   * Add new KiriKiriZ game engine that can extract character name.
 

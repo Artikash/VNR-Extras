@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+10/31/2014 FRI
+  * Add Adobe Flash Player 10 engine for 輪舞曲Duo
+    为「輪舞曲Duo」添加了提取文本的引擎。
+
 10/28/2014 TUE
   * Update TAH script for ATLAS/LEC.
     The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.

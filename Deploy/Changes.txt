@@ -3,6 +3,21 @@ Visual Novel Reader
 Since 6/18/2011
 
 10/31/2014 FRI
+  Since so many users were using VNR simultaneously this weekend, VNR's server was overloaded.
+  You might experience failure to update VNR's Shared Dictionary and game database
+  around JST 10:00pm this Friday.
+
+  VNR's services are written in Python and Java. I temporarily shut down the Java server so that
+  the Python server could serve the large amount of queries to the game database the Shared
+  Dictionary normally. But you are no longer to post or register new accounts online like before.
+  I am going to fix scalability issue of the current service implementation when I have time.
+  Sorry for the inconvenience!
+
+  因为这个周末使用VNR的同学太多了，造成服务器超负荷了。
+  VNR在周五晚上可能出现了无法登陆，无法更新辞书等问题。
+  为了节省服务器的资源，使得VNR可以正常更新辞书和游戏数据库，我暂时关掉了VNR的网站的Web UI。
+  带来不便，很抱歉！
+
   * Add Adobe Flash Player 10 engine for 輪舞曲Duo
     为「輪舞曲Duo」添加了提取文本的引擎。
 

@@ -18,7 +18,7 @@ Since 6/18/2011
   为了节省服务器的资源，使得VNR可以正常更新辞书和游戏数据库，我暂时关掉了VNR的网站的Web UI。
   带来不便，很抱歉！
 
-  * Add Adobe Flash Player 10 engine for 輪舞曲Duo
+  * Add Adobe Flash Player 10 game engine for 輪舞曲Duo.
     为「輪舞曲Duo」添加了提取文本的引擎。
 
 10/28/2014 TUE

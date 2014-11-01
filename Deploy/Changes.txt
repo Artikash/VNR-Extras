@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+11/1/2014 SAT
+  * Fix a bug that the mouse/keyboard shortcuts might stop working after a while.
+    修正了快捷键有时会失效的问题。
+
 10/31/2014 FRI
   Since so many users were using VNR simultaneously this weekend, VNR's server was overloaded.
   You might experience failure to update VNR's Shared Dictionary and game database

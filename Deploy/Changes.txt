@@ -44,7 +44,7 @@ Since 6/18/2011
     - VNR不能够很聪明的检测到一句话何时完成。
       VNR当前只是简单地检查声音的强度是否很低，来分割录制的声音。
       但是，当录制的声音一直都没有停止（比如有背景音乐），那么VNR会一直录制而不开始识别。
-      当前暂时只好手动的点击【识别】（或者Alt+R）来告诉VNR一句话已经结束，开始识别。
+      当前暂时只好手动的点击【识别】（或者Alt+R）来告诉VNR一句话何时开始何时结束。
 
 11/1/2014 SAT
   * Fix a bug that the mouse/keyboard shortcuts might stop working after a while.

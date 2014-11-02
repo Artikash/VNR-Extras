@@ -16,7 +16,7 @@ Since 6/18/2011
     The current support is very primitive.
     - It requires high-speed Internet access to Google.
 
-    - There is no OCR-like customized filters to eliminate BGM behind speech.
+    - There are no OCR-like customized filters to eliminate BGM behind speech.
       The accuracy of the recognition can not adjusted.
 
     - VNR's algorithm is not clever enough to detect when a sentence has finished.

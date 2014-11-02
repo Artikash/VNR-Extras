@@ -9,7 +9,7 @@ Since 6/18/2011
     There is also a keyboard shortcut (Alt+R) that can trigger the SR.
 
     By default, the sound is recorded through Microphone, where the quality is low.
-    If you want to record audio in games, you can specify which device to record in Preferences/SR.
+    If you want to record audio in games, it is better to specify which device to use in Preferences/SR.
     However, on Wine or Virtual Machines (such as Parallels Desktop) where the emulated sound card
     does not support recording, only Microphone can be used to record speech.
 

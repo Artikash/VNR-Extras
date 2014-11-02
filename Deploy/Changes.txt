@@ -3,7 +3,7 @@ Visual Novel Reader
 Since 6/18/2011
 
 11/2/2014 SUN
-  * Support using Google Speech Recognition (SR) online service to extract Japanese from sound.
+  * Support using Google Speech Recognition (SR) online service to extract text from game audio.
     There is a Speech Recognition Tester on the SpringBoard.
     You can also enable periodical recognition on the left dock after a game is launched.
     There is also a keyboard shortcut (Alt+R) that can trigger the SR.
@@ -31,8 +31,8 @@ Since 6/18/2011
 
     默认时，VNR会录制麦克风的声音（所谓的外录，质量会很差）。
     如果要对游戏使用语音识别，那么最好在使用偏好里选择声卡支持的录制设备（内录）。
-    但是，如果在Wine上或者虚拟机中（比如Parallels Desktop），声卡不支持录制，
-    那么只好通过麦克风来录制声音。
+    但是，如果在Wine上或者虚拟机中（比如Parallels Desktop），声卡不支持录制，那么
+    只好通过麦克风来录制声音。
 
     当前的支持还很原始的。
     - 语音识别需要和Google之间的高速的网络连接。
@@ -45,7 +45,6 @@ Since 6/18/2011
       VNR当前只是简单地检查声音的强度是否很低，来分割录制的声音。
       但是，当录制的声音一直都没有停止（比如有背景音乐），那么VNR会一直录制而不开始识别。
       当前暂时只好手动的点击【识别】（或者Alt+R）来告诉VNR一句话已经结束，开始识别。
-
 
 11/1/2014 SAT
   * Fix a bug that the mouse/keyboard shortcuts might stop working after a while.

@@ -2,6 +2,51 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+11/2/2014 SUN
+  * Support using Google Speech Recognition (SR) online service to extract Japanese from sound.
+    There is a Speech Recognition Tester on the SpringBoard.
+    You can also enable periodical recognition on the left dock after a game is launched.
+    There is also a keyboard shortcut (Alt+R) that can trigger the SR.
+
+    By default, the sound is recorded through Microphone, where the quality is low.
+    If you want to record audio in games, you can specify which device to record in Preferences/SR.
+    However, on Wine or Virtual Machines (such as Parallels Desktop) where the emulated sound card
+    does not support recording, only Microphone can be used to record speech.
+
+    The current support is very primitive.
+    - It requires high-speed Internet access to Google.
+
+    - There is no OCR-like customized filters to eliminate BGM behind speech.
+      The accuracy of the recognition can not adjusted.
+
+    - VNR's algorithm is not clever enough to detect when a sentence has finished.
+      Currently, an audio is divided into sentences by "silence".
+      But if there is no silence, VNR will keep recording and never do recognition.
+      You might usually have to manually trigger the recognition (Alt+R) before/after a sentence.
+
+    添加了通过Google语音识别(Speech recognition, or SR)来提取文本的功能。
+    在SpringBoard上有一个测试的app。
+    在游戏启动后，在左边的Dock里也可以打开自动语音识别。
+    另外，在【使用偏好/快捷键】中可以指定快捷键（默认是Alt+R）。
+
+    默认是，VNR会录制麦克风的声音（质量会很差）。
+    如果要对游戏使用语音识别，那么最好在使用偏好里选择声卡支持的录制设备。
+    但是，如果在Wine上或者虚拟机中，声卡不支持录制，那么只好通过麦克风来录制声音。
+
+
+    当前的支持还很原始的。
+    - 语音识别需要和Google之间的高速的网络连接。
+      如果你暂时居住在大陆地区，那么需要在【使用偏好/Internet】打开中国大陆选项。
+      但是即时打开，速度还是会很慢。
+
+    - 现在还没有OCR的过滤器那样可以手工过滤掉声音背后的BGM的功能。
+
+    - VNR不能够很聪明的检测到一句话何时完成。
+      VNR当前只是简单地检查声音的强度是否很低，来分割录制的声音。
+      但是，当录制的声音一直都没有停止（比如有背景音乐），那么VNR会一直录制而不开始识别。
+      当前暂时只好手动的点击【识别】（或者Alt+R）来告诉VNR一句话已经结束，开始识别。
+
+
 11/1/2014 SAT
   * Fix a bug that the mouse/keyboard shortcuts might stop working after a while.
     修正了快捷键有时会失效的问题。

@@ -3,6 +3,8 @@ Visual Novel Reader
 Since 6/18/2011
 
 11/5/2014 WED
+  * Update TAH script for LEC from @errzotl sensei.
+
   * 更新了djz大先生的J北京词库。
     by djz，针对10月的新作有很多修正。如果你希望添加新词到J北京，可以到下边向先生反馈：
 

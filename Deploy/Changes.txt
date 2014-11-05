@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+11/4/2014 TUE
+  * Enable context menu for full screen Adobe Flash 10 games.
+    Adobe Flash Player 10的游戏在全屏后仍然可以使用右键菜单。
+
 11/2/2014 SUN
   * Support using Google Speech Recognition (SR) online service to extract text from game audio.
     There is a Speech Recognition Tester on the SpringBoard.
@@ -37,7 +41,7 @@ Since 6/18/2011
     当前的支持还很原始的。
     - 语音识别需要和Google之间的高速的网络连接。
       如果你暂时居住在大陆地区，那么需要在【使用偏好/Internet】打开中国大陆选项。
-      但是即时打开，速度还是会很慢。
+      但是即使打开，速度还是会很慢。
 
     - 现在还没有OCR的过滤器那样可以手工过滤掉声音背后的BGM的功能。
 

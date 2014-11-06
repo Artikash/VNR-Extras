@@ -10,6 +10,8 @@ Since 6/18/2011
 
         http://sakuradite.com/topic/220
 
+  * Fixed a bug that VNR might crash when EDICT is enabled while clicking Japanese words to lookup very fast.
+
 11/4/2014 TUE
   * Enable context menu for full screen Adobe Flash 10 games.
     Adobe Flash Player 10的游戏在全屏后仍然可以使用右键菜单。

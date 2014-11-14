@@ -3,7 +3,7 @@ Visual Novel Reader
 Since 6/18/2011
 
 11/14/2014 FRI
-  * Add text hook for 結城友奈は勇者である from みなとそふと.
+  * Add text hook engine for 結城友奈は勇者である from みなとそふと.
     为「結城友奈は勇者である」添加了提取文本的引擎。
 
 11/5/2014 WED

@@ -4,11 +4,11 @@ Since 6/18/2011
 
 11/15/2014 SAT
   * Add very primitive support to translate online galgame 「対魔忍アサギ～決戦アリーナ～」
-    to the Website Reader. A screenshot is as follows:
+    using Website Reader. A screenshot is as follows:
 
          http://i.imgur.com/kkVo36l.png
 
-    The subtitle can be turn on by clicking the 遊 button on the toolbar.
+    The subtitles can be turned on by clicking the 遊 button on the toolbar.
 
     Currently, only machine translation is supported.
     Any other features in VNR such as TTS, MeCab, and Shared Dictionary have not been implemented.

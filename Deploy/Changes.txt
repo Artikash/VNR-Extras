@@ -2,6 +2,33 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+11/15/2014 SAT
+  * Add very primitive support to translate online galgame 「対魔忍アサギ～決戦アリーナ～」
+    to the Website Reader. A screenshot is as follows:
+
+         http://i.imgur.com/kkVo36l.png
+
+    The subtitle can be turn on by clicking the 遊 button on the toolbar.
+
+    Currently, only machine translation is supported.
+    Any other features in VNR such as TTS, MeCab, and Shared Dictionary have not been implemented.
+    And 対魔忍アサギ is the only supported game.
+    I am planning to allow user to specify the location of the text to translate using simple JQuery expressions
+    in the future.
+    If you would like to have other online game supported, feel free to let me know!
+
+    添加了对翻译在线日文游戏的非常简陋的支持。
+    下边是「対魔忍アサギ」的截图。
+
+        http://i.imgur.com/kkVo36l.png
+
+    这个机能可以在Website Reader点击工具栏中的【遊】按钮来开启。
+
+    当前仅支持机器翻译。TTS、分词、共享辞书什么的全都不支持。
+    而且VNR只支持从「対魔忍アサギ」提取scenario的文本，并不能翻译全部文本。
+    我在以后会添加界面来让大家可以用非常简单的JQuery的语法来制定要翻译的文字的位置。
+    如果你希望添加其他在线游戏的支持，也可以让我知道！
+
 11/14/2014 FRI
   * Add text hook engine for 結城友奈は勇者である from みなとそふと.
     为「結城友奈は勇者である」添加了提取文本的引擎。

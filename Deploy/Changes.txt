@@ -18,7 +18,7 @@ Since 6/18/2011
     If you would like to have other online game supported, feel free to let me know!
 
     Note：VNR is using Apple's WebKit to access Internet, which requires QuickTime plugin to play audio.
-    The online game might not have sound if Apple QuickTime is not installed.
+    The online game might not have sound if Apple's QuickTime is not installed.
 
     添加了对翻译在线日文游戏的非常简陋的支持。
     下边是「対魔忍アサギ」的截图。
@@ -34,6 +34,7 @@ Since 6/18/2011
 
     注：VNR内部使用的是苹果的WebKit，需要QuickTime来进行媒体播放。
     如果没有安装QuickTime的话，在线的游戏可能会没有声音。
+    QuickTime可以在苹果的官网免费下载到的，安装完成后需要71MB。
 
 11/14/2014 FRI
   * Add text hook engine for 結城友奈は勇者である from みなとそふと.

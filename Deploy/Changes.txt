@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+11/16/2014 SUN
+  * Update LocaleSwitch to the latest version 1.0.1.1.
+    Thanks for @867258173 sama's report!
+
 11/15/2014 SAT
   * Add very primitive support to translate online galgame 「対魔忍アサギ～決戦アリーナ～」
     using Website Reader. A screenshot is as follows:
@@ -13,8 +17,8 @@ Since 6/18/2011
     Currently, only machine translation is supported.
     Any other features in VNR such as TTS, MeCab, and Shared Dictionary have not been implemented.
     And 対魔忍アサギ is the only supported game.
-    I am planning to allow user to specify the location of the text to translate using simple
-    JQuery selectors in the future.
+    I am planning to allow users to specify the location of the text to translate using simple
+    jQuery selectors in the future.
     If you would like to have other online games supported, feel free to let me know!
 
     Note：VNR is using Apple's WebKit to access Internet, which requires QuickTime to play multimedia.
@@ -29,7 +33,7 @@ Since 6/18/2011
 
     当前仅支持机器翻译。TTS、分词、共享辞书什么的全都不支持。
     而且VNR只支持从「対魔忍アサギ」提取scenario的文本，并不能翻译全部文本。
-    我在以后会添加界面来让大家可以用非常简单的JQuery的语法来指定要翻译的文字的位置。
+    我在以后会添加界面来让大家可以用非常简单的jQuery的语法来指定要翻译的文字的位置。
     如果你希望添加其他在线游戏的支持，也可以让我知道！
 
     注：VNR内部使用的是苹果的WebKit，需要QuickTime来播放在线媒体。

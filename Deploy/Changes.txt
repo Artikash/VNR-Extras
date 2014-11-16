@@ -6,6 +6,9 @@ Since 6/18/2011
   * Update LocaleSwitch to the latest version 1.0.1.1.
     Thanks for @867258173 sama's report!
 
+  * Make sure the Website Reader can visit Japan-only pages on DMM.
+    修正了Website Reader访问DMM有时会被屏蔽的问题。
+
 11/15/2014 SAT
   * Add very primitive support to translate online galgame 「対魔忍アサギ～決戦アリーナ～」
     using Website Reader. A screenshot is as follows:

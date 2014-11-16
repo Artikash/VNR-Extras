@@ -15,7 +15,7 @@ Since 6/18/2011
     And 対魔忍アサギ is the only supported game.
     I am planning to allow user to specify the location of the text to translate using simple JQuery expressions
     in the future.
-    If you would like to have other online game supported, feel free to let me know!
+    If you would like to have other online games supported, feel free to let me know!
 
     Note：VNR is using Apple's WebKit to access Internet, which requires QuickTime plugin to play audio.
     The online game might not have sound if Apple's QuickTime is not installed.

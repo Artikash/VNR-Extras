@@ -2,6 +2,15 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+11/20/2014 THU
+  * Automatic speech recognition (ASR) is temporarily disabled.
+    Going to re-enable it after adding offline ASR support.
+
+    因为性能太差，暂时禁用了自动语音识别（ASR）。
+
+  * Allow uploading images in the messages.
+    在留言板可以上传图片。
+
 11/16/2014 SUN
   * Update LocaleSwitch to the latest version 1.0.1.1.
     Thanks for @867258173 sama's report!

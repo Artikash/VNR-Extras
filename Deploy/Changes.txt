@@ -2,6 +2,13 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+11/22/2014 SAT
+  * Add an option to disable auto-hiding the left dock.
+    This might be useful if you are running VNR on a tablet.
+    在左边Dock的右键菜单中可以禁止自动隐藏Dock。
+    如果你在平板电脑上使用VNR，这样也许会方便些。
+    感谢@青穹牧云 sama的建议。
+
 11/20/2014 THU
   * Automatic speech recognition (ASR) is temporarily disabled.
     Going to re-enable it after adding offline ASR support.

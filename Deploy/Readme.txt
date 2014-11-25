@@ -130,7 +130,7 @@ You can also find them in Preferences/Locations.
     Scripts/Remove VNR Profiles.cmd
     Scripts/Remove VNR Settings.reg
 
-或者手动删除这个文件夹已经注册表：
+或者手动删除这个文件夹以及注册表：
 - 资源管理器：       %APPDATA%/org.sakuradite.reader
 - 注册表(regedit）： HKCU/Software/sakuradite.org/reader
 

@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+11/24/2014 MON
+  * Fixed a bug that might crash KiriKiriZ games such as VenusBlood HYPNO.
+    修正了一个可能会让VenusBlood HYPNO崩溃的bug。
+
 11/22/2014 SAT
   * Add an option to disable auto-hiding the left dock.
     This might be useful if you are running VNR on a tablet.
@@ -12,7 +16,6 @@ Since 6/18/2011
 11/20/2014 THU
   * Automatic speech recognition (ASR) is temporarily disabled.
     Going to re-enable it after adding offline ASR support.
-
     因为性能太差，暂时禁用了自动语音识别（ASR）。
 
   * Allow uploading images in the messages.

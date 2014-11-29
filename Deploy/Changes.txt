@@ -8,6 +8,9 @@ Since 6/18/2011
     为「流され妻、綾乃の"ネトラレ"報告」添加了新的Majiro引擎。
     感谢@天音老师 sama的报告！
 
+  * As requested, add an option to select location to save game screen shots in Preferences/Recordings.
+    在【使用偏好/录制】中可以选择保存游戏截图的位置。
+
 11/24/2014 MON
   * Fixed a bug that might crash KiriKiriZ games such as VenusBlood HYPNO.
     修正了一个可能会让VenusBlood HYPNO崩溃的bug。

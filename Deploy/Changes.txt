@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+11/28/2014 FRI
+  * Add text engine for new Majiro game 流され妻、綾乃の"ネトラレ"報告.
+    The old Majiro engine might crash the game.
+    为「流され妻、綾乃の"ネトラレ"報告」添加了新的Majiro引擎。
+
 11/24/2014 MON
   * Fixed a bug that might crash KiriKiriZ games such as VenusBlood HYPNO.
     修正了一个可能会让VenusBlood HYPNO崩溃的bug。

@@ -14,7 +14,7 @@ Since 6/18/2011
     在【使用偏好/录制】中可以选择保存游戏截图的位置。
 
   [Shared Dictionary]
-  * As requested, add a combobox to select the column to search terms in the Shared Dictionary.
+  * As requested, add a combobox to select the column to search the Shared Dictionary.
     在共享辞书中添加了一个可以选择搜索列的选项。
 
 11/24/2014 MON

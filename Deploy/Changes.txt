@@ -6,6 +6,7 @@ Since 6/18/2011
   * Add text engine for new Majiro game 流され妻、綾乃の"ネトラレ"報告.
     The old Majiro engine might crash the game.
     为「流され妻、綾乃の"ネトラレ"報告」添加了新的Majiro引擎。
+    感谢@天音老师 sama的报告！
 
 11/24/2014 MON
   * Fixed a bug that might crash KiriKiriZ games such as VenusBlood HYPNO.

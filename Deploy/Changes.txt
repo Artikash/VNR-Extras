@@ -3,19 +3,27 @@ Visual Novel Reader
 Since 6/18/2011
 
 11/28/2014 FRI
+  [Game Engine]
   * Add text engine for new Majiro game 流され妻、綾乃の"ネトラレ"報告.
     The old Majiro engine cannot extract text any more and will crash the game on Windows XP.
     为「流され妻、綾乃の"ネトラレ"報告」添加了新的Majiro引擎。
     感谢@天音老师 sama的报告！
 
+  [Preferences]
   * As requested, add an option to select the location to save game screenshot in Preferences/Recordings.
     在【使用偏好/录制】中可以选择保存游戏截图的位置。
 
+  [Shared Dictionary]
+  * As requested, add a combobox to select the column to search terms in the Shared Dictionary.
+    在共享辞书中添加了一个可以选择搜索列的选项。
+
 11/24/2014 MON
+  [Game Engine]
   * Fixed a bug that might crash KiriKiriZ games such as VenusBlood HYPNO.
     修正了一个可能会让VenusBlood HYPNO崩溃的bug。
 
 11/22/2014 SAT
+  [Preferences]
   * Add an option to disable auto-hiding the left dock.
     This might be useful if you are running VNR on a tablet.
     在左边Dock的右键菜单中可以禁止自动隐藏Dock。

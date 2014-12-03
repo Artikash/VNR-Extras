@@ -4,7 +4,8 @@ Since 6/18/2011
 
 12/2/2014 TUE
   [Game Engine]
-  * Add 5pb engine for「CROSS+CHANNEL Final Complete」, which might also work for 5pb PSP/PS3 games ported to PC.
+  * Add 5pb engine for「CROSS+CHANNEL Final Complete」.
+    It might also work for other 5pb PSP/PS3 games ported to PC.
     为「CROSS+CHANNEL Final Complete」添加了提取文本的引起。
     这个引擎也许还会支持其他的移植到PC版的5pb PSP/PS3的游戏。
 

@@ -9,6 +9,8 @@ Since 6/18/2011
     为「CROSS+CHANNEL Final Complete」添加了提取文本的引起。
     这个引擎也许还会支持其他的移植到PC版的5pb PSP/PS3的游戏。
 
+  * 屏蔽添加CalendarMain.exe为游戏。
+
 11/28/2014 FRI
   [Game Engine]
   * Add text engine for new Majiro game 流され妻、綾乃の"ネトラレ"報告.

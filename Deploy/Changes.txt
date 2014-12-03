@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+12/2/2014 TUE
+  [Game Engine]
+  * Add 5pb engine for「CROSS+CHANNEL Final Complete」, which might also work for 5pb PSP/PS3 games ported to PC.
+    为「CROSS+CHANNEL Final Complete」添加了提取文本的引起。
+
 11/28/2014 FRI
   [Game Engine]
   * Add text engine for new Majiro game 流され妻、綾乃の"ネトラレ"報告.

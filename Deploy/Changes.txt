@@ -8,6 +8,12 @@ Since 6/18/2011
     The shortcut can be adjusted in Preferences/Shortcuts.
     添加了一个快捷键来开启、停止监视要OCR的游戏窗口。
 
+  [Speech Recognition](Windows XP)
+  * Selecting audio devices for speech recognition is always disabled on Windows XP,
+    as it might hang VNR on startup on certain hardware.
+    在Windows XP上，禁止选择内录的音频设备来语音识别。
+    否则因为在个别的Windows XP的机器上会让VNR无法启动。
+
 12/2/2014 TUE
   [Game Engine]
   * Add 5pb engine for「CROSS+CHANNEL Final Complete」.

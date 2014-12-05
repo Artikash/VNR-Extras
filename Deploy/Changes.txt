@@ -3,6 +3,17 @@ Visual Novel Reader
 Since 6/18/2011
 
 12/4/2014 THU
+  [OCR]
+  * As requested, add a keyboard shortcut to start/stop monitoring game window to OCR.
+    The shortcut can be adjusted in Preferences/Shortcuts.
+    添加了一个快捷键来开启、停止监视要OCR的游戏窗口。
+
+  [Speech Recognition](Windows XP)
+  * Selecting audio devices for speech recognition is always disabled on Windows XP,
+    as it might hang VNR on startup on certain hardware.
+    在Windows XP上，禁止选择内录的音频设备来语音识别。
+    否则因为在个别的Windows XP的机器上会让VNR无法启动。
+
   [Game Engine]
   * The logic of Majiro2 engine is changed so that it can remove 振仮名 from game text,
     as these 振仮名 would mess up machine translation.
@@ -23,16 +34,8 @@ Since 6/18/2011
     但是BIG5和GBK都是中文的编码。
     除非是汉化的游戏，否则绝对不要选择这两个编码，否则提取的文本会变成乱码。
 
-  [OCR]
-  * As requested, add a keyboard shortcut to start/stop monitoring game window to OCR.
-    The shortcut can be adjusted in Preferences/Shortcuts.
-    添加了一个快捷键来开启、停止监视要OCR的游戏窗口。
-
-  [Speech Recognition](Windows XP)
-  * Selecting audio devices for speech recognition is always disabled on Windows XP,
-    as it might hang VNR on startup on certain hardware.
-    在Windows XP上，禁止选择内录的音频设备来语音识别。
-    否则因为在个别的Windows XP的机器上会让VNR无法启动。
+    在【文本设定】每个提取文本的右边，都用黑色的字写着文本的编码的。
+    除非是汉化的游戏，否则【文本设定】的编码一定要与选择的【对话】文本右边的编码相同才可以。
 
 12/2/2014 TUE
   [Game Engine]

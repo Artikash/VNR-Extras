@@ -2,6 +2,12 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+12/4/2014 THU
+  [OCR]
+  * As requested, add a keyboard shortcut to start/stop monitoring game window to OCR.
+    The shortcut can be adjusted in Preferences/Shortcuts.
+    添加了一个快捷键来开启、停止监视要OCR的游戏窗口。
+
 12/2/2014 TUE
   [Game Engine]
   * Add 5pb engine for「CROSS+CHANNEL Final Complete」.

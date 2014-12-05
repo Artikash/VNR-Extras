@@ -4,8 +4,8 @@ Since 6/18/2011
 
 12/4/2014 THU
   [Game Engine]
-  * The logic of Majiro2 engine is changed so that it could remove 振仮名 from game text,
-    as 振仮名 would mess up machine translation.
+  * The logic of Majiro2 engine is changed so that it can remove 振仮名 from game text,
+    as these 振仮名 would mess up machine translation.
 
     If you are playing Majiro2 games such as 残念な俺達の青春事情 and 流され妻 released
     this month, you will have to re-adjust Text Settings.
@@ -15,7 +15,7 @@ Since 6/18/2011
     因为这些振仮名会扰乱机器翻译。
 
     如果你在玩本月的Majiro2的游戏，比如：「残念な俺達の青春事情」和「流され妻」，
-    那么你讲不得不重新调整【文本设定】。
+    那么你将不得不重新调整【文本设定】。
     带来不便很抱歉！
 
   [OCR]

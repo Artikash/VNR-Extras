@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+12/9/2014 TUE
+  [JBeijing](@djz)
+  * 更新了djz大先生的J北京词库。
+
 12/4/2014 THU
   [OCR]
   * As requested, add a keyboard shortcut to start/stop monitoring game window to OCR.

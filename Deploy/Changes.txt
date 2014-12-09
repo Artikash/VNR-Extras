@@ -6,6 +6,9 @@ Since 6/18/2011
   [JBeijing](@djz020815)
   * 更新了djz大先生的J北京词库。
 
+  [Translation Scripts](@errzotl)
+  * Update TAH script for ATLAS/LEC from @errzotl sensei.
+
 12/4/2014 THU
   [OCR]
   * As requested, add a keyboard shortcut to start/stop monitoring game window to OCR.

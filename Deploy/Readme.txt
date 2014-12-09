@@ -7,8 +7,14 @@ If you have problem to update VNR, you can get a recent version at Google Drive:
 Or:
     https://drive.google.com/folderview?id=0B3YXxE6u-4bzc1RKWHpoLWZROTQ
 
+Recent changes can be found here:
+    http://sakuradite.com/app/vnr/changes
+
 如果Google无法访问，你也可以在这里下载一个最近的版本：
     https://mega.co.nz/#F!g00SQJZS!pm3bAcS6qHotPzJQUT596Q
+
+最近的变更可以在下边找到：
+    http://sakuradite.com/app/vnr/changes
 
 Here are some tutorial videos made by @Sakimichi sama (http://sakimichi.wordpress.com) that might be helpful:
 - Part 1. How to install Visual Novel Reader: http://www.youtube.com/watch?v=9HvSy_gJQcY

@@ -23,7 +23,7 @@ Since 6/18/2011
     VNR更新共享辞书时改为增量更新，这样可以大幅减少更新所用的时间、内存和带宽。
 
     But if the local Shared Dictionary is corrupted for whatever reason,
-    you can press "Reset" in the update prompt to disregard local data and
+    you can press "Reset" in the update prompt to discard local data and
     redownload the entire Shared Dictionary (which is slower).
     但是如果由于未知的原因，本地的共享辞书损坏了，那么在更新时可以选择【重置】
     来重新下载辞书的数据（这样会慢些）。

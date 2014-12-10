@@ -3,6 +3,14 @@ Visual Novel Reader
 Since 6/18/2011
 
 12/9/2014 TUE
+  I put VNR's recent changes in the following page.
+  If you don't like updates, you can check the changes to determine whether update VNR.
+
+    http://sakuradite.com/app/vnr/changes
+
+  我把VNR最近的变更放在上边的地方了。
+  如果你不喜欢经常更新程式，也许可以查看下上边的变更来决定是否值得更新VNR。
+
   [JBeijing](@djz020815)
   * 更新了djz大先生的J北京词库。
 
@@ -10,8 +18,8 @@ Since 6/18/2011
   * Update TAH script for ATLAS/LEC from @errzotl sensei.
 
   [Shared Dictionary]
-  * VNR will do *incremental* update to the Shared Dictionary by default,
-    which is much faster and uses less memory and network bandwidth.
+  * VNR now will do incremental update to the Shared Dictionary by default, which is
+    much faster and uses less memory and network bandwidth.
     VNR更新共享辞书时改为增量更新，这样可以大幅减少更新所用的时间、内存和带宽。
 
     But if the local Shared Dictionary is corrupted for whatever reason,
@@ -19,7 +27,6 @@ Since 6/18/2011
     redownload the entire Shared Dictionary (which is slower).
     但是如果由于未知的原因，本地的共享辞书损坏了，那么在更新时可以选择【重置】
     来重新下载辞书的数据（这样会慢些）。
-
 
 12/4/2014 THU
   [OCR]

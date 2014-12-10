@@ -9,6 +9,18 @@ Since 6/18/2011
   [Translation Scripts](@errzotl)
   * Update TAH script for ATLAS/LEC from @errzotl sensei.
 
+  [Shared Dictionary]
+  * VNR will do *incremental* update to the Shared Dictionary by default,
+    which is much faster and uses less memory and network bandwidth.
+    VNR更新共享辞书时改为增量更新，这样可以大幅减少更新所用的时间、内存和带宽。
+
+    But if the local Shared Dictionary is corrupted for whatever reason,
+    you can press "Reset" in the update prompt to disregard local data and
+    redownload the entire Shared Dictionary (which is slower).
+    但是如果由于未知的原因，本地的共享辞书损坏了，那么在更新时可以选择【重置】
+    来重新下载辞书的数据（这样会慢些）。
+
+
 12/4/2014 THU
   [OCR]
   * As requested, add a keyboard shortcut to start/stop monitoring game window to OCR.
@@ -7710,7 +7722,7 @@ Since 6/18/2011
 5/25/2012  annot.player, down, browser  0.1.5.6, 0.1.2.5, 0.1.1.5
   * Add randomized avatars to identify different users.
   * Able to change annotation font in preferences ("Helvetia" as default).
-  * Option to limit annotation bandwith (enabled by default).
+  * Option to limit annotation bandwidth (enabled by default).
   * Bugfix
     * Fix a bug which could freeze the player when stream video with more than 6 parts.
     * Fix a bug which bound # of download tasks to # of CPUs.

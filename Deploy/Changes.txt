@@ -8184,6 +8184,6 @@ Since 6/18/2011
 6/18/2011  touch.reader  0.0.0.0
   * Project launched.
 
-Copyright 2011-2011, Annot Cloud
+Copyright 2011-2014, Annot Cloud
 Copying and distribution of this file, with or without modification, are
 permitted provided the copyright notice and this notice are preserved.

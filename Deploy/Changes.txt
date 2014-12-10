@@ -6,7 +6,7 @@ Since 6/18/2011
   I put VNR's recent changes in the following page.
   If you don't like updates, you can check the changes to determine whether update VNR.
 
-    http://sakuradite.com/app/vnr/changes
+      http://sakuradite.com/app/vnr/changes
 
   我把VNR最近的变更放在上边的地方了。
   如果你不喜欢经常更新程式，也许可以查看下上边的变更来决定是否值得更新VNR。

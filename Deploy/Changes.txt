@@ -5,7 +5,7 @@ Since 6/18/2011
 12/10/2014 WED
   [Machine Translator]
   * Fix Bing online translator, which stopped working due to the changes of Microsoft website.
-    修正了Bing在线翻译失效的问题。由于微软网站的变更，老板VNR的Bing无法翻译了。
+    修正了Bing在线翻译失效的问题。由于微软网站的变更，老版本VNR的Bing无法使用了。
 
 12/9/2014 TUE
   I put VNR's recent changes in the following page.

@@ -2,6 +2,12 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+12/13/2014 SAT
+  * Proxy to ErogameScape no longer works.
+    对批评空间的代理失效了。
+    看来，VNR服务器的ip被批评空间屏蔽了。
+    查看了下批评空间11月的流量统计，VNR的代理对批评空间的访问排在所有访问的第47位，也许被站长发现了吧。
+
 12/10/2014 WED
   [Machine Translator]
   * Fix Bing online translator, which stopped working due to the changes of Microsoft website.
@@ -29,7 +35,7 @@ Since 6/18/2011
 
     But if the local Shared Dictionary is corrupted for whatever reason,
     you can press "Reset" in the update prompt to discard local data and
-    redownload the entire Shared Dictionary (which is slower).
+    redownload the entire Shared Dictionary (which will be slower).
     但是如果由于未知的原因，本地的共享辞书损坏了，那么在更新时可以选择【重置】
     来重新下载辞书的数据（这样会慢些）。
 

@@ -34,3 +34,11 @@ Reset VNR's Preferences. The following registry engtry will be deleted:
     HKEY_CURRENT_USER\Software\sakuradite.org
 
 刪除上面註冊表中VNR的設定。VNR的使用偏好會被重置。
+
+* sublint.cmd (Windows), sublint.sh (UNIX)
+Check the integrity of VNR's offline subtitles in YAML format.
+檢測VNR的YAML格式的離線字幕的語法錯誤。
+
+* subx2y.cmd (Windows), subx2y.sh (UNIX)
+Convert VNR's offline subtitles in old XML format to new YAML format.
+將VNR的以前的XML格式的離線字幕轉換為新的YAML格式。

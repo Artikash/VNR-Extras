@@ -4,9 +4,182 @@ Since 6/18/2011
 
 12/17/2014 WED
   [Shared Subtitles]
-  * Add alternative mechanism to import/export/edit offline subtitles.
-    I am going to explain the details later.
-    添加了导入、导出、离线编辑字幕的新的方式。
+  * Add an alternative way to import/export/edit offline subtitles.
+    The idea is motivated by the offline subtitles made by @bayooooo sensei for several games.
+    For example, you can find the uploaded subtitles for「プリンセスラバー」here, where the subtitles
+    are converted from the XML format offline subtitles made by @bayooooo sensei for VNR.
+
+         http://sakuradite.com/game/PRINCESS_LOVER
+
+    The new subtitles are expressed in YAML format.
+    If you don't know YAML, please check: http://en.wikipedia.org/wiki/YAML
+    YAML is selected as VNR's subtitle format, because it is easy for human to read.
+    Here's an example subtitle file to create new subtitles:
+
+        # The root item in YAML file is a list of dictionaries.
+        # The first dictionary describes the global options
+        - subLang: en
+          textLang: ja
+        # The following dictionaries are the subtitles.
+        - text: こんにちは！
+          sub: Hello!
+        - text: お花の匂い
+          sub: Smell of flower
+
+    The web server will compare the uploaded subtitles with the existing ones in the database.
+    If there are no existing subtitles for 「こんにちは！」 and 「お花の匂い」in the online DB,
+    the web server will create two new subtitles for them.
+    Otherwise, if there are existing subtitles, it will create new *revisions* of the subtitle,
+    instead of overwriting the existing ones.
+
+    After uploading, the subtitles can be redownloaded, which might be look like this:
+
+        - subLang: en
+          textLang: ja
+        - id: 101
+          text: こんにちは！
+          sub: Hello!
+        - id: 102
+          text: お花の匂い
+          sub: Smell of flower
+
+    For example, if I want to replace "Smell" by "Fragrance", I can create the following file
+    and re-upload it to the server.
+
+        - subLang: en
+          textLang: ja
+        - id: 102
+          text: お花の匂い
+          sub: Fragrance of flower
+
+    Here, the "id: 102" is optional. The following file also work.
+    But keeping the id will help the server speed up the subtitle comparison process.
+
+        - subLang: en
+          textLang: ja
+        - text: お花の匂い
+          sub: Fragrance of flower
+
+    Note that VNR will create a new revision of the subtitle, instead of simply replacing the string.
+    The subtitles are saved in a wiki-like way.
+    In the future, I am going to create UI to allow users to revise/revert to previous revisions.
+
+    After upload, the server will categorize the subtitles into five groups:
+    - total: it contains all subtitles that are processed
+    - create: it contains new subtitles that do not exist in the database
+    - update: it contains subtitles that have modified existing subtitles
+    - ignore: it contains subtitles that are the same as the existing subtitles
+    - error: it contains the subtitles that are rejected, and the reject reasons
+
+    After uploading the subtitles, VNR will render the them in game in the old subtitles.
+    The new subtitles is implemented in very efficient way, which is faster and takes few memory.
+    For examples, all Chinese subtitles of PRINCESS LOVER takes only 15MB RAM.
+
+    Currently, I haven't finished implementing the support to submit/edit new subtitles in VNR.
+    The only way to add/edit subtitles is to upload YAML files.
+    I am going to implement a new subtitle editing interface to expose revisions of subtitles later.
+    And I am also going to add support to record game text into YAML files to allow users to create
+    or edit subtitles offline without opening VNR.
+
+    btw., I also created some scripts to manipulate YAML subtitles, which you can find in Scripts.
+    - Script/sublint.cmd
+      This script can check if there are syntax errors in the YAML subtitle file.
+    - Script/subx2y.cmd
+      This script can convert existing XML subtitle file to YAML format.
+      It is intended to help @bayooooo sensei convert his external XML subtitles to new YAML format.
+      Please don't use it to convert subtitles already existing in VNR.
+
+    I plan to change the subtitle sharing mechanism in VNR to a new wiki-like way.
+    Because I don't want to break the existing subtitles in VNR, I will first finish implementing
+    the new sharing mechanism and then port existing subtitles to the new system.
+
+    There are some major differences comparing the organizations of the new and old subtitles.
+    - Old subtitle sharing mechanism
+      Multiple subtitles are allowed for the same text.
+      One subtitle is saved with one text.
+      Each subtitle is owned by a user.
+
+      Illustration example:
+        User1 (lang1): text1 = sub1
+        User2 (lang1): text1 = sub2
+        User3 (lang2): text2 = sub3
+
+    - New subtitle sharing mechanism
+      Only one subtitle is allowed for the same text per language.
+      The editing history of each subtitle is saved.
+      Each change made to a subtitle is owned by a user.
+
+      Illustration example:
+        text1
+        - lang1
+          - user1: sub revision 1
+          - user2: sub revision 2
+        - lang2
+          - user3: sub revision 1
+
+      Here's an example translation in XML format that might help illustrate the organization:
+
+        <texts lang="ja" gameId="425">
+          <text time="1418887452">
+            <content>こんにちは！</content>
+            <sub lang="en" version="3">
+              <revision version="3" userName="bayooooo" time="1418887533">
+                <content>Hello!</content>
+              </revision>
+              <revision version="2" userName="jichi" time="1418887826">
+                <content>Hello</content>
+              </revision>
+              <revision version="1" userName="jichi" time="1418887819">
+                <content>Good morning!</content>
+              </revision>
+            </sub>
+            <sub lang="zh-CN" version=1>
+              <revision version="1" userName="jichi" time="1418887533">
+                <content>你好!</content>
+              </revision>
+            </sub>
+          </text>
+        </texts>
+
+    It defines two subtitles in two languages (en and zh-CN) for the same text 「こんにちは！」
+    for game 425 (game ID of PRINCESS LOVER is 425).
+    For the en subtitle, there are 3 versions.
+    User "jichi" first created an initial translation "Good morning!" on 1418887533.
+    Then, the subtitle is changed to "Hello" on 1418887819.
+    Finally, another user "bayooooo" modified the subtitle to "Hello!" on 1418887533.
+
+    If you have suggestions or concerns for the new subtitle sharing system,
+    feel free to let me know!
+
+    我在修改保存和编辑人工字幕的方式。
+    当前，只支持上传和下载YAML格式的人工字幕。
+    这个想法是收到 @bayooooo sensei制作的VNR的离线字幕的启发的。
+    比方说，在下边可以找到导入到PRINCESS LOVER中的字幕。
+    新的字幕采用YAML格式保存，转换自 @bayooooo sensei以前制作的XML格式的字幕。
+
+         http://sakuradite.com/game/PRINCESS_LOVER
+
+    新的字幕保存机制采用类似Wiki的方式。
+    新的字幕保存机制和老的字幕保存机制的最大的区别在于：
+    - 老的机制
+      每字幕都被一个同学拥有。
+      同一个文本可能出现多个同学的多个字幕。
+
+    - 新的机制
+      对同一个文本，同一种语言，只允许有一条字幕。
+      保留每条字幕的全部编辑历史。允许revise和revert到不同的revision。
+      对字幕的每个修改都被一个同学拥有。然而，整条字幕不再被一个同学拥有。
+
+    另外，VNR对新版本字幕的处理更加有效率。字幕的更新采用增量更新。
+    新版的字幕不会像老版的字幕那样占用很多内存和带宽了。
+    比方说，载入全部PRINCESS LOVER的字幕只需要15MB的内存。
+
+    不过，VNR端对于新版字幕的编辑和提交还没有写完。
+    字幕在下载到VNR中后，是只读的。
+    我在以后会添加新的字幕编辑的界面，好像Wiki那样可以显示字幕编辑的历史和允许revert changes。
+    另外，我也会添加将游戏的文本提取出来并保存为YAML的格式，来便于大家离线修改字幕。
+
+    如果你有建议或者担心，可以让我知道！
 
 12/13/2014 SAT
   * Proxy to ErogameScape no longer works.

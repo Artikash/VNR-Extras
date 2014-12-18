@@ -60,6 +60,9 @@ Since 6/18/2011
         - text: お花の匂い
           sub: Fragrance of flower
 
+    Currently, there is a limit of 200 changes that each upload can made to the existing subtitles.
+    It is intended to prevent malicious/by mistake sabotage to the existing subtitles.
+
     Note that VNR will create a new revision of the subtitle, instead of simply replacing the string.
     The subtitles are saved in a wiki-like way.
     In the future, I am going to create UI to allow users to revise/revert to previous revisions.

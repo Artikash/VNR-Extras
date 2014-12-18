@@ -29,10 +29,10 @@ Since 6/18/2011
     The web server will compare the uploaded subtitles with the existing ones in the database.
     If there are no existing subtitles for 「こんにちは！」 and 「お花の匂い」in the online DB,
     the web server will create two new subtitles for them.
-    Otherwise, if there are existing subtitles, it will create new *revisions* of the subtitle,
+    Otherwise, if there are existing subtitles, it will create new *revisions* of the subtitles,
     instead of overwriting the existing ones.
 
-    After uploading, the subtitles can be redownloaded, which might be look like this:
+    After uploading, the subtitles can be redownloaded, which might look like this:
 
         - subLang: en
           textLang: ja
@@ -52,7 +52,7 @@ Since 6/18/2011
           text: お花の匂い
           sub: Fragrance of flower
 
-    Here, the "id: 102" is optional. The following file also work.
+    Here, the "id: 102" part is optional. The following file also works.
     But keeping the id will help the server speed up the subtitle comparison process.
 
         - subLang: en
@@ -134,7 +134,7 @@ Since 6/18/2011
                 <content>Good morning!</content>
               </revision>
             </sub>
-            <sub lang="zh-CN" version=1>
+            <sub lang="zh-CN" version="1">
               <revision version="1" userName="jichi" time="1418887533">
                 <content>你好!</content>
               </revision>

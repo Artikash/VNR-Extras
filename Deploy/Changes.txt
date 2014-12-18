@@ -77,7 +77,8 @@ Since 6/18/2011
 
     Currently, I haven't finished implementing the support to submit/edit new subtitles in VNR.
     The only way to add/edit subtitles is to upload YAML files.
-    I am going to implement a new subtitle editing interface to expose revisions of subtitles later.
+    I am going to implement a new subtitle editing interface to expose revisions of subtitles later
+    allowing people to revise and revert changes.
     And I am also going to add support to record game text into YAML files to allow users to create
     or edit subtitles offline without opening VNR.
 

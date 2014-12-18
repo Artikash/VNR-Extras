@@ -2,6 +2,12 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+12/17/2014 WED
+  [Shared Subtitles]
+  * Add alternative mechanism to import/export/edit offline subtitles.
+    I am going to explain the details later.
+    添加了导入、导出、离线编辑字幕的新的方式。
+
 12/13/2014 SAT
   * Proxy to ErogameScape no longer works.
     对批评空间的代理失效了。

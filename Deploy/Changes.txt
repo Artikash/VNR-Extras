@@ -2,8 +2,41 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+12/20/2014 SAT
+  [Shared Dictionary](Korean)
+  * Fixed a bug that might cause translation to become floating numbers.
+
+  * Append a space after each translation.
+    For example, given two names:
+
+      桜小路 = 사쿠라코우지, ルナ = 루나
+
+    Then, 「桜小路ルナ」 will be translated to "사쿠라코우지 루나",
+    where a space is inserted in the middle.
+
+  [Shared Dictionary]
+  * Name suffices now support regular expressions and macros.
+    But please do not use back references in regex suffices, such as:
+
+        (abc) => \1
+
+    Because this might break the regex names that also use back references.
+    And if you need regex groups, please use "(?:)" instead of "()".
+    For example, please use "(?:さま|サマ)" instead of "(さま|サマ)".
+
+    I am going to clean up the existing suffices in the Shared Dictionary using regex and macros.
+    Then, I will delete old non-regex suffices after Two Weeks when most users have updated VNR.
+
+    后缀词条可以使用正则表达和宏定义了。
+
+    不过，请不要使用好像\1、\2、\3这样的表达式作为后缀。
+    因为这些表达式可能会破坏正则表达的名字词条。
+
+    使用新的表达方式，可以提高处理名字词条的速度和减少内存的使用量，以及便于管理。
+    我在两周后，等大部分同学都更新过VNR了，再删掉共享辞书中以前的非正则的后缀。
+
 12/17/2014 WED
-  [Shared Subtitles]
+  [Subtitle Sharing]
   * Add an alternative way to import/export/edit offline subtitles.
     The idea is motivated by the offline subtitles made by @bayooooo sensei for several games.
     For example, you can find the uploaded subtitles for「プリンセスラバー」here, where the subtitles
@@ -149,7 +182,7 @@ Since 6/18/2011
     for game 425 (game ID of PRINCESS LOVER is 425).
     For the en subtitle, there are 3 versions.
     User "jichi" first created an initial translation "Good morning!" on 1418887533.
-    Then, the subtitle is changed to "Hello" on 1418887819.
+    Then, the subtitle was changed to "Hello" on 1418887819.
     Finally, another user "bayooooo" modified the subtitle to "Hello!" on 1418887533.
 
     If you have suggestions or concerns for the new subtitle sharing system,

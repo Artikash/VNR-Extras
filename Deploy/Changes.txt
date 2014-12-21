@@ -3,8 +3,8 @@ Visual Novel Reader
 Since 6/18/2011
 
 12/21/2014 SUN
-  [i18n](Korean)
-  * Update VNR's UI translation in Korean from @otromonde sensei.
+  [i18n](Korean, @otromonde)
+  * Update VNR's UI translation in Korean made by @otromonde sensei.
 
 12/20/2014 SAT
   [Translation Scripts](English, @errzotl)

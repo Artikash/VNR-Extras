@@ -48,7 +48,7 @@ Since 6/18/2011
 
     For example, given a yomi term in either katagana or hiragana:
 
-       桜小路 = さくらこうじ
+        桜小路 = さくらこうじ
 
     VNR will automatically generate the following three names depending on the language to translate to.
 

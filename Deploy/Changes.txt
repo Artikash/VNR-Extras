@@ -46,7 +46,7 @@ Since 6/18/2011
     Such terms might help share name translations between different languages,
     and allow me to import character names on Getchu in the future.
 
-    For example, given a yomi term:
+    For example, given a yomi term in either katagana or hiragana:
 
        桜小路 = さくらこうじ
 

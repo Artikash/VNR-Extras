@@ -3,16 +3,19 @@ Visual Novel Reader
 Since 6/18/2011
 
 12/20/2014 SAT
+  [Translation Scripts](English, @errzotl)
+  * Update TAH script for LEC from @errzotl sensei.
+
   [Shared Dictionary](Korean)
   * Fixed a bug that might cause translation to become floating numbers.
 
-  * Append a space after each translation.
+  * Append a space after each Korean translation.
     For example, given two names:
 
-      桜小路 = 사쿠라코우지, ルナ = 루나
+        桜小路 = 사쿠라코우지, ルナ = 루나
 
     Then, 「桜小路ルナ」 will be translated to "사쿠라코우지 루나",
-    where a space is inserted in the middle.
+    where a space will be inserted in the middle.
 
   [Shared Dictionary]
   * Name suffices now support regular expressions and macros.
@@ -33,7 +36,35 @@ Since 6/18/2011
     因为这些表达式可能会破坏正则表达的名字词条。
 
     使用新的表达方式，可以提高处理名字词条的速度和减少内存的使用量，以及便于管理。
-    我在两周后，等大部分同学都更新过VNR了，再删掉共享辞书中以前的非正则的后缀。
+    我在两周后，等大部分同学都更新过VNR了，会删掉共享辞书中以前的非正则的后缀。
+
+  * Add a new Yomi type to the Shared Dictionary for specifying furigana of Japanese names.
+    VNR will automatically generate name translation from the furigana into Romaji, Hangul, or Thai.
+    Yomi terms have no effect for Chinese translation.
+
+    I notice that there are duplicate character names for various languages, esp. English and Korean.
+    Such terms might help share name translations between different languages,
+    and allow me to import character names on Getchu in the future.
+
+    For example, given a yomi term:
+
+       桜小路 = さくらこうじ
+
+    VNR will automatically generate the following three names depending on the language to translate to.
+
+        桜小路 = 사쿠라코우지   -- for Korean
+        桜小路 = สะขุหละโขะอุจิ    -- for Thai
+        (ignored)               -- for Chinese
+        桜小路 = Sakurakouji    -- for any other languages including English
+
+    I am going to create an UI to let us selectively import Yomi names on Getchu later,
+    which might save us from manually adding character names.
+
+    添加了一个新的【读法】词条。
+    这类词条对中文是没有意义的。VNR在进行中文翻译时会忽略此类词条。
+    当前版本的VNR中，大家无视这种词条就好了。
+
+    我在以后会添加一个从Getchu导入人物姓名的界面，这类词条到时候再说吧。
 
 12/17/2014 WED
   [Subtitle Sharing]

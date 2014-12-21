@@ -275,10 +275,10 @@ Since 6/18/2011
   我把VNR最近的变更放在上边的地方了。
   如果你不喜欢经常更新程式，也许可以查看下上边的变更来决定是否值得更新VNR。
 
-  [JBeijing](@djz020815)
+  [JBeijing](Chinese, @djz020815)
   * 更新了djz大先生的J北京词库。
 
-  [Translation Scripts](@errzotl)
+  [Translation Scripts](English, @errzotl)
   * Update TAH script for ATLAS/LEC from @errzotl sensei.
 
   [Shared Dictionary]

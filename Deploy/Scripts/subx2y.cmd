@@ -14,7 +14,7 @@ set SCRIPT_OPT=
 
 set PATH=%windir%;%windir%\system32
 
-%PYTHON% %PYTHON_OPT% %SCRIPT% %SCRIPT_OPT% %*
+"%PYTHON%" %PYTHON_OPT% %SCRIPT% %SCRIPT_OPT% %*
 
 echo.
 pause

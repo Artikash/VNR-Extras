@@ -7,6 +7,10 @@ Since 6/18/2011
   * Remove garbage text in HorkEye engine for 「結城友奈は勇者である」.
     去除「結城友奈は勇者である」文本中的垃圾字符。
 
+  * Add new CatSystem engine for FrontWing games.
+    The old engine has been broken for a long time.
+    修正了CatSystem引擎提取文本会分裂的问题。
+
 12/21/2014 SUN
   [i18n](Korean, @otromonde)
   * Update VNR's UI translation in Korean made by @otromonde sensei.

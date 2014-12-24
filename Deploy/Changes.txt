@@ -11,6 +11,16 @@ Since 6/18/2011
     The old engine has been broken for a long time.
     修正了CatSystem引擎提取文本会分裂的问题。
 
+  [Yomigana]
+  * Add an option in Preferences/Translation to change position of kanji's yomigana (such as romaji).
+    By default, VNR will render big kanji on the bottom, and small yomigana as ruby on the top.
+    When that option is toggled, VNR will instead show big yomigana on the bottom, but kanji as ruby.
+
+    This option might be helpful if you are uncomfortable with Kanji but only want to see Romaji.
+
+    在【使用偏好/翻译】中添加了一个选项来颠倒显示的汉字和振仮名（比如罗马字）的位置。
+    这个选项主要是为了看到汉字会头晕的老外用的，对会中文的大家没什么用。
+
 12/21/2014 SUN
   [i18n](Korean, @otromonde)
   * Update VNR's UI translation in Korean made by @otromonde sensei.

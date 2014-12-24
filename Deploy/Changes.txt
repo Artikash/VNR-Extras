@@ -19,7 +19,8 @@ Since 6/18/2011
     This option might be helpful if you are uncomfortable with Kanji but only want to see Romaji.
 
     在【使用偏好/翻译】中添加了一个选项来颠倒显示的汉字和振仮名（比如罗马字）的位置。
-    这个选项主要是为了只想看罗马字不想看汉字的老外用的，对会中文的大家没什么用。
+    VNR默认会在下面用大字显示日文，在上方用小字显示注音。
+    这个选项开启后，VNR会改为用大字在下边显示注音，用小字在上边显示注音。
 
 12/21/2014 SUN
   [i18n](Korean, @otromonde)

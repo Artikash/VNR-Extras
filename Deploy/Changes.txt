@@ -11,6 +11,11 @@ Since 6/18/2011
     The old engine has been broken for a long time.
     修正了CatSystem引擎提取文本会分裂的问题。
 
+  * Add Mink engine for 「しすたー・すきーむ3」.
+    My current hook is kind of crappy that it contains a large number of garbage threads.
+    If you have a better way to handle Mink games, feel free to let me know!
+    为Mink的游戏添加了提取文本的引擎。
+
   [Yomigana]
   * Add an option in Preferences/Translation to change position of kanji's yomigana (such as romaji).
     By default, VNR will render big kanji on the bottom, and small yomigana as ruby on the top.

@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+12/25/2014 THU
+  [Game Engine]
+  * Add Leaf engine for 「WHITE ALBUM2 ミニアフターストーリー」.
+    为「WHITE ALBUM2 ミニアフターストーリー」.添加了提取文本的引擎。
+
 12/23/2014 TUE
   [Game Engine]
   * Remove garbage text in HorkEye engine for 「結城友奈は勇者である」.

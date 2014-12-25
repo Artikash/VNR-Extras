@@ -5,7 +5,7 @@ Since 6/18/2011
 12/25/2014 THU
   [Game Engine]
   * Add Leaf engine for 「WHITE ALBUM2 ミニアフターストーリー」.
-    为「WHITE ALBUM2 ミニアフターストーリー」.添加了提取文本的引擎。
+    为「WHITE ALBUM2 ミニアフターストーリー」添加了提取文本的引擎。
 
 12/23/2014 TUE
   [Game Engine]

@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+12/26/2014 FRI
+  [Machine Translation](English)
+  * VNR will capitalize the first letter of a sentence for machine translation.
+
 12/25/2014 THU
   [Game Engine]
   * Add Leaf engine for 「WHITE ALBUM2 ミニアフターストーリー」.

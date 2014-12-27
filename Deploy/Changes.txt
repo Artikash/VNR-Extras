@@ -6,6 +6,20 @@ Since 6/18/2011
   [Machine Translation](English)
   * VNR will capitalize the first letter of a sentence for machine translation.
 
+  [Game Engine]
+  * Add game engine for 「新作ハーレムめいと」.
+    However, the Text Settings have to be re-adjusted everytime the game is restarted.
+
+    VNR now will hook to several functions in mono.dll, which might also work for non-eroge C# games:
+
+        MonoString*    mono_string_from_utf16     (gunichar2 *data);
+        mono_unichar2* mono_string_to_utf16       (MonoString *s);
+        char*          mono_string_to_utf8        (MonoString *s);
+        gunichar2*     mono_unicode_from_external (const gchar *in, gsize *bytes);
+
+    为「新作ハーレムめいと」添加了提取文本的引擎。
+    不过这个提取方法不太好，每次游戏重新启动，都需要重新调整文本设定。
+
 12/25/2014 THU
   [Game Engine]
   * Add Leaf engine for 「WHITE ALBUM2 ミニアフターストーリー」.

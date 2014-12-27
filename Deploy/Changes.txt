@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+12/27/2014 SAT
+  [Game Engine]
+  * Add Lunasoft engine for 「悪堕ラビリンス」.
+    为「悪堕ラビリンス」添加了提取文本的引擎。
+
 12/26/2014 FRI
   [Machine Translation](English)
   * VNR will capitalize the first letter of a sentence for machine translation.

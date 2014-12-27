@@ -8,7 +8,7 @@ Since 6/18/2011
 
   [Game Engine]
   * Add game engine for 「ハーレムめいと」.
-    However, the Text Settings have to be re-adjusted everytime the game is restarted.
+    However, the Text Settings have to be re-adjusted every time the game is restarted.
 
     VNR now will hook to several functions in mono.dll, which might also work for non-eroge C# games:
 

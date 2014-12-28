@@ -11,7 +11,7 @@ Since 6/18/2011
     The old engine might not work and will crash the game on Windows XP.
     为「鯨神のティアスティラ」添加了新的YU-RIS引擎。
 
-  * Fixed a but in Leaf engine which might crash White Album.
+  * Fixed a bug in Leaf engine which might crash White Album.
     修正了一个可能会让White Album崩溃的bug。
 
 12/26/2014 FRI

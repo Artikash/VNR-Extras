@@ -4,8 +4,12 @@ Since 6/18/2011
 
 12/27/2014 SAT
   [Game Engine]
-  * Add Lunasoft engine for 「悪堕ラビリンス」.
+  * Add LunaSoft engine for 「悪堕ラビリンス」.
     为「悪堕ラビリンス」添加了提取文本的引擎。
+
+  * Add new YU-RIS engine for 「鯨神のティアスティラ」.
+    The old engine might not work and will crash the game on Windows XP.
+    为「鯨神のティアスティラ」添加了新的YU-RIS引擎。
 
 12/26/2014 FRI
   [Machine Translation](English)

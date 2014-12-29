@@ -6,6 +6,7 @@ Since 6/18/2011
   [Game Engine]
   * Do not hijack Lstr functions for games made by Chartreux Inc. (Rosebleu, MORE, etc.)
     It might cause text hook to stop working.
+    修正了Chartreux旗下的Rosebleu、MORE等社的游戏提取文本一段时间后会失效的问题。
 
 12/27/2014 SAT
   [Game Engine]

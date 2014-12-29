@@ -10,10 +10,15 @@ Since 6/18/2011
 
   [Online TTS](Korean)
   * Fixed a bug that Baidu TTS did not speak Korean text.
+
+    btw., if you are learning Korean, you could try ezTrans to translate Japanese eroge to Korean.
+    Due to the similarity of the two languages, combined with TTS for Japanese and Korean,
+    it might give you a hand to learn Korean at the same time.
+
     修正了百度TTS无法读出韩文的bug。
 
     btw., 如果你在学习韩语，也许，可以尝试下载ezTrans XP来将日文的游戏翻译成韩文。
-    ezTrans是最流行的日韩翻译程式。
+    ezTrans是最流行的日韩翻译程式了。
     由于日韩语言极度的相似性，结合在线汉语TTS，也许可以帮助大家学习韩语。
 
 12/27/2014 SAT

@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+12/28/2014 SUN
+  [Game Engine]
+  * Do not hijack Lstr functions for games made by Chartreux Inc. (Rosebleu, MORE, etc.)
+    It might cause text hook to stop working.
+
 12/27/2014 SAT
   [Game Engine]
   * Add LunaSoft engine for 「悪堕ラビリンス」.

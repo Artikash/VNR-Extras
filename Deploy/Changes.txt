@@ -8,6 +8,14 @@ Since 6/18/2011
     It might cause text hook to stop working.
     修正了Chartreux旗下的Rosebleu、MORE等社的游戏提取文本一段时间后会失效的问题。
 
+  [Online TTS](Korean)
+  * Fixed a bug that Baidu TTS did not speak Korean text.
+    修正了百度TTS无法读出韩文的bug。
+
+    btw., 如果你在学习韩语，也许，可以尝试下载ezTrans XP来将日文的游戏翻译成韩文。
+    ezTrans是最流行的日韩翻译程式。
+    由于日韩语言极度的相似性，结合在线汉语TTS，也许可以帮助大家学习韩语。
+
 12/27/2014 SAT
   [Game Engine]
   * Add LunaSoft engine for 「悪堕ラビリンス」.

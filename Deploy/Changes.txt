@@ -13,6 +13,10 @@ Since 6/18/2011
     如果你无法访问批评空间，可以在【使用偏好/Internet】中打开代理。
     不过当且只对VNR有效，而对Website Reader无效。
 
+  * If it is very slow to access Baidu.com, you can turn on proxy in Preferences/Internet.
+    如果你不在中国大陆地区居住，而造成百度翻译很慢很慢，那么你也许可以尝试打开
+    【使用偏好/Internet】中对百度的代理。
+
   * 恢复了大陆地区对Google翻译的访问。
     但是速度比直接访问Google会慢很多。
 

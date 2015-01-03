@@ -7,6 +7,10 @@ Since 6/18/2011
   * Display topics of questions and reviews  per-game.
     VNR会显示与游戏有关的问题和感想。
 
+  [Proxy]
+  * 恢复了大陆地区对Google翻译在大陆地区的访问。
+    但是速度比直接访问Google会慢很多。
+
 12/31/2014 WED
   [JBeijing](Chinese, @djz020815)
   * 更新了djz大先生的J北京词库。

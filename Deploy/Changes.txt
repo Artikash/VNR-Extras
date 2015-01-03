@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/2/2015 FRI
+  [Forum]
+  * Display topics of questions and reviews  per-game.
+    VNR会显示与游戏有关的问题和感想。
+
 12/31/2014 WED
   [JBeijing](Chinese, @djz020815)
   * 更新了djz大先生的J北京词库。

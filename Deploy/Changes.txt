@@ -30,6 +30,11 @@ Since 6/18/2011
     - 对于非中文的语言
       可以点击【读法】来添加读法词条。这里就不细说了。
 
+  * At the bottom of Shared Dictionary, VNR will display Romaji of translation for all languages
+    (such as Chinese Pinyin and Korean Romaja) except Japanese and English.
+    This is useless unless you want to understand dictionary entries in foreign languages like me.
+    在共享辞书的下边，会显示除去英文和日文外全部语言的翻译的罗马字（比如韩语）。
+
 1/2/2015 FRI
   [Forum]
   * Display topics of questions and reviews  per-game.

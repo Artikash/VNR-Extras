@@ -13,12 +13,12 @@ Since 6/18/2011
     In the name wizard window, it will display all guessed names for the game.
 
     - For non-Chinese languages
-      You can press "Yomi" buttons to add yomi names to Shared Dictionary.
+      You can press "Yomi" buttons to add yomi entries to Shared Dictionary.
       As mentioned before, Yomi names will be automatically converted to English/Korean/Thai
       translations.
 
     - For Chinese
-      You can press "Name" buttons to add names to Shared Dictionary.
+      You can press "Name" buttons to add name entries to Shared Dictionary.
       VNR will automatically guess the Chinese kanji for Japanese names.
 
     在【游戏情报】的下边，添加了一个【导入名字】的按钮，可以用来帮助创建姓名词条。

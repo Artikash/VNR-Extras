@@ -2,6 +2,34 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/4/2015 SUN
+  [Shared Dictionary]
+  * If you have Microsoft Japanese IME installed, when create new dictionary entry,
+    the popup dialog will display the guessed kanji of Japanese kana.
+    如果有安装微软日文输入法，那么在创建词条时，会显示猜测的假名对应的汉字。
+
+  * In the bottom of Game Information window, there is a new "Import Name" button,
+    which might help you adding names to Shared Dictionary.
+    In the name wizard window, it will display all guessed names for the game.
+
+    - For non-Chinese languages
+      You can press "Yomi" buttons to add yomi names to Shared Dictionary.
+      As mentioned before, Yomi names will be automatically converted to English/Korean/Thai
+      translations.
+
+    - For Chinese
+      You can press "Name" buttons to add names to Shared Dictionary.
+      VNR will automatically guess the Chinese kanji for Japanese names.
+
+    在【游戏情报】的下边，添加了一个【导入名字】的按钮，可以用来帮助创建姓名词条。
+    打开后，弹出的窗口会显示猜测的名字。
+
+    - 对于中文语言
+      可以点击【名字】来添加人名词条。VNR会自动猜测日文对应的正体中文或者简体中文的。
+
+    - 对于非中文的语言
+      可以点击【读法】来添加读法词条。这里就不细说了。
+
 1/2/2015 FRI
   [Forum]
   * Display topics of questions and reviews  per-game.

@@ -9,7 +9,7 @@ Since 6/18/2011
     如果有安装微软日文输入法，那么在创建词条时，会显示猜测的假名对应的汉字。
 
   * In the bottom of Game Information window, there is a new "Import Name" button,
-    which might help you adding names to Shared Dictionary.
+    which might help you add names to Shared Dictionary.
     In the name wizard window, it will display all guessed names for the game.
 
     - For non-Chinese languages

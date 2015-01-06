@@ -2,6 +2,23 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/5/2015 MON
+  [Korean]
+  * Add KS_C_5601 encoding to Text Settings for translating Korean games.
+    文本设定添加了韩文的文字编码（KS_C_5601）。
+    如果要翻译韩文化的游戏，可以选择这个编码。
+
+  [Ruby]
+  * Add an option in Preferences/Translation to display romaji as ruby for non-Japanese texts.
+    This is useless unless you want to play non-Japanese games using VNR.
+    A screenshot of translation with ruby for Chinese Pinyi and Korean Romaja is as follows:
+
+        http://i859.photobucket.com/albums/ab155/jichi/Ruby_zps6c4331ff.png
+
+    在【使用偏好/翻译】中添加一个对非日文语言显示注音的选项。
+    这个选项是没有用的，除非你打算用VNR来玩非日文的游戏。
+    上边的是包含中文拼音和韩文罗马字注音文本的截图。
+
 1/4/2015 SUN
   [Shared Dictionary]
   * If you have Microsoft Japanese IME installed, when create new dictionary entry,

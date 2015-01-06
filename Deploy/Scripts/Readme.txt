@@ -42,3 +42,7 @@ Check the integrity of VNR's offline subtitles in YAML format.
 * subx2y.cmd (Windows), subx2y.sh (UNIX)
 Convert VNR's offline subtitles in old XML format to new YAML format.
 將VNR的以前的XML格式的離線字幕轉換為新的YAML格式。
+
+* tahcompile.cmd (Windows), tahcompile.sh (UNIX)
+Generate TAH script. See examples in Libary/Examples/TAHScript.
+用於生成TAH翻譯腳本。參看例子：Libary/Examples/TAHScript

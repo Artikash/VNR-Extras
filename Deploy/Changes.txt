@@ -6,6 +6,19 @@ Since 6/18/2011
   [Translation Scripts](English, @errzotl)
   * Update TAH script for LEC from @errzotl sensei.
 
+  * I wrote some scripts to enable macro support while composing TAH scripts.
+    I wrote these scripts originally for @riz sensei to improve English translation quality.
+    You can ignore the following text if you have never manually written a TAH script.
+
+    The basic idea is that instead of directly writing a tAH script manually,
+    first write translation rules in one or several files, and then use a Python
+    script to combine them together to generate a legal TAH script.
+
+    My script could be found at Scripts/tahcompile.sh.
+    It will take several translation scripts with a new macro syntax and generate
+    a single TAH script.
+    An example could be found at Library/Examples/TAHScript.
+
 1/5/2015 MON
   [Korean]
   * Add KS_C_5601 encoding to Text Settings for translating Korean games.

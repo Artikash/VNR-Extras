@@ -1,0 +1,5 @@
+All files in Hanja Hangul Converter are available under Public Domain. Anyone can use all files freely.
+
+Hanja Hangul Convert Project Homepage: http://kldp.net/projects/hanja/
+
+Author: Masoris Sung-il Kim (masoris@gmail.com)

@@ -10,13 +10,14 @@ Since 6/18/2011
     I wrote these scripts originally for @riz sensei to improve English translation quality.
     You can ignore the following text if you have never manually written a TAH script.
 
-    The basic idea is that instead of directly writing a tAH script manually,
+    The basic idea is that instead of directly writing a TAH script manually,
     first write translation rules in one or several files, and then use a Python
     script to combine them together to generate a legal TAH script.
 
     My script could be found at Scripts/tahcompile.sh.
     It will take several translation scripts with a new macro syntax and generate
     a single TAH script.
+	It will also do syntax checking to the regular expressions in the translation scripts.
     An example could be found at Library/Examples/TAHScript.
 
 1/5/2015 MON

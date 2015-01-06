@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/6/2015 TUE
+  [Translation Scripts](English, @errzotl)
+  * Update TAH script for LEC from @errzotl sensei.
+
 1/5/2015 MON
   [Korean]
   * Add KS_C_5601 encoding to Text Settings for translating Korean games.

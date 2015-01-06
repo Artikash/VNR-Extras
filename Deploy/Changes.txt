@@ -17,7 +17,7 @@ Since 6/18/2011
     My script could be found at Scripts/tahcompile.sh.
     It will take several translation scripts with a new macro syntax and generate
     a single TAH script.
-	It will also do syntax checking to the regular expressions in the translation scripts.
+    It will also do syntax checking to the regular expressions in the translation scripts.
     An example could be found at Library/Examples/TAHScript.
 
 1/5/2015 MON

@@ -26,26 +26,27 @@ Since 6/18/2011
 
   [Ruby](Korean)
   * Add an option to recover hanja for hangul text in Preferences.
-    For example, given a sentence as follows (which is picked from Wikipedia):
+    For example, given a sentence as follows (which is picked from Korean Wikipedia):
 
         자유 콘텐츠는 저작권이 소멸된 퍼블릭 도메인은 물론, 저작권이 있지만 위 기준에 따라 자유롭게 이용이 허락된 콘텐츠도 포함한다.
 
-    VNR is able to recover the hanja like this, which mixes hangul with hanja just like Japanese:
+    VNR is able to recover hanja like this, which mixes hangul with hanja just like Japanese:
 
         自由 콘텐츠는 著作權이 消滅된 퍼블릭 도메인은 勿論, 著作權이 있지만 위 基準에 따라 自由롭게 利用이 許諾된 콘텐츠도 包含한다."
 
-    In this way, it might make Korean easier to understand for Chinese learners.
+    In this way, it might make it easier to understand for Korean learners who already know Chinese/Japanese.
     A screenshot with hanja and romaja as ruby is as follows:
 
         http://i859.photobucket.com/albums/ab155/jichi/hanja_zps0638299d.png
 
-    However, the guessed hanja is not 100% correct, because the meaning of hangul is usually ambiguous,
-    whose meaning is very context-sensitive.
+    However, the hanja might not be 100% correct, because the meaning of hangul could be ambiguous,
+    whose meaning is usually context-sensitive.
     For example, "이용이" in the above sentence can be either "利用이" or "이容易".
-    When that happens, VNR will pick the hanja at beginning of the word (i.e. 利用이) over the others.
+    When that happens, VNR will pick the hanja at beginning of the word (i.e. 利用이) over the others,
+    which might be wrong.
     Additionally, due to ambiguity, VNR currently will not guess hanja for individual hangul.
 
-    I will add support of displaying romaja and recovering hanja for Korean to Website Reader later when I have time.
+    I will add support of displaying romaja and hanja for Korean to Website Reader later when I have time.
 
     在【使用偏好/翻译/读音】中添加选项来恢复韩文中的汉字。
     比方说，给定下边的韩文Wikipedia上的一句话：

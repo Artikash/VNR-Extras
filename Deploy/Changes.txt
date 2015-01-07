@@ -25,7 +25,7 @@ Since 6/18/2011
    【使用偏好】中添加了使用朝鲜汉字为默认中文汉字变体的选项。
 
   [Ruby](Korean)
-  * Add a toggle to recover hanja for hangul in Preferences.
+  * Add an option to recover hanja for hangul text in Preferences.
     For example, given a sentence as follows (which is picked from Wikipedia):
 
         자유 콘텐츠는 저작권이 소멸된 퍼블릭 도메인은 물론, 저작권이 있지만 위 기준에 따라 자유롭게 이용이 허락된 콘텐츠도 포함한다.
@@ -35,7 +35,7 @@ Since 6/18/2011
         自由 콘텐츠는 著作權이 消滅된 퍼블릭 도메인은 勿論, 著作權이 있지만 위 基準에 따라 自由롭게 利用이 許諾된 콘텐츠도 包含한다."
 
     In this way, it might make Korean easier to understand for Chinese learners.
-    A screenshot with hanja as ruby is as follows:
+    A screenshot with hanja and romaja as ruby is as follows:
 
         http://i859.photobucket.com/albums/ab155/jichi/hanja_zps0638299d.png
 

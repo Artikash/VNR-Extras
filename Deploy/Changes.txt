@@ -24,6 +24,51 @@ Since 6/18/2011
   * Add a toggle in Preferences to use Korean Hanja as Chinese variants.
    【使用偏好】中添加了使用朝鲜汉字为默认中文汉字变体的选项。
 
+  [Ruby](Korean)
+  * Add a toggle to recover hanja for hangul in Preferences.
+    For example, given a sentence as follows (which is picked from Wikipedia):
+
+        자유 콘텐츠는 저작권이 소멸된 퍼블릭 도메인은 물론, 저작권이 있지만 위 기준에 따라 자유롭게 이용이 허락된 콘텐츠도 포함한다.
+
+    VNR is able to recover the hanja like this, which mixes hangul with hanja just like Japanese:
+
+        自由 콘텐츠는 著作權이 消滅된 퍼블릭 도메인은 勿論, 著作權이 있지만 위 基準에 따라 自由롭게 利用이 許諾된 콘텐츠도 包含한다."
+
+    In this way, it might make Korean easier to understand for Chinese learners.
+    A screenshot with hanja as ruby is as follows:
+
+        http://i859.photobucket.com/albums/ab155/jichi/hanja_zps0638299d.png
+
+    However, the guessed hanja is not 100% correct, because the meaning of hangul is usually ambiguous,
+    whose meaning is very context-sensitive.
+    For example, "이용이" in the above sentence can be either "利用이" or "이容易".
+    When that happens, VNR will pick the hanja at beginning of the word (i.e. 利用이) over the others.
+    Additionally, due to ambiguity, VNR currently will not guess hanja for individual hangul.
+
+    I will add support of displaying romaja and recovering hanja for Korean to Website Reader later when I have time.
+
+    在【使用偏好/翻译/读音】中添加选项来恢复韩文中的汉字。
+    比方说，给定下边的韩文Wikipedia上的一句话：
+
+        자유 콘텐츠는 저작권이 소멸된 퍼블릭 도메인은 물론, 저작권이 있지만 위 기준에 따라 자유롭게 이용이 허락된 콘텐츠도 포함한다.
+
+    VNR可以将其中的部分汉字恢复出来，好像假名和汉字混合的日文一样：
+
+        自由 콘텐츠는 著作權이 消滅된 퍼블릭 도메인은 勿論, 著作權이 있지만 위 基準에 따라 自由롭게 利用이 許諾된 콘텐츠도 包含한다."
+
+    这样，也许可以帮助学习韩文的同学来阅读。
+    下边是用汉字和罗马字为韩文注音后的截图：
+
+        http://i859.photobucket.com/albums/ab155/jichi/hanja_zps0638299d.png
+
+    不过，由于韩文本身很容易有歧义，标注的汉字并不能保证100%正确。
+    比方说，在上边的例句中，「이용이」既可能是「利用이」又可能是「이容易」。
+    这时，VNR会选择在位置在单词左边边界的汉字，即：「利用이」。
+    不过，这种策略并不一定都是正确的。
+    另外，由于单个韩文字母可能对应的汉字太多，VNR不会对单个韩文恢复汉字。
+
+    我以后有时间的话，会把对韩文的支持添加到Website Reader中。
+
 1/5/2015 MON
   [Korean]
   * Add KS_C_5601 encoding to Text Settings for translating Korean games.

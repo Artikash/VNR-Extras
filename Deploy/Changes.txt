@@ -43,7 +43,7 @@ Since 6/18/2011
     whose meaning is usually context-sensitive.
     For example, "이용이" in the above sentence can be either "利用이" or "이容易".
     When that happens, VNR will pick the hanja at beginning of the word (i.e. 利用이) over the others,
-    which might be wrong.
+    which might be right or wrong depending on the context.
     Additionally, due to ambiguity, VNR currently will not guess hanja for individual hangul.
 
     I will add support of displaying romaja and hanja for Korean to Website Reader later when I have time.

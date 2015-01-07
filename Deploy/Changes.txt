@@ -4,7 +4,8 @@ Since 6/18/2011
 
 1/7/2015 WED
   [ezTrans](Korean)
-  * Prevent ezTrans from replacing "『』" with "「」".
+  * Preserve "『』" in the translation.
+    Prevent ezTrans XP from replacing "『』" with "「」".
 
 1/6/2015 TUE
   [Translation Scripts](English, @errzotl)

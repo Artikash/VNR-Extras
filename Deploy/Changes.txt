@@ -20,6 +20,10 @@ Since 6/18/2011
     It will also do syntax checking to the regular expressions in the translation scripts.
     An example could be found at Library/Examples/TAHScript.
 
+  [Chinese Variants](Korean)
+  * Add a toggle in Preferences to use Korean Hanja as Chinese variants.
+   【使用偏好】中添加了使用朝鲜汉字为默认中文汉字变体的选项。
+
 1/5/2015 MON
   [Korean]
   * Add KS_C_5601 encoding to Text Settings for translating Korean games.

@@ -7,6 +7,10 @@ Since 6/18/2011
   * Preserve "『』" in the translation.
     Prevent ezTrans XP from replacing "『』" with "「」".
 
+  [Ruby](Chinese)
+  * Display tone for Pinyin.
+    拼音注音会显示声调。
+
 1/6/2015 TUE
   [Translation Scripts](English, @errzotl)
   * Update TAH script for LEC from @errzotl sensei.

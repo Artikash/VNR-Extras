@@ -31,7 +31,7 @@ Since 6/18/2011
 
   [Chinese Variants](Korean)
   * Add a toggle in Preferences to use Korean Hanja as Chinese variants.
-   【使用偏好】中添加了使用朝鲜汉字为默认中文汉字变体的选项。
+    【使用偏好】中添加了使用朝鲜汉字为默认中文汉字变体的选项。
 
   [Ruby](Korean)
   * Add an option to recover hanja for hangul text in Preferences.

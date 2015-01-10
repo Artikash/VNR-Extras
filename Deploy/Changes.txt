@@ -29,7 +29,7 @@ Since 6/18/2011
     For example, given the following subtitle, it will render 茶道 with underline.
     And if user click that underlined word, VNR will open the wiki link in the web browser.
 
-        [http://ja.wikipedia.org/wiki/茶道]茶道[/url]
+        [url=http://ja.wikipedia.org/wiki/茶道]茶道[/url]
 
     在弹幕、人工字幕中可以使用[url]的标签了。
     比方说，给定上边字幕或者弹幕，那么VNR会为【茶道】下划线。

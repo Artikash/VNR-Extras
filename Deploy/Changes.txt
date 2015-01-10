@@ -2,6 +2,16 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/10/2015 SAT
+  [Word Dictionary]
+  * Display term ID in Shared Dictionary.
+    The ID is a number used by VNR internally to uniquely identify a dictionary entry.
+    This number can also be found in the popup when click the underlined translation text.
+    Additionally, if you search an integer, such as 1234, VNR will show the ID=1234 entry.
+    共享辞书会显示词条的ID。
+    这个ID在点击下划线的词条后出现的窗口里也可以找到。
+    另外，如果在共享辞书中检索整数，比如1234，那么VNR会显示ID=1234的词条。
+
 1/9/2015 FRI
   [Word Dictionary]
   * Improve dictionary rendering to make it more readable.

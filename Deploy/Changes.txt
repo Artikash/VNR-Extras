@@ -4,7 +4,73 @@ Since 6/18/2011
 
 1/9/2015 FRI
   [Word Dictionary]
-  * Improve EDICT rendering to make it more readable.
+  * Improve dictionary rendering to make it more readable.
+    改进了对日文单词字典的渲染。
+
+  [Shared Dictionary]
+  * When click the underlined machine translation text, VNR will popup to show
+    the dictionary entry that causes the changes.
+    Due to technical difficulties, the underline trick only works for the
+    entries with the follow types and languages:
+    - Output      (all languages, including English)
+    - Translation (Chinese/Japanese/Korean only)
+    - Name        (Chinese/Japanese/Korean only)
+    - Yomi        (Chinese/Japanese/Korean only)
+
+    点击机器翻译字幕的下划线的文字，会填出显示是哪一条规则导致了这个变更。
+    不过这对如下类型和语言的词条造成的变更有效：
+    - 输出词条（任何语言）
+    - 翻译词条（仅限中日韩）
+    - 姓名词条（仅限中日韩）
+    - 读音词条（仅限中日韩）
+
+  [Shared Subtitle]
+  * This is kind of useless, but you can now use [url] bbcode in subtitles/danmaku.
+    For example, given the following subtitle, it will render 茶道 with underline.
+    And if user click that underlined word, VNR will open the wiki link in the web browser.
+
+        [http://ja.wikipedia.org/wiki/茶道]茶道[/url]
+
+    在弹幕、人工字幕中可以使用[url]的标签了。
+    比方说，给定上边字幕或者弹幕，那么VNR会为【茶道】下划线。
+    如果其他同学点击【茶道】，那么VNR会用浏览器打开对应的wiki的链接。
+
+    btw., I am thinking to expose Python/Javascript API though danmaku with bbcode.
+    For example, maybe, given the following danmaku:
+
+        [script=python]environ['hentai'] = 1[/script]
+
+    It might could be used as a trigger to change the translation environment
+    or whatever properties of VNR.
+    The script will only be executed when the game reaches at specific scene when
+    the danmaku is submitted.
+
+    Or, the script could also be used to create animated danmaku/subtitle, like this:
+
+        [script=javascript]
+           var self = this;
+           setInterval(1000, function() {
+             self.x += 100;
+             self.color = Qt.rgb(self.x % 255, 0, 0);
+           });
+        [/script]
+
+    And it might also possible to use [url] to simulate clickable buttons:
+
+        [url="javascript://this.speed=10"]Speedup[/url]
+
+   Enabling Python/Javascript in danmaku is quite simple to implement.
+   But I feel it is still kind of useless.
+   If you have suggestions to make use of it, feel free to discuss with me!
+
+   我在想，也许，可以让允许在弹幕中内嵌Javascript或者Python。
+   比如说，当游戏进入到一定的情节，那么，可以用如下的弹幕来告诉VNR打开hentai词条：
+
+       [script=javascript]environment.hentai = true[/script]
+
+   这样，这个script就只有在游戏进入到发弹幕的那个scene的时候才会执行。
+   这个其实很好实现，不过感觉还是用处不大。
+   如果你有其他的建议，可以让我知道！
 
 1/7/2015 WED
   [ezTrans](Korean)

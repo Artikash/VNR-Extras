@@ -42,8 +42,8 @@ Since 6/18/2011
 
     It could be used as a trigger to change the translation environment or whatever
     properties of VNR at specific game scene.
-    i.e. the script will only be executed when the game reaches at specific scene when
-    the danmaku is submitted.
+    i.e. the script will only be executed when the game reaches at specific scene
+    where the danmaku is submitted.
 
     Or, the script could also be used to create animated danmaku/subtitle, like this:
 
@@ -55,7 +55,7 @@ Since 6/18/2011
            });
         [/script]
 
-    And it might also possible to use [url] to simulate clickable buttons:
+    And it might also be possible to use [url] to simulate clickable buttons:
 
         [url="javascript://this.speed=10"]Speedup[/url]
 

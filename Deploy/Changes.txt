@@ -40,9 +40,9 @@ Since 6/18/2011
 
         [script=python]environ['hentai'] = 1[/script]
 
-    It might could be used as a trigger to change the translation environment
-    or whatever properties of VNR.
-    The script will only be executed when the game reaches at specific scene when
+    It could be used as a trigger to change the translation environment or whatever
+    properties of VNR at specific game scene.
+    i.e. the script will only be executed when the game reaches at specific scene when
     the danmaku is submitted.
 
     Or, the script could also be used to create animated danmaku/subtitle, like this:

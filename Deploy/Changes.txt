@@ -27,7 +27,7 @@ Since 6/18/2011
   [Shared Subtitle]
   * This is kind of useless, but you can now use [url] bbcode in subtitles/danmaku.
     For example, given the following subtitle, it will render 茶道 with underline.
-    And if user click that underlined word, VNR will open the wiki link in the web browser.
+    And if user clicks that underlined word, VNR will open the wiki link in the web browser.
 
         [url=http://ja.wikipedia.org/wiki/茶道]茶道[/url]
 
@@ -63,7 +63,7 @@ Since 6/18/2011
     But I feel it is still kind of useless.
     If you have suggestions to make use of it, feel free to discuss with me!
 
-    我在想，也许，可以让允许在弹幕中内嵌Javascript或者Python。
+    我在想，也许，可以在弹幕中内嵌Javascript或者Python的代码。
     比如说，当游戏进入到一定的情节，那么，可以用如下的弹幕来告诉VNR打开hentai词条：
 
         [script=javascript]environment.hentai = true[/script]

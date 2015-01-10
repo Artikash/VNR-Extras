@@ -59,18 +59,18 @@ Since 6/18/2011
 
         [url="javascript://this.speed=10"]Speedup[/url]
 
-   Enabling Python/Javascript in danmaku is quite simple to implement.
-   But I feel it is still kind of useless.
-   If you have suggestions to make use of it, feel free to discuss with me!
+    Enabling Python/Javascript in danmaku is quite simple to implement.
+    But I feel it is still kind of useless.
+    If you have suggestions to make use of it, feel free to discuss with me!
 
-   我在想，也许，可以让允许在弹幕中内嵌Javascript或者Python。
-   比如说，当游戏进入到一定的情节，那么，可以用如下的弹幕来告诉VNR打开hentai词条：
+    我在想，也许，可以让允许在弹幕中内嵌Javascript或者Python。
+    比如说，当游戏进入到一定的情节，那么，可以用如下的弹幕来告诉VNR打开hentai词条：
 
-       [script=javascript]environment.hentai = true[/script]
+        [script=javascript]environment.hentai = true[/script]
 
-   这样，这个script就只有在游戏进入到发弹幕的那个scene的时候才会执行。
-   这个其实很好实现，不过感觉还是用处不大。
-   如果你有其他的建议，可以让我知道！
+    这样，这个script就只有在游戏进入到发弹幕的那个scene的时候才会执行。
+    这个其实很好实现，不过感觉还是用处不大。
+    如果你有其他的建议，可以让我知道！
 
 1/7/2015 WED
   [ezTrans](Korean)

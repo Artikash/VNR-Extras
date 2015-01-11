@@ -19,6 +19,11 @@ Since 6/18/2011
 
     在创建词条后，当词条还没有成功保存时，ID栏会用红字显示未保存。
 
+  * In the machine translation test, click the underlined text and VNR will popup the
+    dictionary entry that causes the change.
+
+    测试机器翻译中，点击下划线的文字后，VNR会显示造成变更的相应的词条。
+
 1/9/2015 FRI
   [Word Dictionary]
   * Improve dictionary rendering to make it more readable.

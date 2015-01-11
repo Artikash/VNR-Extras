@@ -2,11 +2,20 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/11/2015 SUN
+  [Shared Subtitle]
+  * Avoid showing duplicate subtitles.
+    The first-created subtitle will overshadow later duplicates.
+	Thanks for @s793016 sensei's report!
+    不显示重复的字幕。
+    第一个同学创建的字幕会禁止后边重复的字幕。
+	感谢s793016 sensei的报告！
+
 1/10/2015 SAT
   [Word Dictionary]
   * Display term ID in Shared Dictionary.
     The ID is a number used by VNR internally to uniquely identify a dictionary entry.
-    This number can also be found in the popup when click the underlined translation text.
+    This number can also be found in the popup when click an underlined translation text.
 
     If you search an integer, such as 1234, VNR will show the ID=1234 entry.
 

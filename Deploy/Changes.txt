@@ -24,6 +24,14 @@ Since 6/18/2011
 
     测试机器翻译中，点击下划线的文字后，VNR会显示造成变更的相应的词条。
 
+  [Shared Subtitle]
+  * Javascript can be used in [url] for subtitles.
+    Some examples are as follows. It is still useless, though.
+    - [url=javascript://growl.msg('hello world")]Click to growl a "hello world" message[/url]
+    - [url=javascript://main.showSpringBoard()]Click to open SpringBoard[/url]
+    - [url=javascript://main.showUser('jichi')]Click to display user information of @jichi[/url]
+    - [url=javascript://main.searchDictionary("jichi", "user")]Click to search dictionary entries made by @jichi[/url]
+
 1/9/2015 FRI
   [Word Dictionary]
   * Improve dictionary rendering to make it more readable.

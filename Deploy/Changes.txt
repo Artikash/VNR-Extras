@@ -6,10 +6,10 @@ Since 6/18/2011
   [Shared Subtitle]
   * Avoid showing duplicate subtitles.
     The first-created subtitle will overshadow later duplicates.
-	Thanks for @s793016 sensei's report!
+    Thanks for @s793016 sensei's report!
     不显示重复的字幕。
     第一个同学创建的字幕会禁止后边重复的字幕。
-	感谢s793016 sensei的报告！
+    感谢s793016 sensei的报告！
 
 1/10/2015 SAT
   [Word Dictionary]

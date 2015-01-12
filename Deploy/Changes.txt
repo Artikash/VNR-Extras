@@ -2,6 +2,12 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/12/2015 MON
+  [UI]
+  * The inspector at the bottom of views (SpringBoard, Shared Dictionary, etc.)
+    are selectable by mouse and copyable using CTRL+C.
+    SpringBoard、共享辞书等下边的inspector中的文本可以用鼠标选定和CTRL+C来复制。
+
 1/11/2015 SUN
   [Shared Subtitle]
   * Avoid showing duplicate subtitles.

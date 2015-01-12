@@ -24,6 +24,8 @@ Since 6/18/2011
     - Parenthesis warning: the regular expression might have mismatched parentheses/brackets
       (This check is not accurate)
 
+    You can find all incorrect entries by sorting the Check column.
+
     VNR会检查辞书词条的正确性。
     在共享辞书的table中添加了一个【验证】列。
     - 当列值是绿色的，那么词条可能是正确的。
@@ -36,6 +38,8 @@ Since 6/18/2011
     - 括号：正则表达式中的括号可能不匹配（不过这个检查并不准确，可能会错）。
     - 中文：语言是中文的词条中不应该包含函简体字。
     - 简中：不包含简体字的词条的语言应该设定为正体中文。
+
+    可以点击【验证】列来显示所有被警告的词条。
 
 1/10/2015 SAT
   [Word Dictionary]

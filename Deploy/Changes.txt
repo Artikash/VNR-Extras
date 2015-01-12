@@ -11,6 +11,32 @@ Since 6/18/2011
     第一个同学创建的字幕会禁止后边重复的字幕。
     感谢s793016 sensei的报告！
 
+  [Shared Dictionary]
+  * VNR will validate correctness of the entries in Shared Dictionary.
+    There is a new Check column which shows the possible errors in for the entry.
+    - When the check value is in green, the entry seems to be OK.
+    - When the check value is in orange, it is a warning and the entry might be inappropriate.
+    - When the check value is in red, it is an error and the entry is definitely wrong.
+
+    The detailed error message can be find the bottom of the Shared Dictionary.
+    Some sample error messages are as follows:
+    - Useless error: the entry has no effect and should be deleted
+    - Parenthesis warning: the regular expression might have mismatched parentheses/brackets
+      (This check is not accurate)
+
+    VNR会检查辞书词条的正确性。
+    在共享辞书的table中添加了一个【验证】列。
+    - 当列值是绿色的，那么词条可能是正确的。
+    - 当列值是orange（表示警告），那么词条可能是不正确的。
+    - 当列值是红色的（表示错误），那么词条一定是不正确的。
+
+    错误的信息可以在共享辞书下边找到。
+    一些比较重要的错误如下：
+    - 无用：词条是没有作用的，应该删掉。
+    - 括号：正则表达式中的括号可能不匹配（不过这个检查并不准确，可能会错）。
+    - 中文：语言是中文的词条中不应该包含函简体字。
+    - 简中：不包含简体字的词条的语言应该设定为正体中文。
+
 1/10/2015 SAT
   [Word Dictionary]
   * Display term ID in Shared Dictionary.

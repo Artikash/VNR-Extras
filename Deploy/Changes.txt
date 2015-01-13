@@ -8,6 +8,13 @@ Since 6/18/2011
     are selectable by mouse and copyable using CTRL+C.
     SpringBoard、共享辞书等下边的inspector中的文本可以用鼠标选定和CTRL+C来复制。
 
+  [Shared Dictionary]
+  * Reduce the time and memory to process large numbers of name entries for machine translation.
+    减少了处理姓名词条占用的内存和时间。
+
+  * Fixed a regression that newly submitted rules might not be immediately applied.
+    修正了新创建的词条可能会无效的bug。
+
 1/11/2015 SUN
   [Shared Subtitle]
   * Avoid showing duplicate subtitles.

@@ -15,6 +15,13 @@ Since 6/18/2011
   * Fixed a regression that newly submitted rules might not be immediately applied.
     修正了新创建的词条可能会无效的bug。
 
+  * Append a space after English translation term just like Korean.
+    For example, given two translation rule:
+        かわいい = cute
+        女の子 = girl
+    Then,  "かわいい女の子" will be translated to "cute girl" instead of "cutegirl",
+    where a space will be inserted in the middle.
+
 1/11/2015 SUN
   [Shared Subtitle]
   * Avoid showing duplicate subtitles.

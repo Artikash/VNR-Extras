@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/13/2015 MON
+  [Web Browser]
+  * Aero effect is removed which is not portable to different Windows.
+
 1/12/2015 MON
   [UI]
   * Texts in the inspector at the bottom of views (SpringBoard, Shared Dictionary, etc.)

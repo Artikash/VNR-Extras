@@ -2,7 +2,7 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
-1/13/2015 MON
+1/14/2015 WED
   [Web Browser]
   * Aero effect is removed which is not portable to different Windows.
 

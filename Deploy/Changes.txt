@@ -15,8 +15,8 @@ Since 6/18/2011
         => Korean: 미, 미, 미안합니다!
 
     Note that this only works for Chinese/Korean.
-    For English, I don't have a way to handle this pattern. And I add a rule to
-    the Shared Dictionary to delete leading "す、す、" instead.
+    For English, I don't have a way to handle this pattern.
+    So, I add a rule to the Shared Dictionary to delete leading "す、す、" instead.
 
     For Chinese/Korean, VNR will identify the jitter in the following pattern:
 

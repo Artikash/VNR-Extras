@@ -10,8 +10,8 @@ Since 6/18/2011
     来删掉本地的读法词条。
 
   * When generating names from yomigana, VNR will remove う after the o-column hiragana.
-    For example, given 佐藤 = さとう, the generated names will be Sato/사토 instead of
-    Satou/사토우.
+    For example, given 佐藤院 = さとういん, the generated names will be Satoin/사토인
+    instead of Satouin/사토우인.
 
     The removal will only be applied if there are at least 4 characters in the yomigana.
     For example, 章(しょう) will still be translated to Shou instead of Sho because

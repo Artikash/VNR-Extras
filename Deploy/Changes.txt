@@ -7,6 +7,10 @@ Since 6/18/2011
   * Fix the issue that text hook might stop working for games for Black Cyc, MIO, etc.
     修正了Black Cyc、MIO等会社的游戏提取文本一段时间后会失效的问题。
 
+  * Fix a bug existing for a long time that certain game engine (Malie, PPSSPP, etc.)
+    that generating large numbers of text threads might crash VNR.
+    修正了一个存在很久的Malie，PPSSPP等产生大量文本thread时会崩溃的问题。
+
 1/15/2015 THU
   [Shared Dictionary]
   * Fixed a bug that sometimes not all name entries are applied.

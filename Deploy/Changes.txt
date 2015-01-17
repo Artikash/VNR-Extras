@@ -9,6 +9,14 @@ Since 6/18/2011
     如果你屏蔽了英文和韩文，那么，在这次更新共享辞书的时候，可以先点击下【重置】
     来删掉本地的读法词条。
 
+  * When generating names from yomigana, VNR will remove う after お.
+    For example, given 佐藤 = さとう, the generated names will be Sato/사토 instead of
+    Satou/사토우.
+
+    The removal will only be applied if there are at least 4 characters in the yomigana.
+    For example, 章(しょう) will still be translated to Shou instead of Sho because
+    the original yomigana has only 3 characters (< 4).
+
 1/16/2015 FRI
   [Game Engine]
   * Fix the issue that text hook might stop working for games for Black Cyc, MIO, etc.

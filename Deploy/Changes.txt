@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/16/2015 FRI
+  [Game Engine]
+  * Fix the issue that text hook might stop working for games for Black Cyc, MIO, etc.
+    修正了Black Cyc、MIO等会社的游戏提取文本一段时间后会失效的问题。
+
 1/15/2015 THU
   [Shared Dictionary]
   * Fixed a bug that sometimes not all name entries are applied.

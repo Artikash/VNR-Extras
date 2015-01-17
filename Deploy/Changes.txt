@@ -2,6 +2,12 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/17/2015 SAT
+  [Shared Dictionary]
+  * 如果你在【使用偏好/国际化】中屏蔽了英文和韩文，那么更新共享辞书时就不会下载【读法】词条了。
+    因为这类词条对中文翻译是没有用处的。
+    如果你屏蔽了英文和韩文，那么，在更新共享辞书的时候，可以点击下【重置】来删掉本地的读法词条。
+
 1/16/2015 FRI
   [Game Engine]
   * Fix the issue that text hook might stop working for games for Black Cyc, MIO, etc.

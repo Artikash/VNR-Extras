@@ -17,6 +17,10 @@ Since 6/18/2011
     For example, 章(しょう) will still be translated to Shou instead of Sho because
     the original yomigana has only 3 characters (< 4).
 
+    If you don't want VNR to remove う, you can use katagana instead of hiragana as yomigana.
+    For example, if the yomigana of 佐藤院 is defined as サトウイン instead of さとういん,
+    then VNR will not remove ウ in the middle.
+
 1/16/2015 FRI
   [Game Engine]
   * Fix the issue that text hook might stop working for games for Black Cyc, MIO, etc.

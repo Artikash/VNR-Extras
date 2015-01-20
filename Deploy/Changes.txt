@@ -2,6 +2,33 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/20/2015 MON
+  [Yomigana](Russian)
+  * Support converting Japanese kana to Russian alphabet.
+    The current mapping could be found in the following page:
+
+        http://sakuradite.com/wiki/en/Furigana
+
+    If you find errors in the mapping, please let me know!
+
+  * Add an option to display ruby in Russian for Japanese in Preferences/Translation.
+    When selected, for example, VNR will display каваий instead of kawaii above 可愛い.
+
+  * For yomi typed terms in the Shared Dictionary, VNR will generate names in Russian
+    instead of English when a Russian translator is used.
+
+    For example, given a yomi term: 悠真 => ゆうま
+    VNR will then translate 悠真ちゃん => Юума-Чан instead of Yuuma-chan.
+
+  [Yomigana](Thai)
+  * I disabled generating names for Thai since the current kana mapping for Thai
+    seems to be totally wrong.
+
+    If you are using VNR to translate Japanese games to Thai, I hope if you could
+    give me a hand to fix the mapping on the following wiki page:
+
+        http://sakuradite.com/wiki/en/Furigana
+
 1/19/2015 MON
   [Game Engine]
   * Update old WillPlus engine to work with new Honeybee games.

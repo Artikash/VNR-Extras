@@ -7,6 +7,14 @@ Since 6/18/2011
   * Update old WillPlus engine to work with new Honeybee games.
     修正了WillPlus引擎失效和无法提取部分Honeybee游戏文本的问题。
 
+  [Command Line]
+  * As request, add command line options to minimize VNR to system tray after launch.
+    You can do it this way:
+
+        Library\Frameworks\Sakura\bin\reader.exe --minimize --nosplash
+
+    运行上边的命令，那么VNR启动后会最小化到system tray。
+
 1/17/2015 SAT
   [Shared Dictionary]
   * 如果你在【使用偏好/国际化】中屏蔽了英文和韩文，那么更新共享辞书时就不会下载

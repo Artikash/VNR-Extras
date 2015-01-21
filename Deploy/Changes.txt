@@ -48,9 +48,9 @@ Since 6/18/2011
     After reading assembly for many games, I finally could understand the logic behind LEC's assembly.
 
     LEC also supports a couple of European languages as well as Chinese and Korean.
-    I am going to add translator support for other languages supported by LEC when I have ime.
+    I am going to add translation support for other languages supported by LEC when I have ime.
     And I will add an option to use LEC/Google/Bing as secondary translator to re-translate
-    LEC/ATLAS English translation to other languages such as Russian and Vietnamese.
+    LEC/ATLAS English translation/subtitles to other languages, such as Russian and Vietnamese.
 
   btw., I created a page below for browsing the Shared Dictionary online.
   It could be used to look up dictionary entries without opening VNR.

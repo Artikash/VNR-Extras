@@ -54,7 +54,7 @@ Since 6/18/2011
 
   btw., I created a page below for browsing the Shared Dictionary online.
   It could be used to look up dictionary entries without opening VNR.
-  Currently, all entries are still read-only.
+  Currently, all entries are read-only on that page.
 
       http://sakuradite.com/dict
 

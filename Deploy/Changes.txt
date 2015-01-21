@@ -20,6 +20,12 @@ Since 6/18/2011
     For example, given a yomi term: 悠真 => ゆうま
     VNR will then translate 悠真ちゃん => Юума-Чан instead of Yuuma-chan.
 
+  btw., If you want to add name translation to the Shared Dictionary, I hope you can use
+  Yomi type instead of Name type, so that different languages don't have to have duplicate
+  translations for the same set of Japanese names.
+  On the bottom of the Game Information, there is a Import Name widget that might help make
+  creating Yomi names easier.
+
   [Yomigana](Thai)
   * I disabled generating names for Thai since the current kana mapping for Thai
     seems to be totally wrong.

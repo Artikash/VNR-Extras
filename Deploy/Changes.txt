@@ -29,6 +29,23 @@ Since 6/18/2011
 
         http://sakuradite.com/wiki/en/Furigana
 
+  [Translation Scripts](English/Russian, @errzotl)
+  * Update TAH script for LEC from @errzotl sensei.
+
+  [Machine Translator](Russian)
+  * Support using LEC to provide Japanese to Russian or English to Russian translation.
+    LEC will translate to English by default.
+    You can enable Russian translation by selecting Russian as VNR's language in Preferences.
+
+  btw., finally, after two years, I managed to get this work ...
+  I am using the same method as my old post on hongfire two years ago. How time flies.
+  After reading assembly for many games, I finally could understand the logic behind LEC's assembly.
+
+  LEC also supports a couple of European languages as well as Chinese and Korean.
+  I am going to add translator support for other languages supported by LEC when I have ime.
+  And I will add an option to use LEC/Google/Bing as secondary translator to re-translate
+  LEC/ATLAS English translation to other languages such as Russian and Vietnamese.
+
 1/19/2015 MON
   [Game Engine]
   * Update old WillPlus engine to work with new Honeybee games.

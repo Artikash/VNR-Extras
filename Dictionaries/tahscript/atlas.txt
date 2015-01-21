@@ -1,4 +1,4 @@
-﻿*14:57 2014/11/08
+*14:57 2014/11/08
 *this is an example of a simple regex script for TAHelper
 *it was made based on ATLAS V14 (+TA) behaviour, might not work on other translation engine
 *basically only for conversation text, so might not work on RPG or games with lots of "status" thing..

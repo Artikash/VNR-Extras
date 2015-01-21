@@ -2,7 +2,7 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
-1/20/2015 MON
+1/20/2015 TUE
   [Yomigana](Russian)
   * Support converting Japanese kana to Russian alphabet.
     The current mapping could be found in the following page:
@@ -23,7 +23,7 @@ Since 6/18/2011
   btw., If you want to add name translation to the Shared Dictionary, I hope you can use
   Yomi type instead of Name type, so that different languages don't have to have duplicate
   translations for the same set of Japanese names.
-  On the bottom of the Game Information, there is a Import Name widget that might help make
+  On the bottom of the Game Information, there is an Import Name widget that might help make
   creating Yomi names easier.
 
   [Yomigana](Thai)

@@ -37,14 +37,23 @@ Since 6/18/2011
     LEC will translate to English by default.
     You can enable Russian translation by selecting Russian as VNR's language in Preferences.
 
-  btw., finally, after two years, I managed to get this work ...
-  I am using the same method as my old post on hongfire two years ago. How time flies.
-  After reading assembly for many games, I finally could understand the logic behind LEC's assembly.
+    Finally, after two years, I managed to get this work ...
+    I am using the same method as my old post on hongfire two years ago. How time flies.
+    After reading assembly for many games, I finally could understand the logic behind LEC's assembly.
 
-  LEC also supports a couple of European languages as well as Chinese and Korean.
-  I am going to add translator support for other languages supported by LEC when I have ime.
-  And I will add an option to use LEC/Google/Bing as secondary translator to re-translate
-  LEC/ATLAS English translation to other languages such as Russian and Vietnamese.
+    LEC also supports a couple of European languages as well as Chinese and Korean.
+    I am going to add translator support for other languages supported by LEC when I have ime.
+    And I will add an option to use LEC/Google/Bing as secondary translator to re-translate
+    LEC/ATLAS English translation to other languages such as Russian and Vietnamese.
+
+  btw., I created a page below for browsing the Shared Dictionary online.
+  It could be used to look up dictionary entries without opening VNR.
+  Currently, all entries are still read-only.
+
+      http://sakuradite.com/dict
+
+  创建了一个可以浏览和检索共享辞书词条的网页，在上边。
+  不过，网页上的词条是只读的，还不可以修改的。
 
 1/19/2015 MON
   [Game Engine]

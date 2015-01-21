@@ -37,7 +37,7 @@ Since 6/18/2011
     LEC will translate to English by default.
     You can enable Russian translation by selecting Russian as VNR's language in Preferences.
 
-    Finally, after two years, I managed to get this work ...
+    Finally, I managed to get this work, which has been obsessing me for two years ...
     I am using the same method as my old post on hongfire two years ago. How time flies.
     After reading assembly for many games, I finally could understand the logic behind LEC's assembly.
 

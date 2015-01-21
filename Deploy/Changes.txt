@@ -2,6 +2,18 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/21/2015 WED
+  [Shared Dictionary]
+  * Slightly modified the jitter pattern to eliminate xtsu in the middle.
+    An example is as follows:
+
+        すっ、すみません！
+
+        => Chinese: 对，对不起！
+        => Korean: 미, 미안합니다!
+
+    稍微修改该了下处理口吃的逻辑来删掉中间的xtsu。例句如上。
+
 1/20/2015 TUE
   [Yomigana](Russian)
   * Support converting Japanese kana to Russian alphabet.

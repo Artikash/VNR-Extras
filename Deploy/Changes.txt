@@ -39,7 +39,7 @@ Since 6/18/2011
   * Update TAH script for LEC from @errzotl sensei.
 
   [Machine Translator](Russian)
-  * Support using LEC to provide Japanese to Russian or English to Russian translation.
+  * Support using LEC to provide offline Japanese to Russian and English to Russian translation.
     LEC will translate to English by default.
     You can enable Russian translation by selecting Russian as VNR's language in Preferences.
 

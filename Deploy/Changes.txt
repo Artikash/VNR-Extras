@@ -10,6 +10,11 @@ Since 6/18/2011
     共享辞书中被禁用六个月以上的词条不会再被下载。
     如果你一定要看到这些被禁用的词条，可以到VNR的网站上去搜索。
 
+  * Input/output/translation/name/yomi entries can be translator-specific.
+    By default, a translation rule will be applied to all machine translators.
+    You can now change it to be enabled on specific translator instead.
+    词条可以只对某个翻译器开启。
+
 1/21/2015 WED
   [Shared Dictionary]
   * Slightly modified the jitter pattern to eliminate xtsu in the middle.

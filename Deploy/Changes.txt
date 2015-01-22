@@ -2,6 +2,14 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/22/2015 THU
+  [Shared Dictionary]
+  * VNR no longer downloads entries in the Shared Dictionary that has been disabled
+    for more than 6 months, which might help same some memory and time.
+    If you still want to find these disabled entries, you can search them at sakuradite.com/dict.
+    共享辞书中被禁用六个月以上的词条不会再被下载。
+    如果你一定要看到这些被禁用的词条，可以到VNR的网站上去搜索。
+
 1/21/2015 WED
   [Shared Dictionary]
   * Slightly modified the jitter pattern to eliminate xtsu in the middle.

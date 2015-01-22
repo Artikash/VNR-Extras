@@ -15,6 +15,10 @@ Since 6/18/2011
     You can now change it to be enabled on specific translator instead.
     用于改善翻译的词条可以只对某个翻译器开启。
 
+  [Machine Translator]
+  * Google translation speed improved.
+    提高了Google翻译的速度。
+
 1/21/2015 WED
   [Shared Dictionary]
   * Slightly modified the jitter pattern to eliminate xtsu in the middle.

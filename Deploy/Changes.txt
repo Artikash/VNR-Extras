@@ -19,11 +19,29 @@ Since 6/18/2011
   * Google translation speed improved.
     提高了Google翻译的速度。
 
-  [Korean Support]
-  * Add Naver online translation support for Korean language as suggested by @otromonde sama.
+  [i18n](Korean, @otromonde)
+  * Update VNR's UI translation in Korean made by @otromonde sama.
+
+  [Machine Translator](Korean)
+  * Add Naver.com online translation support for Korean language as suggested by @otromonde sama.
     Naver can be enabled in Preferences/Translation.
 
-  * Update VNR's UI translation in Korean made by @otromonde sama.
+  [TTS]
+  * Add Naver.com online TTS support.
+    If you are using Online Japanese TTS while playing game, I recommend to change the default TTS to Naver.
+
+    Naver TTS supports less languages (only CJK and English).
+    But Naver Japanese TTS sounds better, has higher bitrate, and the pitch can be adjusted,
+    and it supports both Male/Female voices.
+
+    For example, in Voices Settings, if you assign a Male gender to a character,
+    VNR will use Naver's male TTS to speak out the text.
+
+    添加了对Naver在线语音合成的支持。
+    如果你在用百度的日文TTS来读出游戏对话，那么非常建议你尝试下Naver的日文TTS。
+
+    和Baidu比起来，Naver的TTS更清晰，bitrate更高，可以调整音调，并且同时支持男声和女声。
+    比方说，如果在语音设定中，指定某个角色的性别是男性，那么VNR会用Naver的男声来读出日文。
 
 1/21/2015 WED
   [Shared Dictionary]

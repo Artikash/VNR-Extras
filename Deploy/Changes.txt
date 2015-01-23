@@ -19,6 +19,9 @@ Since 6/18/2011
   * Google translation speed improved.
     提高了Google翻译的速度。
 
+  [Machine Translator](Korean)
+  * Add Naver online translation support for Korean language.
+
 1/21/2015 WED
   [Shared Dictionary]
   * Slightly modified the jitter pattern to eliminate xtsu in the middle.

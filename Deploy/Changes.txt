@@ -28,7 +28,7 @@ Since 6/18/2011
 
   [TTS]
   * Add Naver.com online TTS support.
-    If you are using Online Japanese TTS while playing game, I would recommend to change the default TTS to Naver.
+    If you are using Online Japanese TTS while playing game, maybe you can try Naver TTS.
 
     Naver TTS supports less languages (only CJK and English).
     But Naver Japanese TTS sounds better, has higher bitrate, and the pitch can be adjusted,

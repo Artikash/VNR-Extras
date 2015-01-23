@@ -19,8 +19,11 @@ Since 6/18/2011
   * Google translation speed improved.
     提高了Google翻译的速度。
 
-  [Machine Translator](Korean)
+  [Korean Support]
   * Add Naver online translation support for Korean language as suggested by @otromonde sama.
+    Naver can be enabled in Preferences/Translation.
+
+  * Update VNR's UI translation in Korean made by @otromonde sama.
 
 1/21/2015 WED
   [Shared Dictionary]

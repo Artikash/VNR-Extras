@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/23/2015 FRI
+  [Shared Dictionary]
+  * You can right click the translation subs to add an Output term to the Shared Dictionary.
+    可以右键点击翻译字幕中的单词来添加输出词条。
+
 1/22/2015 THU
   [Shared Dictionary]
   * VNR no longer downloads entries in the Shared Dictionary that has been disabled
@@ -23,15 +28,15 @@ Since 6/18/2011
   * Update VNR's UI translation in Korean made by @otromonde sama.
 
   [Machine Translator](Korean)
-  * Add Naver.com online translation support for Korean language as suggested by @otromonde sama.
+  * Add Naver.com online translation support for Korean as suggested by @otromonde sama.
     Naver can be enabled in Preferences/Translation.
 
   [TTS]
   * Add Naver.com online TTS support.
-    If you are using Online Japanese TTS while playing game, maybe you can try Naver TTS.
+    If you are using Online Japanese TTS while playing games, maybe you can try Naver TTS.
 
     Naver TTS supports less languages (only CJK and English).
-    But Naver Japanese TTS sounds better, has higher bitrate, and the pitch can be adjusted,
+    But Naver Japanese TTS sounds better, has higher bitrate, voice pitch can be adjusted,
     and it supports both Male/Female voices.
 
     For example, in Voices Settings, if you assign a Male gender to a character,

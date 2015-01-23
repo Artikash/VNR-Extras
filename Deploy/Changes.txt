@@ -20,7 +20,7 @@ Since 6/18/2011
     提高了Google翻译的速度。
 
   [Machine Translator](Korean)
-  * Add Naver online translation support for Korean language.
+  * Add Naver online translation support for Korean language as suggested by @otromonde sama.
 
 1/21/2015 WED
   [Shared Dictionary]

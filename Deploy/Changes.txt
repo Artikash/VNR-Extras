@@ -14,7 +14,7 @@ Since 6/18/2011
 
     But even if VNR is offline or the game does not exist in VNR's database, VNR will still add
     the game and won't open the Game Wizard anymore.
-    i.e. You can add WHATEVER game/exe to VNR in this way no matter ITH can find its text or not.
+    i.e. You can add WHATEVER game/exe to VNR in this way no matter text hook can extract texts or not.
 
     This might be helpful if you want to use OCR to extract game text instead of text hook.
 

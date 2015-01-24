@@ -12,8 +12,11 @@ Since 6/18/2011
     To add a game, you can simplify drag/drop the game's executable or shortcut file,
     i.e  *.exe or *.lnk, to the SpringBoard like before.
 
-    But even if VNR is offline or the game is unknown or, VNR will not open Game Wizard anymore.
+    But even if VNR is offline or the game does not exist in VNR's database, VNR will still add
+    the game and won't open the Game Wizard anymore.
     i.e. You can add WHATEVER game/exe to VNR in this way no matter ITH can find its text or not.
+
+    This might be helpful if you want to use OCR to extract game text instead of ITH.
 
     Please DO NOT add non-game Windows system process (such as Explorer.exe) to VNR.
     If you do, I might block your IP to access VNR's database depending on the processes added.
@@ -25,8 +28,10 @@ Since 6/18/2011
     添加新游戏时，VNR不再要求有效的文本设定。
     你可以把游戏程式的exe或者快捷方式（lnk）文件直接拖入SpringBoard来添加新游戏。
 
-    即便游戏不再VNR的数据库中，或者VNR是offline的，VNR也仍然会添加游戏而不再打开【游戏向导】。
+    即便游戏不在VNR的数据库中，或者VNR是offline的，VNR也仍然会添加游戏而不再打开【游戏向导】。
     也就是说，即使是VNR不可以提取文本的游戏，你也可以通过这种方式式添加到VNR中。
+
+    如果你想要使用OCR来提取文本，而ITH又不支持游戏，也许可以通过这种方式来添加游戏。
 
     但是，请不要添加好像explorer这样的非游戏的系统进程到VNR。
     否则取决于添加的程式，我可能禁止你的IP来访问VNR的数据库。

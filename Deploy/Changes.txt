@@ -21,8 +21,6 @@ Since 6/18/2011
     Please DO NOT add non-game Windows system process (such as Explorer.exe) to VNR.
     If you do, I might block your IP to access VNR's database depending on the processes added.
 
-    Note that this only works when VNR is NOT launched as administrator.
-
     I might totally remove the GameWizard in the future.
 
     添加新游戏时，VNR不再要求有效的文本设定。

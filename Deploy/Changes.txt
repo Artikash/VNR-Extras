@@ -7,6 +7,32 @@ Since 6/18/2011
   * You can right click the translation subs to add an Output term to the Shared Dictionary.
     可以右键点击翻译字幕中的单词来添加输出词条。
 
+  [Game Management]
+  * VNR does not require valid Text Settings to add a new game to VNR.
+    To add a game, you can simplify drag/drop the game's executable or shortcut file,
+    i.e  *.exe or *.lnk, to the SpringBoard like before.
+
+    But even if VNR is offline or the game is unknown or, VNR will not open Game Wizard anymore.
+    i.e. You can add WHATEVER game/exe to VNR in this way no matter ITH can find its text or not.
+
+    Please DO NOT add non-game Windows system process (such as Explorer.exe) to VNR.
+    If you do, I might block your IP to access VNR's database depending on the processes added.
+
+    Note that this only works when VNR is NOT launched as administrator.
+
+    I might totally remove the GameWizard in the future.
+
+    添加新游戏时，VNR不再要求有效的文本设定。
+    你可以把游戏程式的exe或者快捷方式（lnk）文件直接拖入SpringBoard来添加新游戏。
+
+    即便游戏不再VNR的数据库中，或者VNR是offline的，VNR也仍然会添加游戏而不再打开【游戏向导】。
+    也就是说，即使是VNR不可以提取文本的游戏，你也可以通过这种方式式添加到VNR中。
+
+    但是，请不要添加好像explorer这样的非游戏的系统进程到VNR。
+    否则取决于添加的程式，我可能禁止你的IP来访问VNR的数据库。
+
+    我在以后也许会删掉【游戏向导】的功能。
+
 1/22/2015 THU
   [Shared Dictionary]
   * VNR no longer downloads entries in the Shared Dictionary that has been disabled

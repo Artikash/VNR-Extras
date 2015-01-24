@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/24/2015 SAT
+  [Machine Translation]
+  * Share translation rules (Shared Dictionary and TAH script) between offline LEC
+    and online LEC translators.
+
 1/23/2015 FRI
   [Shared Dictionary]
   * You can right click the translation subs to add an Output term to the Shared Dictionary.

@@ -9,7 +9,7 @@ Since 6/18/2011
     modified by the Shared Dictionary.
     A screenshot is as follows. It can be enabled/disabled in Preferences/Translation.
 
-        http://i.imgur.com/t19D7uY.png
+        http://i.imgur.com/6Zf5XTw.png
 
     VNR默认会显示Baidu和Naver的对照翻译。截图在上边。
     如果翻译没有被共享辞书修改，那么VNR会在中文翻译的上边显示被翻译的日文。

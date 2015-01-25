@@ -2,6 +2,19 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/25/2015 SUN
+  [Machine Translation]
+  * Add an option to display mapping of translations for Baidu.com/Naver.com.
+    VNR will display the original text above the translation except for those
+    modified by the Shared Dictionary.
+    A screenshot is as follows. It can be enabled/disabled in Preferences/Translation.
+
+        http://i.imgur.com/t19D7uY.png
+
+    VNR默认会显示Baidu和Naver的对照翻译。截图在上边。
+    如果翻译没有被共享辞书修改，那么VNR会在中文翻译的上边显示被翻译的日文。
+    如果你不想看到，可以在【使用偏好/翻译】中禁用这个选项。
+
 1/24/2015 SAT
   [Translation Scripts](English, @errzotl)
   * Update TAH script for LEC from @errzotl sensei.
@@ -88,7 +101,7 @@ Since 6/18/2011
        which makes it impossible to use simple TAH-like replacement for translation having
        characters not in the Shift-JIS character set.
 
-    3. It enables us to track the changes made by Shared Dictionary like in the screenshot.
+    3. It allows us to track the changes made by Shared Dictionary like in the screenshot.
 
     While applying translation escaping, VNR currently will avoid escaping full-width
     Japanese punctuations at the beginning/ending of the translation.
@@ -113,7 +126,7 @@ Since 6/18/2011
         => Apply Shared Dictionary again
         {id=5678}Yes{/id}. It is so.
 
-    As you can see, VNR will void escaping "。" in the end of "Yes。".
+    As you can see, VNR will avoid escaping "。" in the end of "Yes。".
 
     For details on how it works, please try Test Machine Translation on the SpringBoard.
 
@@ -157,7 +170,7 @@ Since 6/18/2011
     你可以把游戏程式的exe或者快捷方式（lnk）文件直接拖入SpringBoard来添加新游戏。
 
     即便游戏不在VNR的数据库中，或者VNR是offline的，VNR也仍然会添加游戏而不再打开【游戏向导】。
-    也就是说，即使是VNR不可以提取文本的游戏，你也可以通过这种方式式添加到VNR中。
+    也就是说，即使是VNR不可以提取文本的游戏，你也可以通过这种方式添加到VNR中。
 
     如果你想要使用OCR来提取文本，而VNR又不支持从该游戏提取文本，也许可以通过这种方式来添加游戏。
 

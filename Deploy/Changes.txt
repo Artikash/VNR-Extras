@@ -3,9 +3,119 @@ Visual Novel Reader
 Since 6/18/2011
 
 1/24/2015 SAT
-  [Machine Translation]
+  [Translation Scripts](English, @errzotl)
+  * Update TAH script for LEC from @errzotl sensei.
+
+  [Machine Translation](English)
   * Share translation rules (Shared Dictionary and TAH script) between offline LEC
     and online LEC translators.
+
+  * Handle jittering for non CJK languages (such as English) as well.
+    For example, given:
+        すみません！ => I am sorry!
+    Then:
+        すっ、すみません！ => I, I am sorry!
+
+    You might not observe such translation for LEC/ATLAS though, since @errzotl's
+    TAHScript tend to delete dangling sounds such as "すっ、".
+
+  * I dropped the old translation mechanism for non-CJK languages (such as English),
+    and changed to use the same mechanism as CJK.
+    Using the new system for English, it is now possible to observe changes made
+    by the Shared Dictionary for ouput/translation/name/yomi/suffix rules.
+
+    A screenshot is as follows, where the changes are marked with underline.
+    Click the underlined text and VNR will show the term that causes the changes.
+
+        http://i.imgur.com/uWnRBkD.png
+
+    If you are speaking Chinese/Korean, you can ignore the following long texts,
+    as it is already how CJK translation works since the first version of VNR.
+
+    For example, given a yomigana definition in the Shared Dictionary:
+
+        悠真 => ゆうま (ID=12345)
+
+    If I want To translate the following sentence in LEC to English:
+
+        悠真くんを攻略すれば２１０円か。
+
+    In the old VNR, the translation pipeline is like this:
+
+        悠真くんを攻略すれば２１０円か。
+
+        => Apply Shared Dictionary
+        Yuuma-kun を攻略すれば２１０円か。
+
+        => Send to LEC
+        If it captures Yuuma-kun, is it 210 yen?
+
+    The new translation process is like this, which I called "translation escaping":
+
+        悠真くんを攻略すれば２１０円か。
+
+        => Apply Shared Dictionary
+        SN12345 を攻略すれば２１０円か。
+
+        => Send to LEC
+        If it captures SN12345, is it 210 yen?
+
+        => Apply Shared Dictionary again
+        If it captures {id=12345}Yuuma-kun{/id}, is it 210 yen?
+
+    There are a couple of advantages for the new mechanism.
+
+    1. It can hide the translation contents from machine translator.
+       The machine translator cannot see Yuuma-kun but SN12345.
+
+       This prevents translation from messing up the original Japanese text,
+       which is critical to for Japanese-Chinese translation, because
+       Chinese translation also consists of kanji.
+
+       This will also enable re-translate text where the translation's language
+       is not the same as the target language.
+
+       For example, if I want to use ATLAS to translate Japanese to Russian,
+       I can first use ATLAS to translate Japanese to English, and LEC to re-translate
+       English to Russian.
+       Given a definition: 悠真 => ゆうま => Юума
+       I can hide non-English word Юума from being visible to ATLAS in this way.
+
+       I will add retranslation support to VNR soon.
+
+    2. It can hide non Shift-JIS characters in the translation.
+       Certain translators such as ezTrans require the input Japanese text to be Shift-JIS,
+       which makes it impossible to use simple TAH-like replacement for translation having
+       characters not in the Shift-JIS character set.
+
+    3. It enables us to track the changes made by Shared Dictionary like in the screenshot.
+
+    While applying translation escaping, VNR currently will avoid escaping full-width
+    Japanese punctuations at the beginning/ending of the translation.
+    For example, given a translation definition in the Shared Dictionary:
+
+        はい、 => Yes。 (ID=5678)
+
+    And to translation the following sentence to English using LEC:
+
+        はい、そうですよ。
+
+    VNR's translation pipeline will be like this:
+
+        はい、そうですよ。
+
+        => Apply Shared Dictionary
+        SN5678。そうですよ。
+
+        => Send to LEC:
+        SN5678. It is so.
+
+        => Apply Shared Dictionary again
+        {id=5678}Yes{/id}. It is so.
+
+    As you can see, VNR will void escaping "。" in the end of "Yes。".
+
+    For details how about how it works, please try VNR's Test Machine Translation widget.
 
 1/23/2015 FRI
   [Shared Dictionary]

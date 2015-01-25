@@ -117,6 +117,21 @@ Since 6/18/2011
 
     For details on how it works, please try Test Machine Translation on the SpringBoard.
 
+  [Shared Dictionary]
+  * VNR will automatically translate の after a name or name+suffix.
+    For example, given a yomigana definition: 悠真 = ゆうま
+    And some suffix definition:
+
+        English: くん => -kun
+        Korean:  くん => 군
+
+    Then, VNR will translate "悠真くんの" to:
+
+        English: 悠真くんの => Yuuma-kun's
+        Korean:  悠真くんの => 유우마군의
+
+    VNR会将【人名】以及【人名+后缀】后边的「の」翻译为【的】。
+
 1/23/2015 FRI
   [Shared Dictionary]
   * You can right click the translation subs to add an Output term to the Shared Dictionary.

@@ -130,8 +130,6 @@ Since 6/18/2011
         English: 悠真くんの => Yuuma-kun's
         Korean:  悠真くんの => 유우마군의
 
-    VNR会将【人名】以及【人名+后缀】后边的「の」翻译为【的】。
-
 1/23/2015 FRI
   [Shared Dictionary]
   * You can right click the translation subs to add an Output term to the Shared Dictionary.

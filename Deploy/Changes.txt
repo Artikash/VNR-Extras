@@ -65,8 +65,8 @@ Since 6/18/2011
 
     There are a couple of advantages for the new mechanism.
 
-    1. It can hide the translation contents from machine translator.
-       The machine translator cannot see Yuuma-kun but SN12345.
+    1. It can hide the translation contents from the machine translators.
+       A machine translator cannot see Yuuma-kun but SN12345.
 
        This prevents translation from messing up the original Japanese text,
        which is critical to for Japanese-Chinese translation, because

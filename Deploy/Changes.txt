@@ -73,7 +73,7 @@ Since 6/18/2011
        Chinese translation also consists of kanji.
 
        This will also enable re-translate text where the translation's language
-       is not the same as the target language.
+       is not the same as the machine translator's output language.
 
        For example, if I want to use ATLAS to translate Japanese to Russian,
        I can first use ATLAS to translate Japanese to English, and LEC to re-translate

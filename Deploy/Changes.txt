@@ -96,7 +96,7 @@ Since 6/18/2011
 
         はい、 => Yes。 (ID=5678)
 
-    And to translation the following sentence to English using LEC:
+    And to translate the following sentence to English using LEC:
 
         はい、そうですよ。
 
@@ -115,7 +115,7 @@ Since 6/18/2011
 
     As you can see, VNR will void escaping "。" in the end of "Yes。".
 
-    For details how about how it works, please try VNR's Test Machine Translation widget.
+    For details on how it works, please try Test Machine Translation on the SpringBoard.
 
 1/23/2015 FRI
   [Shared Dictionary]

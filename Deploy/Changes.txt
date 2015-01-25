@@ -36,7 +36,7 @@ Since 6/18/2011
 
         悠真 => ゆうま (ID=12345)
 
-    If I want To translate the following sentence in LEC to English:
+    If I want To translate the following sentence to English using LEC:
 
         悠真くんを攻略すれば２１０円か。
 
@@ -69,16 +69,16 @@ Since 6/18/2011
        A machine translator cannot see Yuuma-kun but SN12345.
 
        This prevents translation from messing up the original Japanese text,
-       which is critical to for Japanese-Chinese translation, because
-       Chinese translation also consists of kanji.
+       which is critical to for Japanese-Chinese translation, because Chinese
+       translation also consists of kanji.
 
-       This will also enable re-translate text where the translation's language
+       This will also enable re-translating text where the translation's language
        is not the same as the machine translator's output language.
 
        For example, if I want to use ATLAS to translate Japanese to Russian,
        I can first use ATLAS to translate Japanese to English, and LEC to re-translate
        English to Russian.
-       Given a definition: 悠真 => ゆうま => Юума
+       Given a yomigana definition: 悠真 => ゆうま => Юума
        I can hide non-English word Юума from being visible to ATLAS in this way.
 
        I will add retranslation support to VNR soon.

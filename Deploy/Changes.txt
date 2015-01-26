@@ -15,6 +15,10 @@ Since 6/18/2011
     如果翻译没有被共享辞书修改，那么VNR会在中文翻译的上边显示被翻译的日文。
     如果你不想看到，可以在【使用偏好/翻译】中禁用这个选项。
 
+  * I temporarily disabled Japanese syntax-based translation.
+    I will enable it later after I finish implementing this feature.
+    暂时禁止开启基于的语法翻译了。
+
 1/24/2015 SAT
   [Translation Scripts](English, @errzotl)
   * Update TAH script for LEC from @errzotl sensei.

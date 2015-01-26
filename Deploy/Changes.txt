@@ -9,6 +9,9 @@ Since 6/18/2011
     With Google/Infoseek, the alignment works for any supported language pairs.
     With Bing, only Japanese to English/Korean translations can be aligned.
 
+  [i18n](Korean, @otromonde)
+  * Update VNR's UI translation in Korean made by @otromonde sama.
+
 1/25/2015 SUN
   [Machine Translation]
   * Add an option to display mapping of translations for Baidu.com/Naver.com.

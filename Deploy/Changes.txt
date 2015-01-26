@@ -7,7 +7,7 @@ Since 6/18/2011
   * Google and Bing translation will also display the alignment between the translation
     and the original text.
     With Google, it works for any language pairs.
-    With Bing, only Japanese to English translation can be aligned.
+    With Bing, only Japanese to English/Korean translations can be aligned.
 
 1/25/2015 SUN
   [Machine Translation]

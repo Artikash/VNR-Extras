@@ -2,10 +2,6 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
-1/27/2015 TUE
-  [Yomigana](Thai)
-  * I tried to fix
-
 1/26/2015 MON
   [Machine Translation]
   * Google/Bing/Infoseek translation can also display the alignment between the translation

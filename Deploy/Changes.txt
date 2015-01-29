@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/28/2015 WED
+  [Wine]
+  * Fixed a bug that caused LEC translation fail to work on Wine.
+
 1/26/2015 MON
   [Machine Translation]
   * Google/Bing/Infoseek translation can also display the alignment between the translation

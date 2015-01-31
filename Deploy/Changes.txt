@@ -12,7 +12,7 @@ Since 6/18/2011
     - Source language (From):
       The language of the original text, i.e. Japanese for a Japanese game.
     - Target language (To):
-         The language the user want to translate to.
+      The language the user want to translate to.
 
     The target language is the same as the old language property.
     If you are playing a Japanese game, just put source language as Japanese, and

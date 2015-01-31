@@ -2,6 +2,32 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/30/2015 FRI
+  [OCR]
+  * Fix a bug that HTML tags could mess up the OCR translation popup.
+    修正了OCR翻译中有时会出现HTML标签垃圾的问题。
+
+  [Shared Dictionary]
+  * There are now two language properties for a translation rule:
+    - Source language (From):
+      The language of the original text, i.e. Japanese for a Japanese game.
+    - Target language (To):
+         The language the user want to translate to.
+
+    The target language is the same as the old language property.
+    If you are playing a Japanese game, just put source language as Japanese, and
+    everything is the same as before.
+
+    If you are playing a non-Japanese game (English, or Chinese, etc.), you can
+    create translation rules specific for that language.
+
+    共享辞书中的词条现在有两个【语言】的属性了。
+    - To: 目标语言。这个和以前版本VNR中的【语言】是一样的。
+    - From: 游戏的语言。如果是日文游戏，那么这个属性总是【日文】。
+
+    如果你在玩日文游戏，那么什么都不需要变更。
+    如果你在玩英文的游戏，那么可以添加From为英文的词条。
+
 1/28/2015 WED
   [Wine]
   * Fixed a bug that caused LEC translation fail to work on Wine.

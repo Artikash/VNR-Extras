@@ -28,6 +28,17 @@ Since 6/18/2011
     如果你在玩日文游戏，那么什么都不需要变更。
     如果你在玩英文的游戏，那么可以添加From为英文的词条。
 
+  [Game Engine]
+  * Update KiriKiriZ engine to work with 「サノバウィッチ」.
+
+    btw, since this version, KiriKiri stopped using GDI function to draw text.
+    The traditional way to find KiriKiri hooks by backtracking callgraph to GDI APIs no longer works.
+    As a result, I do not have a portable way to hook to KiriKiriZ games anymore.
+    VNR's game engine might keep becoming outdated whenever KiriKiriZ implementation is changed.
+
+    修正KiriKiriZ来支持「サノバウィッチ」。
+    感谢djz020815 sensei的报告！
+
 1/28/2015 WED
   [Wine]
   * Fixed a bug that caused LEC translation fail to work on Wine.
@@ -5053,7 +5064,7 @@ Since 6/18/2011
        One example was found by @lambl in 「貸し出し妻」where ぱぱ (father) becomes ぱ in KiriKiri2:
           Game Text: さっきからぱぱの事ずっとよんでたのに
           KiriKiri2: さっきからぱの事ずっとよんでたのに
-       So, if KiriKiri1 exists, please always use KirKiri1 instead of KiriKiri2!
+       So, if KiriKiri1 exists, please always use KiriKiri1 instead of KiriKiri2!
 
        Sometimes, there are repetitions that only appear in certain part of the game text,
        such as KiriKiri1's name thread.

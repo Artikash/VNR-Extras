@@ -31,7 +31,7 @@ Since 6/18/2011
   [Game Engine]
   * Update KiriKiriZ engine to work with 「サノバウィッチ」.
 
-    btw, since this version, KiriKiri stopped using GDI function to draw text.
+    btw, since this version, KiriKiri stopped using GDI function to draw text by default.
     The traditional way to find KiriKiri hooks by backtracking callgraph to GDI APIs no longer works.
     As a result, I do not have a portable way to hook to KiriKiriZ games anymore.
     VNR's game engine might keep becoming outdated whenever KiriKiriZ implementation is changed.

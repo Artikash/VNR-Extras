@@ -19,7 +19,7 @@ Since 6/18/2011
     everything is the same as before.
 
     If you are playing a non-Japanese game (English, or Chinese, etc.), you can
-    create translation rules specific for that language.
+    create translation rules specific for that source language.
 
     共享辞书中的词条现在有两个【语言】的属性了。
     - To: 目标语言。这个和以前版本VNR中的【语言】是一样的。

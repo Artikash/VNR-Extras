@@ -7,6 +7,11 @@ Since 6/18/2011
   * Add a case-insensitive option to the translation rules.
     词条添加了【不区分大小写】的选项。
 
+  [Game Launch]
+  * Fix an issue that VNR sometimes is not able to recognize the game when launched
+    with Locale Emulator, or in a symbolic link directory, or from a network location.
+    修正了启动游戏后，VNR有时无法立刻识别游戏的问题。
+
 1/30/2015 FRI
   [OCR]
   * Fix a bug that HTML tags could mess up the OCR translation popup.

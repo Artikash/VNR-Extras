@@ -15,13 +15,13 @@ Since 6/18/2011
   * Game can be launched in non-Japanese locale.
     This might be helpful if you want to play a non-Japanese game.
 
-    For half-translated games with hybrid languages, I am not sure which language to use.
+    For half-translated games with hybrid languages, I am not sure which locale to use.
     According to my experience:
     - If it is a Japanese game half-translated to English, Japanese locale should be used.
     - If it is a Japanese game half-translated to Chinese, Chinese locale should be used.
     For other language pairs, I am not sure.
 
-    For Chinese game, be careful if it is in Traditional Chinese or Simplified Chinese.
+    For Chinese games, be careful if it is in Traditional Chinese or Simplified Chinese.
     Usually, fan-patched games are in Simplified Chinese;
     while officially translated games are in Traditional Chinese.
 

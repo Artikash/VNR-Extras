@@ -17,8 +17,8 @@ Since 6/18/2011
 
     For half-translated games with hybrid languages, I am not sure which locale to use.
     According to my experience:
-    - If it is a Japanese game half-translated to English, Japanese locale should be used.
-    - If it is a Japanese game half-translated to Chinese, Chinese locale should be used.
+    - If it is a Japanese game half-translated to English, Japanese locale might be used.
+    - If it is a Japanese game half-translated to Chinese, Chinese locale might be used.
     For other language pairs, I am not sure.
 
     For Chinese games, be careful if it is in Traditional Chinese or Simplified Chinese.

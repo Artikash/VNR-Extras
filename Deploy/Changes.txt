@@ -12,6 +12,26 @@ Since 6/18/2011
     with Locale Emulator, or in a symbolic link directory, or from a network location.
     修正了启动游戏后，VNR有时无法立刻识别游戏的问题。
 
+  * Game can be launched in non-Japanese locale.
+    This might be helpful if you want to play a non-Japanese game.
+
+    For half-translated games with hybrid languages, I am not sure which language to use.
+    According to my experience:
+    - If it is a Japanese game half-translated to English, Japanese locale should be used.
+    - If it is a Japanese game half-translated to Chinese, Chinese locale should be used.
+    For other language pairs, I am not sure.
+
+    For Chinese game, be careful if it is in Traditional Chinese or Simplified Chinese.
+    Usually, fan-patched games are in Simplified Chinese;
+    while officially translated games are in Traditional Chinese.
+
+    可以选择指定非日文的语言区域来启动游戏。
+
+    特别的，对于翻译了一半的游戏：
+    - 如果是日文游戏翻译为中文，那么启动时也许应该选择中文区域。
+    - 如果是日文游戏翻译为英文，那么启动时也许还是应该选择日文区域。
+    对于其他的语言的搭配，我不太清楚该使用何种语言。
+
 1/30/2015 FRI
   [OCR]
   * Fix a bug that HTML tags could mess up the OCR translation popup.

@@ -2,6 +2,15 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+2/2/2014 MON
+  [Game Engine]
+  * Add new 5pb text engine for 「超次次元ゲイム ネプテューヌ Re;Birth1」.
+    Note: If you are playing an English version, don't forget to change the
+    language in Text Settings to English.
+
+    为「超次次元ゲイム ネプテューヌ Re;Birth1」添加了提取文本的引擎。
+    注：如果你在玩英文的版本，要在【文本设定】中修改语言为【英文】才好。
+
 2/1/2015 SUN
   [Shared Dictionary]
   * Add a case-insensitive option to the translation rules.

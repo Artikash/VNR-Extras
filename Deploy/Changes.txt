@@ -11,6 +11,9 @@ Since 6/18/2011
     为「超次次元ゲイム ネプテューヌ Re;Birth1」添加了提取文本的引擎。
     注：如果你在玩英文的版本，要在【文本设定】中修改语言为【英文】才好。
 
+  [Machine Translator](Korean)
+  * Support English-Korean translation alignment for Naver.com.
+
 2/1/2015 SUN
   [Shared Dictionary]
   * Add a case-insensitive option to the translation rules.

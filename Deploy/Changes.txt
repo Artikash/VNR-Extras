@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+2/3/2015 TUE
+  [Windows 10]
+  * Fix the issue that VNR would crash on Windows 10 build 9926.
+    修正了VNR在win10上可能会崩溃的问题。
+
 2/2/2014 MON
   [Game Engine]
   * Add new 5pb text engine for 「超次次元ゲイム ネプテューヌ Re;Birth1」.

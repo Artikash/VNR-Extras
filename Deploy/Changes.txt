@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+2/4/2015 WED
+  [JBeijing](Chinese, @djz020815)
+  * 更新了djz大先生的J北京词库。
+
 2/3/2015 TUE
   [Windows 10]
   * Fix the issue that VNR would crash on Windows 10 build 9926.

@@ -6,6 +6,19 @@ Since 6/18/2011
   [JBeijing](Chinese, @djz020815)
   * 更新了djz大先生的J北京词库。
 
+  [Machine Translator](Vietnamese)
+  * VNR's HanViet translator will use VietPhrase.txt from QuickTranslatorTAO
+    to translate Chinese to Vietnamese.
+
+    Note: If you are playing a traditional Chinese game such as NEKOPARA, the language
+    in Text Settings must be set to Chinese instead of Simplified Chinese so that
+    VNR will convert traditional Chinese characters to Simplified Chinese.
+    Otherwise, Traditional Chinese characters might not be recognized by HanViet.
+
+  * HanViet translator will also apply translation rules in the Shared Dictionary.
+    As a result, a Japanese name in the Chinese translation will be translated to Romaji
+    instead of PhienAmWords if there are name/yomi rules defined in the Shared Dictionary.
+
 2/3/2015 TUE
   [Windows 10]
   * Fix the issue that VNR would crash on Windows 10 build 9926.

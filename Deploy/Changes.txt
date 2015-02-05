@@ -3,7 +3,7 @@ Visual Novel Reader
 Since 6/18/2011
 
 2/5/2015 THU
-  [Machine Translator](Vietnamese)
+  [Machine Translation](Vietnamese)
   * Add an option to display Phiên âm above Japanese kanji in Preferences/Translation.
 
 2/4/2015 WED
@@ -15,7 +15,7 @@ Since 6/18/2011
     It should be Japanese for a Japanese game.
     在SpringBoard上点击【编辑】，可以变更游戏文本的语言。
 
-  [Machine Translator](Vietnamese)
+  [Machine Translation](Vietnamese)
   * VNR's HanViet translator will use VietPhrase.txt from QuickTranslatorTAO
     to translate Chinese to Vietnamese.
 

@@ -1,2 +1,4 @@
 https://github.com/BYVoid/OpenCC/tree/master/data/dictionary
 10/18/2014
+
+JPVariants.txt is modified to skip unneccessary update.

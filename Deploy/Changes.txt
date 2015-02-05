@@ -6,18 +6,29 @@ Since 6/18/2011
   [JBeijing](Chinese, @djz020815)
   * 更新了djz大先生的J北京词库。
 
+  [Game Settings]
+  * Game text language can be adjusted by clicking Edit on the SpringBoard.
+    It should be Japanese for a Japanese game.
+    在SpringBoard上点击【编辑】，可以变更游戏文本的语言。
+
   [Machine Translator](Vietnamese)
   * VNR's HanViet translator will use VietPhrase.txt from QuickTranslatorTAO
     to translate Chinese to Vietnamese.
 
+    A screenshot is as follows:
+
+        http://i.imgur.com/kL6cxUv.png
+
     Note: If you are playing a traditional Chinese game such as NEKOPARA, the language
     in Text Settings must be set to Chinese instead of Simplified Chinese so that
-    VNR will convert traditional Chinese characters to Simplified Chinese.
+    VNR will convert Traditional Chinese characters to Simplified Chinese.
     Otherwise, Traditional Chinese characters might not be recognized by HanViet.
 
   * HanViet translator will also apply translation rules in the Shared Dictionary.
     As a result, a Japanese name in the Chinese translation will be translated to Romaji
     instead of Phiên âm if there are name/yomi rules defined in the Shared Dictionary.
+
+  * Add an option to display Phiên âm above Chinese texts in Preferences/Translation.
 
 2/3/2015 TUE
   [Windows 10]

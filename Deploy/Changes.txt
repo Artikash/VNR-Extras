@@ -12,8 +12,9 @@ Since 6/18/2011
 
   [Game Settings]
   * Game text language can be adjusted by clicking Edit on the SpringBoard.
-    It should be Japanese for a Japanese game.
+    It should be Japanese for a Japanese game, English for an English game, etc.
     在SpringBoard上点击【编辑】，可以变更游戏文本的语言。
+    如果是日文的游戏，那里应该选择日文。如果是英文游戏，那里应该选择英文，etc.
 
   [Machine Translation](Vietnamese)
   * VNR's HanViet translator will use VietPhrase.txt from QuickTranslatorTAO

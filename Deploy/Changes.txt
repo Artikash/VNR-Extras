@@ -14,6 +14,11 @@ Since 6/18/2011
     为平安亭制作的游戏添加了提取文本的支持。.
     注：即使在日文编码的Windows 7上，仍然会需要Ntleas来启动游戏，不然会有乱码的。
 
+  * Text Settings will warn if the scenario thread in the VNR's online database is unknown
+    to the current VNR. When it happens, an update of VNR might be needed to support the game.
+    当在线数据中的对话文本VNR不知道如何提取时，文本设定中会显示红色的警告。
+    这时，也许需要更新VNR才可以正常的提取文本。
+
 2/5/2015 THU
   [Machine Translation](Vietnamese)
   * Add an option to display Phiên âm above Japanese kanji in Preferences/Translation.

@@ -6,11 +6,14 @@ Since 6/18/2011
   [Machine Translation](Vietnamese)
   * Add an option to display Phiên âm above Japanese kanji in Preferences/Translation.
 
-  * When there multiple meanings for a Chinese phrase in VietPhrase.txt, VNR will
+  * When there multiple definitions for a Chinese phrase in VietPhrase.txt, VNR will
     underline the translated text. Clicking the translation, and VNR will popup the
     alternative Vietnamese translation.
 
     The underline behavior can be disabled in Preferences/Shared Dictionary.
+
+  * Add option to display translation alignment between Chinese and Vietnamese
+    for HanViet translation in Preferences.
 
 2/4/2015 WED
   [JBeijing](Chinese, @djz020815)

@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+2/6/2015 FRI
+  [Game Engine]
+  * Add FocasLens engine to get text in 「幻想人形演舞」.
+    为「幻想人形演舞」添加了提取文本的支持。
+
 2/5/2015 THU
   [Machine Translation](Vietnamese)
   * Add an option to display Phiên âm above Japanese kanji in Preferences/Translation.

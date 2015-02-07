@@ -19,6 +19,12 @@ Since 6/18/2011
     当在线数据中的对话文本VNR不知道如何提取时，文本设定中会显示红色的警告。
     这时，也许需要更新VNR才可以正常的提取文本。
 
+  [Game Information]
+  * Allow to associate the game with the app on Steam.
+
+  [i18n](Korean, @otromonde)
+  * Update VNR's UI translation in Korean made by @otromonde sama.
+
 2/5/2015 THU
   [Machine Translation](Vietnamese)
   * Add an option to display Phiên âm above Japanese kanji in Preferences/Translation.

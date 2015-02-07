@@ -20,7 +20,7 @@ Since 6/18/2011
     - Cyrillic (Russian, etc.): Windows-1251
 
     I don't have games to test these encodings.
-    If the text are not displayed properly, just let me know!
+    If the texts are not displayed properly in the encoding, just let me know!
 
 2/6/2015 FRI
   [Game Engine]

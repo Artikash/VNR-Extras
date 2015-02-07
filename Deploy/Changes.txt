@@ -2,6 +2,26 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+2/7/2015 SAT
+  [Text Settings]
+  * Add more text encodings for games.
+    The underlying encoders being used for different languages are as follows.
+    - Japanese (Shift-JIS): CP932
+    - Traditional Chinese: BIG5
+    - Simplified Chinese:  GBK
+    - Korean: CP949
+
+    - Thai: TIS-620
+    - Vietnamese: Windows-1258
+    - Arabic: Windows-1256
+
+    - Latin (All Western European languages): Windows-1252
+    - Central and Eastern Europe (Polish, etc.): Windows-1250
+    - Cyrillic (Russian, etc.): Windows-1251
+
+    I don't have games to test these encodings.
+    If the text are not displayed properly, just let me know!
+
 2/6/2015 FRI
   [Game Engine]
   * Add FocasLens engine to get text in 「幻想人形演舞」.

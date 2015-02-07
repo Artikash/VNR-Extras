@@ -8,7 +8,7 @@ Since 6/18/2011
     The underlying encoders being used for different languages are as follows.
     - Japanese (Shift-JIS): CP932
     - Traditional Chinese: BIG5
-    - Simplified Chinese:  GBK
+    - Simplified Chinese: GBK
     - Korean: CP949
 
     - Thai: TIS-620

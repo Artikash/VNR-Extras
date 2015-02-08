@@ -22,6 +22,10 @@ Since 6/18/2011
     I don't have games to test these encodings.
     If the texts are not displayed properly in the encoding, just let me know!
 
+  [Shared Dictionary]
+  * Translation rules can be specific to more than one translators.
+    词条可以选择仅限多个翻译器。
+
 2/6/2015 FRI
   [Game Engine]
   * Add FocasLens engine to get text in 「幻想人形演舞」.

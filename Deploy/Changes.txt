@@ -2,6 +2,23 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+2/8/2015 SUN
+  [Shared Dictionary]
+  * The priority of rules is slightly changed that when the pattern have the same length,
+    the language that is more special will be applied first.
+    For example, given:
+
+      1. Yomi (ja=>*):  クロエ => クロエ
+      2. Name (ja=>en): クロエ => Chloe
+      3. Name (ja=>ru): クロエ => Хлоя
+
+    Then 3 will be applied before 2, and 2 will be applied before 1.
+    If the user want to translate Japanese to Russian, then rule#3 will be used,
+    because 'ru' is more "special" than 'en' and '*'.
+
+    当两个词条的匹配文本一样长时，那么语言更加特殊的词条会被优先使用。
+    比如，如果A词条的语言是【全部】，B是【中文】，那么B词条会被优先使用。
+
 2/7/2015 SAT
   [Text Settings]
   * Add more text encodings for games.

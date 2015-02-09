@@ -3,6 +3,10 @@ Visual Novel Reader
 Since 6/18/2011
 
 2/8/2015 SUN
+  [i18n]
+  * VNR UI's language can be different from user language, which can be adjusted in Preferences.
+    在【使用偏好】中可以选择界面语言与翻译语言不同。
+
   [Shared Dictionary]
   * The priority of rules is slightly changed that when the pattern have the same length,
     the language that is more special will be applied first.
@@ -19,11 +23,6 @@ Since 6/18/2011
     当两个词条的匹配文本一样长时，那么语言更加特殊的词条会被优先使用。
     比如，如果A词条的语言是【全部】，B是【中文】，那么B词条会被优先使用。
 
-  [i18n]
-  * VNR UI's language can be different from user language, which can be adjusted in Preferences.
-    在【使用偏好】中可以选择界面语言与翻译语言不同。
-
-  [Shared Dictionary]
   * For name/yomigana rules, VNR will deal with 's (en), の (ja), 的 (zh), 의 (ko) suffices
     for CJK and English translations.
 

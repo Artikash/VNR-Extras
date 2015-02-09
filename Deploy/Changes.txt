@@ -7,6 +7,9 @@ Since 6/18/2011
   * VNR UI's language can be different from user language, which can be adjusted in Preferences.
     在【使用偏好】中可以选择界面语言与翻译语言不同。
 
+  [Translation Scripts](@errzotl)
+  * Update TAH script for LEC from @errzotl sensei.
+
   [Shared Dictionary]
   * The priority of rules is slightly changed that when the pattern have the same length,
     the language that is more special will be applied first.

@@ -23,6 +23,23 @@ Since 6/18/2011
   * VNR UI's language can be different from user language, which can be adjusted in Preferences.
     在【使用偏好】中可以选择界面语言与翻译语言不同。
 
+  [Shared Dictionary]
+  * For name/yomigana rules, VNR will deal with 's (en), の (ja), 的 (zh), 의 (ko) suffices
+    for CJK and English translations.
+
+    For example, given a name definition: Chloe (en) => 克洛伊 (zh)
+    VNR will also translate: Choe's => 克洛伊的 for English-Chinese translation.
+
+    And given a name definition: 克洛伊 (zh) => Chloe (en)
+    VNR will also translate: 克洛伊的 => Chloe's for Chinese-English translation.
+
+    And given a name definition: 克洛伊 (zh) => 클로이 (ko)
+    VNR will also translate: 克洛伊的 => 클로이의 for Chinese-Korean translation.
+
+    etc.
+
+    VNR会在把姓名词条后边的「‘s」翻译为「的」。
+
 2/7/2015 SAT
   [Text Settings]
   * Add more text encodings for games.

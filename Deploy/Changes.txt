@@ -28,7 +28,7 @@ Since 6/18/2011
     for CJK and English translations.
 
     For example, given a name definition: Chloe (en) => 克洛伊 (zh)
-    VNR will also translate: Choe-chan's => 克洛伊酱的 for English-Chinese translation.
+    VNR will also translate: Chloe-chan's => 克洛伊酱的 for English-Chinese translation.
 
     And given a name definition: 克洛伊 (zh) => Chloe (en)
     VNR will also translate: 克洛伊酱的 => Chloe-chan's for Chinese-English translation.

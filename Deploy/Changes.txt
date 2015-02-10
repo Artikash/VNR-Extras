@@ -2,6 +2,29 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+2/9/2015 MON
+  [Translation Scripts]
+  * VNR will enable TAH script made by @riz sensei by default to all Japanese => non-CJK-language translation.
+    This behavior can be disabled in Preferences/Translation.
+
+    If you are playing non-Japanese game, or if your language is Chinese/Korean, then you can ignore that option.
+    VNR will NEVER apply TAH script if the source language is not Japanese, or if the target language is Chinese
+    or Korean, even if the translation script option is enabled.
+
+    The translation script tends to normalize Japanese by removing emotional sounds which usually cannot be
+    recognized by English translators anyway.
+    For example, it will turn:
+        なるほどなぁ…
+    To:
+       なるほど。
+    Where the trailing なぁ… is deleted.
+
+    This is never enabled for Chinese/Korean, because なぁ… can affect the emotion of the C/K translation and
+    usually downgrades translation quality if deleted.
+
+    在【使用偏好/翻译器】的下边添加了使用日英翻译脚本的选项。大家无视那个选项就好了。
+    不论那个选项开启还是没有，都不会对中文翻译产生任何影响。
+
 2/8/2015 SUN
   [i18n]
   * VNR UI's language can be different from user language, which can be adjusted in Preferences.

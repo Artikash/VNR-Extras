@@ -2,6 +2,127 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+2/10/2015 TUE
+  [Machine Translation]
+  * Add options in Preferences/Translation for concatenate different translations
+
+    For example: If I select Bing as secondary translator of Baidu, and select Chinese as
+    the intermediate language.
+    Then, when translate Japanese => English, VNR will first translate Japanese => Chinese
+    using Baidu, an then Chinese => English using Bing, like this:
+
+                  (first mt)              (second mt)
+       Japanese => Baidu.com => Chinese => Bing.com => English
+                            (intermediate lang)
+
+    Here are some special scenario that might be benefit or affected from this feature.
+
+    - Extend LEC output languages.
+      LEC is by far the best Japanese-English translator, and @riz sensei is actively maintaining
+      translation scripts for LEC to further elevate its translation quality.
+      But VNR currently only supports English/Russian as output language.
+
+      If you want to translate Japanese to, for example, Spanish, using LEC, then you can now
+      select Bing as the secondary translator of LEC, and select English as Intermediate language.
+
+      Note: LEC won't show up if you have blocked English in Preferences/i18n.
+
+    - Translation alignment
+      Translation alignment can only be enabled for the second translator.
+      If enabled, the intermediate translation can be observed from the ruby.
+      Here's an screenshot translate through:
+
+         Japanese => (LEC) => English => (Google.com) => Spanish
+
+         http://i.imgur.com/4kLn0lv.png
+
+    - Shared Dictionary
+      Shared Dictionary will be applied to the first and second translators independently.
+      For example, given:
+
+         Japanese => (LEC) => English => (Google.com) => Spanish
+
+      VNR will first apply Japanese => English rules to LEC, and then English => Spanish
+      rules to Google.
+
+      An exception is Chinese. When the intermediate language is Chinese and the source language
+      is Japanese, then VNR will also apply name/yomigana rules in Japanese to Chinese translation
+      to the second translator.
+      This will turn the translation of these names to Romaji instead of Pinyin.
+
+    - Debugging machine translation
+      There is current lack of support to debug the entire cascaded translation process.
+      The underline mark will always be disabled for the first translator.
+      And in the Test Machine Translation window, only the second translator can be debugged.
+
+    - Offline Japanese => Vietnamese translation.
+      You can combine a Chinese offline translator with HanViet in VNR to produce offline
+      Vietnamese => Japanese translation.
+      Here are some screenshots for JBeijing, Fastait, and Baidu plus HanViet.
+
+          http://i.imgur.com/KJibAwM.png
+
+      I will talk about the differences between Chinese translators at the end.
+
+      Lots of text are underlined, which means the translation from Chinese => Vietnamese
+      is ambiguous according to VietPhrase.
+      The underline option can be disabled in Preferences/Shared Dictionary.
+
+      Additionally, VNR also support offline English-Chinese translation through Dr.eye.
+      Combining Dr.eye with HanViet might produce offline English-Vietnamese translation.
+
+      + State-of-art of Chinese translators
+      If you would like to try using Chinese as the intermediate language, here are a summary
+      of Chinese translators supported by VNR:
+      1. Baidu.com: The best online Japanese-Chinese translator.
+      2. JBeijing: The best offline Japanese-Chinese translator, but it is not free.
+      3. FastAIT: The best free offline Japanese-Chinese translator, but it is slow.
+      4. Dr.eye: Japanese-Chinese translation quality is not good.
+         But it supports offline English-Chinese translation.
+
+      + About Chinese variants
+        In VNR, zh means Chinese (because 中's reading is Zhong).
+        zh+t means Chinese Traditional or Chinese Taiwan, and zh+s means Chinese Simplified.
+        Basically, zhs is mostly used by Mainland China, while zht in Taiwan, Hong Kong, and all over the world.
+
+        VNR will automatically convert different Chinese variants (traditional, simplified, Japanese kanji) internal.
+        So, when select Chinese as the intermediate language, it does not matter a lot whether to use Traditional
+        Chinese or Simplified Chinese.
+
+      Sample translations comparison:
+
+      Japanese: 【爽】「悠真くんを攻略すれば２１０円か。なるほどなぁ…」
+
+      Google(vi):    【Shuang】「¥ 210 hoặc nếu chụp các Yuuma-kun. Naa tôi thấy...」
+      Infoseek(vi):  【Shuang】「Tôi chụp 210 Yuuma-kun có sẵn. Tôi hiểu?…」
+      Bing(vi):      【Shuang】「Tôi chụp 210 Yuuma-kun có sẵn. Tôi thấy bây giờ...」
+
+      LEC(en):       【It's refreshing】「If it captures Yuuma-kun, is it 210 yen? I see.」
+      + Bing(vi):    【Nó được làm mới】「Nếu nó bắt Yuuma-kun, là nó 210 yên? Tôi hiểu.」
+      + Google(vi):  【Đó là làm mới】「Nếu nó bắt yuuma-kun, nó là ¥ 210? Tôi hiểu rồi.」
+
+      Baidu(zh):     【爽】「悠真君攻略的话，210日元吗？原来如此啊……」
+      + HanViet(vi): 【Sảng】「Yuuma-kun tiến công chiếm đóng nói, 210nhật nguyên mạ? thì ra là thế a……」
+      + Google(vi):  【Sáng】「Yuuma-kun Raiders sau đó 210 ¥ nó? Vì vậy, đó ah......」
+      + Bing(vi):    【Mát mẻ】「Yuuma-kun Raiders, 210 yên? Oh, Ah......」
+
+      JBeijing(zh):  【爽】「如果攻略悠真君210日元？原来如此啊……」
+      + HanViet(vi): 【Sảng】「Nếu như tiến công chiếm đóng Yuuma-kun 210nhật nguyên? Thì ra là thế a……」
+      + Google(vi):  【Sáng】 「Nếu Raiders Yuuma-kun 210 trong yên? Vì vậy, đó ah......」
+      + Bing(vi):    【Mát mẻ】「Nếu các cướp Yuuma-kun 210 yên? Oh, Ah......」
+
+      FastAIT(zh):   【爽】「攻下悠真君的话，210 元吗。原来如此啊。…。」
+      + HanViet(vi): 【Sảng】「đánh hạ Yuuma-kun nói, 210 nguyên mạ. thì ra là thế a.….」
+      + Google(vi):  【Sáng】「Yuuma-kun nắm bắt nó, 210 nhân dân tệ bạn. Vì vậy, đó ah. ....」
+      + Bing(vi):    【Mát mẻ】「Yuuma-kun bị tấn công, tại 210 Yuan. Oh, Ah.…。」
+
+      btw, JBeijng is not free.
+      But you might be able to get some help here:
+
+          http://tieba.baidu.com/f?ie=utf-8&kw=%E5%96%B5%E7%BF%BB
+
+    添加了级联不同翻译器来扩展翻译语言的选项。这个和中文没什么关系，大家无视好了。
+
 2/9/2015 MON
   [Translation Scripts]
   * VNR will enable TAH script made by @riz sensei by default to all Japanese => non-CJK-language translation.

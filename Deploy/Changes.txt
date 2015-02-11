@@ -11,6 +11,15 @@ Since 6/18/2011
   [Machine Translation]
   * The Ellipse character (…) will be used to split clauses to force preserving the order of the clauses.
 
+  * VNR will also capitalize non-English characters (Vietnamese, Russian, etc.) in the beginning of a sentence
+    if the language's character set does have capital letters.
+
+  [Shared Dictionary]
+  * When VNR is processing the Shared Dictionary after the game is changed, VNR will ignore the game text.
+    This will help stop displaying garbage game texts on the startup.
+    在游戏刚刚启动后，在VNR完成处理共享辞书之前，前一两句游戏对话会被VNR忽略掉。
+    这样可以避免在游戏刚开始时，显示各种垃圾文本。
+
 2/10/2015 TUE
   [Machine Translation]
   * Add options in Preferences/Translation for concatenate different translations

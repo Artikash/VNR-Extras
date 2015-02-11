@@ -77,7 +77,7 @@ Since 6/18/2011
       1. Baidu.com: The best online Japanese-Chinese translator.
       2. JBeijing: The best offline Japanese-Chinese translator, but it is not free.
       3. FastAIT: The best free offline Japanese-Chinese translator, but it is slow.
-      4. Dr.eye: Japanese-Chinese translation quality is not good.
+      4. Dr.eye: The Japanese-Chinese translation quality is not good.
          But it supports offline English-Chinese translation.
 
       + About Chinese variants
@@ -89,9 +89,9 @@ Since 6/18/2011
         So, when select Chinese as the intermediate language, it does not matter a lot whether to use Traditional
         Chinese or Simplified Chinese.
 
-      Sample translations comparison:
+      Comparison of some sample translations:
 
-      Japanese: 【爽】「悠真くんを攻略すれば２１０円か。なるほどなぁ…」
+      Japanese:      【爽】「悠真くんを攻略すれば２１０円か。なるほどなぁ…」
 
       Google(vi):    【Shuang】「¥ 210 hoặc nếu chụp các Yuuma-kun. Naa tôi thấy...」
       Infoseek(vi):  【Shuang】「Tôi chụp 210 Yuuma-kun có sẵn. Tôi hiểu?…」

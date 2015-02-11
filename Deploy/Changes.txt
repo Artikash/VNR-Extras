@@ -30,7 +30,7 @@ Since 6/18/2011
     - Translation alignment
       Translation alignment can only be enabled for the second translator.
       If enabled, the intermediate translation can be observed from the ruby.
-      Here's an screenshot translate through:
+      Here's an screenshot of the translation through:
 
          Japanese => (LEC) => English => (Google.com) => Spanish
 
@@ -66,7 +66,7 @@ Since 6/18/2011
       is ambiguous according to VietPhrase.
       The underline option can be disabled in Preferences/Shared Dictionary.
 
-      Additionally, VNR also support offline English-Chinese translation through Dr.eye.
+      Additionally, VNR also supports offline English-Chinese translation through Dr.eye.
       Combining Dr.eye with HanViet might produce offline English-Vietnamese translation.
 
       Note: If you have blocked Chinese in Preferences/i18n, no Chinese translators would show up.

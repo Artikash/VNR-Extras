@@ -62,14 +62,14 @@ Since 6/18/2011
 
           http://i.imgur.com/KJibAwM.png
 
-      I will talk about the differences between Chinese translators at the end.
-
       Lots of text are underlined, which means the translation from Chinese => Vietnamese
       is ambiguous according to VietPhrase.
       The underline option can be disabled in Preferences/Shared Dictionary.
 
       Additionally, VNR also support offline English-Chinese translation through Dr.eye.
       Combining Dr.eye with HanViet might produce offline English-Vietnamese translation.
+
+      Note: If you have blocked Chinese in Preferences/i18n, no Chinese translators would show up.
 
       + State-of-art of Chinese translators
       If you would like to try using Chinese as the intermediate language, here are a summary

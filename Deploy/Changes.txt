@@ -8,6 +8,9 @@ Since 6/18/2011
     修正了「Re:BIRTHDAY SONG」 在Windows XP上读档是可能会崩溃的问题。
     感谢@柒号线 sama的报告！
 
+  [Machine Translation]
+  * The Ellipse character (…) will be used to split clauses to force preserving the order of the clauses.
+
 2/10/2015 TUE
   [Machine Translation]
   * Add options in Preferences/Translation for concatenate different translations

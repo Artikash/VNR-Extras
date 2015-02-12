@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+2/12/2015 THU
+  [Game Engine]
+  * Add SystemAoi5 text engine for 「悪魔娘の看板料理」.
+    为「悪魔娘の看板料理」添加了提取文本的支持。
+
 2/11/2015 WED
   [Game Engine]
   * Update old WillPlus engine which might crash 「Re:BIRTHDAY SONG」 on Windows XP.

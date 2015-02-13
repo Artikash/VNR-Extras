@@ -46,13 +46,13 @@ Since 6/18/2011
 
     is almost equivalent to:
 
-      {{<!?kanji}}愛{{?!kanji}} => あい
+      {{?<!kanji}}愛{{?!kanji}} => あい
 
-    Except that the new approach will also be applied to, say, 愛様, but old {{<!?kanji}}愛{{?!kanji}}
+    Except that the new approach will also be applied to, say, 愛様, but old {{?<!kanji}}愛{{?!kanji}}
     won't be applied to 愛様.
 
-    Similarly, コロエ will be almost equivalent to {{<!kata}}コロエ{{?!kata}}.
-    And ハル子 will be almost equivalent to {{<!kata}}ハル子{{?!kanji}}.
+    Similarly, コロエ will be almost equivalent to {{?<!kata}}コロエ{{?!kata}}.
+    And ハル子 will be almost equivalent to {{?<!kata}}ハル子{{?!kanji}}.
 
     For English games, for example, when the phrase boundary is enabled, "tight" is equivalent to "\btight\b"
     for translation type.
@@ -75,10 +75,10 @@ Since 6/18/2011
     这样的话，tight会被翻译，而tightly就不会被翻译了。
 
     对于日文游戏，那么，比方说：
-    - "愛"将会等价于"{{<!kanji}}愛{{kanji}}"。
+    - "愛"将会等价于"{{?<!kanji}}愛{{?!kanji}}"。
       这样，彼方说："愛ちゃん"会被替换，而"愛情"、"恋愛"等就不会被替换了。
-    - "コロエ"将会等价于"{{<!kata}}コロエ{{kata}}"。
-    - "ハル子"将会等价于"{{<!kata}}ハル子{{kanji}}"。
+    - "コロエ"将会等价于"{{?<!kata}}コロエ{{?!kata}}"。
+    - "ハル子"将会等价于"{{?<!kata}}ハル子{{?!kanji}}"。
 
     开启短语边界相当于打开了正则表达式，相对来说比较expensive。
     除非有必要（比如原单词有歧义），否则不要大规模的开启才好，否则应用词条的速度可能会变慢。

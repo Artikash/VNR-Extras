@@ -153,6 +153,12 @@ Since 6/18/2011
       匹配: Mr.
       翻译: [[N]]先生
 
+  * Translation rules specific for JBeijing is now shared with Excite.
+    Because Excite has the same engine as JBeijing, whose translation are 99% the same,
+    this might help reuse large numbers of JBeijing rules to enhance Chinese translation on Excite.
+
+    JBejing和Excite会共享词条。
+
 2/12/2015 THU
   [Game Engine]
   * Add SystemAoi5 text engine for 「悪魔娘の看板料理」.

@@ -36,10 +36,10 @@ Since 6/18/2011
       - Else
         @pattern = bow(@pattern) + @pattern + eow(@pattern)
 
-    Here, bow (beginning of word) will return the negative category  of the first character of @pattern.
+    Here, bow (beginning of word) will return the negative category of the first character of @pattern.
     And eow (end of word) will return the negative category of last character of @pattern.
 
-    For Japanese game, for example, when the phrase boundary is enabled,
+    For Japanese games, for example, when the phrase boundary is enabled,
 
         愛 => あい
 
@@ -53,7 +53,7 @@ Since 6/18/2011
     Similarly, コロエ will be almost equivalent to {{<!kata}}コロエ{{?!kata}}.
     And ハル子 will be almost equivalent to {{<!kata}}ハル子{{?!kanji}}.
 
-    For English game, for example, when the phrase boundary is enabled, "tight" is equivalent to "\btight\b"
+    For English games, for example, when the phrase boundary is enabled, "tight" is equivalent to "\btight\b"
     for translation type.
 
     Currently, since MeCab is not used, the word boundary is not accurate.

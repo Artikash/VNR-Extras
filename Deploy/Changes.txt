@@ -83,6 +83,64 @@ Since 6/18/2011
     开启短语边界相当于打开了正则表达式，相对来说比较expensive。
     除非有必要（比如原单词有歧义），否则不要大规模的开启才好，否则应用词条的速度可能会变慢。
 
+  * The name suffix now support change the translation order.
+    For example, given the following definitions:
+
+        Type: Name
+        Pattern: クロエ
+        Translation: Chloe
+
+        Type: Suffix
+        Pattern: 姫
+        Translation: Princess [[N]]
+
+        Type: Suffix
+        Pattern: 将軍
+        Translation: General [[N]]
+
+    Then, "クロエ姫" will be translated to "Princess Chloe".
+    And, "クロエ将軍" will be translated to "General Chloe".
+    The idea is motivated by Ehnd scripts for EzTrans, which VNR currently does not support, though.
+    Here, "[[N]]" is used as a placeholder for the name/yomigana translation.
+
+    btw, the "[]" symbol is selected, as in the future, I might add other variables such as [[n]] to represent
+    a noun, and [[Nnv]] to represent a set of any Name/noun/verb where the grammar is similar to regex [] class.
+
+    Such approach currently has some limitations.
+    For example, you can define the following suffix:
+
+        Type: Suffix
+        Pattern: を殺す
+        Translation: kill [[N]]
+
+    Then, "クロエを殺す" will be translated to "kill Chloe".
+    However, "クロエちゃんを殺す" will NOT be translated to "kill Chloe-chan".
+    Because [[N]] only contains bared name (クロエ), without other suffices (-ちゃん).
+
+    In the future, I am plan to allow adding more generic rule such as "[[n]]を殺す", where [[n]] represents any noun
+    with the help of MeCab.
+    But currently, my suggestion is that let's not add rules like を殺す as suffix at the moment, and use suffix as
+    just name suffix such as ちゃん、さま, rather than complicated phrases such as を殺す.
+
+    添加了后缀的语法来支持改变翻译至于姓名的位置。 比方说，给定：
+
+        类型: 后缀
+        匹配的文本: 姫
+        替换的文本: Princess [[N]]
+
+    那么，"クロエ姫"就会被翻译为"Princess Chloe"。
+
+    不过，当前的approach还有很多局限性。比方说，给定如下定义：
+
+        类型: 后缀
+        匹配: 殺す
+        翻译: 杀死[[N]]
+
+    那么，"クロエを殺す"会被翻译为"杀死Chloe"。
+    然而，"クロエちゃんを殺す"暂时却无法被翻译为"杀死Chloe酱"。
+    由于[[N]]]仅仅可以匹配原声的姓名（クロエ），而并不包含其他的后缀（ちゃん）。
+    我的建议是，在我解决这个问题前，先不要添加好像「を殺す」这样的短语词条作为后缀才好。
+
 2/12/2015 THU
   [Game Engine]
   * Add SystemAoi5 text engine for 「悪魔娘の看板料理」.

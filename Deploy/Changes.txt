@@ -46,7 +46,7 @@ Since 6/18/2011
 
     is almost equivalent to:
 
-      {{?<!kanji}}愛{{?!kanji}} => あい
+        {{?<!kanji}}愛{{?!kanji}} => あい
 
     Except that the new approach will also be applied to, say, 愛様, but old {{?<!kanji}}愛{{?!kanji}}
     won't be applied to 愛様.
@@ -143,15 +143,15 @@ Since 6/18/2011
 
   * Add prefix type, which is similar to suffix. Here's an example:
 
-      Type: Prefix
-      Pattern: ミスター
-      Translation: Mr.
+        Type: Prefix
+        Pattern: ミスター
+        Translation: Mr.
 
-  添加了前缀的类型。下边是一个英中前缀词条例子：
+    添加了前缀的类型。下边是一个英中前缀词条例子：
 
-      类型: 前缀
-      匹配: Mr.
-      翻译: [[N]]先生
+        类型: 前缀
+        匹配: Mr.
+        翻译: [[N]]先生
 
   * Translation rules specific for JBeijing is now shared with Excite.
     Because Excite has the same engine as JBeijing, whose translation are 99% the same,

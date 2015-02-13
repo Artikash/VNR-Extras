@@ -7,6 +7,10 @@ Since 6/18/2011
   * Add SystemAoi5 text engine for 「悪魔娘の看板料理」.
     为「悪魔娘の看板料理」添加了提取文本的支持。
 
+  [Danmaku]
+  * You can vote plus/minus a danmaku/comment if you agree/disagree for non-guest account.
+    在弹幕、评论的旁边，可以点击+/-来赞成/反对它的内容。这个仅对非guest的账户有效。
+
 2/11/2015 WED
   [Game Engine]
   * Update old WillPlus engine which might crash 「Re:BIRTHDAY SONG」 on Windows XP.

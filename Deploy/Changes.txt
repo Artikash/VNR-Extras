@@ -16,6 +16,7 @@ Since 6/18/2011
     My plan is to utilize MeCab to find word boundaries in the future.
     However, this is not what is happening at the current version.
     The detailed logic about how pattern is affected is as follows:
+
     - If @sourceLanguage is NOT Japanese # i.e. for non-Japanese games
       - If @type is macro
         Phrase boundary option is not allowed.

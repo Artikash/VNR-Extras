@@ -2,6 +2,86 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+2/13/2015 FRI
+  [Shared Dictionary]
+  * Add a Phrase Boundary option to the translation rule.
+    When enabled, VNR will try to only apply the translation when it is at the boundary of a phrase.
+    For example, given a yomigana definition:
+
+        愛 => あい
+
+    Then, it will be applied to 愛ちゃん, but won't be applied to 恋愛、愛情, etc.
+    i.e. 愛 will only be applied if the left of 愛 and right of 愛 are at the word boundary (like \b).
+
+    My plan is to utilize MeCab to find word boundaries in the future.
+    However, this is not what is happening at the current version.
+    The detailed logic about how pattern is affected is as follows:
+    - If @sourceLanguage is NOT Japanese # i.e. for non-Japanese games
+      - If @type is macro
+        Phrase boundary option is not allowed.
+      - Else if @type is suffix
+        @pattern = @pattern + "\b"
+      - Else if @type is name or yomigana
+        @pattern = "\b" + @pattern
+      - Else # For all other types including translation, pattern will be wrapped with \b
+        @pattern = "\b" + @pattern + "\b"
+
+    - Else if @sourceLanguage is Japanese # i.e. for Japanese games
+      - If @type is macro
+        Phrase boundary option is not allowed.
+      - Else if @type is suffix
+        @pattern = @pattern + eow(@pattern)
+      - Else if @type is name or yomigana
+        @pattern = bow(@pattern) + @pattern
+      - Else
+        @pattern = bow(@pattern) + @pattern + eow(@pattern)
+
+    Here, bow (beginning of word) will return the negative category  of the first character of @pattern.
+    And eow (end of word) will return the negative category of last character of @pattern.
+
+    For Japanese game, for example, when the phrase boundary is enabled,
+
+        愛 => あい
+
+    is almost equivalent to:
+
+      {{<!?kanji}}愛{{?!kanji}} => あい
+
+    Except that the new approach will also be applied to, say, 愛様, but old {{<!?kanji}}愛{{?!kanji}}
+    won't be applied to 愛様.
+
+    Similarly, コロエ will be almost equivalent to {{<!kata}}コロエ{{?!kata}}.
+    And ハル子 will be almost equivalent to {{<!kata}}ハル子{{?!kanji}}.
+
+    For English game, for example, when the phrase boundary is enabled, "tight" is equivalent to "\btight\b"
+    for translation type.
+
+    Currently, since MeCab is not used, the word boundary is not accurate.
+    For example, given 愛 => あい, when phrase boundary is enabled, it won't mess up 愛情、恋愛.
+    But it will still mess up 愛しさ.
+
+    Additionally, checking phrase boundary is as expensive as enabling regex.
+    Unless really needed, please don't extensively turn this option on.
+
+    For example, given a yomigana definition: 雫 => しずく
+    Since 雫 is seldom used in a kanji phrase, there is no need to turn on the phrase boundary option for it.
+
+    为词条添加了【短语边界】的选项。
+    如果要翻译的名字很短可能有歧义，那么可以打开这选项。
+
+    对于非日文游戏（比如英文），那么，比方说： "tight"将会等价于"\btight\b"。
+    也就是说，在tight的前后都是【单词边界】时才会被翻译。
+    这样的话，tight会被翻译，而tightly就不会被翻译了。
+
+    对于日文游戏，那么，比方说：
+    - "愛"将会等价于"{{<!kanji}}愛{{kanji}}"。
+      这样，彼方说："愛ちゃん"会被替换，而"愛情"、"恋愛"等就不会被替换了。
+    - "コロエ"将会等价于"{{<!kata}}コロエ{{kata}}"。
+    - "ハル子"将会等价于"{{<!kata}}ハル子{{kanji}}"。
+
+    开启短语边界相当于打开了正则表达式，相对来说比较expensive。
+    除非有必要（比如原单词有歧义），否则不要大规模的开启才好，否则应用词条的速度可能会变慢。
+
 2/12/2015 THU
   [Game Engine]
   * Add SystemAoi5 text engine for 「悪魔娘の看板料理」.

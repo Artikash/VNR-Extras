@@ -83,7 +83,7 @@ Since 6/18/2011
     开启短语边界相当于打开了正则表达式，相对来说比较expensive。
     除非有必要（比如原单词有歧义），否则不要大规模的开启才好，否则应用词条的速度可能会变慢。
 
-  * The name suffix now support change the translation order.
+  * The name suffix now support changing the translation order.
     For example, given the following definitions:
 
         Type: Name
@@ -1212,6 +1212,10 @@ Since 6/18/2011
     (such as Chinese Pinyin and Korean Romaja) except Japanese and English.
     This is useless unless you want to understand dictionary entries in foreign languages like me.
     在共享辞书的下边，会显示除去英文和日文外全部语言的翻译的罗马字（比如韩语）。
+
+  [Proxy]
+  * Update proxy to ErogameScape.
+    更新了对批评空间和Google的代理。
 
 1/2/2015 FRI
   [Forum]

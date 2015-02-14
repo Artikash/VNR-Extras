@@ -159,6 +159,10 @@ Since 6/18/2011
 
     JBejing和Excite会共享词条。
 
+  [Proxy]
+  * Update proxy to ErogameScape.
+    更新了对批评空间和Google的代理。
+
 2/12/2015 THU
   [Game Engine]
   * Add SystemAoi5 text engine for 「悪魔娘の看板料理」.
@@ -1212,10 +1216,6 @@ Since 6/18/2011
     (such as Chinese Pinyin and Korean Romaja) except Japanese and English.
     This is useless unless you want to understand dictionary entries in foreign languages like me.
     在共享辞书的下边，会显示除去英文和日文外全部语言的翻译的罗马字（比如韩语）。
-
-  [Proxy]
-  * Update proxy to ErogameScape.
-    更新了对批评空间和Google的代理。
 
 1/2/2015 FRI
   [Forum]

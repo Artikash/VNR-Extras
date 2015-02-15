@@ -5,9 +5,52 @@ Since 6/18/2011
 2/14/2015 SAT
   [Game Engine]
   * Modify ApRicoT engine so that the scenario thread won't split and variate on each launch.
-    Be careful that there are usually two threads for ApRicoT, and only one of them is right.
-    The other one sometimes is right and sometimes has repetition.
+    Be careful that there are usually two threads for ApRicoT, and only one of them is correct.
+    The other one sometimes is right, but sometimes has repetition.
     Thanks for @Reality sama 's report!
+
+  [Shared Dictionary]
+  * You can use HTML escaped entities in the pattern and translation.
+    For example, VNR by default will trim spaces for the pattern and translation.
+    You can use &nbsp; to force prepending/appending space.
+
+    可以用HTML的转义语法来插入空格(&nbsp; )什么的。
+
+  * Add a "&eos;" (end-of-sentence) special symbol, which can be used to force VNR to break input text
+    into sentences and translate them independently.
+    For example, given:
+
+        みおちゃん、スラマッパギ！
+
+    If define the following rule:
+
+        Type: input
+        Pattern: 、
+        Translation: 、&eos;
+
+    Then VNR will translate "みおちゃん、" and "スラマッパギ！"  independently.
+
+    Note: Under the water, VNR will replace "&eos;" by "…eos…", so that {{bos}}/{{eos}}/{{boc}}/{{eoc}}
+    macros won't be broken (because :bos:/:eos: also contains "…").
+
+    可以用&eos;的符号来强制VNR断句，分别翻译分断后的句子。
+    比方说：
+
+        みおちゃん、スラマッパギ！
+
+    如果给定如下词条：
+
+        Type: input
+        Pattern: 、
+        Translation: 、&eos;
+
+    那么VNR将会分开翻译「みおちゃん、」和「スラマッパギ！」。
+
+  Note: Using escaped symbols such as &nbsp; or &eos; will break users using old version of VNR.
+  Let's wait for one or two days until people update VNR before adding rules containing these special symbols.
+
+  注：使用这些符号将会破坏使用老版本VNR同学的翻译。
+  让我们等待一两天，大家都更新过VNR了，再来使用这些符号吧。
 
 2/13/2015 FRI
   [Shared Dictionary]

@@ -2,6 +2,13 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+2/14/2015 SAT
+  [Game Engine]
+  * Modify ApRicoT engine so that the scenario thread won't split and variate on each launch.
+    Be careful that there are usually two threads for ApRicoT, and only one of them is right.
+    The other one sometimes is right and sometimes has repetition.
+    Thanks for @Reality sama 's report!
+
 2/13/2015 FRI
   [Shared Dictionary]
   * Add a Phrase Boundary option to the translation rule.

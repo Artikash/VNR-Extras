@@ -14,7 +14,12 @@ Since 6/18/2011
     For example, VNR by default will trim spaces for the pattern and translation.
     You can use &nbsp; to force prepending/appending space.
 
-    可以用HTML的转义语法来插入空格(&nbsp; )什么的。
+    You can also use it to express unprintable characters without enabling regex.
+    For example, ASCII 13 (Carriage Return, or CR) can be expressed as "&#13;".
+
+    可以用HTML的转义语法来插入空格(&nbsp;)什么的。
+    另外，也可以使用&#d的语法来插入如法输入的字符，而不必再使用打开正则表达的\u语法，
+    比如：ASCII 13 (Carriage Return, or CR) 可以使用"&#13;"来表示。
 
   * Add a "&eos;" (end-of-sentence) special symbol, which can be used to force VNR to break input text
     into sentences and translate them independently.

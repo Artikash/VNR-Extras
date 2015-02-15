@@ -34,19 +34,19 @@ Since 6/18/2011
     macros won't be broken (because :bos:/:eos: also contains "…").
 
     可以用&eos;的符号来强制VNR断句，分别翻译分断后的句子。
-    比方说：
+    比方说，给定：
 
         みおちゃん、スラマッパギ！
 
     如果给定如下词条：
 
-        Type: input
-        Pattern: 、
-        Translation: 、&eos;
+        类型: 输入
+        匹配: 、
+        翻译: 、&eos;
 
     那么VNR将会分开翻译「みおちゃん、」和「スラマッパギ！」。
 
-  Note: Using escaped symbols such as &nbsp; or &eos; will break users using old version of VNR.
+  Note: Using escaped symbols such as &nbsp; or &eos; will break translation for all old versions of VNR.
   Let's wait for one or two days until people update VNR before adding rules containing these special symbols.
 
   注：使用这些符号将会破坏使用老版本VNR同学的翻译。

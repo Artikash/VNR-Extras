@@ -2,6 +2,14 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+2/17/2015 TUE
+  [Internet]
+  * Certain Internet requests, such as query game database when adding new games,
+    query online machine translation, etc, will timeout after 7 seconds so that
+    VNR will not hang waiting for the request to finish.
+    想查询数据库和在线翻译等操作，会在7秒钟之后自行终止。
+    来防止因为网络问题而让VNR卡在比如添加游戏等操作中。
+
 2/14/2015 SAT
   [Game Engine]
   * Modify ApRicoT engine so that the scenario thread won't split and variate on each launch.

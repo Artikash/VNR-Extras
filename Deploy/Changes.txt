@@ -4,12 +4,12 @@ Since 6/18/2011
 
 2/18/2015 WED
   [Script]
-  * Add a ld2db script in the Scripts folder which can be used to convert Lingoes
+  * Add a ld2db script in the Scripts folder that can be used to convert Lingoes
     dictionary file to SQLite database.
     For example:
         ld2db "Vicon Japanese-English Dictionary.ld2" utf16 utf8
-    will output a db for Vicon dictionary where Japanese is encoded in UTF-16 and
-    English is encoded in UTF-8.
+    will output a SQLite3 db file for Vicon dictionary where Japanese is encoded
+    in UTF-16 and English is encoded in UTF-8.
 
 2/17/2015 TUE
   [Internet]

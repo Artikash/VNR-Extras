@@ -35,6 +35,10 @@ Reset VNR's Preferences. The following registry engtry will be deleted:
 
 刪除上面註冊表中VNR的設定。VNR的使用偏好會被重置。
 
+* ld2db.cmd (Windows), ld2db.sh (UNIX)
+Convert Lingoes LD2 dictionary file to SQLite.
+將Lingoes的LD2字典文件轉換為SQLite數據庫。
+
 * sublint.cmd (Windows), sublint.sh (UNIX)
 Check the integrity of VNR's offline subtitles in YAML format.
 檢測VNR的YAML格式的離線字幕的語法錯誤。

@@ -1,5 +1,6 @@
 :: Kill Python.cmd
 :: 9/29/2013 jichi
+:: Kill all python processes.
 @echo off
 setlocal
 

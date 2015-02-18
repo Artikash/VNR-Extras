@@ -1,5 +1,6 @@
 :: subx2y.cmd
 :: 12/16/2014 jichi
+:: Convert VNR XML subtitle to YAML format.
 @echo off
 setlocal
 

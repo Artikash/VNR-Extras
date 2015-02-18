@@ -1,15 +1,15 @@
-:: tahcompile.cmd
-:: 1/6/2015 jichi
-:: Compile TAH script.
+:: ld2db.cmd
+:: 2/18/2015 jichi
+:: Convert Lingoes LD2 dictionary to SQLite.
 @echo off
 setlocal
 
-title tahcompile
+title sublint
 ::color 8f
 
 set PYTHON=%~dp0\..\Library\Frameworks\Python\python.exe
 set PYTHON_OPT=-B
-set SCRIPT=%~dp0/../Library/Frameworks/Sakura/py/Scripts/tahcompile.py
+set SCRIPT=%~dp0/../Library/Frameworks/Sakura/py/Scripts/ld2db.py
 set SCRIPT_OPT=
 ::set SCRIPT_OPT=--debug
 

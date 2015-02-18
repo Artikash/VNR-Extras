@@ -1,6 +1,7 @@
 #!/bin/sh
 # subx2y.sh
 # 12/16/2014 jichi
+# Convert VNR XML subtitle to YAML format.
 CWD=`dirname "$0"`
 
 PYTHON=python

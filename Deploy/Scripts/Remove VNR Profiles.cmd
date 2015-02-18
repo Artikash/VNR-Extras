@@ -1,5 +1,6 @@
 :: Remove VNR Profiles.cmd
 :: 8/13/2014 jichi
+:: Remove VNR's profiles at APPDATA.
 @echo off
 setlocal
 

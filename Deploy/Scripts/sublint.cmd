@@ -1,5 +1,6 @@
 :: sublint.cmd
 :: 12/16/2014 jichi
+:: Validate VNR YAML subtitle format.
 @echo off
 setlocal
 

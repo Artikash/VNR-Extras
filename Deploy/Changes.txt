@@ -10,6 +10,10 @@ Since 6/18/2011
     想查询数据库和在线翻译等操作，会在7秒钟之后自行终止。
     来防止因为网络问题而让VNR卡在比如添加游戏等操作中。
 
+  [UI]
+  * Add an option in Preferences/UI to change VNR's default font.
+    在【使用偏好/界面】中，可以修改VNR默认的字体。
+
 2/14/2015 SAT
   [Game Engine]
   * Modify ApRicoT engine so that the scenario thread won't split and variate on each launch.

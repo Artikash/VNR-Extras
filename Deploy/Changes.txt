@@ -13,7 +13,7 @@ Since 6/18/2011
 
   [Machine Translation]
   * I made a statistical machine translator from user-contributed subtitles for VNR.
-    It currently only supported Japanese => Chinese translation, which can be enabled in Preferences.
+    It currently only supports Japanese => Chinese translation, which can be enabled in Preferences.
 
     I named as as VTrans, representing as VNR's translator, or WeTrans (our translator), since it is
     based and counted on our subtitles and translation rules for VNs.
@@ -91,17 +91,21 @@ Since 6/18/2011
     translation quality. If you have suggestions, feel free to let me know!
 
     添加了一个基于统计的在线机器翻译的功能。
-    翻译的内容主要是有大家提交的日中翻译的字幕来修炼的。
-    不过，当前翻译的质量和Baidu等比起来，还有很大的差距。
+    翻译的内容主要是有大家提交的日中翻译的字幕来训练的。
+    不过，当前翻译的质量和Baidu等比起来，还有很大的差距的。还是JBeijing+Baidu才是最佳组合。
     另外，当VNR的服务器很忙时，翻译也可能会变得很慢的。
 
     关于机器翻译训练，当用户总共的字幕数量大于一个阈值时，那么VNR就会使用他或她的字幕来训练机器翻译了。
     Guest账户的字幕不会被用于训练。这样做的目的是为了减少不良字幕的数目从而降低翻译质量。
+    由于使用大家的字幕训练，造成翻译上可能会更加贴近口语。
+    但是有时候不同个游戏之间会串词。
+    比如：因为有同学在A游戏把「スプリング」翻译成了（弹簧）床，结果B游戏里 「スプリング」就被翻成床了。。。
+    另外由于翻译样本不足而且局限在这个领域，翻译器对长句字以及非二次元的生词的翻译还很差。
+    翻译口语还好。现在翻译比如wiki之类的文章几句没法看了。
 
     关于共享辞书，大家先不要添加针对这个翻译器的词条。
     因为我有翻译器的全部代码，可以在很底层的位置来应用翻译规则。我在以后会针对这个翻译器来改变应用词条
     的方法和机制。在此之前，先不要为这个翻译器添加词条。
-
 
 2/17/2015 TUE
   [Internet]

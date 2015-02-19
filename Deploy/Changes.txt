@@ -18,7 +18,7 @@ Since 6/18/2011
     I named it as VTrans, standing for VNR's translator, or WeTrans (our translator), since it is
     really based on and counted on our subtitles and translation rules for VNs.
 
-    It's current average translation quality is usually less good comparing to other online translators
+    Its current average translation quality is usually worse comparing to other online translators
     such as Baidu, though.
     But I think this might open a new area for VNR in the near future to have our own fully-customized
     machine translator to improve the translation in whatever ways we like.

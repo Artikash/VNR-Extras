@@ -40,13 +40,12 @@ Since 6/18/2011
     - Open and easy to customized
       The translator is implemented in Python and Java. And I have the access to all the source code
       of the libraries and dictionaries being used.
-      This will allow use to modify the translation in whatever degree we like.
-      For example, I am now able to apply a suffix rule [[N]]さん to all names recognized by the
-      translator.
+      This will allow us to modify the translation in whatever degree we like.
+      For example, I am now able to apply a suffix rule [[N]]さん to all names recognized by the translator.
       I can know how the input sentence is segmented, and which word is untranslated.
       And I can directly modify the grammar of the machine translation in a non-intrusive way.
 
-      I will add interface to expose all internal settings of the translator in the future.
+      I will add interfaces to expose all internal settings of the translator in the future.
 
     - Domain-specific to VN
       It is from users' subtitles, the vocabulary will be more close to 二次元 and oral Japanese.

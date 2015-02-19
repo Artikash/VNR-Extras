@@ -15,8 +15,8 @@ Since 6/18/2011
   * I made a statistical machine translator from user-contributed subtitles for VNR.
     It currently only supports Japanese => Chinese translation, which can be enabled in Preferences.
 
-    I named as as VTrans, representing as VNR's translator, or WeTrans (our translator), since it is
-    based and counted on our subtitles and translation rules for VNs.
+    I named it as VTrans, representing as VNR's translator, or WeTrans (our translator), since it is
+    really based on and counted on our subtitles and translation rules for VNs.
 
     It's current average translation quality is usually less good comparing to other online translators
     such as Baidu, though.

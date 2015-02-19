@@ -11,6 +11,98 @@ Since 6/18/2011
     will output a SQLite3 db file for Vicon dictionary where Japanese is encoded
     in UTF-16 and English is encoded in UTF-8.
 
+  [Machine Translation]
+  * I made a statistical machine translator from user-contributed subtitles for VNR.
+    It currently only supported Japanese => Chinese translation, which can be enabled in Preferences.
+
+    I named as as VTrans, representing as VNR's translator, or WeTrans (our translator), since it is
+    based and counted on our subtitles and translation rules for VNs.
+
+    It's current average translation quality is usually less good comparing to other online translators
+    such as Baidu, though.
+    But I think this might open a new area for VNR in the near future to have our own fully-customized
+    machine translator to improve the translation in whatever ways we like.
+
+    Here are some advantages that it has and I can am expecting:
+
+    - Translation quality will be gradually improved from user-submitted subtitles.
+      The current translation is trained from 220k sentences.
+      96k are user-shared subtitles, and other 120k are sample sentences from JC dictionaries in VNR.
+
+      Currently, if a user's total subtitle count is > X, all of his/her subtitles will then be used to
+      train the machine translator.
+      X is a large integer. I would like to keep this number X secret to prevent people from adding a
+      large number of garbage texts in order to be included to the machine translation.
+
+      Basically, if you see a translation is wrong in VTrans, just submit a better subtitle for it, and
+      then VTrans will be better soon later when I update it's translation rules from user subtitles.
+
+    - Open and easy to customized
+      The translator is implemented in Python and Java. And I have the access to all the source code
+      of the libraries and dictionaries being used.
+      This will allow use to modify the translation in whatever degree we like.
+      For example, I am now able to apply a suffix rule [[N]]さん to all names recognized by the
+      translator.
+      And I can also directly the grammar of the machine translation in an non-intrusive.
+
+      I will add interface to expose all internal settings of the translator in the future.
+
+    - Domain-specific to VN
+      It is from users' subtitles, the vocabulary will be more close to 二次元 and oral Japanese.
+      And there is no censorship of certain hentai words.
+
+    - Possibility for training true-bilingual translation
+      Currently, say, Japanese => Russian is done by Japanese => English => Russian, which might
+      downgrade overall translation quality.
+      If you are speaking an European language, I can instead train translation directly
+      between Japanese and your language.
+      However, the translation quality might be effected by how many user-shared subtitles are in language.
+
+    - Possibility for offline translator
+      Currently, the trained grammar is about 400MB.
+      I can made an offline translator with these data in VNR, which will require users to install JDK8 though.
+
+    However, I think there will be a few critical disadvantages about this approach:
+
+    - Smaller vocabulary
+      Though being close to VNR, the amount of data used to train the translator is far less than others.
+      If you use VTrans to translate, say, Wikipedia articles, the quality will be too bad to understand.
+      I plan to instead rely on users to submit instant rules to fix the mal-translated sentences.
+
+    - Slow access speed
+      VTrans is currently set on the same server of VNR's service.
+      I would expect it to stop functioning when lots of users are using VNR ....
+
+    - Less machine resources to tune the translation quality
+      The statistical machine translation quality is highly affected by tuning.
+      Currently, I don't have powerful machines or cloud clusters to tune all the user-shared subtitles.
+      For the current 220k sentences, I only tuned 500 sentences for the best BLEU score, which took
+       about 2 hours to accomplish on my macbook air.
+      I might not have machine time to tune large data, which will surely downgrade translation quality.
+
+    Note: Currently, please do not add translator-specific rules for VTrans to the Shared Dictionary.
+    I will change how to integrate Shared Dictionary rules with VTrans in the near future.
+
+    Regarding how subtitles are trained, there are certain requirements for the subtitles to meat,
+    or the subtitle might confuse VTrans and downgrade translation quality.
+    I will talk about that after I have finished Japanese-Chinese support and added Japanese-English support.
+
+    Anyway, I am going to explore the approaches to integrate user-specified domain knowledge to improve
+    translation quality. If you have suggestions, feel free to let me know!
+
+    添加了一个基于统计的在线机器翻译的功能。
+    翻译的内容主要是有大家提交的日中翻译的字幕来修炼的。
+    不过，当前翻译的质量和Baidu等比起来，还有很大的差距。
+    另外，当VNR的服务器很忙时，翻译也可能会变得很慢的。
+
+    关于机器翻译训练，当用户总共的字幕数量大于一个阈值时，那么VNR就会使用他或她的字幕来训练机器翻译了。
+    Guest账户的字幕不会被用于训练。这样做的目的是为了减少不良字幕的数目从而降低翻译质量。
+
+    关于共享辞书，大家先不要添加针对这个翻译器的词条。
+    因为我有翻译器的全部代码，可以在很底层的位置来应用翻译规则。我在以后会针对这个翻译器来改变应用词条
+    的方法和机制。在此之前，先不要为这个翻译器添加词条。
+
+
 2/17/2015 TUE
   [Internet]
   * Certain Internet requests, such as query game database when adding new games,

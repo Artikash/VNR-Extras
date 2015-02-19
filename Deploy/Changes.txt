@@ -54,13 +54,13 @@ Since 6/18/2011
     - Possibility for training true-bilingual translation
       Currently, say, Japanese => Russian is done by Japanese => English => Russian, which might downgrade
       overall translation quality.
-      If you are speaking an European language, I can instead train translation directly between Japanese
+      If you are speaking an European language, I can instead train the translation directly between Japanese
       and your language.
-      However, the translation quality might be effected by how many user-shared subtitles are in your language.
+      However, the translation quality might be affected by how many user-shared subtitles are in your language.
 
-    - Possibility for offline translator
+    - Feasibility for offline translation
       Currently, the trained grammar data is about 400MB.
-      I can made an offline translator with these data in VNR, which will require users to install Java though.
+      I can add an offline translator with these data in VNR, which will require users to install Java, though.
 
     However, I think there will be a few critical disadvantages about this approach:
 

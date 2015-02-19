@@ -60,12 +60,12 @@ Since 6/18/2011
 
     - Possibility for offline translator
       Currently, the trained grammar data is about 400MB.
-      I can made an offline translator with these data in VNR, which will require users to install JDK8 though.
+      I can made an offline translator with these data in VNR, which will require users to install Java though.
 
     However, I think there will be a few critical disadvantages about this approach:
 
     - Smaller vocabulary
-      Though being close to VNR, the amount of data used to train the translator is far less than others.
+      Though being close to VNs, the amount of data used to train the translator is far less than others.
       If you use VTrans to translate, say, Wikipedia articles, the quality will be too bad to understand.
       I plan to instead rely on users to submit instant rules to fix the mal-translated sentences.
 

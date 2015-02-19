@@ -43,7 +43,8 @@ Since 6/18/2011
       This will allow use to modify the translation in whatever degree we like.
       For example, I am now able to apply a suffix rule [[N]]さん to all names recognized by the
       translator.
-      And I can also directly the grammar of the machine translation in an non-intrusive.
+      I can know how the input sentence is segmented, and which word is untranslated.
+      And I can directly modify the grammar of the machine translation in a non-intrusive way.
 
       I will add interface to expose all internal settings of the translator in the future.
 

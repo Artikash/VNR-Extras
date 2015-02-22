@@ -1,6 +1,7 @@
 EBMac1.19
 6/9/2013 jichi
 
+http://ebstudio.info/home/MacOS/Mac.html
 http://hishida.s271.xrea.com/manual/EBPocket_android/pgs/60unicode.html
 
 外字Unicodeマップ名		内容

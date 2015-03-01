@@ -6,6 +6,10 @@ Since 6/18/2011
   [JBeijing](Chinese, @djz020815)
   * 更新了djz大先生的J北京词库。
 
+  [TAHScript](English, @riz)
+  * Update TAH script for ATLAS/LEC.
+    The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
+
 2/18/2015 WED
   [Script]
   * Add a ld2db script in the Scripts folder that can be used to convert Lingoes

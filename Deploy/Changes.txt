@@ -10,6 +10,10 @@ Since 6/18/2011
   * Update TAH script for ATLAS/LEC.
     The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
 
+  [Game Engine]
+  * Update Pensil engine to support 大正×対称アリス with Primula's 2XT engine.
+    修正了「大正×対称アリス」无法提取到文本的问题。
+
 2/18/2015 WED
   [Script]
   * Add a ld2db script in the Scripts folder that can be used to convert Lingoes

@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+2/28/2015 SAT
+  [JBeijing](Chinese, @djz020815)
+  * 更新了djz大先生的J北京词库。
+
 2/18/2015 WED
   [Script]
   * Add a ld2db script in the Scripts folder that can be used to convert Lingoes

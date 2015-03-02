@@ -25,9 +25,9 @@ Since 6/18/2011
       like "Cannot write to the location".
 
       There are at least three ways to fix such issue:
-      + Solution 1 (recommended): Move TransCAT out of $PROGRAMFILES to location where non-administrator has write permission.
+      + Solution 1 (recommended): Move TransCAT out of $PROGRAMFILES to a location where non-administrator has write permission.
       + Solution 2 (not recommended): Always launch VNR as administrator.
-      + Solution 3: Use cacls to grant write accesss to TransCAT folder in $PROGRAMFILES.
+      + Solution 3: Use cacls to grant write access to TransCAT folder in $PROGRAMFILES.
 
     - TransCAT might conflict with JBeijing (a Japanese-Chinese translator).
       When TransCAT starts after JBeijing, it might crash VNR.

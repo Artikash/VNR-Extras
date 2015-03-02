@@ -2,6 +2,68 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+3/1/2015 SUN
+  [Proxy]
+  * Update proxy to ErogameScape and Google, which stopped functioning.
+    更新了对批评空间和Google的代理，因为以前的代理可能不能用了。
+
+  [Machine Translation](Korean)
+  * Add translation support for TransCAT JKKJ suggested by @otromonde sama.
+    I cannot tell if it is better or worse comparing to EzTrans, but I feel you could give it a try.
+
+    Here are some notes and minor issues about it:
+    - TransCAT's developer ClickQ has disappeared, and I cannot find any place to purchase this soft.
+      If you would like to try it, you might have to ask your friends or @otromonde sama where to get it.
+
+    - TransCAT project was dropped in 2002, which was newer than ezTrans XP (2001) though.
+
+    - TransCAT's path must not have non-ASCII characters.
+
+    - VNR must have write access to TransCAT's location.
+      For example, on Windows 7, if you have installed TransCAT to $PROGRAMFILES as Administrator.
+      Then, VNR by default might not be able load TransCAT. And it will keep popping up warning messages
+      like "Cannot write to the location".
+
+      There are at least three ways to fix such issue:
+      + Solution 1 (recommended): Move TransCAT out of $PROGRAMFILES to location where non-administrator has write permission.
+      + Solution 2 (not recommended): Always launch VNR as administrator.
+      + Solution 3: Use cacls to grant write accesss to TransCAT folder in $PROGRAMFILES.
+
+    - TransCAT might conflict with JBeijing (a Japanese-Chinese translator).
+      When TransCAT starts after JBeijing, it might crash VNR.
+      In order to make both work, TransCAT must be loaded BEFORE JBeijing is loaded.
+      VNR internally will try to initialize TransCAT always before JBeijing if possible, but there are
+      loop-holes when the user is toggling Preferences.
+      Anyway, if you have both JBeijing and TransCAT installed, and if you toggled both JBeijing and TransCAT
+      in Preferences, you might have to restart VNR to make both work.
+
+      If you don't use JBeijing for Japanese-Chinese translation, you can forget the above text.
+
+    - Here are some comparison about the translation quality with ezTrans and Naver.
+      Texts are from 大正×対称アリス.
+
+      Japanese: あなた「ここはどこなの……？歩いても歩いても、出口が見つからない」
+      Naver: 당신「여기는 어디다……? 걸어도 걸어도, 출구가 발견되지 않는다」
+      EzTrans: 당신「여기는 어디야……? 걸어도 걸어도, 출구가 발견되지 않는다」
+      Naver: 당신「여기는 어딘데……?걸어도 걸어도, 출구가 없다」
+
+      Japanese: あなた「私……どうしてこんな所にいるの？ 私は……誰なの？」
+      TransCAT: 당신「나……어째서 이런 곳에 있는 것이다? 나는……누구다?」
+      EzTrans: 당신「사……어째서 이런 곳에 있는 거야? 나는……누구야?」
+      Naver: 당신「나……왜 이런 곳에 있니?나는……누구니?」
+
+      Japanese: 自者名前
+      TransCAT: 自 자이름
+      EzTrans: 차자 이름
+      Naver: 차자 이름
+
+      I feel the overall EzTrans translation is similar to either EzTrans or Naver.
+
+      However, when there are unrecognized phrases, TransCAT will leave it in the translation,
+      while Naver tends to convert untranslated Kanji to Hangul of the corresponding Hanja in Korean,
+      and EzTrans tends to delete the unrecognized sounds or acts like Naver to convert Kanji to Hanja's Hangul readings.
+      As a result, it will be easier to use Output rules in Shared Dictionary to fix TransCAT's Translation.
+
 2/28/2015 SAT
   [JBeijing](Chinese, @djz020815)
   * 更新了djz大先生的J北京词库。

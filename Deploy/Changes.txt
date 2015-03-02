@@ -19,7 +19,7 @@ Since 6/18/2011
 
     - TransCAT's path must not have non-ASCII characters.
 
-    - VNR must have write access to TransCAT's location.
+    - VNR must have write permission to TransCAT's directory.
       For example, on Windows 7, if you have installed TransCAT to $PROGRAMFILES as Administrator.
       Then, VNR by default might not be able load TransCAT. And it will keep popping up warning messages
       like "Cannot write to the location".

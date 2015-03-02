@@ -43,7 +43,7 @@ Since 6/18/2011
       Texts are from 大正×対称アリス.
 
       Japanese: あなた「ここはどこなの……？歩いても歩いても、出口が見つからない」
-      Naver: 당신「여기는 어디다……? 걸어도 걸어도, 출구가 발견되지 않는다」
+      TransCAT: 당신「여기는 어디다……? 걸어도 걸어도, 출구가 발견되지 않는다」
       EzTrans: 당신「여기는 어디야……? 걸어도 걸어도, 출구가 발견되지 않는다」
       Naver: 당신「여기는 어딘데……?걸어도 걸어도, 출구가 없다」
 
@@ -62,7 +62,7 @@ Since 6/18/2011
       However, when there are unrecognized phrases, TransCAT will leave it in the translation,
       while Naver tends to convert untranslated Kanji to Hangul of the corresponding Hanja in Korean,
       and EzTrans tends to delete the unrecognized sounds or acts like Naver to convert Kanji to Hanja's Hangul readings.
-      As a result, it will be easier to use Output rules in Shared Dictionary to fix TransCAT's Translation.
+      As a result, it will be easier to use Output rules in Shared Dictionary to fix TransCAT's translation.
 
 2/28/2015 SAT
   [JBeijing](Chinese, @djz020815)

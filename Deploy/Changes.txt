@@ -27,7 +27,7 @@ Since 6/18/2011
       There are at least three ways to fix such issue:
       + Solution 1 (recommended): Move TransCAT out of $PROGRAMFILES to a location where non-administrator has write permission.
       + Solution 2 (not recommended): Always launch VNR as administrator.
-      + Solution 3: Use cacls to grant write access to TransCAT folder in $PROGRAMFILES.
+      + Solution 3: Use cacls to grant write access to the TransCAT folder in $PROGRAMFILES.
 
     - TransCAT might conflict with JBeijing (a Japanese-Chinese translator).
       When TransCAT starts after JBeijing, it might crash VNR.
@@ -39,7 +39,7 @@ Since 6/18/2011
 
       If you don't use JBeijing for Japanese-Chinese translation, you can forget the above text.
 
-    - Here are some comparison about the translation quality with ezTrans and Naver.
+    - Here are some comparisons regarding the translation quality with ezTrans and Naver.
       Texts are from 大正×対称アリス.
 
       Japanese: あなた「ここはどこなの……？歩いても歩いても、出口が見つからない」

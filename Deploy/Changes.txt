@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+3/4/2015 WED
+  [Performance]
+  * Reduce memory usage when writing large xml/yaml data (games/subtitles/dictionary) to disk.
+
 3/1/2015 SUN
   [Proxy]
   * Update proxy to ErogameScape and Google, which stopped functioning.
@@ -39,8 +43,8 @@ Since 6/18/2011
 
       If you don't use JBeijing for Japanese-Chinese translation, you can forget the above text.
 
-    - Here are some comparisons regarding the translation quality with ezTrans and Naver.
-      Texts are from 大正×対称アリス.
+    Here are some comparisons regarding the translation quality with ezTrans and Naver.
+    Japanese texts are from 「大正×対称アリス」.
 
       Japanese: あなた「ここはどこなの……？歩いても歩いても、出口が見つからない」
       TransCAT: 당신「여기는 어디다……? 걸어도 걸어도, 출구가 발견되지 않는다」

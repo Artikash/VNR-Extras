@@ -1,4 +1,4 @@
-﻿*14:36 2015/02/27
+﻿*14:53 2015/03/02
 *this is an example of a simple regex script for TAHelper
 *it was made based on ATLAS V14 (+TA) behaviour, might not work on other translation engine
 *basically only for conversation text, so might not work on RPG or games with lots of "status" thing..
@@ -4758,13 +4758,13 @@
 *
 *handling "…" based on some pattern
 *revert masked symbols
-」MS0001「	♪
-」MS0002「	★
-」MS0003「	☆
-」MS0004「	❤
-」MS0005「	－
-」MS0006「	―
-」MS0007「	─
+[。」]MS0001「	♪
+[。」]MS0002「	★
+[。」]MS0003「	☆
+[。」]MS0004「	❤
+[。」]MS0005「	－
+[。」]MS0006「	―
+[。」]MS0007「	─
 *clean up again, limit to 1
 ([★☆♪❤])\1+	$1
 *"…" could act as separator like "。" or as comma "、"

@@ -2,6 +2,65 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+3/11/2015 WED
+  [JBeijing](Chinese, @djz020815)
+  * 更新了djz大先生的J北京词库。
+
+  [TAHScript](English, @riz)
+  * Update TAH script for ATLAS/LEC.
+    The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
+
+  [Machine Translator]
+  * (Russian) Fix translation support for translate.ru , which stopped working.
+
+  * (Chinese) Restore translation support for Youdao.com, since the new translation encoding system
+    for Shared Dictionary can penetrate Youdao now.
+    恢复了对有道在线翻译的支持，由于新的共享辞书的机制可以穿透有道翻译了。
+
+  [Shared Dictionary]
+  * Guest users are no longer allowed to create Prefix/Suffix/Macro/Proxy typed translation rules any more.
+    I feel these typed rules are either dangerous or kind of complicated to understand by new users that
+    most rules in these types submitted by guest are wrong.
+    匿名账户不可以直接提交前缀、后缀、宏，以及新加的代理类型的词条了。
+    因为这些类型的词条一般比较难理解，而要么非常重要，要么很少会被用到。
+
+  * Macros can  be applied to not only the pattern, but also the translation.
+    宏类型的词条可以被应用到替换的翻译中。
+
+  * Macros can also be applied to non-regex terms.
+    The regex option for for macros is no longer locked. But it has NO effect at the moment.
+    If a macro is for representing regex, you can just check that option, to make it more readable.
+    宏类型的词条会被应用到所有的词条上，而不再仅限于正则表达的词条。
+    宏类型词条本身的正则表达的选项可以调整了，但是那个选项当前是没有作用的。
+    不过，如果宏类型词条本身是表达正则表达的，那么做好把那个正则的选项打开，这样可以更readable些。
+
+  * I made some fundamental changes for how to apply Name/Prefix/Suffix/Yomigana/Translation rules.
+    If you are actively using Shared Dictionary, I think it might be helpful to check the following topic:
+
+       http://sakuradite.com/topic/724
+
+    In short, I changed to apply Shared Dictionary in a new grammar similar to VTrans for Chinese.
+    The grammar is basically the same as SynCFG for SMT, except there is no statistical probability and word segmentation.
+    Here are some major advantages:
+    - The new grammar is implemented 10x faster to apply, and use half memory.
+    - It can be used to describe interaction of translation rules.
+    - There is no more issue of garbage digits.
+    - Name translation etc. can be applied in an non-intrusive way with the help of the new mechanism of "translation delegation".
+    - The name translation is now very cheap to implement.
+      Assume there are N names, S suffices, and P prefices, and the time/space complexity to process Name is reduced
+      from O(N*(S+P)) => O(N+S+P).
+      I would suggest to remove series-specific flags for all names that do not have ambiguity.
+
+
+    我修改了共享辞书翻译词条的机制。
+    新的机制采用了和VTrans SMT相同的语法（除了没有概率统计和分词的支持）。
+    如果你经常使用共享辞书，那么非常建议你查看下下边的topic。
+
+       http://sakuradite.com/topic/724
+
+    另外，新的机制下，姓名词条的处理几近完美了，不论是速度、内存、还是翻译质量。
+    如果一个姓名的翻译绝大部分情况下没有歧义，那么我建议就不需要打开【系列专用】的选项了。
+
 3/4/2015 WED
   [Performance]
   * Reduce memory usage when writing large xml/yaml data (games/subtitles/dictionary) to disk.

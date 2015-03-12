@@ -2,6 +2,17 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+3/12/2015 THU
+  [Shared Dictionary]
+  * Set of roles can be represented by, for example, [[m,n,v]], which will match any m,n,v roles.
+    And when there are multiple sets, the role name can be omitted in the translation.
+    For example, all the following rules are equivalent:
+
+       [[m,n]]を[[v]] => [[v]] [[m,n]]
+       [[m,n#1]]を[[v#2]] => [[v#2]] [[m,n#1]]
+       [[m,n#1]]を[[v#2]] => [[#2]] [[#1]]
+       [[m,n#1]]を[[v]] => [[v]] [[#1]]
+
 3/11/2015 WED
   [JBeijing](Chinese, @djz020815)
   * 更新了djz大先生的J北京词库。
@@ -16,6 +27,7 @@ Since 6/18/2011
   * (Chinese) Restore translation support for Youdao.com, since the new translation encoding system
     for Shared Dictionary can penetrate Youdao now.
     恢复了对有道在线翻译的支持，由于新的共享辞书的机制可以穿透有道翻译了。
+    不过有道翻译的质量和百度、J北京是没有办法比的。
 
   [Shared Dictionary]
   * Guest users are no longer allowed to create Prefix/Suffix/Macro/Proxy typed translation rules any more.
@@ -24,7 +36,7 @@ Since 6/18/2011
     匿名账户不可以直接提交前缀、后缀、宏，以及新加的代理类型的词条了。
     因为这些类型的词条一般比较难理解，而要么非常重要，要么很少会被用到。
 
-  * Macros can  be applied to not only the pattern, but also the translation.
+  * Macros can be applied to not only the pattern, but also the translation.
     宏类型的词条可以被应用到替换的翻译中。
 
   * Macros can also be applied to non-regex terms.
@@ -45,12 +57,11 @@ Since 6/18/2011
     - The new grammar is implemented 10x faster to apply, and use half memory.
     - It can be used to describe interaction of translation rules.
     - There is no more issue of garbage digits.
-    - Name translation etc. can be applied in an non-intrusive way with the help of the new mechanism of "translation delegation".
+    - Name translation etc. can be applied in non-intrusive manner with the help of the new mechanism of "translation delegation".
     - The name translation is now very cheap to implement.
       Assume there are N names, S suffices, and P prefices, and the time/space complexity to process Name is reduced
       from O(N*(S+P)) => O(N+S+P).
       I would suggest to remove series-specific flags for all names that do not have ambiguity.
-
 
     我修改了共享辞书翻译词条的机制。
     新的机制采用了和VTrans SMT相同的语法（除了没有概率统计和分词的支持）。

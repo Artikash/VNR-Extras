@@ -8,6 +8,10 @@ Since 6/18/2011
     修正了部分Guilty游戏无法正常提取文本的问题。
     感谢@jessecf sama的报告！
 
+  [Performance]
+  * Reduce memory usage by half to show and edit Shared Dictionary entries.
+    减少了浏览和编辑共享辞书时的内存。
+
 3/12/2015 THU
   [Shared Dictionary]
   * Set of roles can be represented by, for example, [[m,n,v]], which will match any m,n,v roles.

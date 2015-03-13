@@ -2,6 +2,12 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+3/13/2015 FRI
+  [Game Engine]
+  * Add alternative ShinaRio engine for Guilty games as reported by @jessecf sama.
+    修正了部分Guilty游戏无法正常提取文本的问题。
+    感谢@jessecf sama的报告！
+
 3/12/2015 THU
   [Shared Dictionary]
   * Set of roles can be represented by, for example, [[m,n,v]], which will match any m,n,v roles.

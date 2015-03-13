@@ -8,10 +8,18 @@ Since 6/18/2011
     And when there are multiple sets, the role name can be omitted in the translation.
     For example, all the following rules are equivalent:
 
-       [[m,n]]を[[v]] => [[v]] [[m,n]]
-       [[m,n#1]]を[[v#2]] => [[v#2]] [[m,n#1]]
-       [[m,n#1]]を[[v#2]] => [[#2]] [[#1]]
-       [[m,n#1]]を[[v]] => [[v]] [[#1]]
+      [[m,n]]を[[v]] => [[v]] [[m,n]]
+      [[m,n#1]]を[[v#2]] => [[v#2]] [[m,n#1]]
+      [[m,n#1]]を[[v#2]] => [[#2]] [[#1]]
+      [[m,n#1]]を[[v]] => [[v]] [[#1]]
+
+    And if there is only one role, the role names in the translation can be omit.
+    For example, all the following rules are equivalent:
+
+      [[m,n]]の => [[m,n]]'s
+      [[m,n#1]]の => [[m,n#1]]'s
+      [[m,n#1]]の => [[#1]]'s
+      [[m,n#1]]の => [[]]'s
 
 3/11/2015 WED
   [JBeijing](Chinese, @djz020815)

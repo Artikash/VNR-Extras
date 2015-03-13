@@ -22,6 +22,10 @@ Since 6/18/2011
       [[m,n#1]]の => [[]]'s
       [[m,n]]の => [[]]'s
 
+  [Game Engine]
+  * Update Malie engine so that it won't crash「シルヴァリオ ヴェンデッタ」.
+    修正了「シルヴァリオ ヴェンデッタ」提取文本可能会崩溃的问题。
+
 3/11/2015 WED
   [JBeijing](Chinese, @djz020815)
   * 更新了djz大先生的J北京词库。

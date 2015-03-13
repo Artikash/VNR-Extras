@@ -9,6 +9,8 @@ Since 6/18/2011
     感谢@jessecf sama的报告！
 
   [Performance]
+  * Reduce memory usage to process subtitles and danmaku.
+
   * Reduce memory usage by half to show and edit Shared Dictionary entries.
     减少了浏览和编辑共享辞书时的内存。
 

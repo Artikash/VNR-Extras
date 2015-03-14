@@ -14,6 +14,20 @@ Since 6/18/2011
   * Reduce memory usage by half to show and edit Shared Dictionary entries.
     减少了浏览和编辑共享辞书时的内存。
 
+  [Machine Translator](Chinese)
+  * 修正了百度翻译无法正常进行的问题。
+    由于金山在线翻译无法正常运作，改为使用百度翻译的API了。
+
+  ps.
+    VNR以前在调用百度翻译时，其实都是调用金山在线翻译的API来进行的。
+    因为以前profile过，金山服务器的翻译速度比百度翻译要快，而且在很短时间内连续翻译时，不会被屏蔽。
+
+    然后今天看到有同学抱怨说百度翻译不能用了。
+    刚刚在测试金山的翻译，先是发现短时间内快速提交翻译会503的错误。
+    然后到了北京时间11点左右，变成根本无法访问金山翻译的页面了。
+    wget http://jp.iciba.com 会得到 Back-end server is at capacity 的错误讯息。
+    于是我有种错觉，金山翻译的服务器是不是因为VNR使用者的大量翻译请求给弄掉的。。。
+
 3/12/2015 THU
   [Shared Dictionary]
   * Set of roles can be represented by, for example, [[m,n,v]], which will match any m,n,v roles.

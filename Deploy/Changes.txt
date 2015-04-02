@@ -10,10 +10,6 @@ Since 6/18/2011
   * Update TAH script for ATLAS/LEC.
     The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
 
-  [Game Engine]
-  * Update Malie engine to correctly capture text annotated with furigana.
-    修正了light的游戏可能无法提取到带振仮名的文字的问题。
-
 3/14/2015 SAT
   [Game Engine]
   * Update Malie engine to correctly capture text annotated with furigana.

@@ -2,6 +2,15 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+4/3/2015 FRI
+  [Shared Dictionary]
+  * Yomigana rules will also be used to generate names for Chinese translation.
+    读法词条的匹配的文本会被用于生成日中姓名的翻译。
+    比方说，给定：悠真 => ゆうま
+    那么VNR会对【悠真】做日中汉字的变换来生成姓名，而【ゆうま】的读音会被忽略掉。
+    VNR仅会为pattern只包含汉字和ヶ等特殊字符的读法词条生成翻译。
+    由于历史原因，共享辞书中有大量的读法词条。这样可以减少辞书中重复定义的姓名。
+
 4/2/2015 THU
   [JBeijing](Chinese, @djz020815)
   * 更新了djz大先生的J北京词库。
@@ -9,6 +18,10 @@ Since 6/18/2011
   [TAHScript](English, @riz)
   * Update TAH script for ATLAS/LEC.
     The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
+
+  [UI]
+  * Remove the option to change global UI font in Preferences.
+    删掉了【使用偏好】中修改界面字体的选项。
 
 3/14/2015 SAT
   [Game Engine]

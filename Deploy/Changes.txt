@@ -3,7 +3,7 @@ Visual Novel Reader
 Since 6/18/2011
 
 4/3/2015 FRI
-  [Shared Dictionary]
+  [Shared Dictionary](Chinese)
   * Yomigana rules will also be used to generate names for Chinese translation.
     读法词条的匹配的文本会被用于生成日中姓名的翻译。
     比方说，给定：悠真 => ゆうま

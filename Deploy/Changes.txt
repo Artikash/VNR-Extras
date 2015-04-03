@@ -17,6 +17,10 @@ Since 6/18/2011
     如果姓名词条和读法词条同时存在，那么姓名词条会override掉读法词条。
     由于历史原因，共享辞书中有大量的读法词条。这样可以减少辞书中重复定义的姓名。
 
+  [Game Engine]
+  * Fix the issue in Malie engine to make sure texts are extracted sentence-by-sentence in 「シルヴァリオ ヴェンデッタ」.
+    修正了「シルヴァリオ ヴェンデッタ」提取文本时断句错误的问题。
+
 4/2/2015 THU
   [JBeijing](Chinese, @djz020815)
   * 更新了djz大先生的J北京词库。

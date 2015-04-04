@@ -29,7 +29,7 @@ Since 6/18/2011
     logging is disabled for better performance, and building system changed to CMake (I am a Visual Studio hater).
     It might also allow me to compile Share Dictionary rules to Ehnd dictionary in the future.
     But currently, there is NO difference for how the Ehnd scripts are applied.
-    So, it is OK to set up your manual Ehnd, which will act the same way as VNR's Ehnd mod.
+    So, it is OK to set up manual Ehnd if you like, which will act the same way as VNR's Ehnd mod.
 
     Special thanks to @otromonde sensei's extensive help on this topic!
 

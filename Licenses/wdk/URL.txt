@@ -1,0 +1,7 @@
+WinDDK 7.1
+http://www.microsoft.com/en-us/download/details.aspx?displaylang=en&id=11800
+C:\WinDDK\7600.16385.1
+
+Windows SDK 7.1
+http://www.microsoft.com/en-us/download/details.aspx?id=8279
+C:\Program Files\Microsoft SDKs\Windows\v7.1

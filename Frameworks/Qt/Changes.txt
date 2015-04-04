@@ -1,0 +1,26 @@
+// Changes
+// jichi 12/2/2012
+// Qt 4.8.5
+
+All Qt dlls are distributed except:
+- DLL: QtCLucene4.dll, QtDesigner4.dll, QtDesignerComponents4.dll, QtHelp4.dll, QtOpenGL4.dll, QtScriptTools4.dll, QtTest4.dll
+- Plugin: sqldrivers
+
+// jichi 2/23/2014: QtDesktop
+TableView.qml: Add following functinos
+
+function positionViewAtBeginning() { tree.positionViewAtBeginning() }
+function positionViewAtEnd() { tree.positionViewAtEnd() }
+
+// jichi 12/2/2012: Build PySide
+https://github.com/PySide/pyside-setup
+https://pypi.python.org/pypi/PySide#installing-pyside
+
+pip install PySide --install-option="--openssl=C:\dev\OpenSSL\1.0.0j\bin" --install-option="--qmake=C:\\Qt\\4.8.5\\bin\\qmake.exe"
+require cmake, #libxml
+
+To get shiboken, first, manually download PySide tar
+Then
+python setup.py build --openssl=C:\dev\OpenSSL\1.0.0j\bin --qmake=C:\\Qt\\4.8.5\\bin\\qmake.exe
+
+// EOF

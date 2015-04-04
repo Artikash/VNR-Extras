@@ -1,0 +1,2 @@
+http://opencc.byvoid.com
+https://github.com/BYVoid/OpenCC

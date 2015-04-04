@@ -1,0 +1,5 @@
+Source: https://github.com/sokcuri/ehnd
+Dictionary 2015/04: http://sokcuri.neko.kr/220301117949
+Binary v3: http://blog.naver.com/waltherp38/220267098421
+Tutorial: http://blog.naver.com/waltherp38/220286266694
+License GPLv3: http://www.gnu.org/licenses/gpl.txt

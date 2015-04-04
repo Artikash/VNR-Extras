@@ -2,19 +2,28 @@
 
 For Mac OS X support, Library/Readme (Mac).txt might be helpful.
 
-If VNR is corrupted and you would like to re-download VNR on Windows 7 or above,
-you can simply execute the following script in Command Prompt:
-
-    @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('http://sakuradite.org/reader.ps1'))"
-
-Alternatively, can get a recent version of VNR on Google Drive and manually update to the latest version:
-
+If you have problem to update VNR, you can get a recent version at Google Drive:
     http://goo.gl/t31MqY
+Or:
+    https://drive.google.com/folderview?id=0B3YXxE6u-4bzc1RKWHpoLWZROTQ
 
-如果你需要安装或重新安装新的VNR，那么直接把上面的那行@powershell开头的命令粘贴到Command Prompt里执行下就好了。
-如果你暂时居住在大陆地区，那么最好使用这种方法来下载VNR。
-因为在Google Code上的安装程序在某些地方会被屏蔽。
-这个命令只对Windows 7/8有效，在Windows XP上无法工作。
+Recent changes can be found here:
+    http://sakuradite.com/app/vnr/changes
+
+如果Google无法访问，你也可以在这里下载一个最近的版本：
+    https://mega.co.nz/#F!g00SQJZS!pm3bAcS6qHotPzJQUT596Q
+
+最近的变更可以在下边找到：
+    http://sakuradite.com/app/vnr/changes
+
+Here are some tutorial videos made by @Sakimichi sama (http://sakimichi.wordpress.com) that might be helpful:
+- Part 1. How to install Visual Novel Reader: http://www.youtube.com/watch?v=9HvSy_gJQcY
+- Part 2. Basic Visual Novel Reade: http://www.youtube.com/watch?v=5LJ5RN1GLIw
+
+这里是@飘渺笑 sama (http://tieba.baidu.com/home/main?un=%C6%AE%C3%EC%D0%A6) 录制的关于VNR基本使用的动画，也许可以帮上忙：
+- Part 1. VNR的下载和安装: http://www.tudou.com/programs/view/veoeFfX8sfU
+- Part 2. 游戏的转区和启动: http://www.tudou.com/programs/view/se9NocFZU_4
+- Part 3. VNR的具体使用: http://www.tudou.com/programs/view/8iuDdiJHGn0
 
 RELEASE NOTE
 
@@ -36,19 +45,24 @@ INSTALL
 Not required.
 
 UNINSTALL
-Trash this folder, and delete the following:
+Either run the following Scripts:
+
+    Scripts/Remove VNR Profiles.cmd
+    Scripts/Remove VNR Settings.reg
+
+Or manually trash the following folder and registry entry:
 - In explorer:  %APPDATA%/org.sakuradite.reader
 - In regedit:   HKCU/Software/sakuradite.org/reader
 
 DEBUG
-- Library/Debug Reader: you can get the debug output of VNR
-- Library/Debug Update: you can get the debug output of Update
-- Library/Kill Reader: if VNR hangs, you can use this script to kill VNR
+- Scripts/Visual Novel Reader (Debug): you can get the debug output of VNR
+- Scripts/Update (Debug): you can get the debug output of Update
+- Scripts/Kill Python: if VNR hangs, you can use this script to kill VNR
 
 UPDATE
 - Just launch Update.exe. Internet access is needed.
 
-- If Update.exe does not work for you, please try "Update/Debug Update.cmd"
+- If Update.exe does not work for you, please try "Scripts/Update (Debug).cmd"
 
 - If you have difficulties to get the apps by updating, please try this:
       http://sakuradite.org/reader.7z
@@ -117,19 +131,24 @@ You can also find them in Preferences/Locations.
 不需要。
 
 【卸载】
-删除这个文件夹，然后清理下面的地方：
+可以执行如下脚本：
+
+    Scripts/Remove VNR Profiles.cmd
+    Scripts/Remove VNR Settings.reg
+
+或者手动删除这个文件夹以及注册表：
 - 资源管理器：       %APPDATA%/org.sakuradite.reader
 - 注册表(regedit）： HKCU/Software/sakuradite.org/reader
 
 【调试】
-- Library/Debug Reader: 你可以使用这个脚本来得到VNR的调试信息
-- Library/Debug Update: 你可以使用这个脚本来得到更新的调试信息
-- Library/Kill Reader: 如果VNR卡住了，你可以用这个脚本来杀掉VNR
+- Scripts/Visual Novel Reader (Debug): 你可以使用这个脚本来得到VNR的调试信息
+- Scripts/Update (Debug): 你可以使用这个脚本来得到更新的调试信息
+- Scripts/Kill Python: 如果VNR卡住了，你可以用这个脚本来杀掉VNR
 
 【更新】
 - 在有网络连接时，直接运行Update.exe就可以了。
 
-- 如果Update.exe不能正常工作，可以尝试Update/Debug Update.cmd。
+- 如果Update.exe不能正常工作，可以尝试Scripts/Update (Debug).cmd。
 
 - 如果实在是不可以，你可以从这里下载：
     http://sakuradite.org/reader.7z
@@ -137,7 +156,7 @@ You can also find them in Preferences/Locations.
 
 【常见问题】
 - 如果你无法启动VNR，通常是因为32位的msvc没有安装。
-  运行Library/Debug Reader.cmd也许会帮助你找到问题的原因。
+  运行Scripts/Visual Novel Reader (Debug).cmd也许会帮助你找到问题的原因。
   如果实在无法启动，你也可以通过邮件可以向我抱怨！
 
 - 关于UAC（用户权限），VNR和ITH不同，通常不需要管理员的权限来执行。

@@ -1,0 +1,2 @@
+http://slproweb.com/products/Win32OpenSSL.html
+Version: 1.0.0j

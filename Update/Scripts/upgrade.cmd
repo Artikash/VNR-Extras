@@ -16,6 +16,7 @@ if not exist .hgignore (
 )
 
 ::            1         2         3         4         5         6         7
+echo.
 echo ----------------------------------------------------------------------
 echo                         Updating Frameworks ...
 echo ----------------------------------------------------------------------
@@ -38,34 +39,34 @@ pushd Frameworks
 
 if not exist Python/.hgignore (
   rm -Rf Python
-  echo hg %HG_OPT% clone http://%REPO_HOST%/hg/vnr-python Python
-  hg %HG_OPT% clone http://%REPO_IP%/hg/vnr-python Python
+  echo hg clone http://%REPO_HOST%/hg/vnr-python Python
+  %HG% clone http://%REPO_IP%/hg/vnr-python Python
 ) else  (
   pushd Python
   echo hg pull -f ^&^& hg up -C default
-  hg %HG_OPT% pull -f && hg %HG_OPT% up -C default
+  %HG% pull -f && %HG% up -C default
   popd
 )
 
 if not exist EB/.hgignore (
   rm -Rf EB
-  echo hg %HG_OPT% clone http://%REPO_HOST%/hg/eb EB
-  hg %HG_OPT% clone http://%REPO_IP%/hg/eb EB
+  echo hg clone http://%REPO_HOST%/hg/eb EB
+  %HG% clone http://%REPO_IP%/hg/eb EB
 ) else  (
   pushd EB
   echo hg pull -f ^&^& hg up default
-  hg %HG_OPT% pull -f && hg %HG_OPT% up default
+  %HG% pull -f && %HG% up default
   popd
 )
 
 if not exist Sakura/.hgignore (
   rm -Rf Sakura
-  echo hg %HG_OPT% clone http://%REPO_HOST%/hg/vnr-sakura Sakura
-  hg %HG_OPT% clone http://%REPO_IP%/hg/stream-sakura Sakura
+  echo hg clone http://%REPO_HOST%/hg/vnr-sakura Sakura
+  %HG% clone http://%REPO_IP%/hg/stream-sakura Sakura
 ) else  (
   pushd Sakura
   echo hg pull -f ^&^& hg up default
-  hg %HG_OPT% pull -f && hg %HG_OPT% up default
+  %HG% pull -f && %HG% up default
   popd
 )
 
@@ -91,18 +92,20 @@ for %%i in (
 )
 
 ::            1         2         3         4         5         6         7
+echo.
 echo ----------------------------------------------------------------------
-echo                    Updating EDICT if out of date ...
+echo                     Update EDICT if out of date ...
 echo ----------------------------------------------------------------------
 
 set PATH=%CD%/Frameworks/Python;%PATH%
 
 if exist ../Caches/Dictionaries/EDICT/edict.db (
   if exist Frameworks/Sakura/py/scripts/getedict.py (
-    python Frameworks/Sakura/py/scripts/getedict.py
+    python -B Frameworks/Sakura/py/scripts/getedict.py
 ))
 
 ::            1         2         3         4         5         6         7
+echo.
 echo ----------------------------------------------------------------------
 echo                        Repairing permissions ...
 echo ----------------------------------------------------------------------
@@ -110,47 +113,68 @@ echo ----------------------------------------------------------------------
 :: Remove *.pyc and *.pyo. Ignore errors.
 ::echo.
 ::echo update: removing python byte code ...
-::del /s /q /f *.pyc *.pyo
+>nul 2>nul del /s /q /f *.pyc *.pyo
+
 ::
 ::echo update: touching python source code ...
 ::for /f "tokens=* delims=|" %%i in ('dir /s /b *.py') do touch "%%~i"
 
 rm -f Frameworks/Python/GPS.txt
+rm -Rf Dictionaries/JBeijing
 
 for %%i in (
     . ^
     Caches ^
-    Scripts^
+    Scripts ^
   ) do (
   if exist Deploy/%%i (
-    if not exist ../%%i mkdir ../%i
-    cp Deploy/%%i/* ../%i/
+    if not exist ../%%i mkdir ..\%%i
+    >nul 2>nul copy /y Deploy\%%i\* ..\%%i\
 
-    if exist ../%i (
-      pushd ..\%i
+    if exist ../%%i (
+      pushd ..\%%i
 
       attrib +r +s .
       if exist desktop.ini attrib +h +s desktop.ini
 
       if exist icon.ico attrib +h icon.ico
-      if exist .hg attrib +h .hg
-      if exist .hgignore attrib +h .hgignore
 
       popd
 )))
 
-if exist Library/%REPO_SIG% attrib +h Library/%REPO_SIG%
-if exist Caches attrib +r +s Caches
+attrib -h *.cmd
 
-attrib +h *Mac*
+if exist *.sh attrib +h *.sh
+if exist "Visual Novel Reader (Mac).app" attrib +h "Visual Novel Reader (Mac).app"
+
+attrib +r +s .
+if exist desktop.ini attrib +h +s desktop.ini
+if exist icon.ico attrib +h icon.ico
+if exist .hg attrib +h .hg
+if exist .hgignore attrib +h .hgignore
+
+if exist ../Scripts copy /y *.cmd ..\Scripts\ >nul
+
+attrib +h *.cmd
+
+:: Backward compatibility
+rm -f ^
+  "../Scripts/Debug Browser.cmd" ^
+  "../Scripts/Debug Update.cmd" ^
+  "../Scripts/Debug VNR.cmd" ^
+  "../Scripts/Kill VNR.cmd"
 
 ::            1         2         3         4         5         6         7
+echo.
 echo ----------------------------------------------------------------------
 echo                           Update complete!
 echo ----------------------------------------------------------------------
 
 :: leave Library
 cd ..
-if exist Changes.txt notepad Changes.txt
+::if exist Changes.txt start notepad Changes.txt
+if exist Changes.txt explorer Changes.txt
+
+echo.
 
 :: EOF

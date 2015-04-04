@@ -32,7 +32,7 @@ tskill hg 2>nul
 ::tskill wget
 
 echo hg pull -f ^&^& hg up -C default
-hg %HG_OPT% pull -f && hg %HG_OPT% up -C default
+%HG% pull -f && %HG% up -C default
 
 if exist Update/Scripts/upgrade.cmd call Update/Scripts/upgrade.cmd
 

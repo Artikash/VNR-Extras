@@ -1,0 +1,2 @@
+http://people.csail.mit.edu/hubert/pyaudio/
+http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio

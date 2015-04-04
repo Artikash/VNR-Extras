@@ -16,8 +16,9 @@ set(ehnd_SOURCES
 )
 
 set(ehnd_LIBRARIES
-  ${Boost_REGEX_LIBRARY} # not working properly on Windows
-  psapi winmm
+  ${Boost_REGEX_LIBRARY}
+  psapi # needed in VC 2010, not needed inferred by defaultlib in 2013
+  winmm
 )
 
 set(ehnd_DEF ${CMAKE_CURRENT_LIST_DIR}/ehnd.def) # exported functions to linker
@@ -35,6 +36,7 @@ set(LIB_TYPE SHARED)
 add_library(ehnd ${LIB_TYPE} ${ehnd_SOURCES})
 target_link_libraries(ehnd ${ehnd_LIBRARIES})
 
+# Copy dll to bin directory
 install(TARGETS ehnd RUNTIME
   DESTINATION bin
   CONFIGURATIONS Release

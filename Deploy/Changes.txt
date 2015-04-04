@@ -23,7 +23,7 @@ Since 6/18/2011
         Binary: http://blog.naver.com/waltherp38/220267098421
         Dictionary: http://sokcuri.neko.kr/220301117949
 
-    I modified the source code of Ehnd to be better integrate with VNR, and the source code is as follows:
+    I modified the source code of Ehnd to better integrate with VNR, and the source code is as follows:
         https://github.com/jichifly/ehnd-vnr
     For example, it does not require msvc2013 to be installed, hooking to eztrans is changed to be non-intrusive,
     logging is disabled for better performance, and building system changed to CMake (I am a Visual Studio hater).

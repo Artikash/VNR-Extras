@@ -5,6 +5,7 @@ watch *watch::m_pThis = NULL;
 std::vector<std::wstring> fileList;
 
 watch::watch()
+  : bWatch(true)
 {
   m_pThis = this;
 

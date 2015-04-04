@@ -7,13 +7,14 @@ PREFIX_DIR = install
 
 # Temporary files to put build files
 ifeq ($(OS),Windows_NT)
-  BOOST_HOME = z:/local/windows/developer/boost/build-12
+  BOOST_HOME = z:/local/windows/developer/boost/build
 else
   BOOST_HOME = $(HOME)/opt/boost
 endif
 
 # Tool chain
-CMAKE_GENERATOR = Visual Studio 12 2013
+#CMAKE_GENERATOR = Visual Studio 12 2013
+CMAKE_GENERATOR = Visual Studio 10 2010
 
 all: compile
 	@echo targets: compile clean

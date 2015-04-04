@@ -1,16 +1,6 @@
 #include "stdafx.h"
 #include "config.h"
 
-config::config()
-{
-  wcscpy_s(cfg_console_fontname, L"±¼¸²");
-}
-
-
-config::~config()
-{
-}
-
 bool config::LoadConfig()
 {
   wchar_t INIPath[MAX_PATH], buf[255];

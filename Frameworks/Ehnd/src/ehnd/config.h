@@ -22,7 +22,8 @@ class config
   int cfg_filelog_size,
       cfg_console_maxline,
       cfg_console_fontsize;
-  wchar_t cfg_console_fontname[255];
+  wchar_t cfg_console_fontname[255],
+          cfg_dic_path[MAX_PATH];
 
 public:
   ~config() {}
@@ -47,6 +48,7 @@ public:
     , cfg_console_fontsize(12)
   {
     wcscpy_s(cfg_console_fontname, L"굴림");
+    wcscpy_s(cfg_dic_path, L"ehnd"); // jichi 4/4/2015: backward compatible with existing Ehnd layout
   }
 
   bool LoadConfig();
@@ -102,6 +104,9 @@ public:
 
   wchar_t *GetConsoleFontName() { return cfg_console_fontname; }
   void SetConsoleFontName(wchar_t *str) { wcscpy_s(cfg_console_fontname, str); }
+
+  LPCWSTR GetDicPath() const { return cfg_dic_path; }
+  void SetDicPath(LPCWSTR v) { wcscpy_s(cfg_dic_path, v); }
 
   int GetConsoleMaxLine() { return cfg_console_maxline; }
   void SetConsoleMaxLine(int n) { cfg_console_maxline = n; }

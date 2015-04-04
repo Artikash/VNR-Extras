@@ -39,17 +39,15 @@ bool filter::load_dic()
 
 bool filter::pre_load()
 {
-  WCHAR lpEztPath[MAX_PATH];
   WIN32_FIND_DATA FindFileData;
   FILTERSTRUCT fs;
-  wstring Path;
 
   DWORD dwStart, dwEnd;
   dwStart = GetTickCount();
 
-  GetLoadPath(lpEztPath, MAX_PATH);
-  Path = lpEztPath;
-  Path += L"\\Ehnd\\PreFilter*.txt";
+  // jichi 4/4/2015: Do not hardcode ehnd directory name
+  std::wstring dicpath = GetEhndDicPath() + L"\\",
+               Path = dicpath + L"PreFilter*.txt";
 
   int pre_line = 1;
 
@@ -63,8 +61,8 @@ bool filter::pre_load()
     else if (FindFileData.dwFileAttributes == FILE_ATTRIBUTE_DIRECTORY)
       continue;
 
-    Path = lpEztPath;
-    Path += L"\\Ehnd\\";
+    // jichi 4/4/2015: Do not hardcode ehnd directory name
+    Path = dicpath;
 
     filter_load(Filter, Path.c_str(), FindFileData.cFileName, PREFILTER, pre_line);
 
@@ -86,17 +84,15 @@ bool filter::pre_load()
 
 bool filter::post_load()
 {
-  WCHAR lpEztPath[MAX_PATH];
   WIN32_FIND_DATA FindFileData;
   FILTERSTRUCT fs;
-  wstring Path;
 
   DWORD dwStart, dwEnd;
   dwStart = GetTickCount();
 
-  GetLoadPath(lpEztPath, MAX_PATH);
-  Path = lpEztPath;
-  Path += L"\\Ehnd\\PostFilter*.txt";
+  // jichi 4/4/2015: Do not hardcode ehnd directory name
+  std::wstring dicpath = GetEhndDicPath() + L"\\",
+               Path = dicpath + L"PostFilter*.txt";
 
   int post_line = 1;
 
@@ -110,8 +106,8 @@ bool filter::post_load()
     else if (FindFileData.dwFileAttributes == FILE_ATTRIBUTE_DIRECTORY)
       continue;
 
-    Path = lpEztPath;
-    Path += L"\\Ehnd\\";
+    // jichi 4/4/2015: Do not hardcode ehnd directory name
+    Path = dicpath;
 
     filter_load(Filter, Path.c_str(), FindFileData.cFileName, POSTFILTER, post_line);
 
@@ -133,17 +129,15 @@ bool filter::post_load()
 
 bool filter::skiplayer_load()
 {
-  WCHAR lpEztPath[MAX_PATH];
   WIN32_FIND_DATA FindFileData;
   FILTERSTRUCT fs;
-  wstring Path;
 
   DWORD dwStart, dwEnd;
   dwStart = GetTickCount();
 
-  GetLoadPath(lpEztPath, MAX_PATH);
-  Path = lpEztPath;
-  Path += L"\\Ehnd\\SkipLayer*.txt";
+  // jichi 4/4/2015: Do not hardcode ehnd directory name
+  std::wstring dicpath = GetEhndDicPath() + L"\\",
+               Path = dicpath + L"SkipLayer*.txt";
 
   int skiplayer_line = 1;
 
@@ -157,8 +151,8 @@ bool filter::skiplayer_load()
     else if (FindFileData.dwFileAttributes == FILE_ATTRIBUTE_DIRECTORY)
       continue;
 
-    Path = lpEztPath;
-    Path += L"\\Ehnd\\";
+    // jichi 4/4/2015: Do not hardcode ehnd directory name
+    Path = dicpath;
 
     skiplayer_load2(_SkipLayer, Path.c_str(), FindFileData.cFileName, skiplayer_line);
 
@@ -179,16 +173,14 @@ bool filter::skiplayer_load()
 }
 bool filter::userdic_load()
 {
-  WCHAR lpEztPath[MAX_PATH];
   WIN32_FIND_DATA FindFileData;
-  wstring Path;
 
   DWORD dwStart, dwEnd;
   dwStart = GetTickCount();
 
-  GetLoadPath(lpEztPath, MAX_PATH);
-  Path = lpEztPath;
-  Path += L"\\Ehnd\\UserDict*.txt";
+  // jichi 4/4/2015: Do not hardcode ehnd directory name
+  std::wstring dicpath = GetEhndDicPath() + L"\\",
+               Path = dicpath + L"UserDict*.txt";
 
   int userdic_line = 1;
   UserDic.clear();
@@ -207,8 +199,8 @@ bool filter::userdic_load()
     else if (FindFileData.dwFileAttributes == FILE_ATTRIBUTE_DIRECTORY)
       continue;
 
-    Path = lpEztPath;
-    Path += L"\\Ehnd\\";
+    // jichi 4/4/2015: Do not hardcode ehnd directory name
+    Path = dicpath;
 
     userdic_load2(Path.c_str(), FindFileData.cFileName, userdic_line);
 
@@ -242,7 +234,8 @@ bool filter::jkdic_load(int &g_line)
   DWORD dwStart, dwEnd;
   dwStart = GetTickCount();
 
-  GetLoadPath(lpEztPath, MAX_PATH);
+  // jichi 4/4/2015: Use eztr directory
+  GetEztrPath(lpEztPath, MAX_PATH);
   Path = lpEztPath;
   Path += L"\\Dat\\UserDict.jk";
 

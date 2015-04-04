@@ -10,14 +10,14 @@ set(ehnd_SOURCES
   ehnd.cpp
   filter.cpp
   hook.cpp
-  log.cpp
-  stdafx.cpp
   watch.cpp
+  #stdafx.cpp
+  #log.cpp
 )
 
 set(ehnd_LIBRARIES
   ${Boost_REGEX_LIBRARY} # not working properly on Windows
-  winmm
+  psapi winmm
 )
 
 set(ehnd_DEF ${CMAKE_CURRENT_LIST_DIR}/ehnd.def) # exported functions to linker

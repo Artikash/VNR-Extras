@@ -10,7 +10,9 @@ private:
   static watch *m_pThis;
   HANDLE hWatchThread;
 
-  bool bWatch = true;
+  // jichi 4/4/2015: Modified to support msvc10
+  //bool bWatch = true;
+  bool bWatch;
 
   DWORD _NotifyThread(LPVOID lpParam);
   MMRESULT _NotifyProc(UINT m_nTimerID, UINT uiMsg, DWORD dwUser, DWORD dw1, DWORD d2);

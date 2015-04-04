@@ -1,32 +1,59 @@
 #pragma once
+#include <windows.h>
+
 class config
 {
-private:
-  bool firstInit = true;
+  // jichi 4/4/2015: Modified to support msvc10
+  bool firstInit,
+       cfg_prefilter_switch,
+       cfg_postfilter_switch,
+       cfg_userdic_switch,
+       cfg_jkdic_switch,
+       cfg_ehndwatch_switch,
+       cfg_command_switch,
+       cfg_log_detail,
+       cfg_log_time,
+       cfg_log_skiplayer,
+       cfg_log_userdic,
+       cfg_filelog_switch,
+       cfg_filelog_eztrans_loc,
+       cfg_filelog_startup_clear,
+       cfg_console_switch;
+  int cfg_filelog_size,
+      cfg_console_maxline,
+      cfg_console_fontsize;
+  wchar_t cfg_console_fontname[255],
+          cfg_dic_path[MAX_PATH];
 
-  bool cfg_prefilter_switch = true;
-  bool cfg_postfilter_switch = true;
-  bool cfg_userdic_switch = true;
-  bool cfg_jkdic_switch = true;
-  bool cfg_ehndwatch_switch = true;
-  bool cfg_command_switch = true;
-  bool cfg_log_detail = true;
-  bool cfg_log_time = true;
-  bool cfg_log_skiplayer = true;
-  bool cfg_log_userdic = true;
-  bool cfg_filelog_switch = false;
-  int cfg_filelog_size = 300;
-  bool cfg_filelog_eztrans_loc = true;
-  bool cfg_filelog_startup_clear = true;
-  bool cfg_console_switch = true;
-  int cfg_console_maxline = 300;
-  wchar_t cfg_console_fontname[255];
-  int cfg_console_fontsize = 12;
 public:
-  config();
-  ~config();
   bool LoadConfig();
   bool SaveConfig();
+
+  ~config() {}
+  config()
+    : firstInit(true)
+    , cfg_prefilter_switch(true)
+    , cfg_postfilter_switch(true)
+    , cfg_userdic_switch(true)
+    , cfg_jkdic_switch(true)
+    , cfg_ehndwatch_switch(true)
+    , cfg_command_switch(true)
+    , cfg_log_detail(true)
+    , cfg_log_time(true)
+    , cfg_log_skiplayer(true)
+    , cfg_log_userdic(true)
+    , cfg_filelog_switch(false)
+    , cfg_filelog_eztrans_loc(true)
+    , cfg_filelog_startup_clear(true)
+    , cfg_filelog_size(300)
+    , cfg_console_switch(true)
+    , cfg_console_maxline(300)
+    , cfg_console_fontsize(12)
+  {
+    wcscpy_s(cfg_console_fontname, L"굴림");
+    wcscpy_s(cfg_dic_path, L"ehnd"); // jichi 4/4/2015: backward compatible with existing Ehnd layout
+    LoadConfig(); // jichi 4/4/2015: Otherwise, this function might not be invoked. No idea why
+  }
 
   bool ReadINI(const wchar_t *key, const wchar_t *section, wchar_t *buf, wchar_t *file);
   bool WriteINI(const wchar_t *key, const wchar_t *section, wchar_t *buf, wchar_t *file);
@@ -78,6 +105,9 @@ public:
 
   wchar_t *GetConsoleFontName() { return cfg_console_fontname; }
   void SetConsoleFontName(wchar_t *str) { wcscpy_s(cfg_console_fontname, str); }
+
+  LPCWSTR GetDicPath() const { return cfg_dic_path; }
+  void SetDicPath(LPCWSTR v) { wcscpy_s(cfg_dic_path, v); }
 
   int GetConsoleMaxLine() { return cfg_console_maxline; }
   void SetConsoleMaxLine(int n) { cfg_console_maxline = n; }

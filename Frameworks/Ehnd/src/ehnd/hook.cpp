@@ -40,12 +40,11 @@ bool hook()
 
   GetLoadPath(lpEztPath, MAX_PATH);
 
-  wcscpy_s(lpDllPath, lpEztPath);
-  wcscat_s(lpDllPath, L"\\j2kengine.dlx");
-  hDll = LoadLibrary(lpDllPath);
+  // jichi 4/4/2015: Dynamically get j2kengine.dlx location
+  hDll = GetEztrModule();
   if (!hDll)
   {
-    MessageBox(0, L"J2KEngine.dlx Load Failed", L"EzTransHook", MB_ICONERROR);
+    MessageBox(0, L"J2KEngine Load Failed", L"EzTransHook", MB_ICONERROR);
     return false;
   }
 
@@ -54,7 +53,7 @@ bool hook()
     apfnEzt[i] = GetProcAddress(hDll, aEztFunction[i]);
     if (!apfnEzt[i])
     {
-      MessageBox(0, L"J2KEngine.dlx Function Load Failed", L"EzTransHook", MB_ICONERROR);
+      MessageBox(0, L"J2KEngine Function Load Failed", L"EzTransHook", MB_ICONERROR);
       return false;
     }
   }
@@ -87,8 +86,9 @@ bool hook()
 
 int search_ptn(LPWORD ptn, size_t ptn_size, LPBYTE *addr)
 {
-  HMODULE hDll = GetModuleHandle(L"j2kengine.dlx");
-  if (hDll == NULL) MessageBox(0, L"J2KEngine.dlx Load Failed", L"", 0);
+  // jichi 4/4/2015: Dynamically get j2kengine.dlx location
+  HMODULE hDll = GetEztrModule();
+  if (hDll == NULL) MessageBox(0, L"J2KEngine Load Failed", L"", 0);
 
   MODULEINFO dllInfo;
   GetModuleInformation(GetCurrentProcess(), hDll, &dllInfo, sizeof(dllInfo));

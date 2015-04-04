@@ -1,21 +1,17 @@
 #include "stdafx.h"
 #include "config.h"
 
-config::config()
-{
-  wcscpy_s(cfg_console_fontname, L"±¼¸²");
-}
-
-
-config::~config()
-{
-}
-
 bool config::LoadConfig()
 {
   wchar_t INIPath[MAX_PATH], buf[255];
-  GetLoadPath(INIPath, MAX_PATH);
-  wcscat_s(INIPath, L"\\Ehnd\\ehnd_conf.ini");
+  // jichi 4/4/2015: do not hardcode ehnd.ini file name
+  ::GetModuleBaseName(INIPath, MAX_PATH);
+  wcscat_s(INIPath, L".ini");
+
+  // jichi 4/4/2015: Get dic path
+  ReadINI(L"DIC_PATH", L"CONFIG", buf, INIPath);
+  if (buf[0])
+    SetDicPath(buf);
 
   ReadINI(L"PREFILTER_SWITCH", L"CONFIG", buf, (wchar_t*)INIPath);
   if (buf[0] != NULL) (_wcsicmp(buf, L"OFF") != 0) ? SetPreSwitch(true) : SetPreSwitch(false);
@@ -66,8 +62,13 @@ bool config::LoadConfig()
 bool config::SaveConfig()
 {
   wchar_t INIPath[MAX_PATH], buf[255];
-  GetLoadPath(INIPath, MAX_PATH);
-  wcscat_s(INIPath, L"\\Ehnd\\ehnd_conf.ini");
+
+  // jichi 4/4/2015: do not hardcode ehnd.ini file name
+  GetModuleBaseName(INIPath, MAX_PATH);
+  wcscat_s(INIPath, L".ini");
+
+  // jichi 4/4/2015: Save dic path
+  WriteINI(L"DIC_PATH", L"CONFIG", cfg_dic_path, INIPath);
 
   //wcscpy_s(buf, (GetPreSwitch() ? L"ON" : L"OFF"));
   //WriteINI(L"PREFILTER_SWITCH", L"CONFIG", buf, (wchar_t*)INIPath);

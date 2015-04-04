@@ -5,6 +5,7 @@ watch *watch::m_pThis = NULL;
 std::vector<std::wstring> fileList;
 
 watch::watch()
+  : bWatch(true)
 {
   m_pThis = this;
 
@@ -39,11 +40,8 @@ DWORD watch::_NotifyThread(LPVOID lpParam)
 {
   HWND hwnd = (HWND)lpParam;
   UINT m_nTimerID;
-  WCHAR lpEztPath[MAX_PATH];
-  std::wstring Path;
-  GetLoadPath(lpEztPath, MAX_PATH);
-  Path = lpEztPath;
-  Path += L"\\Ehnd";
+  // jichi 4/4/2015: Use relative dictionary path
+  std::wstring Path = ::GetEhndDicPath();
 
   WriteLog(NORMAL_LOG, L"watch to %s directory\n", Path.c_str());
 

@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include "ehnd.h"
+#include "config.h"
 
 FARPROC apfnEzt[100];
 FARPROC apfnMsv[100];
@@ -14,18 +15,19 @@ bool EhndInit(void)
   else initOnce = true;
 
   // 설정 로드
-  pConfig->LoadConfig();
+  //pConfig->LoadConfig();
 
+  // jichi 4/4/2015: Disable logging
   // 기존 로그 삭제
-  if (pConfig->GetFileLogStartupClear())
-  {
-    wchar_t lpFileName[MAX_PATH];
-    if (pConfig->GetFileLogEztLoc())
-      GetLoadPath(lpFileName, MAX_PATH);
-    else GetExecutePath(lpFileName, MAX_PATH);
-    wcscat_s(lpFileName, L"\\ehnd_log.log");
-    DeleteFile(lpFileName);
-  }
+  //if (pConfig->GetFileLogStartupClear())
+  //{
+  //  wchar_t lpFileName[MAX_PATH];
+  //  if (pConfig->GetFileLogEztLoc())
+  //    GetLoadPath(lpFileName, MAX_PATH);
+  //  else GetExecutePath(lpFileName, MAX_PATH);
+  //  wcscat_s(lpFileName, L"\\ehnd_log.log");
+  //  DeleteFile(lpFileName);
+  //}
 
   // jichi 4/3/2015: Disable log window
   //CreateLogWin(g_hInst);
@@ -277,36 +279,45 @@ __declspec(naked) void J2K_GetJ2KMainDir(void)
   __asm JMP apfnEzt[4 * 19];
 }
 
-bool GetLoadPath(LPWSTR Path, int Size)
+// jichi: get enclosing directory path for the dll without trailing '\\'
+bool GetModuleDirectory(HMODULE h, LPWSTR buf, int size)
 {
-  GetModuleFileName(g_hInst, Path, Size);
-  if (Path[0] == 0) return false;
-  int i = wcslen(Path);
+  GetModuleFileName(h, buf, size);
+  if (!buf[0])
+    return false;
+  int i = wcslen(buf);
   while (i--)
-  {
-    if (Path[i] == L'\\')
-    {
-      Path[i] = 0;
+    if (buf[i] == L'\\') {
+      buf[i] = 0;
       break;
     }
-  }
   return true;
 }
 
-bool GetExecutePath(LPWSTR Path, int Size)
+// jichi 4/4/2015: Get dll file name without suffix
+bool GetModuleBaseName(LPWSTR path, int size)
 {
-  GetModuleFileName(GetModuleHandle(NULL), Path, Size);
-  if (Path[0] == 0) return false;
-  int i = wcslen(Path);
+  GetModuleFileName(g_hInst, path, size);
+  if (!path[0])
+    return false;
+  int i = wcslen(path);
   while (i--)
-  {
-    if (Path[i] == L'\\')
-    {
-      Path[i] = 0;
+    if (path[i] == L'.') {
+      path[i] = 0;
       break;
     }
-  }
   return true;
+}
+
+// jichi 4/4/2015: Get ehnd dic directory
+std::wstring GetEhndDicPath()
+{
+  WCHAR buf[MAX_PATH];
+  GetLoadPath(buf, MAX_PATH);
+  std::wstring ret = buf;
+  ret.push_back('\\');
+  ret.append(pConfig->GetDicPath());
+  return ret;
 }
 
 wstring replace_all(const wstring &str, const wstring &pattern, const wstring &replace)

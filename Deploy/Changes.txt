@@ -2,6 +2,35 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+4/4/2015 SAT
+  [ezTrans](Korean)
+  * Add built-in support for Ehnd plugin, which is enabled by default.
+    No settings are needed to be changed, unless you want to manually edit Ehnd scripts.
+
+    - Ehnd scripts are enabled by default.
+      But you can disable it in Preferences/Translator below the ezTrans toggle.
+
+      And in the Test Machine Translation window, Ehnd can be toggled by the Translation Script button.
+
+    - However, if you have already manually put Ehnd scripts in ezTrans directory, VNR will NOT load them.
+      To enable manual Ehnd scripts, you must DISABLE the Ehnd option in VNR Preferences.
+
+      VNR's Ehnd scripts are in Dictionaries/ehnd version 20150402, which I got from otromonde sensei.
+      Please DO NOT directly edit those files, which will be reverted after VNR's update.
+      If you want to manually set up Ehnd, please follow the guide below, and then DISABLE VNR's Ehnd option.
+
+        Tutorial: http://blog.naver.com/waltherp38/220286266694
+        Binary: http://blog.naver.com/waltherp38/220267098421
+        Dictionary: http://sokcuri.neko.kr/220301117949
+
+    I modified the source code of Ehnd to be better integrate with VNR, and the source code is as follows:
+        https://github.com/jichifly/ehnd-vnr
+    For example, it does not require msvc2013 to be installed, hooking to eztrans is changed to be non-intrusive,
+    logging is disabled for better performance, and building system changed to CMake (I am a Visual Studio hater).
+    It might also allow me to compile Share Dictionary rules to Ehnd dictionary in the future.
+    But currently, there is NO difference for how the Ehnd scripts are applied.
+    So, it is OK to set up your manual Ehnd, which will act the same way as VNR's Ehnd mod.
+
 4/3/2015 FRI
   [Shared Dictionary](Chinese)
   * Yomigana rules will also be used to generate names for Chinese translation.

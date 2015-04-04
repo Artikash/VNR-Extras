@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include "ehnd.h"
+#include "config.h"
 
 FARPROC apfnEzt[100];
 FARPROC apfnMsv[100];
@@ -14,18 +15,19 @@ bool EhndInit(void)
   else initOnce = true;
 
   // 설정 로드
-  pConfig->LoadConfig();
+  //pConfig->LoadConfig();
 
+  // jichi 4/4/2015: Disable logging
   // 기존 로그 삭제
-  if (pConfig->GetFileLogStartupClear())
-  {
-    wchar_t lpFileName[MAX_PATH];
-    if (pConfig->GetFileLogEztLoc())
-      GetLoadPath(lpFileName, MAX_PATH);
-    else GetExecutePath(lpFileName, MAX_PATH);
-    wcscat_s(lpFileName, L"\\ehnd_log.log");
-    DeleteFile(lpFileName);
-  }
+  //if (pConfig->GetFileLogStartupClear())
+  //{
+  //  wchar_t lpFileName[MAX_PATH];
+  //  if (pConfig->GetFileLogEztLoc())
+  //    GetLoadPath(lpFileName, MAX_PATH);
+  //  else GetExecutePath(lpFileName, MAX_PATH);
+  //  wcscat_s(lpFileName, L"\\ehnd_log.log");
+  //  DeleteFile(lpFileName);
+  //}
 
   // jichi 4/3/2015: Disable log window
   //CreateLogWin(g_hInst);

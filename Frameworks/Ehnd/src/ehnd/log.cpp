@@ -1,6 +1,10 @@
 #include "stdafx.h"
 #include "log.h"
 
+// jichi 4/4/2015 Disable logging
+//
+#if 0
+
 HWND hLogWin, hLogRes;
 HANDLE hLogEvent;
 int logLine = 0;
@@ -274,3 +278,5 @@ LRESULT CALLBACK LogProc(HWND hWnd, UINT Message, WPARAM wParam, LPARAM lParam)
   }
   return DefWindowProc(hWnd, Message, wParam, lParam);
 }
+
+#endif // 0

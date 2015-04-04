@@ -10,9 +10,9 @@ set(ehnd_SOURCES
   ehnd.cpp
   filter.cpp
   hook.cpp
-  log.cpp
-  stdafx.cpp
   watch.cpp
+  #stdafx.cpp
+  #log.cpp
 )
 
 set(ehnd_LIBRARIES

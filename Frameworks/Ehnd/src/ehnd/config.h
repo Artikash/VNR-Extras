@@ -26,6 +26,9 @@ class config
           cfg_dic_path[MAX_PATH];
 
 public:
+  bool LoadConfig();
+  bool SaveConfig();
+
   ~config() {}
   config()
     : firstInit(true)
@@ -49,10 +52,8 @@ public:
   {
     wcscpy_s(cfg_console_fontname, L"굴림");
     wcscpy_s(cfg_dic_path, L"ehnd"); // jichi 4/4/2015: backward compatible with existing Ehnd layout
+    LoadConfig(); // jichi 4/4/2015: Otherwise, this function might not be invoked. No idea why
   }
-
-  bool LoadConfig();
-  bool SaveConfig();
 
   bool ReadINI(const wchar_t *key, const wchar_t *section, wchar_t *buf, wchar_t *file);
   bool WriteINI(const wchar_t *key, const wchar_t *section, wchar_t *buf, wchar_t *file);

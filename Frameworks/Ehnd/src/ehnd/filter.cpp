@@ -903,16 +903,17 @@ bool filter::cmd(wstring &wsText)
   }
   else if (!wsText.compare(L"/log"))
   {
-    if (IsShownLogWin())
-    {
-      pConfig->SetConsoleSwitch(false);
-      wsText = L"/log : Log Window Off.";
-    }
-    else
-    {
-      pConfig->SetConsoleSwitch(true);
-      wsText = L"/log : Log Window On.";
-    }
+    // jichi 4/5/2015: Disable logging
+    //if (IsShownLogWin())
+    //{
+    //  pConfig->SetConsoleSwitch(false);
+    //  wsText = L"/log : Log Window Off.";
+    //}
+    //else
+    //{
+    //  pConfig->SetConsoleSwitch(true);
+    //  wsText = L"/log : Log Window On.";
+    //}
     bCommand = true;
   }
   else if (!wsText.compare(L"/command"))

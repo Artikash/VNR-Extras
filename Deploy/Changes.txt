@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+4/5/2015 SUN
+  [i18n](Korean, @otromonde)
+  * Update VNR's UI translation in Korean made by @otromonde sensei.
+
 4/4/2015 SAT
   [ezTrans](Korean)
   * Add built-in support for Ehnd plugin, which is enabled by default.
@@ -12,10 +16,10 @@ Since 6/18/2011
 
       And in the Test Machine Translation window, Ehnd can be toggled by the Translation Script button.
 
-    - However, if you have already manually put Ehnd scripts in ezTrans directory, VNR will NOT load them.
-      To enable manual Ehnd scripts, you must DISABLE the Ehnd option in VNR Preferences.
+    - However, if you have already manually put Ehnd scripts in the ezTrans directory, VNR will NOT load them.
+      To enable manual Ehnd scripts, you must DISABLE the Ehnd option in VNR's Preferences.
 
-      VNR's Ehnd scripts are in Dictionaries/ehnd version 20150402, which I got from otromonde sensei.
+      VNR's Ehnd scripts are in the Dictionaries/ehnd folder, version 20150402, which I got from otromonde.
       Please DO NOT directly edit those files, which will be reverted back after VNR's update.
       If you want to manually set up Ehnd, please follow the guide below, and then DISABLE VNR's Ehnd option.
 

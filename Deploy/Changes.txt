@@ -16,7 +16,7 @@ Since 6/18/2011
       To enable manual Ehnd scripts, you must DISABLE the Ehnd option in VNR Preferences.
 
       VNR's Ehnd scripts are in Dictionaries/ehnd version 20150402, which I got from otromonde sensei.
-      Please DO NOT directly edit those files, which will be reverted after VNR's update.
+      Please DO NOT directly edit those files, which will be reverted back after VNR's update.
       If you want to manually set up Ehnd, please follow the guide below, and then DISABLE VNR's Ehnd option.
 
         Tutorial: http://blog.naver.com/waltherp38/220286266694

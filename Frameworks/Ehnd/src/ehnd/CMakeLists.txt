@@ -17,8 +17,8 @@ set(ehnd_SOURCES
 
 set(ehnd_LIBRARIES
   ${Boost_REGEX_LIBRARY}
-  psapi # needed in VC 2010, not needed inferred by defaultlib in 2013
-  winmm
+  psapi # needed by GetModuleInformation()
+  winmm # needed by timeSetEvent()
 )
 
 set(ehnd_DEF ${CMAKE_CURRENT_LIST_DIR}/ehnd.def) # exported functions to linker

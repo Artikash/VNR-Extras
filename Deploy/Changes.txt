@@ -11,7 +11,7 @@ Since 6/18/2011
     As you might have noticed, for example, after defining a noun syntax:
        n ||| 露西亜 ||| Russian
     VNR will send ZNAZ to the underlying machine translator (JBeijing/ezTrans), which, however,
-    does not know that ZNAZ is a known.
+    does not know that ZNAZ is a noun.
 
     So, I simply added ZNAZ to the user-defined dictionaries of JBeijing and Ehnd script, after which,
     I expect, the translator should now be able to recognize ZNAZ as a noun, i.e. 露西亜 as a noun.

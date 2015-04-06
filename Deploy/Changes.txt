@@ -2,6 +2,20 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+4/6/2015 MON
+  [Machine Translator](Chinese, Korean)
+  * Translation using JBeijing and ezTrans are done in parallel to be faster.
+    VNR tends to split input text into sentences and translate each sentence independently.
+    When that happens, VNR now will translate all sentences in parallel.
+    This is not enabled for other translators such as Atlas and LEC, which are tested not thread-safe.
+
+    并行处理JBeijing断句后的翻译来提高翻译速度。
+    由于近期大量使用&eos;的词条分割句子，造成JBeijing翻译的时间越来越长。翻译一句有很多逗号话要几秒钟。
+    现在，分割后的从句会并行的送入JBeijing进行翻译，来成倍减少翻译的时间。
+
+    另外，如果正在同时使用比如JBeijing和Baidu，那么两者也会并行的翻译来overlap掉网络延时。
+    但是，这样代价是造成JBeijing的翻译有时会出现在Baidu的后边。
+
 4/5/2015 SUN
   [i18n](Korean, @otromonde)
   * Update VNR's UI translation in Korean made by @otromonde sensei.

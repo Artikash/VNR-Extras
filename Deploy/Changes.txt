@@ -34,7 +34,7 @@ Since 6/18/2011
     If you have suggestions for other role mapping such as adj and verb, you can create a topic on it
     at http://sakuradite.com/topic
 
-    Regarding English translation, I suspect similar things could be done by adding definitions to
+    Regarding English translation, I expect similar things could be done by adding definitions to
     ATLAS/LEC's user-defined dictionaries.
     However, VNR currently does not support reading ATLAS/LEC dictionaries.
     I might investigate on ATLAS/LEC support when I have time later.

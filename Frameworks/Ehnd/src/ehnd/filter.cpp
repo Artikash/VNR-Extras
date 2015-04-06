@@ -227,7 +227,6 @@ bool filter::jkdic_load(int &g_line)
   CHAR Jpn[32], Kor[32], Part[6], Attr[38], Hidden;
   CHAR Buffer[1024];
   FILE *fp;
-  wstring Path;
   int line = 1;
   wchar_t lpBuffer[128];
 
@@ -236,7 +235,7 @@ bool filter::jkdic_load(int &g_line)
 
   // jichi 4/4/2015: Use eztr directory
   GetEztrPath(lpEztPath, MAX_PATH);
-  Path = lpEztPath;
+  std::wstring Path = lpEztPath;
   Path += L"\\Dat\\UserDict.jk";
 
   if (_wfopen_s(&fp, Path.c_str(), L"rb") != 0)
@@ -320,14 +319,15 @@ bool filter::ehnddic_cleanup()
 {
   WCHAR lpTmpPath[MAX_PATH];
   WIN32_FIND_DATA FindFileData;
-  wstring Path;
 
   DWORD dwStart, dwEnd;
   dwStart = GetTickCount();
 
   GetTempPath(MAX_PATH, lpTmpPath);
-  Path = lpTmpPath;
-  Path += L"\\UserDict*.ehnd";
+  std::wstring Path = lpTmpPath;
+  if (Path[-1] != '\\')
+    Path.push_back('\\');
+  Path += L"UserDict*.ehnd";
 
   HANDLE hFind = FindFirstFile(Path.c_str(), &FindFileData);
 
@@ -364,15 +364,16 @@ bool filter::ehnddic_create()
 {
   WCHAR lpTmpPath[MAX_PATH], lpText[12];
   CHAR Jpn[32], Kor[32], Part[6], Attr[38];
-  wstring Path;
   FILE *fp;
   DWORD dwStart, dwEnd;
   _itow_s(g_initTick, lpText, 10);
   dwStart = GetTickCount();
 
   GetTempPath(MAX_PATH, lpTmpPath);
-  Path = lpTmpPath;
-  Path += L"\\UserDict_";
+  std::wstring Path = lpTmpPath;
+  if (Path[-1] != '\\')
+    Path.push_back('\\');
+  Path += L"UserDict_";
   Path += lpText;
   Path += L".ehnd";
 

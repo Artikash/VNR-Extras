@@ -1,5 +1,5 @@
+// UserDict_@jichi.txt (utf8, ff=dos)
 // jichi 4/5/2015
-// UserDict_@jichi.txt
 
 // 4/5/2015 X = unknown phrase
 ZXAZ	ZXAZ#N	0

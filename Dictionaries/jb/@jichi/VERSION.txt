@@ -3,8 +3,8 @@ Changes
 
 4/5/2015
 role	pattern	source	target
-X	ZX[A-G]Z	成語	成語
-N	ZN[A-G]Z	普通名詞	普通名詞
-M	ZM[A-G]Z	人名	人名
+x	ZX[A-G]Z	成語	成語
+n	ZN[A-G]Z	普通名詞	普通名詞
+m	ZM[A-G]Z	人名	人名
 
 // EOF

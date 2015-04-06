@@ -6,6 +6,44 @@ Since 6/18/2011
   [i18n](Korean, @otromonde)
   * Update VNR's UI translation in Korean made by @otromonde sensei.
 
+  [Shared Dictionary](Chinese, Korean)
+  * JBeijing and ezTrans are aware of the roles of m (name), n (noun), and x (unknown phrases).
+    As you might have noticed, for example, after defining a noun syntax:
+       n ||| 露西亜 ||| Russian
+    VNR will send ZNAZ to the underlying machine translator (JBeijing/ezTrans), which, however,
+    does not know that ZNAZ is a known.
+
+    So, I simply added ZNAZ to the user-defined dictionaries of JBeijing and Ehnd script, after which,
+    I expect, the translator should now be able to recognize ZNAZ as a noun, i.e. 露西亜 as a noun.
+
+    Some details about the mapping from the roles to the translator's user dict are as follows:
+    - Ehnd, see: Dictionaries/ehnd/UserDict_@jichi_role.txt
+      role pattern   noun  properties
+      x    ZX[A-N]Z  0
+      m    ZM[A-N]Z  1     VHn
+      n    ZN[A-N]Z  1     VHn
+
+    - JBeijing, see: Dictionaries/jb/@jichi/JcUserdic
+      role pattern   input    => output
+      x    ZX[A-G]Z  成語     => 成語
+      m    ZM[A-G]Z  人名     => 人名
+      n    ZN[A-G]Z  普通名詞 => 普通名詞
+
+    Currently, only m/n/x are recognized.
+    Any roles that is neither m(name) nor n(noun) is categorized as x (unknown phrase).
+    If you have suggestions for other role mapping such as adj and verb, you can create a topic on it
+    at http://sakuradite.com/topic
+
+    Regarding English translation, I suspect similar things could be done by adding definitions to
+    ATLAS/LEC's user-defined dictionaries.
+    However, VNR currently does not support reading ATLAS/LEC dictionaries.
+    I might investigate on ATLAS/LEC support when I have time later.
+
+    JBeijng可以识别共享辞书中的部分role了。
+    简单来说，m（名字）会被识别为JBeijing辞书中的【人名】；
+    n（名词）会被识别为JBeijing辞书中的【普通名词】；
+    而任何其他的role比如x（未知词组）会被识别为JBeijing辞书中的【成语】。
+
 4/4/2015 SAT
   [ezTrans](Korean)
   * Add built-in support for Ehnd plugin, which is enabled by default.

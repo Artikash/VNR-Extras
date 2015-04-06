@@ -30,7 +30,7 @@ Since 6/18/2011
       n    ZN[A-G]Z  普通名詞 => 普通名詞
 
     Currently, only m/n/x are recognized.
-    Any roles that is neither m(name) nor n(noun) is categorized as x (unknown phrase).
+    Any other roles that are neither m(name) nor n(noun) is categorized as x (unknown phrase).
     If you have suggestions for other role mapping such as adj and verb, you can create a topic on it
     at http://sakuradite.com/topic
 

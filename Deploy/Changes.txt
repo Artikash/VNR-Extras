@@ -9,7 +9,7 @@ Since 6/18/2011
   [Shared Dictionary](Chinese, Korean)
   * JBeijing and ezTrans are aware of the roles of m (name), n (noun), and x (unknown phrases).
     As you might have noticed, for example, after defining a noun syntax:
-       n ||| 露西亜 ||| Russian
+       n ||| 露西亜 ||| Russia
     VNR will send ZNAZ to the underlying machine translator (JBeijing/ezTrans), which, however,
     does not know that ZNAZ is a noun.
 

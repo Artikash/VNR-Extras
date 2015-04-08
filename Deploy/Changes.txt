@@ -2,6 +2,20 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+4/7/2015 TUE
+  [Yomigana](Arabic)
+  * Yomigana definitions in the Shared Dictionary will generate name translation for Arabic as well.
+    If you find errors in the yomigana, please edit the following page, and I will update VNR to add your patch later.
+
+        http://sakuradite.com/wiki/en/Furigana
+
+    Now, yomigana will generate name translations for all languages in VNR.
+
+  * Arabic alphabet can be selected to display yomigana for Japanese.
+
+  * Baidu translator is no longer blocked in Preferences, even if you have blocked Chinese language in Preferences/i18n.
+    Because Baidu can be used to translate non-Chinese languages as well, such as Arabic and Russian.
+
 4/6/2015 MON
   [Machine Translator](Chinese, Korean)
   * Translation using JBeijing and ezTrans are done in parallel to be faster.

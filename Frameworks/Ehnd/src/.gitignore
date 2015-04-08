@@ -5,6 +5,9 @@
 Makefile
 CMakeLists.txt
 
+# jichi 4/5/2015: Skip Mercurial reverted files
+*.orig
+
 # User-specific files
 *.suo
 *.user

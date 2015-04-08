@@ -1,5 +1,7 @@
 # Makefile
 # 4/3/2015 jichi
+# Note: The source code MUST be compiled under Korean code page (CP949).
+# Or user-defined pre/post filters and userdict will not work.
 .PHONY: all clean compile config
 
 BUILD_DIR = build

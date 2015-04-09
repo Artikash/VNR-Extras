@@ -10,7 +10,7 @@ set(ehnd_SOURCES
   ehnd.cpp
   filter.cpp
   hook.cpp
-  watch.cpp
+  #watch.cpp
   #stdafx.cpp
   #log.cpp
 )

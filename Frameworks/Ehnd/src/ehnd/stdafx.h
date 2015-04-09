@@ -39,12 +39,14 @@ using namespace std;
 #include "hook.h"
 #include "log.h"
 #include "filter.h"
-#include "watch.h"
 #include "config.h"
+
+// 4/8/2015: Disable watching
+//#include "watch.h"
+//extern watch *pWatch;
 
 extern HINSTANCE g_hInst;
 extern filter *pFilter;
-extern watch *pWatch;
 extern config *pConfig;
 extern int g_initTick;
 extern char g_DicPath[MAX_PATH];

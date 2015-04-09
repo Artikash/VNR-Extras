@@ -2,7 +2,8 @@
 #include "stdafx.h"
 HINSTANCE g_hInst;
 filter *pFilter;
-watch *pWatch;
+// 4/8/2015: Disable watching
+//watch *pWatch;
 config *pConfig;
 HMODULE hEzt, hMsv;
 int g_initTick;
@@ -22,7 +23,8 @@ BOOL APIENTRY DllMain(HINSTANCE hInstance,
 
     // init ehnd
     pFilter = new filter();
-    pWatch = new watch();
+    // 4/8/2015: Disable watching
+    //pWatch = new watch();
     pConfig = new config();
 
     char szInitTick[12];

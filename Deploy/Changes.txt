@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+4/9/2015 THU
+  [Bing](Arabic)
+  * For Japanese-Arabic translation, fix the issue that Shared Dictionary rules get messed up by Bing.
+
 4/7/2015 TUE
   [Yomigana](Arabic)
   * Yomigana definitions in the Shared Dictionary will generate name translation for Arabic as well.

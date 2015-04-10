@@ -92,17 +92,17 @@ for %%i in (
 )
 
 ::            1         2         3         4         5         6         7
-echo.
-echo ----------------------------------------------------------------------
-echo                     Update EDICT if out of date ...
-echo ----------------------------------------------------------------------
-
-set PATH=%CD%/Frameworks/Python;%PATH%
-
-if exist ../Caches/Dictionaries/EDICT/edict.db (
-  if exist Frameworks/Sakura/py/scripts/getedict.py (
-    python -B Frameworks/Sakura/py/scripts/getedict.py
-))
+::echo.
+::echo ----------------------------------------------------------------------
+::echo                     Update EDICT if out of date ...
+::echo ----------------------------------------------------------------------
+::
+::set PATH=%CD%/Frameworks/Python;%PATH%
+::
+::if exist ../Caches/Dictionaries/EDICT/edict.db (
+::  if exist Frameworks/Sakura/py/scripts/getedict.py (
+::    python -B Frameworks/Sakura/py/scripts/getedict.py
+::))
 
 ::            1         2         3         4         5         6         7
 echo.

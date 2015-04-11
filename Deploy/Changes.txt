@@ -41,19 +41,21 @@ Since 6/18/2011
         This methodology is borrowed from vtrans' code to learn word segmentation rules from dictionary entries.
 
         Whether enabling EDICT alignment really depends on your need.
-        Without EDICT alignment, VNR will segment ごめん, and when you click ごめん, VNR will display UniDic feature:
+        Without EDICT alignment, VNR will segment ごめん out, and when you click ごめん, VNR will display its
+        UniDic feature like this:
             名詞,普通名詞,一般,ごめん,御免,漢
-        This means 御免 is a general noun, and its pronunciation is borrowed from Chinese (and hence similar to Chinese).
+        This means 御免 is a "general noun" (普通名詞), and its pronunciation is borrowed from Chinese (漢)
+        (and hence it sounds similar to Chinese).
         However, after EDICT is enabled, you cannot observe such information anymore.
         VNR will instead display the English translation for the entire ごめんなさい.
 
         Basically, if you cannot read Chinese such as 名詞, and you are an English speaker,
         it might be better to enable EDICT alignment.
-        Otherwise, it depends on whether you are more comfortable with Chinese or English.
+        Otherwise, enabling alignment or not depends on whether you are more comfortable with Chinese or English.
 
     In the future, I will use yomigana/name entries in Shared Dictionary to align MeCab as well.
     And I will add support to align MeCab for other languages, such as:
-        Lingoes for Chinese, Naver for Korean, OVDP for Vietnamese, and Wadoku for German.
+        Naver for Korean, OVDP for Vietnamese, and Wadoku for German
 
     修改了VNR中使用MeCab分词的实现。
     这造成关于分词选项的一些比较大的变更。

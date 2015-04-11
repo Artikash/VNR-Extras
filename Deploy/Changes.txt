@@ -64,6 +64,10 @@ Since 6/18/2011
        这个选项主要是针对英文读者的。
        如果你的英文不好，那么其实不用下载EDICT和打开这个选项。
 
+  btw, 关于VNR从人工字幕学习的翻译器，由于VNR服务器的内存不足以长时间的支持这个翻译器，我暂时在
+  服务器端关闭了对这个翻译器的服务。我在以后会购买额外的服务器，再来deploy这个翻译器的。
+  当前在VNR中打开这个翻译器or not，对翻译是不会有影响的。带来不便很抱歉！
+
 4/9/2015 THU
   [Bing](Arabic)
   * For Japanese-Arabic translation, fix the issue that Shared Dictionary rules get messed up by Bing.

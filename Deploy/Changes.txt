@@ -5,9 +5,8 @@ Since 6/18/2011
 4/11/2015 SAT
   [Dictionary]
   * Speedup dictionary lookup.
-    I rewrote the implementation for looking up EDICT and Lingoes dictionaries, which is not
-    extremely fast that the lookup time is less than 0.1 sec, even for some very large dictionary,
-    such as OVDP for Vietnamese.
+    I rewrote the implementation for looking up EDICT and Lingoes dictionaries, which is now extremely fast
+    that the lookup time is less than 0.1 sec, even for some very large dictionary, such as OVDP for Vietnamese.
     改善了查询日中辞书的速度。
 
   [MeCab]

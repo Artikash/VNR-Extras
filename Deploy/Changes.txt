@@ -6,7 +6,7 @@ Since 6/18/2011
   [Dictionary]
   * Speedup dictionary lookup.
     I rewrote the implementation for looking up EDICT and Lingoes dictionaries, which is now extremely fast
-    that the lookup time is less than 0.1 sec, even for some very large dictionary, such as OVDP for Vietnamese.
+    that the lookup time is less than 0.1 sec, even for some very large dictionaries, such as OVDP for Vietnamese.
     改善了查询日中辞书的速度。
 
   [MeCab]
@@ -17,7 +17,6 @@ Since 6/18/2011
     + Removed features
       - IPAdic support is removed. UniDic is now the ONLY MeCab dictionary supported by VNR.
         UniDic must be installed in Preferences/Downloads to enable Japanese word segmentation.
-
       - CaboCha highlight support is removed.
         I will change to highlight phrases according to their roles (name, noun, verb, etc.) instead later.
 

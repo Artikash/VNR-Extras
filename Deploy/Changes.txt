@@ -45,7 +45,7 @@ Since 6/18/2011
             名詞,普通名詞,一般,ごめん,御免,漢
         This means 御免 is a "general noun" (普通名詞), and its pronunciation is borrowed from Chinese (漢)
         (and hence it sounds similar to Chinese).
-        However, after EDICT alignment is enabled, you cannot observe such information anymore.
+        However, after EDICT alignment is enabled, you cannot easily observe such information anymore.
         VNR will instead display the English translation for the entire ごめんなさい.
 
         Basically, if you cannot read Chinese such as 名詞, and you are an English speaker,

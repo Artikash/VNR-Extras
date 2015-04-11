@@ -2,9 +2,77 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+4/11/2015 SAT
+  [Dictionary]
+  * Speedup dictionary lookup.
+    I rewrote the implementation for looking up EDICT and Lingoes dictionaries, which is not
+    extremely fast that the lookup time is less than 0.1 sec, even for some very large dictionary,
+    such as OVDP for Vietnamese.
+    改善了查询日中辞书的速度。
+
+  [MeCab]
+  * Japanese segmentation implementation using MeCab is now switched to that used by VNR's SMT vtrans.
+    This will allow me to integrate Shared Dictionary with statistical machine translation in the future.
+    There are a couple of changes caused by the switch of the implementation.
+
+    + Removed features
+      - IPAdic support is removed. UniDic is now the ONLY MeCab dictionary supported by VNR.
+        UniDic must be installed in Preferences/Downloads to enable Japanese word segmentation.
+
+      - CaboCha highlight support is removed.
+        I will change to highlight phrases according to their roles (name, noun, verb, etc.) instead later.
+
+    + Broken features that I haven't got time to implement
+      - Displaying Vietnamese Phiên âm above Japanese kanji is broken, and temporarily disabled.
+      - Displaying EDICT translation directly above Japanese phrases is broken, and temporarily disabled.
+      - Displaying Furigana for web page is broken, and temporarily disabled.
+
+    + New features
+      - Dictionary alignment for EDICT
+        For example, given a Japanese sentence:
+            ごめんなさい、先生！
+        Without EDICT alignment, VNR by default will segment it into:
+            ごめん + なさい + 、+ 先生 + ！
+
+        With EDICT alignment, because there is a translation entry for ごめんなさい = Sorry in EDICT,
+        VNR will now segment the sentence into:
+            ごめんなさい + 、+ 先生 + ！
+
+        Now if you click ごめんなさい, VNR will popup the "Sorry" translation in EDICT.
+        This methodology is borrowed from vtrans' code to learn word segmentation rules from dictionary entries.
+
+        Whether enabling EDICT alignment really depends on your need.
+        Without EDICT alignment, VNR will segment ごめん, and when you click ごめん, VNR will display UniDic feature:
+            名詞,普通名詞,一般,ごめん,御免,漢
+        This means 御免 is a general noun, and its pronunciation is borrowed from Chinese (and hence similar to Chinese).
+        However, after EDICT is enabled, you cannot observe such information anymore.
+        VNR will instead display the English translation for the entire ごめんなさい.
+
+        Basically, if you cannot read Chinese such as 名詞, and you are an English speaker,
+        it might be better to enable EDICT alignment.
+        Otherwise, it depends on whether you are more comfortable with Chinese or English.
+
+    In the future, I will use yomigana/name entries in Shared Dictionary to align MeCab as well.
+    And I will add support to align MeCab for other languages, such as:
+        Lingoes for Chinese, Naver for Korean, OVDP for Vietnamese, and Wadoku for German.
+
+    修改了VNR中使用MeCab分词的实现。
+    这造成关于分词选项的一些比较大的变更。
+
+    1. 删除了对IPAdic和CaboCha的支持。要使用分词功能，只要在使用偏好中下载UniDic一个就好了。
+    2. 添加了一个使用EDICT矫正MeCab分词的选项。
+       这个选项主要是针对英文读者的。
+       如果你的英文不好，那么其实不用下载EDICT和打开这个选项。
+
 4/9/2015 THU
   [Bing](Arabic)
   * For Japanese-Arabic translation, fix the issue that Shared Dictionary rules get messed up by Bing.
+
+  * Suggest to not delete edict temp files and file size.
+    suggest that edict is not longer automatically updated.
+
+    I was using cjklib to access edict, which was too slow.
+    change to my own implementation instead, and edict db has to be reset.
 
 4/7/2015 TUE
   [Yomigana](Arabic)

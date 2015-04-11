@@ -121,6 +121,9 @@ echo ----------------------------------------------------------------------
 
 rm -f Frameworks/Python/GPS.txt
 rm -Rf Dictionaries/JBeijing
+rm -Rf Dictionaries/CaboCha
+rm -Rf Dictionaries/IPAdic
+rm -Rf Dictionaries/TAHScripts
 
 for %%i in (
     . ^

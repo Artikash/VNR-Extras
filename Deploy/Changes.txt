@@ -2,6 +2,16 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+4/12/2015 SUN
+  [Ehnd](Korean)
+  * Fixed the issue that external native Ehnd plugin did not work.
+    However, due to technical difficulties, toggling the Ehnd option now require restarting VNR.
+    The logic that which version of dll will be loaded is as follows:
+    - Enable the Ehnd option in Preferences
+      Use VNR's built-in dll, no matter whether you install Ehnd in ezTrans directory.
+    - Disable the Ehnd option in Preferences
+      Use the native Ehnd plugin you put in the ezTrans directory.
+
 4/11/2015 SAT
   [Dictionary]
   * Speedup dictionary lookup.

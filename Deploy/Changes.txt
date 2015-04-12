@@ -123,12 +123,6 @@ Since 6/18/2011
   [Bing](Arabic)
   * For Japanese-Arabic translation, fix the issue that Shared Dictionary rules get messed up by Bing.
 
-  * Suggest to not delete edict temp files and file size.
-    suggest that edict is not longer automatically updated.
-
-    I was using cjklib to access edict, which was too slow.
-    change to my own implementation instead, and edict db has to be reset.
-
 4/7/2015 TUE
   [Yomigana](Arabic)
   * Yomigana definitions in the Shared Dictionary will generate name translation for Arabic as well.

@@ -97,25 +97,25 @@ Since 6/18/2011
       It is using the same translation engine as the famous Fujitsu ATLAS.
       Additionally, @nifty is set to shared the same TAH script and Shared Dictionary rules as ATLAS.
 
-   If you would like to add alternative translation support, feel free to edit the following page:
-       http://sakuradite.com/wiki/en/Machine_Translators
+    If you would like to add alternative translation support, feel free to edit the following page:
+        http://sakuradite.com/wiki/en/Machine_Translators
 
-   Here are some tests if you are interested:
+    Here are some tests if you are interested:
 
-   - Japanese: まあね♪スカートとはおさらばだし。ハーフパンツなんて久しぶり。
+    - Japanese: まあね♪スカートとはおさらばだし。ハーフパンツなんて久しぶり。
 
-     LEC (original): Oh, I sleep, and half underpants are after a long absence ♪ skirt とはおさらばだし
-     LEC (VNR+TAH): Oh♪Skirt とはおさらばだし. Half underpants are after a long absence
+      LEC (original): Oh, I sleep, and half underpants are after a long absence ♪ skirt とはおさらばだし
+      LEC (VNR+TAH): Oh♪Skirt とはおさらばだし. Half underpants are after a long absence
 
-     ATLAS (original): Good bye [maane] ♪ skirt is [dashi] . The half pants are after a long time.
-     ATLAS (VNR+TAH): Well♪ Good bye the skirt is [dashi]. The half pants are after a long time.
+      ATLAS (original): Good bye [maane] ♪ skirt is [dashi] . The half pants are after a long time.
+      ATLAS (VNR+TAH): Well♪ Good bye the skirt is [dashi]. The half pants are after a long time.
 
-     Infoseek (original): まあね ♪ skirt とはおさらばだし. Half underwear is after a long absence
-     Infoseek (VNR+TAH): Oh♪ Skirt とはおさらばだし. Half underwear is after a long absence
+      Infoseek (original): まあね ♪ skirt とはおさらばだし. Half underwear is after a long absence
+      Infoseek (VNR+TAH): Oh♪ Skirt とはおさらばだし. Half underwear is after a long absence
 
-     SYSTRAN: Don't you think? well, the ♪ skirt the reed mule it puts out. The half underpants how long separation
-     Babylon: Well. My skirt and a farewell. Half-pants long time!
-     @nifty: Good bye [maane] ♪ skirt is [dashi] . The half pants are after a long time. // the same as ATLAS
+      SYSTRAN: Don't you think? well, the ♪ skirt the reed mule it puts out. The half underpants how long separation
+      Babylon: Well. My skirt and a farewell. Half-pants long time!
+      @nifty: Good bye [maane] ♪ skirt is [dashi] . The half pants are after a long time. // the same as ATLAS
 
   添加了一些新的翻译器的支持，不过对中文翻译的帮助不大。
 

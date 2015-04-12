@@ -16,6 +16,8 @@ Since 6/18/2011
   * Add option in Preferences/Translation to display ONLY the yomigana (such as romaji) as subtitles.
     在【使用偏好/翻译】中添加了显示日文比如罗马字为字幕的选项。
 
+  * Conversion from Japanese kanji to Vietnamese Phiên âm is restored.
+
 4/11/2015 SAT
   [Dictionary]
   * Speedup dictionary lookup.

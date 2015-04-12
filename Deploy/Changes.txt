@@ -87,7 +87,7 @@ Since 6/18/2011
       One critical problem is that the IP might get banned when submitting a couple of translation very quickly.
       I haven't got a solution for this issue yet.
 
-    + @nifty: For translation between Japanese/Chinese/Korean/English.
+    + @nifty: Support translation between Japanese/Chinese/Korean/English.
       It is using the same translation engine as the famous Fujitsu ATLAS.
       Additionally, @nifty is set to shared the same TAH script and Shared Dictionary rules as ATLAS.
 

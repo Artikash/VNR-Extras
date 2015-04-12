@@ -12,6 +12,10 @@ Since 6/18/2011
     - Disable the Ehnd option in Preferences
       Use the native Ehnd plugin you put in the ezTrans directory.
 
+  [Yomigana]
+  * Add option in Preferences/Translation to display ONLY the yomigana (such as romaji) as subtitles.
+    在【使用偏好/翻译】中添加了显示日文比如罗马字为字幕的选项。
+
 4/11/2015 SAT
   [Dictionary]
   * Speedup dictionary lookup.

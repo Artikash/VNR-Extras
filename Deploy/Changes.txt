@@ -82,7 +82,7 @@ Since 6/18/2011
 
   btw, 关于VNR从人工字幕学习的翻译器，由于VNR服务器的内存不足以长时间的支持这个翻译器，我暂时在
   服务器端关闭了对这个翻译器的服务。我在以后会购买额外的服务器，再来deploy这个翻译器的。
-  当前在VNR的使用偏好中打开这个翻译器or not，对翻译是不会有影响的。如果然给你带来误解，很抱歉！
+  当前在VNR的使用偏好中打开这个翻译器or not，对翻译是不会有影响的。如果给你带来误解，很抱歉！
 
   [Machine Translator]
   * Add online translation support for Babylon, SYSTRAN, and @nifty.

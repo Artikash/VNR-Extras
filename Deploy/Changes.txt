@@ -89,7 +89,7 @@ Since 6/18/2011
     + Babylon: Multilingual, support all languages in VNR.
       btw, I also tested SDL, which had the same translation as Babylon, and hence not added to VNR.
 
-    + SYSTRAN: Support English-focused translation..
+    + SYSTRAN: Support English-focused translation.
       One critical problem is that the IP might get banned when submitting a couple of translation very quickly.
       I haven't got a solution for this issue yet.
 

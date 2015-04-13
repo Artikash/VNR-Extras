@@ -1,4 +1,4 @@
-﻿*7:53 2015/04/02
+﻿*6:49 2015/04/07
 *this is an example of a simple regex script for TAHelper on VNR
 *originally it was made based on ATLAS V14 (+TA) behaviour
 *Update: the script adapting LEC behaviour now, so might not work on ATLAS or other translation engine
@@ -2047,7 +2047,8 @@
 *selfnotes: is it safe without kanji?
 *(([一-龠])([からの])ねえ([一-龠あ-ん]))	$2$3ない$4
 *(([一-龠])([く])せえ([一-龠あ-ん]))	$2$3さい$4
-(([一-龠])ねえ([一-龠あ-ん]))	$2ない$3
+*disabled hiragana to prevent (死ねええ…)
+(([一-龠])ねえ([一-龠]))	$2ない$3
 (([えかもしくけがらたのん])ね(え+)([一-龠あ-ん、。！？…」』）]))	$2ない$4
 (([く])せえ([一-龠あ-ん]))	$2さい$3
 (([み])てえ([一-龠あ-ん]))	$2たい$3

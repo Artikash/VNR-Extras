@@ -26,11 +26,17 @@ Since 6/18/2011
         努力,どりょく,doryoku,n,vs,EDICT,great effort
 
     The columns immediately before EDICT (n and vs) are the roles of the phrase, which means it is both
-    a noun and a 基本形 verb.
+    a noun and a 基本形(s) verb.
 
     VNR currently simply pick the first short meaning of an entry in EDICT as its translation, which,
     however, might not be always correct.
     And the definition collision between EDICT and UniDic is not well-handled.
+
+    恢复了通过查询EDICT直接在日文上边显示翻译的选项。
+    开启后，游戏的文本可能会渲染成好像这样子：
+
+         great effort     the world  respond
+      「     努力      に   世界が    応える  のよ 」
 
 4/13/2015 MON
   [TAHScript](English, @riz)

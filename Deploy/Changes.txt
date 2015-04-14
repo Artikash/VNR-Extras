@@ -14,8 +14,8 @@ Since 6/18/2011
 
     It will be rendered by VNR like this:
 
-         great effort     the world  respond
-      「     努力      に   世界が    応える  のよ 」
+         great effort     the world    respond
+      「     努力      に    世界   が   応える  のよ 」
 
     And the yomigana translator will translate the entire sentence like this when "English" is selected:
 
@@ -35,8 +35,8 @@ Since 6/18/2011
     恢复了通过查询EDICT直接在日文上边显示翻译的选项。
     开启后，游戏的文本可能会渲染成好像这样子：
 
-         great effort     the world  respond
-      「     努力      に   世界が    応える  のよ 」
+         great effort     the world    respond
+      「     努力      に    世界   が   応える  のよ 」
 
 4/13/2015 MON
   [TAHScript](English, @riz)

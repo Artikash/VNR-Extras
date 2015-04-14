@@ -3,7 +3,10 @@ Visual Novel Reader
 Since 6/18/2011
 
 4/14/2015 TUE
-  [EDICT](English)
+  [MeCab]
+  * Fixed a bug that UniDic could not be automatically downloaded.
+    修正了无法正常下载UniDic的问题。
+
   * Restore the feature to display EDICT translation directly above Japanese phrases.
     It requires EDICT to be aligned with UniDic.
     VNR will re-align EDICT after first launch if you have EDICT installed by old version of VNR.

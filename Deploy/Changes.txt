@@ -2,6 +2,36 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+4/14/2015 TUE
+  [EDICT](English)
+  * Restore the feature to display EDICT translation directly above Japanese phrases.
+    It requires EDICT to be aligned with UniDic.
+    VNR will re-align EDICT after first launch if you have EDICT installed by old version of VNR.
+
+    For example, given a Japanese sentence:
+
+        「努力に世界が応えるのよ」
+
+    It will be rendered by VNR like this:
+
+         great effort     the world  respond
+      「     努力      に   世界が    応える  のよ 」
+
+    And the yomigana translator will translate the entire sentence like this when "English" is selected:
+
+       「great effort ni the world ga respond no yo」
+
+    If you click 努力, the MeCab feature will be like this:
+
+        努力,どりょく,doryoku,n,vs,EDICT,great effort
+
+    The columns immediately before EDICT (n and vs) are the roles of the phrase, which means it is both
+    a noun and a 基本形 verb.
+
+    VNR currently simply pick the first short meaning of an entry in EDICT as its translation, which,
+    however, might not be always correct.
+    And the definition collision between EDICT and UniDic is not well-handled.
+
 4/13/2015 MON
   [TAHScript](English, @riz)
   * Update TAH script for ATLAS/LEC.

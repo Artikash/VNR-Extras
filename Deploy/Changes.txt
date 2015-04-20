@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+4/20/2015 MON
+  [TAHScript](English, @riz)
+  * Update TAH script for ATLAS/LEC.
+    The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
+
 4/14/2015 TUE
   [MeCab]
   * Fixed a bug that UniDic could not be automatically downloaded.

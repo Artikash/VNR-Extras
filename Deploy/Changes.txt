@@ -2,6 +2,21 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+4/25/2015 SAT
+  [Dictionary]
+  * If you have blocked English, VNR will no longer show EDICT-related options in Preferences.
+
+  * Add option to display Chinese translation directly above Japanese phrases.
+    It requires at least one Japanese-Chinese Lingoes dictionary to be installed.
+    可以在日文上方直接显示中文的翻译，也许对学习日文的同学有些帮助。
+    比如，开启后日文可能会显示成这样：
+
+      与其…莫如  那  周围       ぼろぬの      充分    那么  喂
+   「  むしろ  、その 辺 にある  ボロ布  でも 充分 なんじゃ ねえの」
+
+    开启需要安装至少一本Lingoes日中字典。
+    不过VNR只会从辞书中选择第一个解释来显示，翻译可能是错的。
+
 4/20/2015 MON
   [TAHScript](English, @riz)
   * Update TAH script for ATLAS/LEC.

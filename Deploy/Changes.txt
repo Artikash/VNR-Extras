@@ -18,7 +18,7 @@ Since 6/18/2011
     VNR currently simplify picks the first meaning it has got in the dictionary, which could be wrong.
     For example, "なく" here should not be "울다", which means "泣く"(verb) instead of "無く"(adj).
 
-    In the future, I plan to use UniDic's role (verb, noun, adj, etc.) to match dictionary entries,
+    In the future, I plan to use UniDic's role (verb, noun, adj, etc.) to filter dictionary entries,
     which might help disambiguate phrases having different meanings.
 
     可以在日文上方直接显示中文或韩文的翻译，也许对学习日文的同学有些帮助。

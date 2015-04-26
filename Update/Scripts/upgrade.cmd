@@ -120,6 +120,7 @@ echo ----------------------------------------------------------------------
 ::for /f "tokens=* delims=|" %%i in ('dir /s /b *.py') do touch "%%~i"
 
 rm -f Frameworks/Python/GPS.txt
+rm -f Caches/Dictionaries/Lingoes/ja-vi.db
 rm -Rf Dictionaries/JBeijing
 rm -Rf Dictionaries/CaboCha
 rm -Rf Dictionaries/IPAdic

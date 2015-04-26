@@ -2,6 +2,35 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+4/26/2015 SUN
+  [Dictionary](Vietnamese)
+  * Add option to display Vietnamese translation directly above Japanese phrases.
+    It requires OVDP Japanese-Vietnamese dictionary to be installed.
+    When enabled, the Japanese will be look like this:
+
+      forget well   memory   inside  shell  nghi vấn    quiet   shed hair
+      忘れた まま、  記憶  の   中    から    疑問    は 静かに  抜け落ち た。
+
+    The translation displayed is usually English, and sometimes Vietnamese (such as nghi vấn).
+    Also, the translation is not guaranteed to be correct, such as: から => shell.
+
+  * OVDP dictionary support is changed to use StarDict format to save disk space.
+    OVDP dictionary now requires only 40MB.
+    If you have old OVDP dictionary installed, VNR will delete it on the startup.
+    It can be redownloaded for free in Preferences/Downloads.
+
+    If VNR's download script is slow (it currently picks a DL mirror in US), you can also manually
+    get the dictionary from the following location:
+
+        http://sourceforge.net/projects/ovdp/
+
+    And then extract the downloaded NhatViet.zip to:
+
+        Caches/Dictionaries/OVDP/NhatViet
+
+    btw, VNR now supports dictionaries in StarDict format.
+    If you need more StarDict dictionaries support, feel free to let me know. Thanks!
+
 4/25/2015 SAT
   [Dictionary]
   * If you have blocked English, VNR will no longer show EDICT-related options in Preferences.

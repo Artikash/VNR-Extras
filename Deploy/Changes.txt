@@ -6,9 +6,22 @@ Since 6/18/2011
   [Dictionary]
   * If you have blocked English, VNR will no longer show EDICT-related options in Preferences.
 
-  * Add option to display Chinese translation directly above Japanese phrases.
-    It requires at least one Japanese-Chinese Lingoes dictionary to be installed.
-    可以在日文上方直接显示中文的翻译，也许对学习日文的同学有些帮助。
+  * Add option to display Chinese/Korean translation directly above Japanese phrases.
+    It requires at least one Japanese Lingoes dictionary to be installed for these languages.
+    When enabled, the Japanese will be rendered like this:
+
+     =そうして  생각하기 시작하다   말     울다   영원    정원  기계    놓치다
+   「  そして        思い出す      こと は なく 、永遠 に その  機会 を  逃す のだった。 」
+
+    Here, "=そうして" means "そして" is a alias of "そうして" in spoken Japanese.
+
+    VNR currently simplify pick the first meaning it has got in the dictionary, which could be wrong.
+    For example, "なく" here should not be "울다", which means "泣く"(verb) instead of "無く"(adj).
+
+    In the future, I plan to use UniDic's role (verb, noun, adj, etc.) to match dictionary entries,
+    which might help disambiguate phrases having different meanings.
+
+    可以在日文上方直接显示中文或韩文的翻译，也许对学习日文的同学有些帮助。
     比如，开启后日文可能会显示成这样：
 
       与其…莫如  那  周围       ぼろぬの      充分    那么  喂

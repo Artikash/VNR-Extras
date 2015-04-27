@@ -9,7 +9,7 @@ Since 6/18/2011
     When enabled, the Japanese will be look like this:
 
       forget well   memory   inside  shell  nghi vấn    quiet   shed hair
-      忘れた まま、  記憶  の   中    から    疑問    は 静かに  抜け落ち た。
+    「 忘れた まま、  記憶  の   中    から    疑問    は 静かに  抜け落ち た。」
 
     The translation displayed is usually English, and sometimes Vietnamese (such as nghi vấn).
     Also, the translation is not guaranteed to be correct, such as: から => shell.

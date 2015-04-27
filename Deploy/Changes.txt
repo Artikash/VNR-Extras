@@ -31,6 +31,17 @@ Since 6/18/2011
     btw, VNR now supports dictionaries in StarDict format.
     If you need more StarDict dictionaries support, feel free to let me know. Thanks!
 
+  [Game Engine]
+  * Update GXP engine to support 「ウルスラグナ」.
+
+    The issue that old GXP games had flowing split is also fixed.
+    If you are playing GXP games (such as Astronauts's), you might have to re-adjust Text Settings.
+
+    添加了对「ウルスラグナ」提取文本的支持。
+
+    另外修正了以前的GXP引擎的游戏有浮动签名的问题。
+    如果你在玩以前的GXP游戏（比如Astronauts社的），要需要重新调整下文本设定。
+
 4/25/2015 SAT
   [Dictionary]
   * If you have blocked English, VNR will no longer show EDICT-related options in Preferences.

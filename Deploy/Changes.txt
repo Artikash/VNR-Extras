@@ -2,6 +2,15 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+4/27/2015 MON
+  [Dictionary](German)
+  * Add option to display German translation directly above Japanese phrases.
+    It requires Wadoku EPWING dictionary to be installed in Preferences/Downloads.
+    When enabled, a Japanese sentence will be look like this:
+
+     ich     Ichijō Akiram
+   「 俺   は  一条    彰   、  デュエリスト だ」
+
 4/26/2015 SUN
   [Dictionary](Vietnamese)
   * Add option to display Vietnamese translation directly above Japanese phrases.
@@ -35,14 +44,14 @@ Since 6/18/2011
   * Update GXP engine to support 「ウルスラグナ」.
     And don't forget to maximize the game text speed.
 
-    The issue that old GXP games had flowing split is also fixed.
+    The issue that old GXP games had floating split is also fixed.
     If you are playing GXP games (such as Astronauts's), you might have to re-adjust Text Settings.
 
     添加了对「ウルスラグナ」提取文本的支持。
     不要忘记将游戏文字的速度调整为最快。
 
     另外修正了以前的GXP引擎的游戏有浮动签名的问题。
-    如果你在玩以前的GXP游戏（比如Astronauts社的），要需要重新调整下文本设定。
+    如果你在玩以前的GXP游戏（比如Astronauts社的），会需要重新调整下文本设定。
 
 4/25/2015 SAT
   [Dictionary]

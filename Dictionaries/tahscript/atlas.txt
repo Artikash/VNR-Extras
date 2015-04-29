@@ -1,4 +1,4 @@
-﻿*22:35 2015/04/20
+﻿*15:54 2015/04/27
 *this is an example of a simple regex script for TAHelper
 *it was made based on ATLAS V14 (+TA) behaviour, might not work on other translation engine
 *basically only for conversation text, so might not work on RPG or games with lots of "status" thing..
@@ -204,6 +204,8 @@
 *(([一-龠]{2,})z([一-龠]{2,}))	$2・$3
 *
 *
+*… followed by eoc
+…+([、。？！…」』）])	$1
 *symbols replacements :
 *\x21 = hex code for "?", \x3F = hex code for "!"
 *replacing this is important, I forgot why I disabled it...
@@ -2389,8 +2391,9 @@
 *((ん)(で)(す)([。、？！…」』）]))	の$3$4$5
 *んです can break 肉まん, たいへん etc, gonna need better pattern
 (([^。、？！…「『（])(な)ん(です)([。、？！…」』）]))	$2$3の$4$5
-(([^x])(だ)(な|ぜ|ぞ)([。、？！…」』）]))	$2、$3$4$5
-(([^x])(で)(ぜ)([。、？！…」』）]))	$2、$3$4$5
+*disable sentence break, as ",right" not used anymore
+*(([^x])(だ)(な|ぜ|ぞ)([。、？！…」』）]))	$2、$3$4$5
+*(([^x])(で)(ぜ)([。、？！…」』）]))	$2、$3$4$5
 *take the rest
 *
 *restore what's been saved
@@ -2659,7 +2662,8 @@
 *
 *--- なさい + ！---
 *surprisingly Atlas translation will break, or maybe TA, whatever.
-((なさい)[！。])	$2、
+*disabled, might not needed with VNR
+*((なさい)[！。])	$2、
 *
 *---っか---
 *verb + っか should be translated into "let's", not a volitional, or a probably
@@ -3286,8 +3290,8 @@
 *
 *---なんじゃない---
 *adding か, so なんじゃない as (prt) work properly
-*disabled: breaking そんなんじゃない
-*((なんじゃない)([、。？！…」』）]))	$2か$3
+*breaking list: そんなんじゃない
+(?<![あそこ]ん)(なん)(じゃない)([、。？！…」』）])	$1か$2$3
 *
 *--- なんかじゃない ---
 *"It is not..." vs "There is no..."
@@ -4702,7 +4706,8 @@
 (([をがにへとでのはも]|より|まで)(、))	$2c
 (([（「『、。…？！]|^|じゃあ|は)(あたし|わたし|わたくし|俺|私|アタシ|ワタシ|あたい|おまえ|お前|オマエ|おめえ|あなた|あんた|アナタ|アンタ|きさま|キサマ|貴様|てめえ|テメエ|貴方|ボク)(は)(、))	$2$3$4c
 (([、。？！…「『（]|^)(何か)(、))	$2$3c
-((、)(だぞ|どう)([、。？！…」』）]))	c$3$4
+*disabled ",だぞ"
+*((、)(だぞ|どう)([、。？！…」』）]))	c$3$4
 ((、)(と言えば))	c$3
 (([っせべげけめねれて来きしくういえ]|[さわばがかまならあた][れせ]|しえ|なく|まし|[あえ来こ](られ|させ)|あっ)(て)(、))	$2$4c
 (([っせべげけめねれて来きしくういえ]|[さわばがかまならあた][れせ]|しえ|なく|まし|[あえ来こ](られ|させ)|あっ)(、))	$2c
@@ -4717,14 +4722,14 @@
 ((される|える)(と)(、))	$2$3c
 ((。)(、))	$2x
 *
-([、])	。。
+([、])	。
 *
 *restore (、)
 ((。)(x))	$2、
 ([０-９])c	$1、
 (([をがにへとでのはも]|より|まで)(c))	$2、
 (([、。？！…「『（]|^)(何か)(c))	$2$3、
-((c)(だぞ|どう)([、。？！…」』）]))	。、$3$4
+*((c)(だぞ|どう)([、。？！…」』）]))	。、$3$4
 ((c)(と言えば))	、$3
 (([っせべげけめねれて来きしくういえ]|[さわばがかまならあた][れせ]|しえ|なく|まし|[あえ来こ](られ|させ)|あっ)(て)(c))	$2$4、
 (([っせべげけめねれて来きしくういえ]|[さわばがかまならあた][れせ]|しえ|なく|まし|[あえ来こ](られ|させ)|あっ)(c))	$2、
@@ -4745,8 +4750,8 @@
 (([、…]+)(らしい))	$3
 *((。。)(くらい))	$3
 *add 。
-*LEC, disabled, VNR doesn't need this. Replace with "。" instead
-([　、。？！…「『（]|^)(はい|いえ|そうそう|ほうほう|けど|ねえねえ|お願い)、	$1$2。
+*disabled, not compatible with VNR
+*([　、。？！…「『（]|^)(はい|いえ|そうそう|ほうほう|けど|ねえねえ|お願い)、	$1$2。
 *
 *Temporary fixes for user dictionary faults
 *There are some wrong entries in ATLAS user dictionary.
@@ -4769,9 +4774,10 @@
 *so we're gonna add additional dot here
 *detecting te form verb is painful, so I'll just use a lazy way
 *make sure to replace all substitutions related with 。 in TA too!
-(([^、。…？！「『（])(。))	$2$3$3
+*disabled, try use VNR input&output
+*(([^、。…？！「『（])(。))	$2$3$3
 *let's put a dot after (！) and (？)
-(([！？])([\x5Eあ-んア-ン一-龠Ａ-Ｚａ-ｚ]))	$2。$3
+*(([！？])([\x5Eあ-んア-ン一-龠Ａ-Ｚａ-ｚ]))	$2。$3
 *
 *handling "…" based on some pattern
 *revert masked symbols
@@ -4789,8 +4795,8 @@
 …+(」)	。$1
 *for some reason "…+" is skipped by VNR, so we'll apply this rule inside VNR instead
 *…+	。
-(。)+	$1$1
-(、)+	$1
+。+	。
+、+	、
 *---convert quotes---
 *TA already have option for this, but I noticed that (’) had different effect.
 *depend on games you might want to change it into 「」 or 『』 or （）

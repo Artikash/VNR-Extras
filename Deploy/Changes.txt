@@ -7,6 +7,13 @@ Since 6/18/2011
   * Add translation support for Norwegian, Swedish, Finnish, Danish, Hungarian, Czech, Slovak,
     Greek, Romanian, and Ukrainian.
 
+  [TAHScript](English, @riz)
+  * Update TAH script for ATLAS/LEC.
+    The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
+
+  [JBeijing](Chinese, @djz020815)
+  * 更新了djz大先生的J北京词库。
+
 4/27/2015 MON
   [Dictionary](German)
   * Add option to display German translation directly above Japanese phrases.

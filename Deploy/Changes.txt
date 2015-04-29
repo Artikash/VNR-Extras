@@ -8,7 +8,7 @@ Since 6/18/2011
     Greek, Romanian, and Ukrainian.
 
   [TAHScript](English, @riz)
-  * Update TAH script for ATLAS/LEC.
+  * Update TAH script for ATLAS.
     The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
 
   [JBeijing](Chinese, @djz020815)

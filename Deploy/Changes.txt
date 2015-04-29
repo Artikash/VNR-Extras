@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+4/29/2015 WED
+  [Language]
+  * Add translation support for Norwegian, Swedish, Finnish, Danish, Hungarian, Czech, Slovak,
+    Greek, Romanian, and Ukrainian.
+
 4/27/2015 MON
   [Dictionary](German)
   * Add option to display German translation directly above Japanese phrases.

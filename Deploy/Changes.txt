@@ -5,7 +5,7 @@ Since 6/18/2011
 4/29/2015 WED
   [Language]
   * Add translation support for Norwegian, Swedish, Finnish, Danish, Hungarian, Czech, Slovak,
-    Greek, Romanian, and Ukrainian.
+    Greek, Romanian, Ukrainian, and Turkish.
 
   [TAHScript](English, @riz)
   * Update TAH script for ATLAS.

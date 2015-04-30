@@ -13,7 +13,7 @@ Since 6/18/2011
     JMDict is needed to be installed.
 
     Since the vocabulary of JMDict is relatively small, you can combine JMDict with EDICT/OVDP.
-    When both non-English and English translation are enabled, VNR will lookup non-English dictionaries (JMDict) first.
+    When both non-English and English translations are enabled, VNR will lookup non-English dictionaries (JMDict) first.
     If there is no match, it will then fallback to English (such as EDICT).
 
   Note to Russian users:
@@ -22,7 +22,7 @@ Since 6/18/2011
     Otherwise, Russian characters will look ugly in VNR and might sometimes go out of screen.
 
     VNR by default uses MS Gothic to render Japanese text, which always render Cyrillic characters in full-width.
-    This will break VNR's assumptions that non-CJK characters are all in half-width, and might break how VNR
+    This will break VNR's assumption that non-CJK characters are all in half-width, and might break how VNR
     calculates the width of text.
     Changing the font to "Tahoma" will fix this issue.
 

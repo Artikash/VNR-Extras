@@ -2,6 +2,30 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+4/30/2015 THU
+  [Dictionary]
+  * Add an option in Preferences to use OVDP to provide English translation.
+    OVDP (Open Vietnamese Dictionary Project) developed a set of open-source dictionaries for Vietnamese.
+    Though originally for Vietnamese, OVDP also provides a short English explanation before each entry.
+    It could be used together with EDICT to provide more English translations.
+
+  * Add option in Preferences to display Dutch/French/Russian translation above Japanese phrases.
+    JMDict is needed to be installed.
+
+    Since the vocabulary of JMDict is relatively small, you can combine JMDict with EDICT/OVDP.
+    When both non-English and English translation are enabled, VNR will lookup non-English dictionaries (JMDict) first.
+    If there is no match, it will then fallback to English (such as EDICT).
+
+  Note to Russian users:
+    If you would like to enable displaying Russian translation, I would strongly recommend to change the Japanese font
+    in Preferences/Fonts from MS Gothic to "Tahoma", or any other fonts that include both Japanese and Cyrillic characters.
+    Otherwise, Russian characters will look ugly in VNR and might sometimes go out of screen.
+
+    VNR by default uses MS Gothic to render Japanese text, which always render Cyrillic characters in full-width.
+    This will break VNR's assumptions that non-CJK characters are all in half-width, and might break how VNR
+    calculates the width of text.
+    Changing the font to "Tahoma" will fix this issue.
+
 4/29/2015 WED
   [Language]
   * Add translation support for Norwegian, Swedish, Finnish, Danish, Hungarian, Czech, Slovak,

@@ -1,0 +1,2 @@
+http://pythonhosted.org/six/
+https://bitbucket.org/gutworth/six

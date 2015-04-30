@@ -6,6 +6,7 @@ Since 6/18/2011
   [Language]
   * Add translation support for Norwegian, Swedish, Finnish, Danish, Hungarian, Czech, Slovak,
     Greek, Romanian, Ukrainian, and Turkish.
+    Additionally, Ukrainian is sharing vocabulary with Russian in the Shared Dictionary.
 
   [TAHScript](English, @riz)
   * Update TAH script for ATLAS.

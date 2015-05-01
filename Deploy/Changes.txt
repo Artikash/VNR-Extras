@@ -37,6 +37,13 @@ Since 6/18/2011
   [Yomigana]
   * Support generating translation from yomigana in Ukrainian.
 
+  [Game Engine]
+  * Add hooks to TabbedTextOutA/TabbedTextOutW in GDI.
+    It is intended to support extracting texts for games from らすこう,  but it might support some other games as well.
+
+    为「らすこう」社的游戏添加了提取文本的支持。
+    感谢@lambl sama的报告！
+
 4/29/2015 WED
   [Language]
   * Add translation support for Norwegian, Swedish, Finnish, Danish, Hungarian, Czech, Slovak,

@@ -30,7 +30,7 @@ Since 6/18/2011
     including Greek letters, Russian Cyrillic letters, and Ukrainian Cyrillic letters.
 
     Since many machine translators use English as the intermediate language, there are usually untranslated English words leaving
-    in the result translation. And in the Shared Dictionary, there are also a lot of translation that are for English only.
+    in the result translation. And in the Shared Dictionary, there are also a lot of translations that are for English only.
     This option when enabled will force converting these untranslated words to the letters in the target language's alphabet.
 
   [Yomigana](Ukrainian)
@@ -60,7 +60,7 @@ Since 6/18/2011
   [Dictionary](German)
   * Add option to display German translation directly above Japanese phrases.
     It requires Wadoku EPWING dictionary to be installed in Preferences/Downloads.
-    When enabled, a Japanese sentence will be look like this:
+    When enabled, a Japanese sentence will be like this:
 
      ich     Ichijō Akiram
    「 俺   は  一条    彰   、  デュエリスト だ」

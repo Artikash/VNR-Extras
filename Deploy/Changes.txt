@@ -9,7 +9,7 @@ Since 6/18/2011
     Though originally for Vietnamese, OVDP also provides a short English explanation before each entry.
     It could be used together with EDICT to provide more English translations.
 
-  * Add option in Preferences to display Dutch/French/Russian translation above Japanese phrases.
+  * Add option in Preferences to display Dutch/French/Russian translations above Japanese phrases.
     JMDict is needed to be installed.
 
     Since the vocabulary of JMDict is relatively small, you can combine JMDict with EDICT/OVDP.
@@ -18,23 +18,22 @@ Since 6/18/2011
 
   Note to Russian users:
     If you would like to enable displaying Russian translation, I would strongly recommend to change the Japanese font
-    in Preferences/Fonts from MS Gothic to "Tahoma", or any other fonts that include both Japanese and Cyrillic characters.
+    in Preferences/Fonts from "MS Gothic" to "Tahoma", or any other fonts that include both Japanese and Cyrillic characters.
     Otherwise, Russian characters will look ugly in VNR and might sometimes go out of screen.
 
-    VNR by default uses MS Gothic to render Japanese text, which always render Cyrillic characters in full-width.
-    This will break VNR's assumption that non-CJK characters are all in half-width, and might break how VNR
-    calculates the width of text.
+    VNR by default uses MS Gothic to render Japanese, which always shows Cyrillic characters in full-width.
+    This will break VNR's assumption that non-CJK characters are all in half-width, and might break how VNR calculates text width.
     Changing the font to "Tahoma" will fix this issue.
 
-  [Machine Translation]
+  [Machine Translation](Russian, Ukrainian, Greek)
   * Add an option in Preferences/Translation to convert English in the translation to the alphabet of the user language,
-    including Greek letters, Russian cyrillic letters, and Ukrainian cyrillic letters.
+    including Greek letters, Russian Cyrillic letters, and Ukrainian Cyrillic letters.
 
     Since many machine translators use English as the intermediate language, there are usually untranslated English words leaving
-    in the result translation. And in the Shared Dictionary, there are still a lot of translation are for English only.
-    This option when enabled will force converting there untranslated words to the letters in the target language.
+    in the result translation. And in the Shared Dictionary, there are also a lot of translation that are for English only.
+    This option when enabled will force converting these untranslated words to the letters in the target language's alphabet.
 
-  [Yomigana]
+  [Yomigana](Ukrainian)
   * Support generating translation from yomigana in Ukrainian.
 
   [Game Engine]

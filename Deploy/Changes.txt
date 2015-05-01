@@ -34,6 +34,9 @@ Since 6/18/2011
     in the result translation. And in the Shared Dictionary, there are still a lot of translation are for English only.
     This option when enabled will force converting there untranslated words to the letters in the target language.
 
+  [Yomigana]
+  * Support generating translation from yomigana in Ukrainian.
+
 4/29/2015 WED
   [Language]
   * Add translation support for Norwegian, Swedish, Finnish, Danish, Hungarian, Czech, Slovak,

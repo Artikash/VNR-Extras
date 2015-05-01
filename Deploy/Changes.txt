@@ -26,6 +26,14 @@ Since 6/18/2011
     calculates the width of text.
     Changing the font to "Tahoma" will fix this issue.
 
+  [Machine Translation]
+  * Add an option in Preferences/Translation to convert English in the translation to the alphabet of the user language,
+    including Greek letters, Russian cyrillic letters, and Ukrainian cyrillic letters.
+
+    Since many machine translators use English as the intermediate language, there are usually untranslated English words leaving
+    in the result translation. And in the Shared Dictionary, there are still a lot of translation are for English only.
+    This option when enabled will force converting there untranslated words to the letters in the target language.
+
 4/29/2015 WED
   [Language]
   * Add translation support for Norwegian, Swedish, Finnish, Danish, Hungarian, Czech, Slovak,

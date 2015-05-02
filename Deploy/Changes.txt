@@ -2,6 +2,12 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+5/2/2015 SAT
+  [Shared Dictionary](Russian, Ukrainian)
+  * English name definitions will be converted to Russian/Ukrainian alphabet.
+    For example, given a name definition ヘルマン => Helman in English, VNR
+    will translate ヘルマン to Хелман in Russian and Гелман in Ukrainian instead.
+
 5/1/2015 FRI
   [Yomigana](Greek)
   * Support generating translation from yomigana in Greek alphabet.

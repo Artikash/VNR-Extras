@@ -2,6 +2,9 @@
 # coding: utf8
 # 2/5/2015 jichi
 # Print JP variant characters and line numbers to keep
+#
+# Alternative Japanese-Chinese mapping:
+# http://www.kishugiken.co.jp/cn/code10d.html
 t = open("TSCharacters.txt", 'r').read().decode('utf8')
 s = open("STCharacters.txt", 'r').read().decode('utf8')
 

@@ -1,0 +1,3 @@
+https://github.com/sublee/korean
+https://pypi.python.org/pypi/korean
+http://pythonhosted.org/korean/

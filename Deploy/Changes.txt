@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+5/1/2015 FRI
+  [Yomigana](Greek)
+  * Support generating translation from yomigana in Greek alphabet.
+
 4/30/2015 THU
   [Dictionary]
   * Add an option in Preferences to use OVDP to provide English translation.

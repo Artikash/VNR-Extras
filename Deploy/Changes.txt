@@ -38,7 +38,7 @@ Since 6/18/2011
     - adjective-based phrase: yellow
     - name and pronoun: red
     - conjunction: blue
-    Currently, I haven't added interface to change these colors.
+    Currently, I haven't added an interface to change these colors.
 
     添加了对日文词组做语法加亮和显示日文词性的选项。
     这个选项默认是打开的，在【使用偏好/翻译/辞书】中可以关闭。

@@ -15,7 +15,7 @@ Since 6/18/2011
 
     Here's the current set of grammar roles (if you click the role, VNR will popup explanation):
     - m: 名前, name, probably human's
-    - mp: 地名, name of place
+    - mp: 地名, place name
     - n: 名詞, noun
     - pn: 代名詞, pronoun
     - v: 動詞, verb

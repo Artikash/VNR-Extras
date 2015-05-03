@@ -29,6 +29,7 @@ Since 6/18/2011
     - pre: 接頭辞, prefix
     - int: 感動詞, interjection
     - conj: 接続詞, conjunction
+    - w: 記号, latin or other special words
     - punct: 補助記号, punctuation
     - x: other common phrases
 

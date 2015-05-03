@@ -2,6 +2,50 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+5/3/2015 SUN
+  [i18n](Korean, @mireado)
+  * Update VNR's UI translation in Korean made by @mireado sensei.
+
+  [MeCab]
+  * Add option to highlight Japanese phrases based on their grammatic roles.
+    It is enabled by default, and can be turned off in Preferences/Translation/Dictionaries.
+    A screenshot is as follows:
+
+        http://sakuradite.com/images/screenshots/ex_role.png
+
+    Here's the current set of grammar roles (if you click the role, VNR will popup explanation):
+    - m: 名前, name, probably human's
+    - mp: 地名, name of place
+    - n: 名詞, noun
+    - pn: 代名詞, pronoun
+    - v: 動詞, verb
+    - a: 形状詞, stem of adjective/adverb
+    - adn: 連体詞, adnominal
+    - adj: 形容詞, adjective
+    - adv: 副詞, adverb
+    - p: 助詞, particle
+    - aux: 助動詞, auxiliary verb
+    - suf: 接尾辞, suffix
+    - pre: 接頭辞, prefix
+    - int: 感動詞, interjection
+    - conj: 接続詞, conjunction
+    - punct: 補助記号, punctuation
+    - x: other common phrases
+
+    And here's the current color theme:
+    - noun-based phrase: green
+    - verb-based phrase: purple
+    - adjective-based phrase: yellow
+    - name and pronoun: red
+    - conjunction: blue
+    Currently, I haven't added interface to change these colors.
+
+    添加了对日文词组做语法加亮和显示日文词性的选项。
+    这个选项默认是打开的，在【使用偏好/翻译/辞书】中可以关闭。
+    下边是截图：
+
+        http://sakuradite.com/images/screenshots/ex_role.png
+
 5/2/2015 SAT
   [Shared Dictionary](Russian, Ukrainian)
   * English name definitions will be converted to Russian/Ukrainian alphabet.
@@ -9482,7 +9526,7 @@ Since 6/18/2011
 
 4/7/2013 SUN
  * Support using Windows Text-To-Speech (TTS) as an alternative of default Google TTS.
-   There are several Japanese TTS engines out there. VoiceText is probabiliy the best, as follows:
+   There are several Japanese TTS engines out there. VoiceText is probably the best, as follows:
        http://voicetext.jp/samplevoice.html
    Thanks for @DinX's suggestion!
 

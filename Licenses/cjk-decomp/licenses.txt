@@ -1,0 +1,16 @@
+The data file is distributed under:
+
+* the Apache software licence 2.0 http://www.apache.org/licenses/LICENSE-2.0.html
+
+* the LGPL 3.0 licence http://www.gnu.org/licenses/lgpl.html
+
+* the Creative Commons by SA 3.0 licence http://creativecommons.org/licenses/by-sa/3.0/legalcode
+
+* the MIT license http://opensource.org/licenses/MIT
+
+* the Open Data Commons Attribution License (ODC-By) v1.0 http://opendatacommons.org/licenses/by/1.0/
+
+* the Eclipse Public License http://www.eclipse.org/legal/epl-v10.html
+
+You only need choose one of them.
+

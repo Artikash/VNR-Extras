@@ -2,6 +2,24 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+5/7/2015 THU
+  [Dictionary]
+  * Add an option to display decomposed radicals of kanji.
+    For example, "香" can be split into "禾" and "日".
+
+    To display the radical properly, additional Hanazono font (花園明朝) is needed to be
+    installed in Preferences/Downloads.
+
+    btw, I wrote a topic on how Chinese hanzi are being designed and combined, which might
+    be helpful to understand how kanji are made from these decomposed radicals.
+
+        http://sakuradite.com/topic/826
+
+    添加了一个显示汉字偏旁部首的选项。
+    如果你的中文超过了小学水平，那么无视这个选项好了。
+    另外，在【使用偏好/下载】中添加了一个花園明朝的字体。
+    这个字体主要是用来显示偏旁部首的，大家也无视好了。
+
 5/3/2015 SUN
   [i18n](Korean, @mireado)
   * Update VNR's UI translation in Korean made by @mireado sensei.

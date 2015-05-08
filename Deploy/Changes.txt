@@ -2,6 +2,20 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+5/8/2015 FRI
+  [Game Engine]
+  * Add text detection support for イブニクル的 with AliceRunPatch.dll.
+    为イブニクル的1.0.1版添加了提取文本的支持。
+
+    btw, I am gradually moving game engines written in C to Python.
+    This allows me to directly use regular expressions to search memory, which is so expressive.
+    The instruction pattern for AliceRunPatch is just expressed in a simple regex.
+    Additionally, the current memory search implementation in ITH does not work well for emulators
+    like PPSSPP with huge memory space, which is very slow, not scalable, and will crash in WinXP.
+    Switching to Python to search outside of the game process will fix this issue.
+    This will also allows me to scriptify game engines maybe in javascript and allows users to
+    edit in the future, since altering engines does not require compilation like in C.
+
 5/7/2015 THU
   [Dictionary]
   * Add an option to display decomposed radicals of kanji.

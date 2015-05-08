@@ -22,6 +22,9 @@ Since 6/18/2011
 
   * Add an option to display individual kanji translation using KanjiDic.
     KanjiDic can be downloaded for free in Preferences/Downloads.
+    When enabled, combining with radical dictionary, a kanji might be rendered like this:
+
+       戦{war}: [単{simple}, 戈{spear}]
 
 5/3/2015 SUN
   [i18n](Korean, @mireado)

@@ -20,6 +20,9 @@ Since 6/18/2011
     另外，在【使用偏好/下载】中添加了一个花園明朝的字体。
     这个字体主要是用来显示偏旁部首的，大家也无视好了。
 
+  * Add an option to display individual kanji translation using KanjiDic.
+    KanjiDic can be downloaded for free in Preferences/Downloads.
+
 5/3/2015 SUN
   [i18n](Korean, @mireado)
   * Update VNR's UI translation in Korean made by @mireado sensei.

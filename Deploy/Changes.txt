@@ -8,13 +8,14 @@ Since 6/18/2011
     为イブニクル的1.0.1版添加了提取文本的支持。
 
     btw, I am gradually moving game engines written in C to Python.
-    This allows me to directly use regular expressions to search memory, which is so expressive.
-    The instruction pattern for AliceRunPatch is just expressed in a simple regex.
-    Additionally, the current memory search implementation in ITH does not work well for emulators
-    like PPSSPP with huge memory space, which is very slow, not scalable, and will crash in WinXP.
+    This allows me to directly use regular expressions to search memory, which is so expressive and convenient.
+    The instruction pattern for AliceRunPatch is just expressed in a simple regex instead of a while-loop in C.
+    I am thinking maybe I can create another independent app for developers just for memory debugging with regex.
+    Additionally, the current memory search implementation in ITH does not work well for emulators like PPSSPP
+    with huge memory space, which is very slow, not scalable, and will crash in WinXP.
     Switching to Python to search outside of the game process will fix this issue.
-    This will also allows me to scriptify game engines maybe in javascript and allows users to
-    edit in the future, since altering engines does not require compilation like in C.
+    This will also allows me to scriptify game engines maybe in javascript and allows users to edit in the future,
+    since altering engines does not require compilation like in C.
 
 5/7/2015 THU
   [Dictionary]

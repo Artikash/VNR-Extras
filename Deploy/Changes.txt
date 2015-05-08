@@ -5,7 +5,7 @@ Since 6/18/2011
 5/7/2015 THU
   [Dictionary]
   * Add an option to display decomposed radicals of kanji.
-    For example, "香" can be split into "禾" and "日".
+    For example, "香" can be split into "禾(grain)" and "日(sun/day)".
 
     To display the radical properly, additional Hanazono font (花園明朝) is needed to be
     installed in Preferences/Downloads.

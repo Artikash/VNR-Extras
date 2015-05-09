@@ -11,6 +11,9 @@ Since 6/18/2011
     - "愛(情)?" 会被转换为 "愛"
     - 然而，"愛(情)?君" 不会被转换为 "愛君"，因为括号不在句首、句尾。
 
+  [Dictionary]
+  * Add options to lookup KanjiDic in French, Spanish, and Portuguese.
+
 5/8/2015 FRI
   [Game Engine]
   * Add text detection support for イブニクル的 with AliceRunPatch.dll.

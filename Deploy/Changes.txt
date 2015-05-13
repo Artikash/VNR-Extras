@@ -2,6 +2,12 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+5/12/2015 TUE
+  [Game Engine]
+  * Add an alternative hook for イブニクル.
+    Unlike the old System43 hook, the new one has no garbage threads and can extract
+    character names, which might be helpful for VNR's automatic TTS function.
+
 5/9/2015 SAT
   [Shared Dictionary](Chinese)
   * 对于带正则表达式的读法词条，转换为中文时词首和词尾的括号和问号会被删掉。

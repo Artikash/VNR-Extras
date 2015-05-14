@@ -14,7 +14,7 @@ Since 6/18/2011
     even if the game itself requires Administrator privileges.
     This applies to launching game with or without launchers like AppLocale, but except LocaleSwitch.
     当VNR不是以管理员身份启动时，会强制用非管理员的身份启动游戏。
-    即使游戏本身需要管理员权限，VNR仍旧会无视权限，而以非管理员的身份强制游戏启动。
+    即使游戏本身需要管理员权限，VNR仍旧会无视权限，而以非管理员的身份强迫游戏启动。
 
   [Game Engine]
   * Update RealLive engine to support new games from 裸足少女.

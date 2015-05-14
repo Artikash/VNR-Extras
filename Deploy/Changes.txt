@@ -13,6 +13,7 @@ Since 6/18/2011
   * When VNR is not launched as Administrator, it will always force launching games as non-administrator,
     even if the game itself requires Administrator privileges.
     This applies to launching game with or without launchers like AppLocale, but except LocaleSwitch.
+    It might or might not work for all games that require admin privileges though.
     当VNR不是以管理员身份启动时，会强制用非管理员的身份启动游戏。
     即使游戏本身需要管理员权限，VNR仍旧会无视权限，而以非管理员的身份强迫游戏启动。
 

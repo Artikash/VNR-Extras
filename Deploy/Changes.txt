@@ -5,7 +5,7 @@ Since 6/18/2011
 5/14/2015 THU
   [Yomigana](Korean)
   * "っ" is handled slight differently while converting to hangul as requested by @mireado.
-     For example: ゆりっぺ will be translated to 유릿페 instead of 유맆페.
+     For example: ゆりっぺ will now be translated to 유릿페 instead of 유맆페.
 
   [Game Engine]
   * Update RealLive engine to support new games from 裸足少女.

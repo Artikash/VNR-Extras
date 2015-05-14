@@ -2,6 +2,25 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+5/14/2015 THU
+  [Yomigana](Korean)
+  * "っ" is handled slight differently while converting to hangul as requested by @mireado.
+     For example: ゆりっぺ will be translated to 유릿페 instead of 유맆페.
+
+  [Game Engine]
+  * Update RealLive engine to support new games from 裸足少女.
+    添加了对裸足少女社游戏提取文本的支持。
+
+  * If there are user-defined H-code for a game, VNR will not hook to any places other than the one defined by that H-code.
+    VNR's entire built-in hooks/engines will not be injected when H-code is available.
+    This will avoid potential issues caused by Lstr functions and outdated built-in game engines.
+    当用户自定义的特殊码存在时，VNR就不会去hook游戏的其他地方了。
+
+  btw., I noticed that text extraction is totally broken for certain games (such as ショコラ) on Windows 10.
+  I haven't figured out the reason yet. But if you find other games not working only on win10, just let me know!
+  btw., 注意到在win10上VNR无法从部分游戏（比如：ショコラ）提取文本了。
+  如果你有发现其他游戏只在win10有无法提取文本的问题，可以让我知道！
+
 5/12/2015 TUE
   [Game Engine]
   * Add an alternative hook for イブニクル.

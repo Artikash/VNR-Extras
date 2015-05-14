@@ -12,7 +12,7 @@ Since 6/18/2011
   [Game Launch]
   * When VNR is not launched as Administrator, it will always force launching games as non-administrator,
     even if the game itself requires Administrator privileges.
-    This applies to launching game with or without launchers like AppLocale, but except LocaleSwitch.
+    This applies to launching games with or without launchers like AppLocale, but except LocaleSwitch.
     It might or might not work for all games that require admin privileges though.
     当VNR不是以管理员身份启动时，会强制用非管理员的身份启动游戏。
     即使游戏本身需要管理员权限，VNR仍旧会无视权限，而以非管理员的身份强迫游戏启动。
@@ -20,6 +20,8 @@ Since 6/18/2011
   [Game Engine]
   * Update RealLive engine to support new games from 裸足少女.
     添加了对裸足少女社游戏提取文本的支持。
+
+  * Fix the issue that BALDRSKY ZERO games might be spammed by mono_string functions.
 
   * If there are user-defined H-code for a game, VNR will not hook to any places other than the one defined by that H-code.
     VNR's entire built-in hooks/engines will not be injected when H-code is available.

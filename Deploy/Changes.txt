@@ -7,6 +7,11 @@ Since 6/18/2011
   * Update TAH script for LEC/ATLAS.
     The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
 
+  [Text Settings]
+  * Fixed a bug that selected Other Threads were not saved.
+    Thanks for @mireado sama's report!
+    修正了文本设定中的【其他】文本没有保存的bug。
+
 5/14/2015 THU
   [Yomigana](Korean)
   * "っ" is handled slight differently while converting to hangul as requested by @mireado.

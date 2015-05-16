@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+5/16/2015 SAT
+  [TAHScript](English, @riz)
+  * Update TAH script for LEC/ATLAS.
+    The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
+
 5/14/2015 THU
   [Yomigana](Korean)
   * "っ" is handled slight differently while converting to hangul as requested by @mireado.
@@ -114,7 +119,7 @@ Since 6/18/2011
     - p: 助詞, particle
     - aux: 助動詞, auxiliary verb
     - suf: 接尾辞, suffix
-    - pre: 接頭辞, prefix
+    - pref: 接頭辞, prefix
     - int: 感動詞, interjection
     - conj: 接続詞, conjunction
     - w: 記号, word in latin or other special characters

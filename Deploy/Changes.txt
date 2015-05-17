@@ -21,7 +21,7 @@ Since 6/18/2011
     For example:
     #1 pattern = "兎", translation = "Rabbit", role = m
     #2 pattern = "[[m_animal]]さん", translation = "[[m_animal]]-san", role = m
-    Then, "兎さん" will only be translated to "Rabbit さん".
+    Then, "兎さん" will only be translated to "Rabbitさん" instead of "Rabbit-san".
     Because m will NOT inherit m_animal.
 
   (Korean)

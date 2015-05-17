@@ -17,7 +17,7 @@ Since 6/18/2011
     Because m_animal can inherit m, "兎さん" will be translated to "Rabbit-san".
     i.e. #1's role m_animal will match #2's "[[m]]さん".
 
-    Additionally, such inheritance relation is Partial Ordered.
+    Additionally, such inheritance relation is Partially Ordered.
     For example:
     #1 pattern = "兎", translation = "Rabbit", role = m
     #2 pattern = "[[m_animal]]さん", translation = "[[m_animal]]-san", role = m

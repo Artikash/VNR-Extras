@@ -30,7 +30,7 @@ Since 6/18/2011
     Alternatively, you can get NanumBarunGothic manually in the following location:
         https://github.com/hiun/NanumBarunGothic
     And here's the set of all Nanum fonts:
-        http://www.hiunkim.com/NanumBarunGothic/
+        http://hangeul.naver.com/2014/nanum
 
 5/14/2015 THU
   [Yomigana](Korean)

@@ -20,7 +20,7 @@ Since 6/18/2011
     这样是为了防止错误的特殊码让VNR的游戏引擎失效。
 
   [Fonts](Korean)
-  * VNR by defaults uses DFGirl to render Korean texts.
+  * VNR by defaults uses DFGirl (a multilingual lolita font) to render Korean texts.
     @mireado requested changing it to Nanum Barun Gothic, which is a free web font family made by Naver.com.
     Unlike Hanazono font (花園明朝), Nanum font is not required by VNR to work normally at all.
     But Korean texts might look better after switching to this font.

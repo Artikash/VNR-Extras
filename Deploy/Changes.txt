@@ -3,7 +3,21 @@ Visual Novel Reader
 Since 6/18/2011
 
 5/17/2015 SUN
-  [Shared Dictionary](Korean)
+  [Shared Dictionary]
+  * Add some kind of implicit inheritance to the grammar roles.
+    Given two rules, say, "abc" and "abc_de", then "abc_de" will automatic inherit all patterns of "abc".
+    Basically, the role whose name like "thisrole_something" with a "_" in the middle will always inherit "thisrole".
+    Similarly, "a_b_c_1_2" will inherit "a_b_c" as well.
+    This behavior is designed in order to solve Korean postpositioned particle problem, but might help other languages as well.
+    For example, "adj_to" and "adj_na" will automatically inherit then "adj_to".
+
+    And here's what I mean by "inheritance", given two rules for example:
+    #1 pattern = 兎, translation = Rabbit, role = m_animal
+    #2 pattern = [[m]]さん, translation = [[m]]-san, role = m
+    Then, 兎さん will still be translated to Rabbit-san.
+    #1's role [[m_animal]] will still match #2's "[[m]]さん".
+
+  (Korean)
   * Insert a space between name and suffix for Korean.
     For example: "悠真くん" will be translated to "유마 군" instead of "유마군".
 

@@ -26,7 +26,7 @@ Since 6/18/2011
     But Korean texts might look better after switching to this font.
 
     VNR can automatically download NanumBarunGothic in Preferences/Downloads/Fonts.
-    And the Font for Korean can be changed by Preferences/Fonts.
+    And the Font for Korean can be changed at Preferences/Fonts.
     Alternatively, you can get NanumBarunGothic manually in the following location:
         https://github.com/hiun/NanumBarunGothic
     And here's the set of all Nanum fonts:

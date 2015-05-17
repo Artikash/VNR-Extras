@@ -12,6 +12,26 @@ Since 6/18/2011
     Thanks for @mireado sama's report!
     修正了文本设定中的【其他】文本没有保存的bug。
 
+  [Game Engine]
+  * When Text Settings window is visible, VNR will always inject built-in engines, no matter H-code is set or not.
+    When there is H-code available, VNR will not inject game engines unless H-code is deleted or Text Settings is opened.
+    I am worried a wrong H-code might prevent VNR from injecting, and hence changed to this way.
+    当文本设定的窗口打开时，不论是否有特殊码，VNR都会注入游戏引擎的。
+    这样是为了防止错误的特殊码让VNR的游戏引擎失效。
+
+  [Fonts](Korean)
+  * VNR by defaults uses DFGirl to render Korean texts.
+    @mireado requested changing it to Nanum Barun Gothic, which is a free web font family made by Naver.com.
+    Unlike Hanazono font (花園明朝), Nanum font is not required by VNR to work normally at all.
+    But Korean texts might be look better by switching to this font.
+
+    VNR can automatically download NanumBarunGothic in Preferences/Downloads/Fonts.
+    And the Font for Korean can be changed by Preferences/Fonts.
+    Alternatively, you can get NanumBarunGothic manually in the following location:
+        https://github.com/hiun/NanumBarunGothic
+    And here's the set of all Nanum fonts:
+        http://www.hiunkim.com/NanumBarunGothic/
+
 5/14/2015 THU
   [Yomigana](Korean)
   * "っ" is handled slight differently while converting to hangul as requested by @mireado.

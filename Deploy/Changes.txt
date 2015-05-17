@@ -6,7 +6,7 @@ Since 6/18/2011
   [Shared Dictionary]
   * Add some kind of implicit inheritance to the grammar roles.
     Given two rules, say, "abc" and "abc_de", then "abc_de" will automatic inherit all patterns of "abc".
-    Basically, the role whose name like "thisrole_something" with a "_" in the middle will always inherit "thisrole".
+    Basically, the role whose name like "baserole_somevariant" with a "_" in the middle will always inherit "baserole".
     Similarly, "a_b_c_1_2" will inherit "a_b_c" as well.
     This behavior is designed in order to solve Korean post-positioned particle problem, but might help other languages as well.
     For example, "adj_to" and "adj_na" will automatically inherit then "adj_to".

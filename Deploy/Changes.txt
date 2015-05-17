@@ -9,7 +9,7 @@ Since 6/18/2011
     Basically, the role whose name like "baserole_somevariant" with a "_" in the middle will always inherit "baserole".
     Similarly, "a_b_c_1_2" will inherit "a_b_c" as well.
     This behavior is designed in order to solve Korean post-positioned particle problem, but might help other languages as well.
-    For example, "adj_to" and "adj_na" will automatically inherit then "adj_to".
+    For example, "adj_to" and "adj_na" will automatically inherit "adj".
 
     And here's what I mean by "inheritance", given two rules for example:
     #1 pattern = "兎", translation = "Rabbit", role = m_animal

@@ -23,7 +23,7 @@ Since 6/18/2011
   * VNR by defaults uses DFGirl to render Korean texts.
     @mireado requested changing it to Nanum Barun Gothic, which is a free web font family made by Naver.com.
     Unlike Hanazono font (花園明朝), Nanum font is not required by VNR to work normally at all.
-    But Korean texts might be look better by switching to this font.
+    But Korean texts might look better after switching to this font.
 
     VNR can automatically download NanumBarunGothic in Preferences/Downloads/Fonts.
     And the Font for Korean can be changed by Preferences/Fonts.

@@ -19,7 +19,7 @@ Since 6/18/2011
     the final hangul character of the last syllable.
 
     For example, given a name definition 悠真 = 유우마 with role = m, VNR will replace m by m$o,
-    where $o indicates "유우마" ends with a vowels.
+    where $o indicates "유우마" ends with a vowel (ㅏ).
     Similarly, given a suffix definition 君 = 군 with role = m, VNR will replace m by m$x$n,
     where $x means "군" ends with a consonant, and $n means that consonant is ㄴ.
 

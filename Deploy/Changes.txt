@@ -39,33 +39,33 @@ Since 6/18/2011
    A list of $ suffices that will be automatically added to n/m are as follows:
    - $o: the last hangul character ends with a vowel
    - $x: the last hangul character ends with a consonant
-   - $g:  ᆨ
-   - $gg: ᆩ
-   - $gs: ᆪ
-   - $n:  ᆫ
-   - $nj: ᆬ
-   - $nh: ᆭ
-   - $d:  ᆮ
-   - $l:  ᆯ
-   - $lg: ᆰ
-   - $lm: ᆱ
-   - $lb: ᆲ
-   - $ls: ᆳ
-   - $lt: ᆴ
-   - $lp: ᆵ
-   - $lh: ᆶ
-   - $m:  ᆷ
-   - $b:  ᆸ
-   - $bs: ᆹ
-   - $s:  ᆺ
-   - $ss: ᆻ
-   - $ng: ᆼ
-   - $j:  ᆽ
-   - $c:  ᆾ
-   - $k:  ᆿ
-   - $t:  ᇀ
-   - $p:  ᇁ
-   - $h:  ᇂ
+   - $x$g:  ᆨ
+   - $x$gg: ᆩ
+   - $x$gs: ᆪ
+   - $x$n:  ᆫ
+   - $x$nj: ᆬ
+   - $x$nh: ᆭ
+   - $x$d:  ᆮ
+   - $x$l:  ᆯ
+   - $x$lg: ᆰ
+   - $x$lm: ᆱ
+   - $x$lb: ᆲ
+   - $x$ls: ᆳ
+   - $x$lt: ᆴ
+   - $x$lp: ᆵ
+   - $x$lh: ᆶ
+   - $x$m:  ᆷ
+   - $x$b:  ᆸ
+   - $x$bs: ᆹ
+   - $x$s:  ᆺ
+   - $x$ss: ᆻ
+   - $x$ng: ᆼ
+   - $x$j:  ᆽ
+   - $x$c:  ᆾ
+   - $x$k:  ᆿ
+   - $x$t:  ᇀ
+   - $x$p:  ᇁ
+   - $x$h:  ᇂ
 
    Special thanks for @mireado sama's extensive help and ideas on this topic!
 

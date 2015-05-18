@@ -2,6 +2,71 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+5/18/2015 MON
+  [Shared Dictionary]
+  * Output rules can have grammatic roles in it.
+    For example, given two definitions:
+
+    1. 悠真 => Yuuma, type = translation, role = m
+    2. University of [[m]] => [[m]] University, type = output
+
+    It will transform "University of Yuuma" to "Yuuma University".
+
+    However, the "Role" column of an Output definition itself is currently useless.
+
+  (Korean)
+  * The roles of noun(n)/name(m) for Korean translation will be automatically changed to reflect
+    the final hangul character of the last syllable.
+
+    For example, given a name definition 悠真 = 유우마 with role = m, VNR will replace m by m$o,
+    where $o indicates "유우마" ends with a vowels.
+    Similarly, given a suffix definition 君 = 군 with role = m, VNR will replace m by m$x$n,
+    where $x means "군" ends with a consonant, and $n means that consonant is ㄴ.
+
+    Additionally, "$" is similar to "_" that implies the inheritance relation.
+    For example, m$x$n inherits all rules for [[m]] and [[m$x]].
+
+    Here are some output definitions that might illustrate the usage of this syntax:
+    - [[m$x]]를 => [[]]을
+      It will replace 를 after all names ([[m]]) ending with a consonant by 을.
+    - [[m$o]]을 => [[]]를
+      It will replace 을 after all names ([[m]]) ending with a vowel by 를.
+    - [[m$x$l]]로 => [[]]으로
+      It will replace 로 after all names ([[m]]) ending with ㄹ by 으로.
+
+   A list $ suffix that will be automatically added to n/m are as follows:
+   - $o: the last hangul character ends with a consonant
+   - $x: the last hangul character ends with a vowel
+   - $g:  ᆨ
+   - $gg: ᆩ
+   - $gs: ᆪ
+   - $n:  ᆫ
+   - $nj: ᆬ
+   - $nh: ᆭ
+   - $d:  ᆮ
+   - $l:  ᆯ
+   - $lg: ᆰ
+   - $lm: ᆱ
+   - $lb: ᆲ
+   - $ls: ᆳ
+   - $lt: ᆴ
+   - $lp: ᆵ
+   - $lh: ᆶ
+   - $m:  ᆷ
+   - $b:  ᆸ
+   - $bs: ᆹ
+   - $s:  ᆺ
+   - $ss: ᆻ
+   - $ng: ᆼ
+   - $j:  ᆽ
+   - $c:  ᆾ
+   - $k:  ᆿ
+   - $t:  ᇀ
+   - $p:  ᇁ
+   - $h:  ᇂ
+
+   Special thanks for @mireado sama's extensive help and ideas on this topic!
+
 5/17/2015 SUN
   [Shared Dictionary]
   * Add some kind of implicit inheritance to the grammar roles.

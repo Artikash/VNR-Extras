@@ -37,8 +37,8 @@ Since 6/18/2011
       It will replace 를 after both name (m) and noun (n) ending with a consonant by 을.
 
    A list of $ suffices that will be automatically added to n/m are as follows:
-   - $o: the last hangul character ends with a consonant
-   - $x: the last hangul character ends with a vowel
+   - $o: the last hangul character ends with a vowel
+   - $x: the last hangul character ends with a consonant
    - $g:  ᆨ
    - $gg: ᆩ
    - $gs: ᆪ

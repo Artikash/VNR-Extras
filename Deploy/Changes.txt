@@ -12,7 +12,7 @@ Since 6/18/2011
 
     It will transform "University of Yuuma" to "Yuuma University".
 
-    However, the "Role" column of an Output definition itself is currently useless.
+    However, the "Role" column of an Output definition itself is currently unused.
 
   (Korean)
   * The roles of noun(n)/name(m) for Korean translation will be automatically changed to reflect

@@ -33,6 +33,8 @@ Since 6/18/2011
       It will replace 을 after all names ([[m]]) ending with a vowel by 를.
     - [[m$x$l]]로 => [[]]으로
       It will replace 로 after all names ([[m]]) ending with ㄹ by 으로.
+    - [[m$x,n$x]]를 => [[]]을
+      It will replace 를 after both name (m) and noun (n) ending with a consonant by 을.
 
    A list $ suffix that will be automatically added to n/m are as follows:
    - $o: the last hangul character ends with a consonant

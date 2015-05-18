@@ -36,38 +36,38 @@ Since 6/18/2011
     - [[m$x,n$x]]를 => [[]]을
       It will replace 를 after both name (m) and noun (n) ending with a consonant by 을.
 
-   A list of $ suffices that will be automatically added to n/m are as follows:
-   - $o: the last hangul character ends with a vowel
-   - $x: the last hangul character ends with a consonant
-   - $x$g:  ᆨ
-   - $x$gg: ᆩ
-   - $x$gs: ᆪ
-   - $x$n:  ᆫ
-   - $x$nj: ᆬ
-   - $x$nh: ᆭ
-   - $x$d:  ᆮ
-   - $x$l:  ᆯ
-   - $x$lg: ᆰ
-   - $x$lm: ᆱ
-   - $x$lb: ᆲ
-   - $x$ls: ᆳ
-   - $x$lt: ᆴ
-   - $x$lp: ᆵ
-   - $x$lh: ᆶ
-   - $x$m:  ᆷ
-   - $x$b:  ᆸ
-   - $x$bs: ᆹ
-   - $x$s:  ᆺ
-   - $x$ss: ᆻ
-   - $x$ng: ᆼ
-   - $x$j:  ᆽ
-   - $x$c:  ᆾ
-   - $x$k:  ᆿ
-   - $x$t:  ᇀ
-   - $x$p:  ᇁ
-   - $x$h:  ᇂ
+    A list of $ suffices that will be automatically added to n/m are as follows:
+    - $o: the last hangul character ends with a vowel
+    - $x: the last hangul character ends with a consonant
+    - $x$g:  ᆨ
+    - $x$gg: ᆩ
+    - $x$gs: ᆪ
+    - $x$n:  ᆫ
+    - $x$nj: ᆬ
+    - $x$nh: ᆭ
+    - $x$d:  ᆮ
+    - $x$l:  ᆯ
+    - $x$lg: ᆰ
+    - $x$lm: ᆱ
+    - $x$lb: ᆲ
+    - $x$ls: ᆳ
+    - $x$lt: ᆴ
+    - $x$lp: ᆵ
+    - $x$lh: ᆶ
+    - $x$m:  ᆷ
+    - $x$b:  ᆸ
+    - $x$bs: ᆹ
+    - $x$s:  ᆺ
+    - $x$ss: ᆻ
+    - $x$ng: ᆼ
+    - $x$j:  ᆽ
+    - $x$c:  ᆾ
+    - $x$k:  ᆿ
+    - $x$t:  ᇀ
+    - $x$p:  ᇁ
+    - $x$h:  ᇂ
 
-   Special thanks for @mireado sama's extensive help and ideas on this topic!
+    Special thanks for @mireado sama's extensive help and ideas on this topic!
 
 5/17/2015 SUN
   [Shared Dictionary]

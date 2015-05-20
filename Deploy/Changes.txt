@@ -52,7 +52,7 @@ Since 6/18/2011
 
   [Shared Dictionary UI]
   * If you have either KanjiDic or Radical dictionary enabled in Preferences, VNR will display the
-    the decomposed radicals and translations of all kanji in the pattern (such as Japanese names).
+    decomposed radicals and translations of all kanji in the pattern (such as Japanese names).
     It might be helpful for learning CJK hanzi.
 
 5/18/2015 MON

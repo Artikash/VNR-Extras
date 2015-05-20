@@ -2,6 +2,26 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+5/20/2015 WED
+  [Name Detection]
+   * To be aware of more quotes while guessing speaker's name of a sentence.
+     In the old version, VNR was only aware of 【】 and 「」.
+     Now, the following pairs of quotes are added:
+     - 「」
+     - 『』
+     - 《》
+     - （）
+     - ()
+     - ＜＞
+     - <>
+     - “”
+     - ‘’
+     - 〝〟
+
+     Important features that get affected because of this:
+     - Name guess accuracy in automatic Text-to-speech is improved
+     - User-shared subtitle/danmaku matching accuracy is better
+
 5/18/2015 MON
   [Shared Dictionary]
   * Output rules can have grammatic roles in it.

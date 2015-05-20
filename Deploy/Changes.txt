@@ -38,7 +38,7 @@ Since 6/18/2011
     改善了从日文文本中猜测姓名时，对各种引号的处理。
 
   * The assigned name for TTS is slightly changed when VNR failed to guess speaker's name.
-    Given the following three sentences:
+    For example, given the following three sentences:
         悠真くんを攻略すれば２１０円か
         「悠真くんを攻略すれば２１０円か」
         （悠真くんを攻略すれば２１０円か）

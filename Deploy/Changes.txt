@@ -38,7 +38,7 @@ Since 6/18/2011
     改善了从日文文本中猜测姓名时，对各种引号的处理。
 
   * The assigned name for TTS is slightly changed when VNR failed to guess speaker's name.
-    For example, given the three sentences below.
+    For example, given three sentences below.
     The assigned name for the first sentence will be "Aside", and that for the last two sentences
     will be "Unknown". Though being unknown, you can still select voices for unknown characters.
 

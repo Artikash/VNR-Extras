@@ -50,6 +50,11 @@ Since 6/18/2011
     比方说，给定上边的三句话。
     那么第一句话的人名会被识别为“旁白”，而第二和第三句话为“未知”。
 
+  [Shared Dictionary UI]
+  * If you have either KanjiDic or Radical dictionary enabled in Preferences, VNR will display the
+    the decomposed radicals and translations of all kanji in the pattern (such as Japanese names).
+    It might be helpful for learning CJK hanzi.
+
 5/18/2015 MON
   [Shared Dictionary]
   * Output rules can have grammatic roles in it.

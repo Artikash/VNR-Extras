@@ -38,18 +38,16 @@ Since 6/18/2011
     改善了从日文文本中猜测姓名时，对各种引号的处理。
 
   * The assigned name for TTS is slightly changed when VNR failed to guess speaker's name.
-    For example, given the following three sentences:
-        悠真くんを攻略すれば２１０円か
-        「悠真くんを攻略すれば２１０円か」
-        （悠真くんを攻略すれば２１０円か）
+    For example, given the three sentences below.
     The assigned name for the first sentence will be "Aside", and that for the last two sentences
     will be "Unknown". Though being unknown, you can still select voices for unknown characters.
 
+        悠真くんを攻略すれば２１０円か     -- aside
+        「悠真くんを攻略すれば２１０円か」 -- unknown
+        （悠真くんを攻略すれば２１０円か） -- unknown
+
     稍稍修改了下TTS时识别人物姓名失败时的行为。
-    比方说，给定下边三句话：
-        悠真くんを攻略すれば２１０円か
-        「悠真くんを攻略すれば２１０円か」
-        （悠真くんを攻略すれば２１０円か）
+    比方说，给定上边的三句话。
     那么第一句话的人名会被识别为“旁白”，而第二和第三句话为“未知”。
 
 5/18/2015 MON

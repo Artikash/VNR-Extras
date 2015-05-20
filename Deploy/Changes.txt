@@ -23,17 +23,17 @@ Since 6/18/2011
     - User-shared subtitle/danmaku matching accuracy is better
     - Sentence split for machine translation is slightly changed to be aware of quotes
 
-      For example, given the following Japanese sentence:
-          爽（悠真くんを攻略すれば２１０円か）
-      It will be split into:
-          爽, （, 悠真くんを攻略すれば２１０円から, ）
+    For example, given the following Japanese sentence:
+        爽（悠真くんを攻略すれば２１０円か）
+    It will be split into:
+        爽, （, 悠真くんを攻略すれば２１０円から, ）
 
-      However, the following two Japanese sentence will not get split by VNR.
-          爽（悠真くんを攻略すれば２１０円か）なるほどなぁ
-          悠真くんを攻略すれば２１００００円か（なるほどなぁ）
-      Because VNR will think （） here are not sentence deliminators.
-      + For the first sentence, it does not end with "）".
-      + For the second sentence, the text before "（" is too long to be a Japanese name.
+    However, the following two Japanese sentences will NOT get split by VNR.
+        爽（悠真くんを攻略すれば２１０円か）なるほどなぁ
+        悠真くんを攻略すれば２１００００円か（なるほどなぁ）
+    Because VNR will think （） here are not sentence deliminators.
+    - For the first sentence, it does not end with "）".
+    - For the second sentence, the text before "（" is too long to be a Japanese name.
 
 5/18/2015 MON
   [Shared Dictionary]

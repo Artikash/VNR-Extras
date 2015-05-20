@@ -18,7 +18,7 @@ Since 6/18/2011
     - “” (full-width)
     - ‘’ (full-width)
 
-    Important features that get affected because of this:
+    Some features that get affected because of this:
     - Name guess accuracy for automatic Text-to-speech is improved
     - User-shared subtitle/danmaku matching accuracy is better
     - Sentence split for machine translation is slightly changed to be aware of quotes

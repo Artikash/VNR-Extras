@@ -55,6 +55,38 @@ Since 6/18/2011
     decomposed radicals and translations of all kanji in the pattern (such as Japanese names).
     It might be helpful for learning CJK hanzi.
 
+  [Game Engine]
+  * Update SigusEngine to support embedding translation for AngelBeats.
+    Some screenshots are as follows:
+
+      http://sakuradite.com/images/screenshots/angelbeats_ko.jpg (Korean translation made by created by @mireado)
+      http://sakuradite.com/images/screenshots/angelbeats_zh.jpg (Chinese translation made by @直入哑然)
+
+    The encoding issue for CJK is fixed for SiglusEngine. It might still not work for other languages/engines though.
+    Severe knowing issues:
+    + When embedded translation is enabled, the game might periodically get jittered/hanged, which is very annoying.
+      This jittering problem is very very very annoying.
+      I am going to try to fix this problem soon.
+
+    + Encoding issue for non-English languages
+      - Chinese and Korean
+        The game must be launched in Chinese/Korean locales instead of Japanese.
+        This can be done by either using AppLocale to launch AngelBeats in Chinese/Korean locale,
+        or switching Windows locale directly to Chinese/Korean.
+
+      - Traditional Chinese
+        When the game is launched in Traditional Chinese locale, the option use Traditional Chinese variants in
+        Preferences/Translation/Chinese must be enabled.
+
+      - Other languages
+        I didn't test support for other languages myself. It might or might not work.
+
+    + While choices can be translated, there is currently no way to add manual translation for choices.
+      Only machine translations will be used.
+
+    我在尝试改善对AngelBeats嵌入翻译的支持。
+    现在还有一些问题，等改好了再说吧。，
+
 5/18/2015 MON
   [Shared Dictionary]
   * Output rules can have grammatic roles in it.
@@ -10138,7 +10170,7 @@ Since 6/18/2011
 1/14/2013 MON
   * Now you can drag the subtitles to any place you want.
     Don't forget to unlock the position of the text box first (by clicking [ Lock ]).
-    Here's a screenshot of how to drag the text box:  http://annot.me/images/screenshots/otome-drag.jpg
+    Here's a screenshot of how to drag the text box:  http://sakuradite.com/images/screenshots/otome-drag.jpg
   * Able to change the text box width from the left dock.
 
 1/13/2013 SUN

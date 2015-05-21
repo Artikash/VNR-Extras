@@ -111,18 +111,18 @@ echo                          Migrating changes ...
 echo ----------------------------------------------------------------------
 
 :: Get Korean font
-if not exist Library/Fonts/NanumBarunGothic.ttf (
-  if not exist Caches/Fonts/Nanum/NanumBarunGothic.ttf (
+if not exist Fonts/NanumBarunGothic.ttf (
+  if not exist ../Caches/Fonts/Nanum/NanumBarunGothic.ttf (
     if exist Frameworks/Sakura/py/scripts/getfont.py (
       python -B Frameworks/Sakura/py/scripts/getfont.py nanum
     )
   )
-  if exist Caches/Fonts/Nanum/NanumBarunGothic.ttf cp Caches/Fonts/Nanum/NanumBarunGothic.ttf Library/Fonts/
+  if exist ../Caches/Fonts/Nanum/NanumBarunGothic.ttf cp Caches/Fonts/Nanum/NanumBarunGothic.ttf Fonts/
 )
-rm -Rf Caches/Fonts/Nanum
+rm -Rf ../Caches/Fonts/Nanum
 
 rm -f Frameworks/Python/GPS.txt
-rm -f Caches/Dictionaries/Lingoes/ja-vi.db
+rm -f ../Caches/Dictionaries/Lingoes/ja-vi.db
 rm -Rf Dictionaries/JBeijing
 rm -Rf Dictionaries/CaboCha
 rm -Rf Dictionaries/IPAdic

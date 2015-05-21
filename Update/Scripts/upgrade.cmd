@@ -114,7 +114,7 @@ echo ----------------------------------------------------------------------
 if not exist Fonts/NanumBarunGothic.ttf (
   if not exist ../Caches/Fonts/Nanum/NanumBarunGothic.ttf (
     if exist Frameworks/Sakura/py/scripts/getfont.py (
-      python -B Frameworks/Sakura/py/scripts/getfont.py nanum
+      python -B Frameworks/Sakura/py/scripts/getfont.py -q nanum
     )
   )
   if exist ../Caches/Fonts/Nanum/NanumBarunGothic.ttf cp ../Caches/Fonts/Nanum/NanumBarunGothic.ttf Fonts/

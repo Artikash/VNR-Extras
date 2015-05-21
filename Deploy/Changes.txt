@@ -13,7 +13,7 @@ Since 6/18/2011
     截图在上边。
 
   [Fonts](Korean)
-  * UI font changed to Nanum Barun Gothic when UI language is Korean.
+  * UI font changed to "Nanum Barun Gothic" when UI language in Preferences is Korean.
 
 5/20/2015 WED
   [Name Detection]

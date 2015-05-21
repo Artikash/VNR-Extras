@@ -3,6 +3,16 @@ Visual Novel Reader
 Since 6/18/2011
 
 5/20/2015 WED
+  [Furigana UI]
+  * The option to display ruby below instead of above kanji is restored in Preferences.
+    A screenshot is as follows:
+
+        http://i.imgur.com/L4Wkbp2.png
+
+    恢复了上下颠倒振仮名的使用偏好的选项。
+    截图在上边。
+
+5/20/2015 WED
   [Name Detection]
   * To be aware of more quotes while guessing speaker's name of a sentence.
     In the old version, VNR was only aware of 【】 and 「」.

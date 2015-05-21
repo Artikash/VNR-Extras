@@ -63,7 +63,9 @@ Since 6/18/2011
       http://sakuradite.com/images/screenshots/angelbeats_zh.jpg (Chinese translation made by @直入哑然)
 
     The encoding issue for CJK is fixed for SiglusEngine. It might still not work for other languages/engines though.
-    Severe knowing issues:
+
+    Some known issues:
+
     + When embedded translation is enabled, the game might periodically get jittered/hanged, which is very annoying.
       This jittering problem is very very very annoying.
       I am going to try to fix this problem soon.

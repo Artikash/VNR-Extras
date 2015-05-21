@@ -15,6 +15,10 @@ Since 6/18/2011
   [Fonts](Korean)
   * UI font changed to "Nanum Barun Gothic" when UI language in Preferences is Korean.
 
+  [Embed Translation]
+  * Add option in to display both original Japanese text and translation.
+    When enabled, the translation will be appended after Japanese, instead of replacing Japanese.
+
 5/20/2015 WED
   [Name Detection]
   * To be aware of more quotes while guessing speaker's name of a sentence.
@@ -68,7 +72,7 @@ Since 6/18/2011
     decomposed radicals and translations of all kanji in the pattern (such as Japanese names).
     It might be helpful for learning CJK hanzi.
 
-  [Game Engine]
+  [Embed Translation]
   * Update SigusEngine to support embedding translation for AngelBeats.
     Some screenshots are as follows:
 
@@ -90,7 +94,7 @@ Since 6/18/2011
         or switching Windows locale directly to Chinese/Korean.
 
       - Traditional Chinese
-        When the game is launched in Traditional Chinese locale, the option use Traditional Chinese variants in
+        When the game is launched in Traditional Chinese locale, the option of Traditional Chinese variants in
         Preferences/Translation/Chinese must be enabled.
 
       - Other languages

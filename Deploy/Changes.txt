@@ -3,7 +3,7 @@ Visual Novel Reader
 Since 6/18/2011
 
 5/20/2015 THU
-  [Furigana UI]
+  [Yomigana]
   * The option to display ruby below instead of above kanji is restored in Preferences.
     A screenshot is as follows:
 

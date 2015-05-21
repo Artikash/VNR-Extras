@@ -16,8 +16,9 @@ Since 6/18/2011
   * UI font changed to "Nanum Barun Gothic" when UI language in Preferences is Korean.
 
   [Embed Translation]
-  * Add option in to display both original Japanese text and translation.
+  * Add option in to display both original Japanese text and translation in separate lines.
     When enabled, the translation will be appended after Japanese, instead of replacing Japanese.
+    Here's an example: http://i.imgur.com/u6uFyHu.png
 
 5/20/2015 WED
   [Name Detection]

@@ -117,7 +117,7 @@ if not exist Fonts/NanumBarunGothic.ttf (
       python -B Frameworks/Sakura/py/scripts/getfont.py nanum
     )
   )
-  if exist ../Caches/Fonts/Nanum/NanumBarunGothic.ttf cp Caches/Fonts/Nanum/NanumBarunGothic.ttf Fonts/
+  if exist ../Caches/Fonts/Nanum/NanumBarunGothic.ttf cp ../Caches/Fonts/Nanum/NanumBarunGothic.ttf Fonts/
 )
 rm -Rf ../Caches/Fonts/Nanum
 

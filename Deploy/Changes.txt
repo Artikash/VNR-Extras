@@ -85,7 +85,7 @@ Since 6/18/2011
       Only machine translations will be used.
 
     我在尝试改善对AngelBeats嵌入翻译的支持。
-    现在还有一些问题，等改好了再说吧。，
+    现在还有一些问题，等改好了再说吧。
 
 5/18/2015 MON
   [Shared Dictionary]

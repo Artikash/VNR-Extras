@@ -73,7 +73,7 @@ Since 6/18/2011
     + Encoding issue for non-English languages
       - Chinese and Korean
         The game must be launched in Chinese/Korean locales instead of Japanese.
-        This can be done by either using AppLocale to launch AngelBeats in Chinese/Korean locale,
+        This can be done by either using AppLocale to launch AngelBeats in Chinese/Korean locale on Japanese Windows,
         or switching Windows locale directly to Chinese/Korean.
 
       - Traditional Chinese

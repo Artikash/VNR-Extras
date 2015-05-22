@@ -2,7 +2,7 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
-5/21/2015 FRI
+5/22/2015 FRI
   [Embed Translation]
   * Add an option to insert spaces between text to fix the text overlapping issue.
     Depending on different OSes/Locales/Languages/Fonts of the host system, sometimes certain
@@ -76,7 +76,7 @@ Since 6/18/2011
 
     * 如果你在使用正体中文，那么最好在【使用偏好/翻译/中文】中打开强制将简体字幕转换为正体中文的选项。
 
-5/20/2015 THU
+5/21/2015 THU
   [Yomigana]
   * The option to display ruby below instead of above kanji is restored in Preferences.
     A screenshot is as follows:

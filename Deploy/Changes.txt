@@ -42,7 +42,7 @@ Since 6/18/2011
     - To turn on Embed Translation, I strongly recommend to have at least one offline machine translator installed.
       Otherwise, the latency of online translation might cause game to get jittered and slowdown.
 
-    修正了内嵌翻译会卡主的问题。
+    修正了内嵌翻译会卡住的问题。
 
     我觉得内嵌翻译的功能已经没有什么大问题了。
     如果你没有在用日版的Windows XP，那么也许可以尝试下打开这个机能。

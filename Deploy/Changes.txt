@@ -19,7 +19,8 @@ Since 6/18/2011
   * Fixed the jittering issue.
 
     I removed the "alpha" tag for embed translation, as I feel it has no critical issues now (at least for SiglusEngine).
-     Feel free to give it a try if you are speaking English/Chinese/Korean and NOT using Windows XP.
+    Feel free to give it a try if you are speaking English/Chinese/Korean and NOT using Windows XP.
+    More details could be found here: http://sakuradite.com/wiki/en/VNR/Embedded_Translation
 
     There are two issues left though that I am going to work on later:
     - Support changing game's fonts
@@ -29,10 +30,51 @@ Since 6/18/2011
 
     - Support translating choices and other texts, which might be important esp to RPG games.
 
+    Here are some related hints that might be helpful:
+    - Even if embedded translation is enabled, VNR will still display external subtitles.
+      If you want to disable external subtitles, just toggle off Text, Name, and Translation in the left option dock.
+      And automatic TTS will not get affected by whether displaying subtitles or not.
+
+    - Machine translation quality is usually not good for non CJK languages
+      Both translation and original text can be displayed together by toggling Preferences/Embed
+      in case the machine translation does not make sense.
+
+    - To turn on Embed Translation, I strongly recommend to have at least one offline machine translator installed.
+      Otherwise, the latency of online translation might cause game to get jittered and slowdown.
+
     修正了内嵌翻译会卡主的问题。
 
     我觉得内嵌翻译的功能已经没有什么大问题了。
     如果你没有在用日版的Windows XP，那么也许可以尝试下打开这个机能。
+
+    下边是关于这个功能的一些简单介绍。一些细节可以在这里找到：http://sakuradite.com/wiki/zh/VNR/内嵌翻译
+
+    所谓内嵌翻译，其实就是把游戏中日文的文本用中文的人工或者机器翻译直接替换掉。
+    不过当前，只有很少一部分游戏的对话可以被替换，游戏选项等文本和大部分游戏都不支持的。
+    在只有SiglusEngine的游戏有很好的测试过，其他的支持内嵌的引擎（比如Eushully）我还没有测试。
+
+    另外，内嵌的文字在日文的Windows XP上，可能无法正常显示，会变成点状乱码。
+    我只有日文的Windows XP，没有中文的Windows XP，不清楚内嵌翻译在中文Windows XP上是否可以正常工作（估计不能）。
+    在Windows Vista以上的操作系统没有这个问题。
+
+    开启这个技能的方法如下：
+    1. 在【使用偏好/内嵌翻译】中打开内嵌的选项
+    2. a. 如果你在使用日文的Windows，那么在Spring Board中点击【编辑】，修改游戏的启动方式为AppLocale，并改区域为中文。
+       b. 如果你在使用中文的Windows，那么在Spring Board中点击【编辑】，修改游戏的启动方式为禁止转区。
+       推荐使用a方法，因为b方法很多游戏如果不转区根本不能启动。
+
+    一些用处不大的tip：
+    * 即使打开内嵌翻译，VNR默认还是会渲染外挂字幕。
+      如果你只希望看到内嵌而不像看到外挂字幕，可以在左边的选项里关闭游戏文本、姓名文本、机器翻译、人工字幕四个就好了。
+      另外，自动语音合成不会因为关闭外挂字幕而受到影响。
+
+    * 由于机器翻译的准确度不高，你也可以在【使用偏好/内嵌翻译】里设定同时显示日文原文和中文翻译。
+
+    * 如果要使用内嵌翻译，强烈推荐至少安装可开启一个离线的日中翻译器。
+      由于在线翻译（比如百度）的延时，可能会然游戏一卡一卡的。
+      如果你一定要用比如百度，那么可能会需要在【使用偏好/内嵌翻译】里增加最大翻译延时。
+
+    * 如果你在使用正体中文，那么最好在【使用偏好/翻译/中文】中打开强制将简体字幕转换为正体中文的选项。
 
 5/20/2015 THU
   [Yomigana]

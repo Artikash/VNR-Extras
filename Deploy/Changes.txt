@@ -2,6 +2,20 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+5/21/2015 FRI
+  [Embed Translation]
+  * Add an option to insert spaces between text to fix the text overlapping issue.
+    Depending on different OSes/Locales/Languages/Fonts of the host Windows, sometimes certain
+    characters might overlap with each other.
+
+    When all characters overlap like the following one, it can be fixed by turning on the
+    Insert Spaces After Every Character option.
+        http://i.imgur.com/mUXTk6w.png
+
+    When only a few characters overlap like the following one (覚 and め overlapped), it can be
+    fixed by turning on the Insert Spaces Only Between Overlapped Characters option.
+        http://i.imgur.com/m5MZDfk.png
+
 5/20/2015 THU
   [Yomigana]
   * The option to display ruby below instead of above kanji is restored in Preferences.

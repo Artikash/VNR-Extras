@@ -2,6 +2,12 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+5/23/2015 SAT
+  [Game Engine]
+  * Add Bootup engine for games containing Bootup.dat in the game folder.
+    Tested working with 仏蘭西少女, 三国恋戦記, 神学校, and 絶対階級学園 from PIL/Daisy^2.
+    为一些PIL和Daisy^2的游戏添加了提取文本的支持。
+
 5/22/2015 FRI
   [Embed Translation]
   * Add an option to insert spaces between text to fix the text overlapping issue.

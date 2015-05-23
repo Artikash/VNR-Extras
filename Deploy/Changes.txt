@@ -15,6 +15,15 @@ Since 6/18/2011
   * You can press SHIFT or CTRL to temporarily pause embedding translation.
     按下Shift或者Ctrl可以暂停内嵌翻译。
 
+  * Add an option to change game's default font.
+    If game's default font cannot properly display the characters of the embedded language, you can change it to another font.
+
+    Note: If you want to select VNR's fonts in Library/Fonts as game's font (such as Nanum Barun Gothic),
+    you have to manually install that font file in Library/Fonts to your $windir/Fonts directory first.
+
+    添加了一个修改内嵌字体的选项。
+    如果游戏默认的字体无法正常显示中文，可以用这个选项来强迫更换字体。
+
 5/22/2015 FRI
   [Embed Translation]
   * Add an option to insert spaces between text to fix the text overlapping issue.

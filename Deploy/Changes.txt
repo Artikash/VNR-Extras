@@ -8,6 +8,13 @@ Since 6/18/2011
     Tested working with 仏蘭西少女, 三国恋戦記, 神学校, and 絶対階級学園 from PIL/Daisy^2.
     为一些PIL和Daisy^2的游戏添加了提取文本的支持。
 
+  [Embed Translation]
+  * Create multiple communication channels so that concurrent translation requests won't hang the game.
+    There should be no more hanging problem with user-shared subtitles or offline machine translation.
+
+  * You can press SHIFT or CTRL to temporarily pause embedding translation.
+    按下Shift或者Ctrl可以暂停内嵌翻译。
+
 5/22/2015 FRI
   [Embed Translation]
   * Add an option to insert spaces between text to fix the text overlapping issue.

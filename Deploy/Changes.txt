@@ -15,7 +15,7 @@ Since 6/18/2011
     另外，内嵌翻译可以在Windows XP和Wine上正常运行了。
 
   * Embedding translation is now working for all languages.
-    Here's a screenshot for AngelBeats with JBeijing+HanViet offline translation embedded:
+    Here's a screenshot for AngelBeats with JBeijing+HanViet offline Vietnamese translation embedded:
 
        http://i.imgur.com/ZjDpVkJ.png
 

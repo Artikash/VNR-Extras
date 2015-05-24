@@ -21,7 +21,7 @@ Since 6/18/2011
 
     To display non-English language properly, it is critical to select a proper font.
     You might have to tune the font and space settings a little bit in Preferences/Embed.
-    Changing font family will require restart the game, which is currently painful to tune though.
+    Changing font family might require restarting the game, which is currently painful to tune though.
 
     The best font should ideally support both the character sets of Japanese and the target language (such as Vietnamese),
     which, however, might not exist in Windows's default fonts.

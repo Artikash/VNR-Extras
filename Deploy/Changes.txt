@@ -5,7 +5,8 @@ Since 6/18/2011
 5/24/2015 SUN
   [Game Engine]
   * Game is no longer required to be launched with AppLocale.
-    If the game is launched in Japanese locale, you might need to select a different font that support
+    There is no longer any requirements for launching the game to embed translation.
+    But if the game is launched in Japanese locale, you might need to select a different font that support
     the character set of the embedded translation in Preferences/Embed.
     内嵌翻译不再需要用AppLocale运行游戏。
     如果游戏在日文环境中打开，那么会需要在【使用偏好/内嵌翻译】中修改游戏字体的编码为中文。

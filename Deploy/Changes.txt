@@ -24,7 +24,7 @@ Since 6/18/2011
     Changing font family will require restart the game, which is currently painful to tune though.
 
     The best font should ideally support both the character sets of Japanese and the target language (such as Vietnamese),
-    which, however, might not exist by default in Windows's Fonts.
+    which, however, might not exist in Windows's default fonts.
     For example, to display Japanese-Vietnamese properly, I used SimSun (仿宋), which is actually a Chinese font.
 
 5/23/2015 SAT

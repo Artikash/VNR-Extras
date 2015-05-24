@@ -25,7 +25,7 @@ Since 6/18/2011
 
     The best font should ideally support both the character sets of Japanese and the target language (such as Vietnamese),
     which, however, might not exist in Windows's default fonts.
-    For example, to display Japanese-Vietnamese properly, I used SimSun (仿宋), which is actually a Chinese font.
+    For example, to display Japanese-Vietnamese properly, I used SimSun (仿宋), which is indeed a Chinese font.
 
 5/23/2015 SAT
   [Game Engine]

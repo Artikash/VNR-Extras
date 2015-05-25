@@ -3,7 +3,7 @@ Visual Novel Reader
 Since 6/18/2011
 
 5/24/2015 SUN
-  [Game Engine]
+  [Embed Translation]
   * Game is no longer required to be launched with AppLocale.
     There are no longer any requirements for launching the game to embed translation.
     But if the game is launched in Japanese locale, you might need to select a different font that support
@@ -26,6 +26,14 @@ Since 6/18/2011
     The best font should ideally support both the character sets of Japanese and the target language (such as Vietnamese),
     which, however, might not exist in Windows's default fonts.
     For example, to display Japanese-Vietnamese properly, I used SimSun (仿宋), which is indeed a Chinese font.
+
+    If you don't want to manually specify the font, you can also enforce the character set of the font, and let Windows to
+    automatically pick one for you.
+    Here's a screenshot for embedded Thai translation from Bing without explicit font selection:
+
+       http://i.imgur.com/itNhEeB.png
+
+    There are weird spaces in the middle though, as I don't have a proper Thai font installed in my Japanese Windows.
 
 5/23/2015 SAT
   [Game Engine]

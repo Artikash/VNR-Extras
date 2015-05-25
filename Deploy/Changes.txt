@@ -6,6 +6,7 @@ Since 6/18/2011
   [Game Engine]
   * System43+ engine is slightly modified to get rid of illegal characters from the text.
     But you will have to readjust Text Settings if you are using System43+.
+    如果你在用System43+的文本，请重新调整下文本设定。
 
 5/24/2015 SUN
   [Embed Translation]

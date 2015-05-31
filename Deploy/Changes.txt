@@ -12,7 +12,7 @@ Since 6/18/2011
       AVG part: http://i.imgur.com/aIM4dWN.png
       RPG part: http://i.imgur.com/1HIIwSR.png
 
-    Note that the Text Settings for embedding translation is changed to be read-only and left only for debugging purpose.
+    Note that the Text Settings for embedding translation is changed to be read-only and left only for debugging purposes.
     Since everything can be automated to embed translation, there is no need for manually adjusting Text Settings.
 
 5/25/2015 MON

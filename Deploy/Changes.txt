@@ -2,6 +2,19 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+5/30/2015 SAT
+  [Embed Translation]
+  * Add embed translation support for Evenicle.
+    Currently, it only supports English, and might not work for other System43 games.
+    Text, name, and some in-game item texts can be translated.
+    Here are some screenshots:
+
+      AVG part: http://i.imgur.com/aIM4dWN.png
+      RPG part: http://i.imgur.com/1HIIwSR.png
+
+    Note that the Text Settings for embedding translation is changed to be read-only and left only for debugging purpose.
+    Since everything can be automated to embed translation, there is no need for manually adjusting Text Settings.
+
 5/25/2015 MON
   [Game Engine]
   * System43+ engine is slightly modified to get rid of illegal characters from the text.

@@ -2,6 +2,18 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+5/31/2015 SUN
+  [Embed Translation]
+  * Modify the System43 hook to work with other AliceSoft games to embed English translation.
+    Tested working with ランス9 and 武想少女隊.
+    However, since English is usually more verbose than Japanese, the text might sometimes go out of screen.
+    Here are some screenshots:
+
+        http://i.imgur.com/vUxx9o0.png
+        http://i.imgur.com/KhkOBCf.png
+        http://i.imgur.com/E6R1GW2.png
+        http://i.imgur.com/HCWdxuc.png
+
 5/30/2015 SAT
   [Embed Translation]
   * Add embed translation support for Evenicle.

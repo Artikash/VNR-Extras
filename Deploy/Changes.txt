@@ -18,6 +18,10 @@ Since 6/18/2011
         http://i.imgur.com/E6R1GW2.png
         http://i.imgur.com/HCWdxuc.png
 
+  [Yomigana]
+  * Fixed a issue that text might go out-of-screen when ruby is displayed below instead of above kanji.
+    Thanks for @Onurtag sama's report!
+
 5/30/2015 SAT
   [Embed Translation]
   * Add embed translation support for Evenicle.

@@ -3,6 +3,10 @@ Visual Novel Reader
 Since 6/18/2011
 
 5/31/2015 SUN
+  [TAHScript](English, @riz)
+  * Update TAH script for LEC/ATLAS.
+    The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
+
   [Embed Translation]
   * Modify the System43 engine to support other AliceSoft games to embed English translation.
     Tested working with ランス9 and 武想少女隊.

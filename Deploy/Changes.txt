@@ -4,7 +4,7 @@ Since 6/18/2011
 
 5/31/2015 SUN
   [Embed Translation]
-  * Modify the System43 hook to work with other AliceSoft games to embed English translation.
+  * Modify the System43 engine to work with other AliceSoft games to embed English translation.
     Tested working with ランス9 and 武想少女隊.
     However, since English is usually more verbose than Japanese, the text might sometimes go out of screen.
     Here are some screenshots:

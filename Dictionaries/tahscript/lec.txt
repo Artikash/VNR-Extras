@@ -1,4 +1,4 @@
-*8:10 2015/05/13
+*10:02 2015/05/31
 *this is an example of a simple regex script for TAHelper on VNR
 *originally it was made based on ATLAS V14 (+TA) behaviour
 *Update: the script adapting LEC behaviour now, so might not work on ATLAS or other translation engine
@@ -105,7 +105,7 @@
 *(z([^z]+)z)
 *
 *global name removal examples :
-*be mind that those codes wouldn't handle a multilevel quotes text,
+*be mind that those codes wouldn't handle a multilevel quotes text, 
 *when this happen, just use ONLY ONE separator should fix it.
 *1. pattern : name「dialogue」 or 【name】「dialogue」, separators : 「『（
 *recommended, most games uses this pattern
@@ -113,7 +113,7 @@
 *(^(【(.+)】|(.+))([「])){1}	$5
 *2. pattern : name　「dialogue」 or 【name】　「dialogue」, with a space before dialogue, separators : 「『（
 *(^(【(.+)】|(.+))　([「『（])){1}	$5
-*3. pattern : 「dialogue」name
+*3. pattern : 「dialogue」name 
 *known games uses this pattern: BaldrSky and any GIGA games, Shin Koihime Musou
 *(([」』）])(【(.+)】|(.+))$)	$2
 *(([」）])(【(.+)】|(.+))$)	$2
@@ -417,7 +417,7 @@
 (([、。？！…「『（]|^)う[ッー][スす])	$2おっす
 (([一-龠あ-ん])ッス)	$2です
 (([、。？！…「『（]|^)(でしょ)\3([、。？！…」』）]))	$2$3$4
-((でしょ|ありがと)([、。？！…」』）]))	$2う$3
+((でしょ|ありがと)～?([、。？！…」』）]))	$2う$3
 ((しよ)ーぜい([、。？！…」』）]))	$2う$3
 (([、。？！…「『（]|^)(ま)、(いっか)([、。？！…」』）]))	$2$3$4$5
 *another annoying lazy talk shit
@@ -464,7 +464,7 @@
 *I found that なぁと思 can be translated by Atlas
 *however なぁって思 is not
 *maybe because って is a (coll), that's why it'll break translation
-*note:
+*note: 
 *んじゃないか + なぁと思 = ok
 *のじゃないか + なぁと思 = ok (however, the meaning will different)
 *んじゃないか + と思 = broken <-- this is our big problem
@@ -1152,7 +1152,7 @@
 (だろう)しね([、。？！…」』）])	$1$2
 *save hiragana names, put troubling names/words here
 ((あやね|るみね|をこね|しね)([、。？！…」』）]))	$2x$3
-((あの|なめこ|舐めこ)ね([、。？！…」』）]))	$2x$3
+((あの|なめこ|舐めこ|なんて)ね([、。？！…」』）]))	$2x$3
 *save
 ((ようなま)ね([、。？！…」』）]))	$2x$3
 *note: why てね must be saved? I forgot
@@ -1165,7 +1165,7 @@
 (([、。？！…「『（]|^)(また)x(ね)([、。？！…」』）]))	$2$3$4$5
 *restore hiragana names/words
 ((あやね|るみね|をこね|しね)x([、。？！…」』）]))	$2$3
-((あの|なめこ|舐めこ)x([、。？！…」』）]))	$2ね$3
+((あの|なめこ|舐めこ|なんて)x([、。？！…」』）]))	$2ね$3
 *
 *---さ---
 *for Kanto-ben
@@ -1573,7 +1573,7 @@
 *--- て, verb followed by て or た ---
 *seems very unsafe...
 *what's confusing is verb and adj is treated the same
-*ex:
+*ex: 
 *1. kanji + うて = -te form
 *2. kanji + うて = adj + といって
 *my guess is, because both kanjis are originally followed by い, that's why they are replaced by う
@@ -1607,7 +1607,7 @@
 *おる -> いる
 *とる -> ている, or just て for -te form
 *general pattern is verb + とる
-*ex:
+*ex: 
 *1. past form, ex: 聞いた become 聞いとった
 *2. present form, ex: 使う become 使こうとる
 *first try, let's see if we can replace it without checking the verb type
@@ -1684,7 +1684,7 @@
 (([一-龠])([え])よっ(た))	$2$3$4
 *
 *--- とら & とらん ---
-*from -te form + negative
+*from -te form + negative 
 (([一-龠し])とらへん)	$2てない
 (([一-龠])([い])とら(へん|ない))	$2$3てない
 (([一-龠])[うっ]とらん)	$2っていない
@@ -2114,6 +2114,7 @@
 *however I tried to change it into "it is said"
 *save
 ((ことで)(だと)([、。？！…」』）]))	$2x$3$4
+([、。？！…「『（]|^)(何|なん)(だとう?)([、。？！…」』）])	$1$2x$3$4
 *
 *join separated sentence
 、(だと)([。？！…」』）])	$1$2
@@ -2129,6 +2130,7 @@
 *
 *restore
 ((ことで)x(だと)([、。？！…」』）]))	$2$3$4
+([、。？！…「『（]|^)(何|なん)x(だとう?)([、。？！…」』）])	$1$2$3$4
 *
 *================================================
 *handling misc dialect
@@ -2242,7 +2244,7 @@
 *
 *======================================================================================
 *---どう---
-*in order to make a proper "questioning" form by どう,
+*in order to make a proper "questioning" form by どう, 
 *we have to replace incorrect (exp) or "question mark (？)"
 *note: don't confusedly mixing plain copula (だ、です、だろう、でしょう) with to-do (する、しよう、でしよう)
 *when following たら, どうでしょう is not the same as どうでしよう
@@ -2271,8 +2273,9 @@
 ((たら|[はが])(どう)(でしょ))	$2$3x$4
 *
 *handling どうする (What do we do?)
-((たら|んだら)(どう)(する)([のか、。？！…」』）]))	$2$3しょう$5
-(([はが])(どう)(する)([のか、。？！…」』）]))	$2$3しょう$5
+*disabled : LEC doesn't need change
+*((たら|んだら)(どう)(する)([のか、。？！…」』）]))	$2$3しょう$5
+*(([はが])(どう)(する)([のか、。？！…」』）]))	$2$3しょう$5
 *must be ended by か or ？
 ((どうする)([、。！…」』）]))	$2？$3
 *どうする alone can't be translated, let's change it into どうしょう
@@ -2398,8 +2401,8 @@
 ((まら)(ん)(だ)(な|ぜ|ぞ)([。、？！…」』）]))	$2ない、$4$5$6
 ((まら)(ん)(で)(ぜ)([。、？！…」』）]))	$2ない、$4$5$6
 ((て)(ん)(だ)(ぞ)([。、？！…」』）]))	$2の、$4$5$6
-((ん)(だ)(な|ぜ|ぞ)([。、？！…」』）]))	の$3$5
-((ん)(で)(ぜ)([。、？！…」』）]))	の、$3$4$5
+(?<!さ)(ん)(だ)([なぜぞ])([。、？！…」』）])	の$2$4
+(?<!さ)(ん)(で)(ぜ)([。、？！…」』）])	の、$2$3$4
 *((ん)(で)(す)([。、？！…」』）]))	の$3$4$5
 *んです can break 肉まん, たいへん etc, gonna need better pattern
 (([^。、？！…「『（])(な)ん(です)([。、？！…」』）]))	$2$3の$4$5
@@ -2440,7 +2443,7 @@
 *---try to remove verb suffix---
 *dealing with verb suffix like たまえ, ちまえ, やがれ is kinda hard
 *it's supposed to be translated like verb + a cursing word (ex: "Take this!", "Eat that!", "Die bitch!")
-*possible replacements are ある(to do), あれ(that)
+*possible replacements are ある(to do), あれ(that) 
 *except って & った, because this will translated as あう "each other"
 ((っ)つ(の)([、。…？！」』）]))	$2て$3$4
 ((たまへ)([、。…？！」』）]))	あれ$3
@@ -2682,11 +2685,11 @@
 *---っか---
 *verb + っか should be translated into "let's", not a volitional, or a probably
 *ろっか when changed into ろうか, the confirmation form is gone
-*ex:
+*ex: 
 *帰ろっか when replaced with 帰ろうか
 *expected translation : "Shall we return?"
 *current translation : "Let's return"
-*the problem is because 帰る is u-verb,
+*the problem is because 帰る is u-verb, 
 *so the proper one should be 帰りましょうか
 *however, because we don't have subject here, Atlas will translate it as "Shall I return?"
 *logically ろっか only means polite volitional form
@@ -2904,9 +2907,10 @@
 *I still don't get how なんで works in Atlas, for the time being let's try なぜ
 *must be careful to not break words like なんでもない, なんですか etc
 *backup_(([（「『、。…？！]|^)(なんで|何で)([一-龠ア-ヴ]|[こそ]んな))	$2なぜ$4
-(([（「『、。…？！]|^)(なんで|何で)([一-龠ア-ヴ]))	$2なぜが$4
-(([（「『、。…？！]|^)(なんで|何で)([こそ]んな))	$2なぜ$4
-(([（「『、。…？！]|^)(何で)([、。？！…」』）]))	$2なぜ$4
+*disabled on LEC
+*(([（「『、。…？！]|^)(なんで|何で)([一-龠ア-ヴ]))	$2なぜが$4
+*(([（「『、。…？！]|^)(なんで|何で)([こそ]んな))	$2なぜ$4
+*(([（「『、。…？！]|^)(何で)([、。？！…」』）]))	$2なぜ$4
 *
 *--- なに ---
 *replace なに with なぜ
@@ -2931,7 +2935,7 @@
 *
 *--- -te form + ばかり---
 *possible way to fix :
-*1. masu stem + ばかり (unsafe ex: 気にしてばかり if converted into masu will break )
+*1. masu stem + ばかり (unsafe ex: 気にしてばかり if converted into masu will break ) 
 *2. -te form + の + ばかり
 (([せべげけめねれて来きしくういえ]|[さわばがかまならあた][れせ]|しえ|なく|まし|[あえ来こ](られ|させ))(て)(ばかり)([^、。？！…」』）]))	$2$4の$5$6
 (([っ]|あっ)(て)(ばかり))	$2$3の$4
@@ -3817,7 +3821,7 @@
 *completing -masu verb
 *removed : ん
 *be sure to not messing with compound words/conjunctions
-*compound words/conjunctions pattern is verb1 + verb2, usually -masu stem verb + another verb,
+*compound words/conjunctions pattern is verb1 + verb2, usually -masu stem verb + another verb, 
 *ex: 蠢かし始めた
 *disabled, completing with て is unsafe
 ((ないで)(くださいまし)([、。？！…」』）]))	$2$3て$4
@@ -3904,7 +3908,7 @@
 *
 *-te form + らした ---
 *causative past form, but instead of masu stem, -te form is used.
-*ex:
+*ex: 
 *見てらした -> 見させた
 *言ってらした -> 言わせた
 *however, it'll be difficult to change it. Especially verb ended by んで and って
@@ -4025,8 +4029,13 @@
 (([っせべげけめねれて来きしくういえ]|[さわばがかまならあた][れせ]|しえ|なく|まし|[あえ来こ](られ|させ)|あっ)(て)(け)([、。？！…」』）]))	$2$4お$5$6
 *
 *-te form vs (exp)
+*save
+(どう)(して)(だ|です|でしょう|だろう|でしょ|だろ)	$1$2x$3
+*
 (([っせべげけめねれて来きしくういえ]|[さわばがかまならあた][れせ]|しえ|なく|まし|[あえ来こ](られ|させ)|あっ)(て)(だ|です|でしょう|だろう|でしょ|だろ)([、。？！…」』）]))	$2$4いて$6
 (([一-龠])(んで)(のだ|だ|だろ|だろう|でしょ|でしょう|です)([、。？！…」』）]))	$2$3$5
+*restore
+(どう)(して)x(だ|です|でしょう|だろう|でしょ|だろ)	$1$2$3
 *
 *-te form + (exp) + か
 *since -te form doesn't work with it
@@ -4679,6 +4688,7 @@
 ((よろしく)([、…]+)(お願いします))	$2$4
 *
 *misc
+[、…](です(か|けど)?|でしょう?か|だろう?か|ませんか?)([、。…？！」』）])	$1$3
 (([、。？！…「『（]|^)([こそど]う)([、…]+)(でしょ|です|だろ|し[てた]))	$2$3$5
 (([あそこ]んな)([、…]+)(こと))	$2$4
 (([、。？！…「『（]|^)(まるで)([、…]+))	$2$3
@@ -4735,6 +4745,14 @@
 *==============================================================================================================================
 *Beyond this script is another test
 *
+*
+*sentence break that VNR can't handle
+*save
+(だろう?|でしょう?|から)(別に)	$1x$2
+*
+(だろう?|でしょう?)(ご?[一-龠]{1,4})	$1、$2
+*restore
+(だろう?|でしょう?|から)x(別に)	$1$2
 *
 *disabled : あら
 *LEC, handling "、"

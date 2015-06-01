@@ -7,6 +7,10 @@ Since 6/18/2011
   * Update TAH script for LEC/ATLAS.
     The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
 
+  [Yomigana]
+  * Fixed a issue that text might go out-of-screen when ruby is displayed below instead of above kanji.
+    Thanks for @Onurtag sama's report!
+
   [Embed Translation]
   * Modify the System43 engine to support other AliceSoft games to embed English translation.
     Tested working with ランス9 and 武想少女隊.
@@ -18,9 +22,12 @@ Since 6/18/2011
         http://i.imgur.com/E6R1GW2.png
         http://i.imgur.com/HCWdxuc.png
 
-  [Yomigana]
-  * Fixed a issue that text might go out-of-screen when ruby is displayed below instead of above kanji.
-    Thanks for @Onurtag sama's report!
+  * Update SiglusEngine to support translating choices and names for AngelBeats as well.
+    Here's a screenshot:
+
+        http://i.imgur.com/ZOFpgsN.png
+
+    AngelBeats可以翻译姓名了选项了。截图如上。
 
 5/30/2015 SAT
   [Embed Translation]

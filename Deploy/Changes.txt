@@ -23,7 +23,8 @@ Since 6/18/2011
         http://i.imgur.com/HCWdxuc.png
 
   * Add an option to limit the maximum scenario text width by inserting new lines so that it won't go out of screen.
-    This option currently does not work for System43 though.
+    This option only works if "\n" can be interpreted as new lines ina game.
+    It currently does not work for System43 where \n has no effect.
 
   * Update SiglusEngine to support translating choices and names for AngelBeats as well.
     Here's a screenshot:

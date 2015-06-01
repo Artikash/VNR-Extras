@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+6/1/2015 MON
+  [Embed Translation]
+  * Fix the issue that customized font with non-ascii family name might not work.
+    Thanks for @mireado sama's report!
+
 5/31/2015 SUN
   [TAHScript](English, @riz)
   * Update TAH script for LEC/ATLAS.

@@ -7,6 +7,10 @@ Since 6/18/2011
   * Fix the issue that customized font with non-ascii family name might not work.
     Thanks for @mireado sama's report!
 
+  * Add options to adjust font size and weight.
+    But depending on the game engine, the font settings might or might not work.
+    Currently, it works for SiglusEngine, but has no effect to System43.
+
 5/31/2015 SUN
   [TAHScript](English, @riz)
   * Update TAH script for LEC/ATLAS.

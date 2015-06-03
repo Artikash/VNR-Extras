@@ -21,6 +21,7 @@ Since 6/18/2011
 
     btw, I recently changed the underlying hook implementation, and all previous embedded game engines were broken as the result.
     Currently, only SiglusEngine, System43, and Eushully(ARCGameEngine) support embedding translation.
+    And only UTF16 engines support embedding all languages. SHIFT-JIS engines currently only support English.
     I will restore the support for other previous embed engines later, such as BGI, Circus, Elf, and Majiro.
 
 6/1/2015 MON

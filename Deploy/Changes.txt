@@ -19,7 +19,7 @@ Since 6/18/2011
     Because of 2. and 3., I would suggest to turn on both embed and external subtitles at the same time.
     When the embed translation is too long or broken into pieces, you can check the external subtitle instead.
 
-    btw, since I changed the underlying hook implementation recently, all previous embedded game engines were broken.
+    btw, I recently changed the underlying hook implementation, and all previous embedded game engines were broken as the result.
     Currently, only SiglusEngine, System43, and Eushully(ARCGameEngine) support embedding translation.
     I will restore the support for other previous embed engines later, such as BGI, Circus, Elf, and Majiro.
 

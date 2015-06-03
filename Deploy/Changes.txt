@@ -2,9 +2,33 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+6/2/2015 TUE
+  [Embed Translation]
+  * Restore the support for embed translation for Eushully games.
+    A screenshot of 神のラプソディ is as follows:
+
+      http://i.imgur.com/7sWgSfr.png
+
+    Knowing issues:
+    1. It currently only supports embed English translation
+    2. Translation could go out of screen if being too long (since English is usually much more verbose than CJK languages)
+    3. For Eushully games, when there are Ruby in the text, it will be break into pieces, which will significantly downgrade
+       machine translation quality because the sentence structure of Japanese and English is so different.
+       I am going to check if it is possible to totally disable ruby in the future.
+
+    Because of 2. and 3., I would suggest to turn on both embed and external subtitles at the same time.
+    When the embed translation is too long or broken into pieces, you can check the external subtitle instead.
+
+    btw, since I changed the underlying hook implementation recently, all previous embedded game engines were broken.
+    Currently, only SiglusEngine, System43, and Eushully(ARCGameEngine) support embedding translation.
+    I will restore the support for other previous embed engines later, such as BGI, Circus, Elf, and Majiro.
+
 6/1/2015 MON
   [Embed Translation]
   * Fix the issue that customized font with non-ascii family name might not work.
+    Thanks for @mireado sama's report!
+
+  * Fixed a bug in SiglusEngine that sometimes choice text is not translated.
     Thanks for @mireado sama's report!
 
   * Add options to adjust font size and weight.

@@ -9,6 +9,20 @@ Since 6/18/2011
   [Embed Translation]
   * VNR will automatically disable any msgbox-like popups for Eushully games.
 
+  * Update Eushully engine to support translate some in-game text.
+    Here are some screenshots:
+      神のラプソディ
+        http://i.imgur.com/4JV3bEc.png
+        http://i.imgur.com/Fk52rvI.png
+        http://i.imgur.com/QVrFpOa.png
+      魔導巧殻
+        http://i.imgur.com/ceWWhvF.png
+        http://i.imgur.com/3HK0eKJ.png
+        http://i.imgur.com/Dtr3u2w.png
+      創刻のアテリアル
+        http://i.imgur.com/OmW4ef0.png
+        http://i.imgur.com/M37LyX9.png
+
 6/2/2015 TUE
   [Embed Translation]
   * Restore the support for embed translation for Eushully games.

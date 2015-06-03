@@ -2,7 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
-6/3/2015 TUE
+6/3/2015 WED
+  [JBeijing](Chinese, @djz020815)
+  * 更新了djz大先生的J北京词库。
+
   [Embed Translation]
   * VNR will automatically disable any msgbox-like popups for Eushully games.
 

@@ -14,7 +14,7 @@ Since 6/18/2011
     2. Translation could go out of screen if being too long (since English is usually much more verbose than CJK languages)
     3. For Eushully games, when there are Ruby in the text, it will be broken into pieces, which will significantly downgrade
        machine translation quality because the sentence structure of Japanese and English is so different.
-       I am going to check if it is possible to totally disable ruby in the future.
+       I am going to check if it is possible to totally disable Eushully ruby in the future.
 
     Because of 2. and 3., I would suggest to turn on both embed and external subtitles at the same time.
     When the embed translation is too long or broken into pieces, you can check the external subtitle instead.

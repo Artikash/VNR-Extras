@@ -10,7 +10,7 @@ Since 6/18/2011
       http://i.imgur.com/7sWgSfr.png
 
     Knowing issues:
-    1. It currently only supports embed English translation
+    1. It currently only supports embedding English translation
     2. Translation could go out of screen if being too long (since English is usually much more verbose than CJK languages)
     3. For Eushully games, when there are Ruby in the text, it will be break into pieces, which will significantly downgrade
        machine translation quality because the sentence structure of Japanese and English is so different.

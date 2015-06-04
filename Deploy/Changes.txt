@@ -55,6 +55,7 @@ Since 6/18/2011
 
     + If the translation is English, you might always want to DISABLE font customization.
       There is no need to change font to embed English translation in most cases.
+      But if the font is too fat, you could try reduce its scale and weight (such as force weight to Ultralight).
 
     + If the translation is in Chinese or Korean
       - If the OS is Japanese and >= Windows Vista

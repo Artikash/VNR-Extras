@@ -3,6 +3,9 @@ Visual Novel Reader
 Since 6/18/2011
 
 6/4/2015 THU
+  [Game Engine]
+  * Add general hooks to GetTextExtentExPointA/W functions in GDI32.
+
   [Embed Translation]
   * Update Enshully engine to support embedding all languages.
     Here are some screenshots:
@@ -35,8 +38,43 @@ Since 6/18/2011
 
     - 如果你只想看到内嵌翻译，而不想看到外挂翻译，那么在左边的dock里，关闭游戏文本、姓名和翻译就好了。
 
-  [Game Engine]
-  * Add general hooks to GetTextExtentExPointA/W functions in GDI32.
+  * Update Eushully engine that its global font can be changed.
+    Here are some screenshots for embedding Vietnamese with customized font (family = Tahoma, weight = Ultralight):
+
+        http://i.imgur.com/zwSFlC4.png
+        http://i.imgur.com/LicFTRe.png
+
+   btw, regarding the embedded font settings, it might be different for different OS/languages/games.
+   Here are some observations I found mostly from 神のラプソディ and AngleBeats, which might be served as a reference for other games.
+
+   + Changing font might have not effect, and might require restarting the game, depending on the game.
+     For example:
+     - Changing font for AngelBeats requires restarting the game.
+     - Changing font for 神のラプソディ does not require restarting the game
+     - Changing font for System43 currently has not effect
+
+   + If the translation is English, you might always want to DISABLE font customization.
+     There is no need to change font to embed English translation in most cases.
+
+   + If the translation is in Chinese or Korean
+     - If the OS is Japanese and >= Windows Vista
+       Usually, the font don't have to be changed.
+       But we might need to adjust space settings manually.
+
+     - If the OS is Windows XP or not Japanese
+       Usually, the font family or charset has to be changed to the one that support both Japanese and the target language.
+
+   + If the translation is not in English, Chinese, and Korean
+     Usually, the font has to be changed to the one that support both Japanese and the target language.
+
+   修正了Eushully的游戏自定义字体无效的问题。
+   关于自定义字体，通常情况下：
+   - 如果你在用带日文支持的Windows Vista以上的操作系统，那么根本不需要修改游戏字体。
+     除非你个人觉得内嵌翻译太丑了（简体中文字体通常很丑），否则不需要修改游戏字体。
+
+   - 如果你在用Windows XP，那么必需要手动重新定义字体。
+     你需要在【使用偏好/内嵌翻译】中手动选择一个既支持中文字符，又支持日文字符的字体。
+     并且修改字体可能会需要重新启动游戏，选择字体是蛮麻烦的一件事。
 
 6/3/2015 WED
   [JBeijing](Chinese, @djz020815)

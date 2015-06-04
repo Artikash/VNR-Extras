@@ -4,7 +4,7 @@ Since 6/18/2011
 
 6/4/2015 THU
   [Embed Translation]
-  * Update Enshully engine to support embed all languages.
+  * Update Enshully engine to support embedding all languages.
     Here are some screenshots:
     - Korean
         http://i.imgur.com/wI2bv19.png

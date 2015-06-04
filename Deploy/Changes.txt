@@ -37,7 +37,7 @@ Since 6/18/2011
     - 如果你只想看到内嵌翻译，而不想看到外挂翻译，那么在左边的dock里，关闭游戏文本、姓名和翻译就好了。
 
   [Game Engine]
-  * Add general hooks to GetTextExtentExPoint functions in GDI32.
+  * Add general hooks to GetTextExtentExPointA/W functions in GDI32.
 
 6/3/2015 WED
   [JBeijing](Chinese, @djz020815)

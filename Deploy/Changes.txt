@@ -2,6 +2,38 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+6/4/2015 THU
+  [Embed Translation]
+  * Update Enshully engine to support embed all languages.
+    Here are some screenshots:
+    - Korean
+    http://imgur.com/wI2bv19,H8YnZHi,S7B5xqxjjkj
+        http://i.imgur.com/wI2bv19.png
+        http://i.imgur.com/H8YnZHi.png
+        http://i.imgur.com/S7B5xqx.png
+    - Chinese
+        http://i.imgur.com/JriS8jT.png
+        http://i.imgur.com/DJ4ye5p.png
+        http://i.imgur.com/dFCPHb5.png
+        http://i.imgur.com/BRxxAzj.png
+
+    Eshully的游戏支持内嵌中文翻译了。上边是一些截图。
+    下边是一些related的注意事项。
+
+    - 打开内嵌翻译后，VNR会自动删掉Eshully游戏内产生弹窗的函数。游戏不会产出任何弹窗才是。
+
+    - 要开启内嵌翻译，直接在【使用偏好/内嵌翻译】里选择打开就好了。所有设定保持默认就好了。
+
+    - 要开启内嵌翻译，非常建议至少安装一个离线的日中翻译工具。
+      如果使用在线的翻译器如百度，会卡卡的。
+      如果你同时打开百度和J北京，那么J北京的翻译会被内嵌，而百度的翻译会和以前一样外挂到游戏。
+
+    - VNR默认会尽力去内嵌人工翻译，比如第一章截图就是。
+      但是，如果游戏文本包含ruby，由于技术困难就没有办法内嵌人工翻译了。
+
+    - 如果你只想看到内嵌翻译，而不想看到外挂翻译，那么在左边的dock里，关闭游戏文本、姓名和翻译就好了。
+
+
 6/3/2015 WED
   [JBeijing](Chinese, @djz020815)
   * 更新了djz大先生的J北京词库。

@@ -44,7 +44,7 @@ Since 6/18/2011
         http://i.imgur.com/zwSFlC4.png
         http://i.imgur.com/LicFTRe.png
 
-    btw, regarding the embedded font settings, it might be different for different OS/languages/games.
+    btw, regarding the embedded font settings, it might be different for different OSes/languages/games.
     Here are some observations I found mostly from 神のラプソディ and AngleBeats, which might be served as a reference for other games.
 
     + Changing font might have not effect, and might require restarting the game, depending on the game.

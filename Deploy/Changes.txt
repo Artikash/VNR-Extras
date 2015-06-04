@@ -73,7 +73,7 @@ Since 6/18/2011
     Otherwise, if you rely on online translators like Excite instead of the offline ones, it could significantly slowdown the game.
 
     修正了Eushully的游戏自定义字体无效的问题。
-    关于自定义字体，通常情况下：
+    关于自定义字体，通常情况如下：
     - 如果你在用带日文支持的Windows Vista以上的操作系统，那么根本不需要修改游戏字体。
       除非你个人觉得内嵌翻译太丑了（简体中文字体通常很丑），否则不需要修改游戏字体。
 

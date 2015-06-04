@@ -7,7 +7,6 @@ Since 6/18/2011
   * Update Enshully engine to support embed all languages.
     Here are some screenshots:
     - Korean
-    http://imgur.com/wI2bv19,H8YnZHi,S7B5xqxjjkj
         http://i.imgur.com/wI2bv19.png
         http://i.imgur.com/H8YnZHi.png
         http://i.imgur.com/S7B5xqx.png

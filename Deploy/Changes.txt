@@ -20,11 +20,11 @@ Since 6/18/2011
     - 龍神(りゅうじん) = Ryūjin, Ryujin
     - かーくん = Kākun, Kakun
 
-    For the yomigana definitions in the Shared Dictionary, only hiragana will have macron added, and katagana won't.
+    For the yomigana definitions in the Shared Dictionary, only hiragana will have macron added, and katakana won't.
     For example: さとう will be translated to Satō, while サトウ will still be translated to Satou.
     The reasons behind this behavior are:
-    1. Hiragana is usually used for Japanese names, while katagana for English names. And macron does not exist in English.
-    2. You can use katagana definition to always disable macron.
+    1. Hiragana is usually used for Japanese names, while katakana for English names. And macron does not exist in English.
+    2. You can use katakana definition to always disable macron.
 
 6/4/2015 THU
   [Game Engine]
@@ -2428,7 +2428,7 @@ Since 6/18/2011
     For example, 章(しょう) will still be translated to Shou instead of Sho because
     the original yomigana has only 3 characters (< 4).
 
-    If you don't want VNR to remove う, you can use katagana instead of hiragana as yomigana.
+    If you don't want VNR to remove う, you can use katakana instead of hiragana as yomigana.
     For example, if the yomigana of 佐藤院 is defined as サトウイン instead of さとういん,
     then VNR will not remove ウ in the middle.
 
@@ -2928,7 +2928,7 @@ Since 6/18/2011
     Such terms might help share name translations between different languages,
     and allow me to import character names on Getchu in the future.
 
-    For example, given a yomi term in either katagana or hiragana:
+    For example, given a yomi term in either katakana or hiragana:
 
         桜小路 = さくらこうじ
 
@@ -6221,7 +6221,7 @@ Since 6/18/2011
     - It has much larger vocabulary, which includes 巨乳.
     - It can tell whether the pronunciation of the phrase originates from ancient China or ancient Japan.
       See the example below.
-    - It can return the associated Kanji of the katagana/hiragana.
+    - It can return the associated Kanji of the katakana/hiragana.
       For example:
           すもももももももものうち
       will be parsed to:
@@ -6739,7 +6739,7 @@ Since 6/18/2011
       http://sakuradite.com/wiki/zh/VNR/Shared_Dictionary
 
   * (Korean) Add an option in Preferences/Translation that can use Hangul as Furigana.
-    I am studying Korean now, and I am not sure the correctness of the mapping from katagana to hangul.
+    I am studying Korean now, and I am not sure the correctness of the mapping from katakana to hangul.
     The current map is as follows. Feel free to let me know if it contains errors.
     Hiragana:
       がぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽあいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんぁぃぅぇぉゃゅょっ
@@ -6751,8 +6751,8 @@ Since 6/18/2011
     You don't have to manually add them to the Shared Dictionary any more.
 
     But the same as another languages, VNR will not automatically translate the character name that has only 1 character to Hangul.
-    And it will not automatically translate names that only contains katagana (hiragana is fine).
-    Because katagana name sometimes is just an English word. It could be wrong to translate it to Hangul by the pronunciation of furigana.
+    And it will not automatically translate names that only contains katakana (hiragana is fine).
+    Because katakana name sometimes is just an English word. It could be wrong to translate it to Hangul by the pronunciation of furigana.
 
 1/5/2014: SUN
   * Add Polish language support as requested by @platinum.
@@ -7350,7 +7350,7 @@ Since 6/18/2011
 
   * VNR will compile character names in Game Information into MeCab dictionary at runtime.
     This ensures that the character names can be recognized by MeCab.
-    However, VNR will skip pure katagana and hiragana names which have less than 2 characters.
+    However, VNR will skip pure katakana and hiragana names which have less than 2 characters.
     Compiled csv and dic files could be found in the following location if you want to use them
     for other purposes:
         %APPDATA%/org.sakuradite.reader/caches/mecab
@@ -10475,7 +10475,7 @@ Since 6/18/2011
   * Put the Text Thread settings into scroll area.
 
 1/25/2013 FRI
-  * In Preferences/Translator, you could select the furigana characters from hiragana, katagana, and romaji.
+  * In Preferences/Translator, you could select the furigana characters from hiragana, katakana, and romaji.
   * The "Time Zone" option also works for minori games.
   * Note:
   It is recommended that you set the Game Text Speed to maximum if possible.
@@ -10686,7 +10686,7 @@ Since 6/18/2011
 
 9/5/2012 WED  annot-player  0.1.9.4
   * Fix a line-wrapping bug when rendering annotated Japanese text.
-  * Fix a bug when converting katagana to hiragana.
+  * Fix a bug when converting katakana to hiragana.
   * Fix a bug when generating annotation analytics.
     修正了无法显示弹幕统计图的bug。
 

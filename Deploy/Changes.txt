@@ -12,13 +12,13 @@ Since 6/18/2011
     If you don't like having macron displayed, you can always disable it in Preferences/Translation.
 
     Here are some example romaji for Japanese names when macron is enabled (first) or disabled (second):
-    - 佐藤(さとう) = Satō,  Satou
-    - 佐藤(さとー) = Satō,  Sato
-    - 佐藤院(さとういん) = Satōin,  Satoin
-    - 曹操(そうそう) = Sōsō,  Soso
-    - 曹操(そーそー) = Sōsō,  Soso
+    - 佐藤(さとう) = Satō, Satou
+    - 佐藤(さとー) = Satō, Sato
+    - 佐藤院(さとういん) = Satōin, Satoin
+    - 曹操(そうそう) = Sōsō, Soso
+    - 曹操(そーそー) = Sōsō, Soso
     - 龍神(りゅうじん) = Ryūjin, Ryujin
-    - かーくん = Kākun,  Kakun
+    - かーくん = Kākun, Kakun
 
     For the yomigana definitions in the Shared Dictionary, only hiragana will have macron added, and katagana won't.
     For example: さとう will be translated to Satō, while サトウ will still be translated to Satou.

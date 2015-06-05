@@ -69,7 +69,7 @@ Since 6/18/2011
       Usually, the font has to be changed to the one that support both Japanese and the target language.
 
     Again to Vietnamese users, as far as I known, JBeijing/FastAIT+HanViet is currently the only way to have offline Japanese-Vietnamese translation.
-    If you want to embed Vietnamese translation, I strongly recommend you to manually get JBeijing installed, and Unban Chinese in Preferences/i18n.
+    If you want to embed Vietnamese translation, I strongly recommend you to unban Chinese in Preferences/i18n, and manually get JBeijing installed.
     Otherwise, if you rely on online translators like Excite instead of the offline ones, it could significantly slowdown the game.
 
     修正了Eushully的游戏自定义字体无效的问题。

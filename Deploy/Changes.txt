@@ -2,6 +2,24 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+6/5/2015 FRI
+  [Yomigana]
+  * The default romanization standard for Japanese name is slightly changed to be consistent with Wikipedia.
+    Additionally, I added an option to Preferences/Translation to toggle whether display macron for Japanese
+    names, which is enabled by default.
+
+    Personally, I feel macron is ugly, but it might contain more information.
+    If you don't like having macron displayed, you can always disable it in Preferences/Translation.
+
+    Here are some example romaji for Japanese names when macron is enabled (first) or disabled (second):
+    - 佐藤(さとう) = Satō,  Satou
+    - 佐藤院(さとういん) = Satōin,  Satoin
+    - 曹操(そうそう) = Sōsō,  Soso
+    - 龍神(りゅうじん) = Ryūjin, Ryujin
+
+    For the yomigana definitions in the Shared Dictionary, only hiragana will have macron added, and katagana won't.
+    For example: さとう will be translated to Satō, while サトウ will still be translated to Satou.
+
 6/4/2015 THU
   [Game Engine]
   * Add general hooks to GetTextExtentExPointA/W functions in GDI32.

@@ -22,6 +22,9 @@ Since 6/18/2011
 
     For the yomigana definitions in the Shared Dictionary, only hiragana will have macron added, and katagana won't.
     For example: さとう will be translated to Satō, while サトウ will still be translated to Satou.
+    The reasons behind this behavior are:
+    1. Hiragana is usually used for Japanese names, while katagana for English names. And macron does not exist in English.
+    2. You can use katagana definition to always disable macron.
 
 6/4/2015 THU
   [Game Engine]

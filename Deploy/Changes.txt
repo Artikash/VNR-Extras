@@ -42,6 +42,15 @@ Since 6/18/2011
     恢复了内嵌翻译到BGI游戏的支持。
     全部BGI游戏都可以支持才是。对话、姓名、和選択肢都可以翻译。上边是截图。
 
+  [Game Engine]
+  * Hook to more GDI functions below:
+    - GetCharABCWidthsFloat
+    - GetCharWidth32
+    - GetCharWidthFloat
+    - GetCharacterPlacement
+    - GetGlyphIndices
+    - GetTabbedTextExtent
+
 6/4/2015 THU
   [Game Engine]
   * Add general hooks to GetTextExtentExPointA/W functions in GDI32.

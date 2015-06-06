@@ -28,7 +28,7 @@ Since 6/18/2011
 
   [Embed Translation]
   * Restore the support for all BGI games.
-    Tested working with 世界征服彼女, 世界と世界の真ん中で, 恋想リレーション, ピュア×コネクト.
+    Tested working with 世界征服彼女, 世界と世界の真ん中で, 恋想リレーション, and ピュア×コネクト.
     Scenario, name, and choice texts can be translated.
     Here are some screenshots from ピュア×コネクト:
     - Korean

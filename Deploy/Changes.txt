@@ -19,7 +19,7 @@ Since 6/18/2011
     Windows Vista or above.
 
     Support for Windows XP and languages other then English/Chinese/Korean are NOT well-tested, which might or might not work
-    properly depending on whether the game font for the embedded text can be properly customized.
+    properly depending on whether the game font for the embedded character set can be properly customized.
 
     如果一个游戏支持内嵌翻译，【文本设定】中会显示【支持内嵌】。
 

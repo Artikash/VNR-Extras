@@ -14,6 +14,14 @@ Since 6/18/2011
 
     恢复了对Elf和Mink社游戏内嵌翻译的支持。上边是一些截图。
 
+  * VNR will display if a game engine supports embedding translation in Text Settings.
+    For all existing embed engines: System43 supports only English, and any other engines support English/Chinese/Korean on
+    Windows 7 or above.
+    Support for Windows XP and languages other then English/Chinese/Korean are not well-tested, which might or might not work
+    properly depending on whether the game font for the embedded text can be properly customized.
+
+    如果一个游戏支持内嵌翻译，【文本设定】中会显示【支持内嵌】。
+
 6/5/2015 FRI
   [Yomigana]
   * The default romanization standard for Japanese name is slightly changed to be consistent with Wikipedia.

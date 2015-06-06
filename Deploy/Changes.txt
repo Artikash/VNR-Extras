@@ -2,6 +2,18 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+6/6/2015 SAT
+  [Embed Translation]
+  * Restore the support for Elf/Mink games.
+    Test working with 愛姉妹4, 麻呂の患者はガテン系, and SEXティーチャー剛史, where name/dialog/choice texts can be translated.
+    Here are some screenshots:
+
+	- en: http://i.imgur.com/crBqxtk.png
+	- ko: http://i.imgur.com/Q9W8yAa.png
+	- zh: http://i.imgur.com/3OxjgWd.png
+
+    恢复了对Elf和Mink社游戏内嵌翻译的支持。上边是一些截图。
+
 6/5/2015 FRI
   [Yomigana]
   * The default romanization standard for Japanese name is slightly changed to be consistent with Wikipedia.

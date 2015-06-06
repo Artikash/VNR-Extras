@@ -26,11 +26,11 @@ Since 6/18/2011
     1. Hiragana is usually used for Japanese names, while katakana for English names. And macron does not exist in English.
     2. You can use katakana definition to always disable macron.
 
-  [Game Engine]
-  * Restore embed support for all BGI games.
+  [Embed Translation]
+  * Restore the support for all BGI games.
     Tested working with 世界征服彼女, 世界と世界の真ん中で, 恋想リレーション, ピュア×コネクト.
     Scenario, name, and choice texts can be translated.
-    Here are some screenshots:
+    Here are some screenshots from ピュア×コネクト:
     - Korean
         http://i.imgur.com/Hys4wRh.png
         http://i.imgur.com/Q0gApLu.png
@@ -39,7 +39,7 @@ Since 6/18/2011
         http://i.imgur.com/78ASEUC.png
         http://i.imgur.com/nXuERbQ.png
 
-    回复内嵌翻译到BGI游戏的支持。
+    恢复了内嵌翻译到BGI游戏的支持。
     全部BGI游戏都可以支持才是。对话、姓名、和選択肢都可以翻译。上边是截图。
 
 6/4/2015 THU

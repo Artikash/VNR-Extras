@@ -22,6 +22,7 @@ Since 6/18/2011
     properly depending on whether the game font for the embedded character set can be properly customized.
 
     如果一个游戏支持内嵌翻译，【文本设定】中会显示【支持内嵌】。
+    当前支持内嵌的游戏引擎中，只有System43不支持中文；其他的引擎都可以内嵌中文。
 
 6/5/2015 FRI
   [Yomigana]

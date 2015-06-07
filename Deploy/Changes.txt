@@ -2,6 +2,14 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+6/7/2015 SUN
+  [Embed Translation]
+  * For ソフトハウスキャラ games, make sure the embed text is always outlined so that it is easier to read.
+
+        http://i.imgur.com/7rnPIET.png
+
+    修正了ソフトハウスキャラ的游戏有时内嵌文本字体没有被outline的问题。上边是截图。
+
 6/6/2015 SAT
   [Embed Translation]
   * Restore the support for Elf/Mink games.

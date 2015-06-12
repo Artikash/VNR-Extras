@@ -11,7 +11,6 @@ Since 6/18/2011
       http://i.imgur.com/XcXtSYT.png
       http://i.imgur.com/2yg4qLu.png
       http://i.imgur.com/VjYOEPj.png
-      http://i.imgur.com/crBqxtk.png
 
     为WolfRPG的游戏添加了内嵌翻译的支持。截图在上边。
 

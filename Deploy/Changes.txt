@@ -16,6 +16,9 @@ Since 6/18/2011
     - 正常显示(font family = Tahoma, 字符集 = 不修改): http://i.imgur.com/JP8RN65.png
     - 不正常(font family = SimSun, 字符集 = 简体中文): http://i.imgur.com/C0GkkXF.png
 
+  [Shared Dictionary]
+  * The location of the offline data of the Shared Dictionary is moved to Caches/Sync.
+
 6/12/2015 FRI
   [Game Engine]
   * Add hooks to CharNextA/CharNextW for unknown game engines.

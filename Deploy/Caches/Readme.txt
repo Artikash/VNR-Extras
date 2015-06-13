@@ -7,6 +7,8 @@ Then VNR will re-cache everything the next time.
 - Installers: Downloaded software installers, such as pAppLocale from Taiwan
 - Images: Downloaded images, such as covers and sample CG
 - Subtitles: Downloaded shared subtitles and danmaku
+- Sync: Offline data synchronized with the online database
+  + gamedic.xml: Shared Dictionary
 - tmp: Temporary downloads
   + reader: VNR's temporary files. VNR will clear this directory on each run.
     - dict: Current enabled rules in the Shared Dictionary
@@ -22,6 +24,8 @@ VNR在下次啟動時會重新建立Cache的。
 - Installers: 下載的軟體，比方說：台灣的pAppLocale
 - Images: 下載的遊戲封面之類的圖片
 - Subtitles: 下載的人工字幕和彈幕
+- Sync: 和在線數據庫同步的本地數據
+  + gamedic.xml：共享辭書
 - tmp: 臨時的下載文件
   + reader: VNR的臨時文件。VNR每次啟動都會清空這個文件夾。
     - dict: 共享辭書中當前開啟的詞條

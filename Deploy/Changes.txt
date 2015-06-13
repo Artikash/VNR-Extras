@@ -13,8 +13,8 @@ Since 6/18/2011
     注：有些WolfRPG游戏默认的字体无法显示中文，需要在使用偏好中选定一个既支持中文，又支持日文的字体。
     比如像下边截图那样，设定Tahoma为字体才可以正常显示，因为Tahoma同时支持中文和日文。
     如果使用只包含中文的字体（如SimSun），那么文字会无法正常显示。
-    - 正常显示(font family = Tahoma, 字符集 = 不修改): http://i.imgur.com/C0GkkXF.png
-    - 不正常(font family = SimSun, 字符集 = 简体中文): http://i.imgur.com/JP8RN65.png
+    - 正常显示(font family = Tahoma, 字符集 = 不修改): http://i.imgur.com/JP8RN65.png
+    - 不正常(font family = SimSun, 字符集 = 简体中文): http://i.imgur.com/C0GkkXF.png
 
 6/12/2015 FRI
   [Game Engine]

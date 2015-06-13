@@ -4,7 +4,7 @@ Since 6/18/2011
 
 6/13/2015 SAT
   [Embed Translation]
-  * Translate most texts for WolfRPG games.
+  * Update WolfRPG engine to translate most texts.
 
         http://i.imgur.com/4Ol75K9.png
 

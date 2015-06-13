@@ -6,6 +6,9 @@ Since 6/18/2011
   [Game Engine]
   * Add hooks to CharNextA/CharNextW for unknown game engines.
 
+  [Embed Translation]
+  * Fixed a bug that might hang WolfRPG games when Korean translation was embedded.
+
 6/11/2015 THU
   [Embed Translation]
   * Add support for games developed with Wolf RPG.

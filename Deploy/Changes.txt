@@ -2,6 +2,12 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+6/13/2015 SAT
+  [Embed Translation]
+  * Translate more texts for WolfRPG games.
+        http://i.imgur.com/4Ol75K9.png
+    WolfRPG的游戏会翻译更多的文本。截图在上边。
+
 6/12/2015 FRI
   [Game Engine]
   * Add hooks to CharNextA/CharNextW for unknown game engines.

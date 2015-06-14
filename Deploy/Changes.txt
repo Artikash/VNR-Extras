@@ -20,7 +20,7 @@ Since 6/18/2011
   * The location of the offline data of the Shared Dictionary is moved to Caches/Sync.
 
   [Network]
-  * Improve the communication  mechanism to reduce the failure when fetching get large amount of online data such as Share Dictionary and game database.
+  * Improve the communication  mechanism to reduce the failure when fetching large amount of online data such as Share Dictionary and game database.
 
     In the old version of VNR, VNR's server will query the database and render the large response at runtime,
     which would drain lots of resources, and might cause VNR's server to be less responsive when busy.

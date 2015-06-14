@@ -26,7 +26,7 @@ Since 6/18/2011
     which would drain lots of resources, and might cause VNR's server to be less responsive when busy.
 
     Now, VNR's server will cache the data in Shared Dictionary and Game Database every day (on 4:00am Japan Standard Time).
-    Then, VNR will first fetch the old cached static data, and then query incremental in the database changes made within 1 day.
+    Then, VNR will first fetch the old cached static data, and then query incremental changes in the database made within 1 day.
     This will save lots of server resources because serving static data files cost very low memory/CPU and does not require database access.
     And even when the SQL database is busy, users are guaranteed to get the data updated at most one day ago.
 

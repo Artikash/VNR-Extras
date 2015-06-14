@@ -19,6 +19,32 @@ Since 6/18/2011
   [Shared Dictionary]
   * The location of the offline data of the Shared Dictionary is moved to Caches/Sync.
 
+  [Network]
+  * Improve the mechanism to reduce the failure when fetching get large amount of online data
+    such as Share Dictionary and game database.
+
+    In the old version of VNR, VNR's server will query the database and render the large response at runtime,
+    which would drain lots of resources, and might cause VNR's server to be less responsive when busy.
+
+    Now, VNR's server will cache the data in Shared Dictionary and Game Database every day (on 4:00am Japan Standard Time).
+    Then, VNR will first fetch the old cached static data, and then query incremental in the database changes made within 1 day.
+    This will save lots of server resources because serving static data files cost very low memory/CPU and does not require database access.
+    And even when the SQL database is busy, users are guaranteed to get the data updated at most one day ago.
+
+    I am going to shutdown the online services for runtime queries of very large amount of data of Shared Dictionary
+    and Game Database at the end of this month, after most users have updated VNR at least to this version.
+    After that, I would expect VNR's server to have less busy time.
+    But the older versions of VNR will be broken and no longer able to update Game Database and Shared Dictionary after this month.
+
+    Currently, large numbers of user-shared comments/subtitles are still rendered at runtime, and updating them
+    could still fail when VNR's server is busy.
+    I am going to implement the similar caching mechanism to comments/subtitles later to solve this problem.
+
+    改进了VNR在下载共享辞书、游戏数据库时的方式。
+    新的通信方式可以大量节省VNR服务器的资源，即使重置数据重新更新，也不那么容失败了。
+    当时，在大部分用户还没有更新到这版的VNR之前，VNR的服务器在周末可能还是会很忙。
+    我打算在这个月底左右，关闭旧的更新方式。之后服务器就不会那么忙了，但是届时这个版本以前的老的VNR也就不能正常使用了。
+
 6/12/2015 FRI
   [Game Engine]
   * Add hooks to CharNextA/CharNextW for unknown game engines.

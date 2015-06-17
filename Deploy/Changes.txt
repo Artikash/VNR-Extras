@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+6/17/2015 WED
+  [Game Engine]
+  * Text extraction will be paused when either Control or Shift is pressed.
+    按下Control或者Shift会暂停提取文本。
+
 6/16/2015 TUE
   [Game Engine]
   * Update SiglusEngine to extract text in 円交少女 without any garbage characters.

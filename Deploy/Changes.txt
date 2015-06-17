@@ -2,6 +2,17 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+6/16/2015 TUE
+  [Game Engine]
+  * Update SiglusEngine to extract text in 円交少女 without any garbage characters.
+    Be careful that there will be several SigusEngine3/4 text threads and only ONE is correct.
+    Thanks for @mireado sama's report!
+
+    Although the game uses SiglusEngine, embed translation currently does not support 円交少女.
+    Going to fix that soon.
+
+    为「円交少女」添加了一个可以提取不带垃圾字符的文本的引擎。
+
 6/13/2015 SAT
   [Embed Translation]
   * Update WolfRPG engine to translate most texts.

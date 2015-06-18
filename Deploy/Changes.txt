@@ -7,6 +7,17 @@ Since 6/18/2011
   * Text extraction will be paused when either Control or Shift is pressed.
     按下Control或者Shift会暂停提取文本。
 
+  * Add game engine for Silky's new games after leaving Elf.
+
+  [Embed Translation]
+  * Add game engine for Silky's new games after leaving Elf.
+    Scenario/Name/Choice texts can be translated.
+    Test working with 根雪の幻影 and 堕ちていく新妻.
+
+        http://i.imgur.com/CEnzaG8.jpg
+
+    为Silky's离开Elf后的新游戏添加了游戏引擎。截图在上边。
+
 6/16/2015 TUE
   [Game Engine]
   * Update SiglusEngine to extract text in 円交少女 without any garbage characters.

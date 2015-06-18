@@ -8,6 +8,8 @@ Since 6/18/2011
     按下Control或者Shift会暂停提取文本。
 
   * Add game engine for Silky's new games after leaving Elf.
+    Comparing to GetGlyphOutlineA in old VNR, the new engine will not extract garbage configuration texts
+    and does not have disordered name and scenario.
 
   [Embed Translation]
   * Add game engine for Silky's new games after leaving Elf.

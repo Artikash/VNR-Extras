@@ -2,6 +2,20 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+6/19/2015 FRI
+  [Embed Translation]
+  * Add support to translate games from でぼの巣製作所.
+    Test working for 神楽花莚譚 and 神楽道中記.
+
+        http://i.imgur.com/oxLHPC2.png
+        http://i.imgur.com/mXugkp2.png
+
+    添加了内嵌翻译「でぼの巣製作所」的游戏的支持。截图在上边。
+
+  [Game Engine]
+  * Hook to GdipDrawString and GdipMeasureString functions for GDI+ games.
+    These functions are discovered in Debonosu games. But I think they might also help other GDI+ games.
+
 6/17/2015 WED
   [Game Engine]
   * Text extraction will be paused when either Control or Shift is pressed.

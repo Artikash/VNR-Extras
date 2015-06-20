@@ -8,7 +8,7 @@ Since 6/18/2011
     on non-Japanese Windows with Japanese locale.
 
     I have an English version of Windows 7 that is switched to Japanese locale and UI.
-    But to run Debonosu games, I still have to use Locale Emulator even on Japanese locale.
+    But to run Debonosu games, I still have to use Locale Emulator, etc. to launch the game even on Japanese locale.
     Now when embed translation is enabled on Japanese locale, Debonosu games will run properly without locale emulation.
 
     在已经转为日文区域的非日文Windows下启动「でぼの巣製作所」不再需要Locale Emulator等转码工具。

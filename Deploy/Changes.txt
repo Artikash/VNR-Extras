@@ -2,6 +2,17 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+6/20/2015 SAT
+  [Embed Translation]
+  * For games from でぼの巣製作所, fix the inconsistent game locale code so that the game can run
+    on non-Japanese Windows with Japanese locale.
+
+    I have an English version of Windows 7 that is switched to Japanese locale and UI.
+    But to run Debonosu games, I still have to use Locale Emulator even on Japanese locale.
+    Now when embed translation is enabled on Japanese locale, game will run properly without locale emulation.
+
+    在已经转为日文区域的非日文Windows下启动「でぼの巣製作所」不再需要Locale Emulator等转码工具。
+
 6/19/2015 FRI
   [Embed Translation]
   * Add support to translate games from でぼの巣製作所.

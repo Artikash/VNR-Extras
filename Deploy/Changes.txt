@@ -26,7 +26,7 @@ Since 6/18/2011
     几乎全部「でぼの巣製作所」最近的游戏内的文字都可以被翻译了。截图在上边。
 
   * Improve caching of Other thread translations to reduce possible slowdown caused by embedding Other thread translations,
-    which might have a large number of texts for RPG games.
+    esp. for RPG games that might have a large number of Other thread texts.
 
 6/19/2015 FRI
   [Embed Translation]

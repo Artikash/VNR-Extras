@@ -3,6 +3,10 @@ Visual Novel Reader
 Since 6/18/2011
 
 6/20/2015 SAT
+  [Game Engine]
+  * Add an alternative engine for games from でぼの巣製作所 to extract character name,
+    which might be important for the automatic TTS feature.
+
   [Embed Translation]
   * For games from でぼの巣製作所, fix the inconsistent game locale code so that the game can run
     on non-Japanese Windows with Japanese locale.

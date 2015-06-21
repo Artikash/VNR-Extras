@@ -23,7 +23,7 @@ Since 6/18/2011
     - ko: http://imgur.com/KLlV5vL,NCLE4OE,PkXwiB9,uspuxpb
     - zh: http://imgur.com/wm5GAtx,1nKZbEE,WhJuuKM
 
-   几乎全部「でぼの巣製作所」最近的游戏内的文字都可以被翻译了。截图在上边。
+    几乎全部「でぼの巣製作所」最近的游戏内的文字都可以被翻译了。截图在上边。
 
   * Improve caching of Other thread translations to reduce possible slowdown caused by embedding Other thread translations,
     which might have a large number of texts for RPG games.

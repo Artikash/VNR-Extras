@@ -13,7 +13,7 @@ Since 6/18/2011
 
   [Game Engine]
   * Update Retouch engine to properly handle ruby texts that are missing in the scenario thread.
-    If you are playing Retouch games, you will have manually re-adjust Text Settings.
+    If you are playing Retouch games, you will have to manually re-adjust Text Settings.
     修正了Retouch的游戏中带Ruby的文字跑到对白thread外边的问题。
     如果你在玩Retouch的游戏，请重新调整下文本设定。
 

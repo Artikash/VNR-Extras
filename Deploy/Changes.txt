@@ -5,7 +5,7 @@ Since 6/18/2011
 6/21/2015 SUN
   [Embed Translation]
   * Add support to translate games with Retouch engine.
-    Tested working with ららプリ and 箱庭ロジック.
+    Tested working with らぶらぶプリンセス and 箱庭ロジック.
 
         http://i.imgur.com/KH5zpr8.png
 

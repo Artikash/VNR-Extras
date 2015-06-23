@@ -7,7 +7,8 @@ Since 6/18/2011
   * Update ARCGameEngine to support translating old Eushully game 神採りアルケミーマイスター.
     Here are some screenshots:
 
-        http://imgur.com/eSUJaZT,4WwfSjW
+        http://i.imgur.com/eSUJaZT.png
+        http://i.imgur.com/4WwfSjW.png
 
     Thanks for @Reality sama's report!
 

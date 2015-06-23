@@ -2,6 +2,17 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+6/22/2015 MON
+  [Embed Translation]
+  * Update ARCGameEngine to support translating old Eushully game 神採りアルケミーマイスター.
+    Here are some screenshots:
+
+        http://imgur.com/eSUJaZT,4WwfSjW
+
+    Thanks for @Reality sama's report!
+
+    修正了内嵌翻译无法应用于神采的问题。
+
 6/21/2015 SUN
   [Embed Translation]
   * Add support to translate games with Retouch engine.

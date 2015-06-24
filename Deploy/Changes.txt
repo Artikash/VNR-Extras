@@ -2,6 +2,12 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+6/24/2015 WED
+  [Embed Translation]
+  * Restore the support to embed English translations for CIRCUS games.
+    Tested working with DC3PP and 水夏弐律, where scenario/name/choice/backlog can be translated.
+    It currently only supports English.
+
 6/22/2015 MON
   [Embed Translation]
   * Update ARCGameEngine to support translating old Eushully game 神採りアルケミーマイスター.

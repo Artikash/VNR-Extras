@@ -7,6 +7,13 @@ Since 6/18/2011
   * Restore the support to embed English translations for CIRCUS games.
     Tested working with DC3PP and 水夏弐律, where scenario/name/choice/backlog can be translated.
     It currently only supports English.
+    Here's a sample screenshot:
+        http://i.imgur.com/DS0hj4q.png
+
+  * Add support to embed English translations for Leaf games.
+    It currently only supports English.
+    Here's a sample screenshot:
+        http://i.imgur.com/gDXlgN3.png
 
 6/22/2015 MON
   [Embed Translation]

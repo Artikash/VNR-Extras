@@ -16,7 +16,7 @@ Since 6/18/2011
         http://i.imgur.com/gDXlgN3.png
 
   * Text Settings will display if the game supported embed translation is for English-only.
-    Currently, support for Circus, Leaf, and System43 is for English only.
+    Currently, embed support for Circus, Leaf, and System43 games is for English only.
 
     文本设定会显示内嵌翻译是否仅限英文。
     当前Leaf、Circus和System43的游戏的内嵌翻译仅限英文。

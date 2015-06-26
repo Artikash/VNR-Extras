@@ -3,6 +3,10 @@ Visual Novel Reader
 Since 6/18/2011
 
 6/25/2015 THU
+  [TAHScript](English, @riz)
+  * Update TAH script for LEC.
+    The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
+
   [Embed Translation]
   * Fixed the issue that embedded Korean text might be retranslated for SiglusEngine games.
     Thanks for @mireado sama's report!

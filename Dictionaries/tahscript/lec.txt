@@ -1,4 +1,4 @@
-*10:02 2015/05/31
+*11:23 2015/06/09
 *this is an example of a simple regex script for TAHelper on VNR
 *originally it was made based on ATLAS V14 (+TA) behaviour
 *Update: the script adapting LEC behaviour now, so might not work on ATLAS or other translation engine
@@ -3348,8 +3348,9 @@
 *let's if LEC can handle it or not
 *
 *LEC can't handle じゃなかった
-([一-龠]め)(た)んじゃ(なかった)	$1$2のでは$3
-じゃ(なかった)	では$1
+*disabled, removed to VNR
+*([一-龠]め)(た)んじゃ(なかった)	$1$2のでは$3
+*じゃ(なかった)	では$1
 *
 *じゃなかった haven't added yet, will be added when needed
 *inserting ん　between ない and でしょう sometimes working sometimes not,

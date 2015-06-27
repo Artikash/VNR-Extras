@@ -6,6 +6,8 @@ Since 6/18/2011
   [Embed Translation]
   * VNR will do word wrap to the inlined translation if the game engine supports new lines
     (currently Leaf and Circus) so that a word will not break at new lines for languages having spaces.
+    For other engines, word wrap might only work if you manually enable and specify the Maximum Text Width
+    in Preferences/Embed.
 
 6/25/2015 THU
   [TAHScript](English, @riz)

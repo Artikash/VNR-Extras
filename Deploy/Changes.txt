@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+6/26/2015 FRI
+  [Embed Translation]
+  * VNR will do word wrap to the inlined translation if the game engine supports new lines
+    (currently Leaf and Circus) so that a word will not break at new lines for languages having spaces.
+
 6/25/2015 THU
   [TAHScript](English, @riz)
   * Update TAH script for LEC.

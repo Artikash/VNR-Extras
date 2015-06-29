@@ -8,6 +8,9 @@ Since 6/18/2011
     This only works for game engines that support ruby, currently only Leaf and Debonosu games.
     如果游戏引擎支持，VNR会内嵌共享辞书中的Ruby定义到游戏。
 
+  * Update Debonosu engine to support translating all texts in アヤカシ散華.
+    修正了「アヤカシ散華」内部分文本无法翻译的问题
+
 6/28/2015 SUN
   [Shared Dictionary]
   * Add a new ruby syntax for displaying translation above the translation.

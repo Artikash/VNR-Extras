@@ -9,7 +9,18 @@ Since 6/18/2011
     如果游戏引擎支持，VNR会内嵌共享辞书中的Ruby定义到游戏。
 
   * Update Debonosu engine to support translating all texts in アヤカシ散華.
-    修正了「アヤカシ散華」内部分文本无法翻译的问题
+    修正了「アヤカシ散華」内部分文本无法翻译的问题。
+
+  [Shared Dictionary]
+  * Add a property to each rule to specify whether the rule should be applied only to translate window/name/scenario/other thread texts.
+
+    For example, if there are repetitions only in the name text thread.
+    Then we can create a game rule to eliminate repeats with context set to Name so that it only applies to the name thread.
+
+    Another example: "ロード" appearing in the Window menu is more common to mean "Load" than "Road".
+    Now we can now create a "ロード" = "load" definition and only applies it to translate Window texts.
+
+    添加了一个语境属性可以指定词条是否仅仅适用于窗口、对话、姓名和其他文本的翻译。
 
 6/28/2015 SUN
   [Shared Dictionary]

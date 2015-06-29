@@ -2,6 +2,12 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+6/29/2015 MON
+  [Embed Translation]
+  * VNR will embed ruby defined in the Shared Dictionary into the game if possible.
+    This only works for game engines that supports ruby, currently Leaf and Debonosu games only.
+    如果游戏引擎支持，VNR会内嵌共享辞书中的Ruby定义到游戏。
+
 6/28/2015 SUN
   [Shared Dictionary]
   * Add a new ruby syntax for displaying translation above the translation.

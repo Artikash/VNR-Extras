@@ -2,6 +2,51 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+6/28/2015 SUN
+  [Shared Dictionary]
+  * Add a new ruby syntax for displaying translation above the translation.
+    For example, given the following definition in the Shared Dictionary:
+    - Type: Translation
+    - Pattern: 雪
+    - Translation: Yuki
+    - Ruby: Snow
+    Then, VNR will translate 雪 to Yuki, while displaying Snow above yuki.
+    This might be helpful when you want to translate a word both by pronunciation and by meaning,
+    when you can define Translation = pronunciation and Ruby = its literal meaning.
+
+    Alternatively, the above definition is equivalent to the following rule:
+    - Type: Translation
+    - Pattern: 雪
+    - Translation: [ruby=Snow]Yuki[/ruby]
+    This syntax might be helpful if you want to define multiple ruby in the same rule. Here's another example:
+    - Type: Translation
+    - Pattern: 雪ノ花
+    - Translation: [ruby=Snow]Yuki[/ruby] no [ruby=Flower]Hana[/ruby]
+
+    If you are familiar with HTML, you can expect [ruby=Snow]Yuki[/ruby] to be transformed to <ruby><rt>Snow</rt><rb>Yuki</rb></ruby>.
+
+    Ruby definition is only allowed when definition type is Translation, Name, Yomigana, Prefix, Suffix, or Output.
+
+    If you feel Ruby annoying, you can always disable displaying ruby definitions in Preferences/ShareDictionary.
+
+    This feature is requested by @mireado sama and thanks for this suggestion!
+
+    对共享辞书的词条添加了一个Ruby的定义。Ruby的定义会显示在被定义翻译的上边。
+
+    比方说，更定如下定义：
+    - 类型: 姓名
+    - 匹配: アイリス
+    - 翻译: 鸢尾花
+    - Ruby: Iris
+    那么VNR会把"Iris"显示在"鸢尾花"的上方（好像HTML中<ruby>的语法）。
+
+    另外，上边的定义和如下的语法是等价的：
+    - 类型: 姓名
+    - 匹配: アイリス
+    - 翻译: [ruby=Iris]鸢尾花[/ruby]
+
+    如果你不喜欢看到Ruby，可以在【使用偏好/共享辞书】中禁用。
+
 6/26/2015 FRI
   [Embed Translation]
   * VNR will do word wrap to the inlined translation if the game engine supports new lines
@@ -3072,7 +3117,7 @@ Since 6/18/2011
   * Fixed a bug that Baidu TTS did not speak Korean text.
 
     btw., if you are learning Korean, you could try ezTrans to translate Japanese eroge to Korean.
-    Due to the similarity of the two languages especially the pronounciation, combining with TTS
+    Due to the similarity of the two languages especially the pronunciation, combining with TTS
     for Japanese and Korean, it might give you a hand to learn Korean at the same time.
 
     修正了百度TTS无法读出韩文的bug。

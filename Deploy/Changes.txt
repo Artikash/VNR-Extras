@@ -20,6 +20,10 @@ Since 6/18/2011
     Another example: "ロード" appearing in the Window menu is more common to mean "Load" than "Road".
     Now we can now create a "ロード" = "load" definition and only applies it to translate Window texts.
 
+    English machine translation tends to prepend "A" or "The" before the translation of individual items.
+    But for Window texts, for example, it is more common to translate "ゲーム" to "Game" instead of "A game" or "The game".
+    Now we can create an output rule to delete leading "A" and "The" for window text translation.
+
     添加了一个语境属性可以指定词条是否仅仅适用于窗口、对话、姓名和其他文本的翻译。
 
 6/28/2015 SUN

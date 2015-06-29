@@ -18,14 +18,16 @@ Since 6/18/2011
     - Type: Translation
     - Pattern: 雪
     - Translation: [ruby=Snow]Yuki[/ruby]
+
     This syntax might be helpful if you want to define multiple ruby in the same rule. Here's another example:
     - Type: Translation
     - Pattern: 雪ノ花
     - Translation: [ruby=Snow]Yuki[/ruby] no [ruby=Flower]Hana[/ruby]
 
-    If you are familiar with HTML, you can expect [ruby=Snow]Yuki[/ruby] to be transformed to <ruby><rt>Snow</rt><rb>Yuki</rb></ruby>.
+    If you are familiar with HTML, you can expect [ruby=Snow]Yuki[/ruby] to be transformed to <ruby><rt>Snow</rt><rb>Yuki</rb></ruby>,
+    (although it is not what is actually happening under the water. And it won't work if you use <ruby> tag directly in translation.)
 
-    Ruby definition is only allowed when definition type is Translation, Name, Yomigana, Prefix, Suffix, or Output.
+    Ruby definition is only allowed when the definition type is Translation, Name, Yomigana, Prefix, Suffix, or Output.
 
     If you feel Ruby annoying, you can always disable displaying ruby definitions in Preferences/ShareDictionary.
 
@@ -45,6 +47,7 @@ Since 6/18/2011
     - 匹配: アイリス
     - 翻译: [ruby=Iris]鸢尾花[/ruby]
 
+    当前Ruby只对翻译、姓名、读法、前缀、后缀和输出词条是有效的。
     如果你不喜欢看到Ruby，可以在【使用偏好/共享辞书】中禁用。
 
 6/26/2015 FRI

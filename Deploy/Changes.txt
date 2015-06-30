@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+6/30/2015 TUE
+  [Embed Translation]
+  * Fixed a bug that might crash 「Angel Beats」.
+    修正了一个可能让「Angel Beats」崩溃的bug。
+
 6/29/2015 MON
   [Embed Translation]
   * VNR will embed ruby defined in the Shared Dictionary into the game if possible.

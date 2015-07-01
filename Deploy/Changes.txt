@@ -2,7 +2,6 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
-
 7/1/2015 WED
   [Embed Translation]
   * Add support for CMVS engine.

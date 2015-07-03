@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/2/2015 THU
+  [Embed Translation]
+  * Make sure that game font for SiglusEngine games cannot always be changed.
+    修正了SiglusEngine的游戏的字体又是无法改变的问题。
+
 7/1/2015 WED
   [Embed Translation]
   * Add support for CMVS engine.

@@ -6,6 +6,21 @@ Since 6/18/2011
   [Shared Dictionary]
   * Warm up Shared Dictionary after a game is launched.
 
+  [Embed Translation]
+  * The transcoding option for Windows translation is slightly changed.
+    If your translation's language is English, transcoding is not needed.
+    If your translation's language is Korean, Chinese, or any language that has non-ASCII characters
+    and the Windows text is not properly displayed, you can try enabling the transcoding option.
+
+    VNR by default won't modify UTF-16 text.
+    When transcoding is enabled, VNR will instead first encode UTF-16 text using the system encoding,
+    and then decode it using SHIFT-JIS. It might help fix the encoding issue of certain games.
+
+    The transcoding option for scenario/name/other text is disabled as it could crash certain games.
+    Please use locale switcher such as Locale Emulator instead of replying on embedding translation to fix non-Windows text encoding.
+
+    如果窗口的文字出现乱码，你可以尝试在【使用偏好/内嵌翻译】中打开【转码】的选项。
+
 7/2/2015 THU
   [Embed Translation]
   * Make sure that game font for SiglusEngine games can always be changed.

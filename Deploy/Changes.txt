@@ -22,6 +22,9 @@ Since 6/18/2011
 
     如果窗口的文字出现乱码，你可以尝试在【使用偏好/内嵌翻译】中打开【转码】的选项。
 
+  * Add an option in Preferences to change the default machine translator for scenario text.
+    添加了一个可以修改用来翻译内嵌对话文本的翻译器的选项。
+
 7/2/2015 THU
   [Embed Translation]
   * Make sure that game font for SiglusEngine games can always be changed.

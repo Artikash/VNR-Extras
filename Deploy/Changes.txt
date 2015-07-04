@@ -6,7 +6,9 @@ Since 6/18/2011
   [Embed Translation]
   * Add support for WillPlus games.
     Tested working with Re:BIRTHDAY SONG 恋を唄う死神 and ゴールデンマリッジ.
+    Scenario/Name/Choice texts can be translated.
     It also supports embedding ruby definition in the Shared Dictionary.
+    VNR will also fix the game encoding issue so that text can display properly without additional locale switcher on Windows with Japanese locale.
 
       ko: http://i.imgur.com/i0nzBZt.png
       zh: http://i.imgur.com/3ycnXxN.png

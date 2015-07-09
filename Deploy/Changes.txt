@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/8/2015 WED
+  [i18n](Korean, @otromonde)
+  * Update VNR's UI translation in Korean made by @otromonde sensei.
+
 7/7/2015 TUE
   [Embed Translation]
   * Add support for old QLiE games.

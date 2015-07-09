@@ -3,8 +3,8 @@ Visual Novel Reader
 Since 6/18/2011
 
 7/8/2015 WED
-  [i18n](Korean, @otromonde)
-  * Update VNR's UI translation in Korean made by @otromonde sensei.
+  [i18n](Korean, @mireado)
+  * Update VNR's UI translation in Korean made by @mireado sensei.
 
 7/7/2015 TUE
   [Embed Translation]
@@ -1479,8 +1479,8 @@ Since 6/18/2011
   * Fixed an encoding bug that caused Ehnd scripts not properly applied.
 
 4/5/2015 SUN
-  [i18n](Korean, @otromonde)
-  * Update VNR's UI translation in Korean made by @otromonde sensei.
+  [i18n](Korean, @mireado)
+  * Update VNR's UI translation in Korean made by @mireado sensei.
 
   [Shared Dictionary](Chinese, Korean)
   * JBeijing and ezTrans are aware of the roles of m (name), n (noun), and x (unknown phrases).
@@ -1533,7 +1533,7 @@ Since 6/18/2011
     - However, if you have already manually put Ehnd scripts in the ezTrans directory, VNR will NOT load them.
       To enable manual Ehnd scripts, you must DISABLE the Ehnd option in VNR's Preferences.
 
-      VNR's Ehnd scripts are in the Dictionaries/ehnd folder, version 20150402, which I got from otromonde.
+      VNR's Ehnd scripts are in the Dictionaries/ehnd folder, version 20150402, which I got from mireado.
       Please DO NOT directly edit those files, which will be reverted back after VNR's update.
       If you want to manually set up Ehnd, please follow the guide below, and then DISABLE VNR's Ehnd option.
 
@@ -1549,7 +1549,7 @@ Since 6/18/2011
     But currently, there is NO difference for how the Ehnd scripts are applied.
     So, it is OK to set up manual Ehnd if you like, which will act the same way as VNR's Ehnd mod.
 
-    Special thanks to @otromonde sensei's extensive help on this topic!
+    Special thanks to @mireado sensei's extensive help on this topic!
 
 4/3/2015 FRI
   [Shared Dictionary](Chinese)
@@ -1696,12 +1696,12 @@ Since 6/18/2011
     更新了对批评空间和Google的代理，因为以前的代理可能不能用了。
 
   [Machine Translation](Korean)
-  * Add translation support for TransCAT JKKJ suggested by @otromonde sama.
+  * Add translation support for TransCAT JKKJ suggested by @mireado sama.
     I cannot tell if it is better or worse comparing to EzTrans, but I feel you could give it a try.
 
     Here are some notes and minor issues about it:
     - TransCAT's developer ClickQ has disappeared, and I cannot find any place to purchase this soft.
-      If you would like to try it, you might have to ask your friends or @otromonde sama where to get it.
+      If you would like to try it, you might have to ask your friends or @mireado sama where to get it.
 
     - TransCAT project was dropped in 2002, which was newer than ezTrans XP (2001) though.
 
@@ -2396,8 +2396,8 @@ Since 6/18/2011
   [Game Information]
   * Allow to associate the game with the app on Steam.
 
-  [i18n](Korean, @otromonde)
-  * Update VNR's UI translation in Korean made by @otromonde sama.
+  [i18n](Korean, @mireado)
+  * Update VNR's UI translation in Korean made by @mireado sama.
 
 2/5/2015 THU
   [Machine Translation](Vietnamese)
@@ -2536,8 +2536,8 @@ Since 6/18/2011
     With Google/Infoseek, the alignment works for any supported language pairs.
     With Bing, only Japanese to English/Korean translations can be aligned.
 
-  [i18n](Korean, @otromonde)
-  * Update VNR's UI translation in Korean made by @otromonde sama.
+  [i18n](Korean, @mireado)
+  * Update VNR's UI translation in Korean made by @mireado sama.
 
 1/25/2015 SUN
   [Machine Translation]
@@ -2739,11 +2739,11 @@ Since 6/18/2011
   * Google translation speed improved.
     提高了Google翻译的速度。
 
-  [i18n](Korean, @otromonde)
-  * Update VNR's UI translation in Korean made by @otromonde sama.
+  [i18n](Korean, @mireado)
+  * Update VNR's UI translation in Korean made by @mireado sama.
 
   [Machine Translator](Korean)
-  * Add Naver.com online translation support for Korean as suggested by @otromonde sama.
+  * Add Naver.com online translation support for Korean as suggested by @mireado sama.
     Naver can be enabled in Preferences/Translation.
 
   [TTS]
@@ -3221,8 +3221,8 @@ Since 6/18/2011
   * 更新了djz大先生的J北京词库。
 
 12/30/2014 TUE
-  [i18n](Korean, @otromonde)
-  * Update VNR's UI translation in Korean made by @otromonde sensei.
+  [i18n](Korean, @mireado)
+  * Update VNR's UI translation in Korean made by @mireado sensei.
 
 12/28/2014 SUN
   [Game Engine]
@@ -3315,8 +3315,8 @@ Since 6/18/2011
     截图在上边。
 
 12/21/2014 SUN
-  [i18n](Korean, @otromonde)
-  * Update VNR's UI translation in Korean made by @otromonde sensei.
+  [i18n](Korean, @mireado)
+  * Update VNR's UI translation in Korean made by @mireado sensei.
 
 12/20/2014 SAT
   [Translation Scripts](English, @errzotl)
@@ -7008,7 +7008,7 @@ Since 6/18/2011
 
 1/16/2014: THU
   * (Korean) Correct the Korean translation for the VNR's UI.
-    The translation comes from @otromonde sensei.
+    The translation comes from @mireado sensei.
 
   * Speed up processing lingoes dictionaries.
     修正了Lingoes辞书处理很慢的问题。

@@ -5,7 +5,7 @@ Since 6/18/2011
 7/11/2015 SAT
   [Embed Translation]
   * Add support for ShinaRio (ver >= 2.48) games.
-    Tested working for 3rdeye games.
+    Tested working for 3rdEye games.
 
       ko: http://i.imgur.com/4CQtrye.png
       zh: http://i.imgur.com/tVe2gaO.png

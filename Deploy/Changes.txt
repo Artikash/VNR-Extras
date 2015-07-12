@@ -19,6 +19,7 @@ Since 6/18/2011
     - Given 悠真 = ゆうま, VNR will display 유진 above 유우마 as 悠 is 유 and individual 真 is usually 진.
     - Given 蓮花 = れんふぁ that is also a Korean phrase, VNR will display 연화 above 렌파 as 蓮花 is 연화,
       although 蓮 can also be 련 when used individually.
+    This only applies to the Yomigana definition of Japanese names that consist of Hanja.
 
   * 在日中日文时，对于通过読み仮名定义的姓名翻译，VNR增加了一个选项可以在翻译的上方显示日文原始的罗马字读音。
 

@@ -32,6 +32,9 @@ Since 6/18/2011
     在游戏中，有时也会无法把翻译的中文姓名与日文的读音对应。
     如果你在学习日语，这个功能也许可以对熟悉罗马字的发音有些帮助。
 
+  * Fix a bug that displaying ruby might sometimes break layout.
+    修正了显示翻译Ruby有时会造成排版错误的问题。
+
 7/8/2015 WED
   [i18n](Korean, @mireado)
   * Update VNR's UI translation in Korean made by @mireado sensei.

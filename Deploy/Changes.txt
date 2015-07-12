@@ -30,8 +30,9 @@ Since 6/18/2011
     另外，读法词条通常比直接的日中姓名翻译包含更多的信息，可以提供比如罗马字Ruby这样的额外的功能。
 
   [Game Engine]
-  * The code base for Windows XP and non-Windows XP are merged.
-    The translated game should be less possible to crash on Windows XP.
+  * The code base for Windows XP and non-Windows XP is merged.
+    In the old version of VNR, the translated games were much more likely to crash on Windows XP comparing to non-XP.
+    Now, there should be no difference on Windows XP or non-XP.
     vnrhookxp.dll is removed, and will no longer be recognized as virus.
 
   * Fixed the issue that game might crash on Wine when VNR is closed.

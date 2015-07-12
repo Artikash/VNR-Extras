@@ -6,6 +6,7 @@ Since 6/18/2011
   [Embed Translation]
   * Fix a bug that name translation might not work when enabled.
     Thanks for @mireado sama's report!
+    修正了一个内嵌姓名翻译有时会失效的bug。
 
 7/11/2015 SAT
   [Embed Translation]

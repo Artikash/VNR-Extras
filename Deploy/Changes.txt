@@ -13,7 +13,7 @@ Since 6/18/2011
     为最近的ShinaRio引擎的游戏添加了内嵌翻译的支持。截图在上边。
 
   [Yomigana]
-  * For Korean translation of Japanese names, VNR can display the pronunciation of hanja above Yomigana as ruby.
+  * For Korean translation of Japanese names, VNR can display the pronunciation of Hanja above Yomigana as ruby.
     This behavior is enabled by default, and can be disabled in Preferences/Shared Dictionary.
     For example:
     - Given 悠真 = ゆうま, VNR will display 유진 above 유우마 as 悠 is 유 and individual 真 is usually 진.

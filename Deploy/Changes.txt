@@ -3,6 +3,11 @@ Visual Novel Reader
 Since 6/18/2011
 
 7/12/2015 SUN
+  [Yomigana](Vietnamese)
+  * For Vietnamese translation of Japanese names, VNR can display the Phiên âm Hán-Việt pronunciation above Yomigana as ruby.
+    This behavior is disabled by default, and can be enabled in Preferences/Shared Dictionary.
+    For example, when enabled, given 蓮花 = れんふぁ, VNR will display "Liên Hoa" above "Renfa".
+
   [Embed Translation]
   * Fix a bug that name translation might not work when enabled.
     Thanks for @mireado sama's report!

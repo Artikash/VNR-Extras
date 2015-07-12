@@ -13,6 +13,22 @@ Since 6/18/2011
     Thanks for @mireado sama's report!
     修正了一个内嵌姓名翻译有时会失效的bug。
 
+  * Automatically-generated ruby for yomigana also works for certain game engines that supports Ruby.
+
+        http://i.imgur.com/L9u4JUe.png
+
+    部分游戏的内嵌翻译也会支持姓名罗马字注音的Ruby。
+    截图在上边。"Taiyo" 是 "太陽=たいよう" 的读法词条生成的罗马字。
+
+    btw., if you can read Hiragana, it is always recommended to use Yomigana instead of Name rules to define translation
+    for Japanese names in the Shared Dictionary.
+    Yomigana is shared across languages and really help reduce duplicates.
+    And it usually has more information than direct language-specific name translation, and hence might enable more features in the future.
+
+    btw., 关于共享辞书中的姓名和读法词条，如果你可以看懂日文的仮名，希望可以尽量用【读法】定义日文人名的翻译。
+    读法词条在不同语言之间共享翻译，并可以减少不同语言之间重复定义。
+    另外，读法词条比直接的翻译包含更多的信息，可以提供比如罗马字Ruby这样的额外的功能。
+
 7/11/2015 SAT
   [Embed Translation]
   * Add support for ShinaRio (ver >= 2.48) games.

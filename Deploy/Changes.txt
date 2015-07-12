@@ -12,6 +12,25 @@ Since 6/18/2011
 
     为最近的ShinaRio引擎的游戏添加了内嵌翻译的支持。截图在上边。
 
+  [Yomigana]
+  * For Korean translation of Japanese names, VNR can display the pronunciation of hanja above Yomigana as ruby.
+    This behavior is enabled by default, and can be disabled in Preferences/Shared Dictionary.
+    For example:
+    - Given 悠真 = ゆうま, VNR will display 유진 above 유우마 as 悠 is 유 and individual 真 is usually 진.
+    - Given 蓮花 = れんふぁ that is also a Korean phrase, VNR will display 연화 above 렌파 as 蓮花 is 연화,
+      although 蓮 can also be 련 when used individually.
+
+  * 在日中日文时，对于通过読み仮名定义的姓名翻译，VNR增加了一个选项可以在翻译的上方显示日文原始的罗马字读音。
+
+    比方说，给定：悠真 = ゆうま，那么VNR会在翻译中"悠真"的上方显示Yuuma。
+
+    这个选项可以在【使用偏好/共享辞书】中开启。选项默认是关闭。
+    这个功能也许仅对想学习日文的同学有一点点帮助。
+
+    比方说，很多人知道堀江由衣，但是并不知道在日文里怎么读这个名字(Horie Yui)。
+    在游戏中，有时也会无法把翻译的中文姓名与日文的读音对应。
+    如果你在学习日语，这个功能也许可以对熟悉罗马字的发音有些帮助。
+
 7/8/2015 WED
   [i18n](Korean, @mireado)
   * Update VNR's UI translation in Korean made by @mireado sensei.

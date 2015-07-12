@@ -6,7 +6,7 @@ Since 6/18/2011
   [Yomigana](Vietnamese)
   * For Vietnamese translation of Japanese names, VNR can display the Phiên âm Hán-Việt pronunciation above Yomigana as ruby.
     This behavior is disabled by default, and can be enabled in Preferences/Shared Dictionary.
-    For example, when enabled, given 蓮花 = れんふぁ, VNR will display "Liên Hoa" above "Renfa".
+    For example, when enabled, given "蓮花 = れんふぁ", VNR will display "Liên Hoa" above "Renfa".
 
   [Embed Translation]
   * Fix a bug that name translation might not work when enabled.
@@ -28,6 +28,13 @@ Since 6/18/2011
     btw., 关于共享辞书中的姓名和读法词条，如果你可以看懂日文的仮名，希望可以尽量用【读法】定义日文人名的翻译。
     读法词条在不同语言之间共享翻译，并可以减少不同语言之间重复定义。
     另外，读法词条通常比直接的日中姓名翻译包含更多的信息，可以提供比如罗马字Ruby这样的额外的功能。
+
+  [Game Engine]
+  * The code base for Windows XP and non-Windows XP are merged.
+    The translated game should be less possible to crash on Windows XP.
+    vnrhookxp.dll is removed, and will no longer be recognized as virus.
+
+  * Fixed the issue that game might crash on Wine when VNR is closed.
 
 7/11/2015 SAT
   [Embed Translation]

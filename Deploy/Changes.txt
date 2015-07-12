@@ -31,9 +31,10 @@ Since 6/18/2011
 
   [Game Engine]
   * The code base for Windows XP and non-Windows XP is merged.
+    vnrhookxp.dll is removed, and will no longer be recognized as virus.
     In the old version of VNR, the translated games were much more likely to crash on Windows XP comparing to non-XP.
     Now, there should be no much difference between Windows XP and non-XP.
-    vnrhookxp.dll is removed, and will no longer be recognized as virus.
+    Game engines on Windows XP should be as stable as non-XP, and old PPSSPP engines should also work on Windows XP as well.
 
   * Fixed the issue that game might crash on Wine when VNR is closed.
 

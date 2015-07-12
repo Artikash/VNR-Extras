@@ -39,6 +39,10 @@ Since 6/18/2011
 
   * Fixed the issue that game might crash on Wine when VNR is closed.
 
+  [UI]
+  * The growl notification on the Desktop top-right corner can be disabled in Preferences/UI.
+    在【使用篇好/界面】中可以停止在桌面的右上角显示提醒。
+
 7/11/2015 SAT
   [Embed Translation]
   * Add support for ShinaRio (ver >= 2.48) games.

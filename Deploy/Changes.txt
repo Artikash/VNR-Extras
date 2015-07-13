@@ -18,9 +18,9 @@ Since 6/18/2011
     In the old version of VNR, the translated games were much more likely to crash on WinXP comparing to non-WinXP.
     And PPSSPP game engines did not work on Windows XP.
     Now, there should be no much difference between WinXP and non-XP. Game engines on Windows XP should be as stable as non-XP.
-    And translation support for PPSSPP games also work on Windows XP now.
+    And translation support for PPSSPP games also works on Windows XP now.
 
-  * Fixed the issue that game might crash on Wine when VNR is closed.
+  * Fixed the issue that the game might crash on Wine when VNR is closed.
 
   * Properly handle UNC path when the game is launched from a remote network drive.
 

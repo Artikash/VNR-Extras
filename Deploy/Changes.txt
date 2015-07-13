@@ -8,6 +8,22 @@ Since 6/18/2011
     This behavior is disabled by default, and can be enabled in Preferences/Shared Dictionary.
     For example, when enabled, given "蓮花 = れんふぁ", VNR will display "Liên Hoa" above "Renfa".
 
+  [UI]
+  * The growl notification on the Desktop top-right corner can be disabled in Preferences/UI.
+    在【使用篇好/界面】中可以停止在桌面的右上角显示提醒。
+
+  [Game Engine]
+  * The code base for Windows XP and non-Windows XP is merged.
+    vnrhookxp.dll is removed, and will no longer be recognized as virus.
+    In the old version of VNR, the translated games were much more likely to crash on WinXP comparing to non-WinXP.
+    And PPSSPP game engines did not work on Windows XP.
+    Now, there should be no much difference between WinXP and non-XP. Game engines on Windows XP should be as stable as non-XP.
+    And translation support for PPSSPP games also work on Windows XP now.
+
+  * Fixed the issue that game might crash on Wine when VNR is closed.
+
+  * Properly handle UNC path when the game is launched from a remote network drive.
+
   [Embed Translation]
   * Fix a bug that name translation might not work when enabled.
     Thanks for @mireado sama's report!
@@ -28,22 +44,6 @@ Since 6/18/2011
     btw., 关于共享辞书中的姓名和读法词条，如果你可以看懂日文的仮名，希望可以尽量用【读法】定义日文人名的翻译。
     读法词条在不同语言之间共享翻译，并可以减少不同语言之间重复定义。
     另外，读法词条通常比直接的日中姓名翻译包含更多的信息，可以提供比如罗马字Ruby这样的额外的功能。
-
-  [Game Engine]
-  * The code base for Windows XP and non-Windows XP is merged.
-    vnrhookxp.dll is removed, and will no longer be recognized as virus.
-    In the old version of VNR, the translated games were much more likely to crash on WinXP comparing to non-WinXP.
-    And PPSSPP game engines did not work on Windows XP.
-    Now, there should be no much difference between WinXP and non-XP. Game engines on Windows XP should be as stable as non-XP.
-    And translation support for PPSSPP games also work on Windows XP now.
-
-  * Fixed the issue that game might crash on Wine when VNR is closed.
-
-  * Properly handle UNC path when the game is launched from a remote network drive.
-
-  [UI]
-  * The growl notification on the Desktop top-right corner can be disabled in Preferences/UI.
-    在【使用篇好/界面】中可以停止在桌面的右上角显示提醒。
 
 7/11/2015 SAT
   [Embed Translation]

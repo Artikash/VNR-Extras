@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/16/2015 THU
+  [Embed Translation]
+  * Update BGI engine to support handling ruby.
+
 7/12/2015 SUN
   [Yomigana](Vietnamese)
   * For Vietnamese translation of Japanese names, VNR can display the Phiên âm Hán-Việt pronunciation above Yomigana as ruby.
@@ -13,7 +17,7 @@ Since 6/18/2011
     在【使用篇好/界面】中可以停止在桌面的右上角显示提醒。
 
   [Game Engine]
-  * The code base for Windows XP and non-Windows XP is merged.
+  * The code bases for Windows XP and non-Windows XP are merged.
     vnrhookxp.dll is removed, and will no longer be recognized as virus.
     In the old version of VNR, the translated games were much more likely to crash on WinXP comparing to non-WinXP.
     And PPSSPP game engines did not work on Windows XP.

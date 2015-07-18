@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/17/2015 FRI
+  [Embed Translation]
+  * Add support for old ShinaRio (ver 2.47 ~ 2.40) games.
+    Tested working for Vestige and 花と乙女に祝福を.
+
 7/16/2015 THU
   [Embed Translation]
   * Update BGI engine to support handling ruby.
@@ -11845,6 +11850,6 @@ Since 6/18/2011
 6/18/2011  touch.reader  0.0.0.0
   * Project launched.
 
-Copyright 2011-2014, Annot Cloud
+Copyright 2011-2015, Annot Cloud
 Copying and distribution of this file, with or without modification, are
 permitted provided the copyright notice and this notice are preserved.

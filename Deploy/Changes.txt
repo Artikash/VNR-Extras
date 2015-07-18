@@ -2,9 +2,15 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/18/2015 SAT
+  [Dictionary](Korean)
+  * Add an option to display hanja pronunciation for kanji in Preferences/Dictionary.
+    For example, when enabled, click a phrase containing "香" and VNR will popup the following:
+        【香{향,incense}】[禾{화,grain}, 日{일,sun}]
+
 7/17/2015 FRI
   [Embed Translation]
-  * Add support for old ShinaRio (ver 2.47 ~ 2.40) games.
+  * Add support for old ShinaRio games (ver 2.40 ~ 2.47).
     Tested working for Vestige and 花と乙女に祝福を.
 
 7/16/2015 THU

@@ -16,6 +16,10 @@ Since 6/18/2011
     It currently only works for English. Scenario/Name/Choice/Backlog can be translated.
     Tested working for 時計仕掛けのレイライン and ManguSta .
 
+  [Game Engine]
+  * Update AMUSE CRAFT engine so that text threads won't be floating and split.
+    If you are playing AMUSE CRAFT games, please re-adjust Text Settings.
+
 7/17/2015 FRI
   [Embed Translation]
   * Add support for old ShinaRio games (ver 2.40 ~ 2.47).

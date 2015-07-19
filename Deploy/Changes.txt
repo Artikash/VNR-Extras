@@ -11,6 +11,11 @@ Since 6/18/2011
     When enabled, for example, click a phrase containing "香" and VNR will popup the following:
         【香{향,incense}】[禾{화,grain}, 日{일,sun}]
 
+  [Embed Translation]
+  * Add support for AMUSE CRAFT games.
+    It currently only works for English. Scenario/Name/Choice/Backlog can be translated.
+    Tested working for 時計仕掛けのレイライン and ManguSta .
+
 7/17/2015 FRI
   [Embed Translation]
   * Add support for old ShinaRio games (ver 2.40 ~ 2.47).

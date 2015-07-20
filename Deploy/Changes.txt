@@ -4,7 +4,7 @@ Since 6/18/2011
 
 7/20/2015 MON
   [Embed Translation]
-  * Add support to translate "LORD of VERMILION ARENA:LoVA" at http://lova.jp. Screenshots are blow.
+  * Add support to translate "LORD of VERMILION ARENA:LoVA" at http://lova.jp. Screenshots are below.
     Almost all texts can be translated. But there are some known issues:
     + Long translation might be truncated.
       It might be better to turn on external subtitles for languages other than Chinese that are usually more verbose (having more characters) than Japanese.

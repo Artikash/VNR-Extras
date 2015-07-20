@@ -35,6 +35,11 @@ Since 6/18/2011
     + 简体中文字体无法正常显示。
       请将用户语言设定为中文，并在【使用偏好/内嵌翻译】中指定优先的中文字符集为正体中文和日本汉字。
 
+  [Text Settings]
+  * There is always a Null thread in Text Settings.
+    If you want to disable text extraction, just set scenario thread to Null.
+    如果你要停止提取文本，可以在文本设定中设定对白文本为Null。
+
 7/18/2015 SAT
   [Dictionary](Korean)
   * Add support to lookup hanja dictionary for Japanese kanji.

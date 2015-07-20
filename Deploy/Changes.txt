@@ -2,6 +2,39 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/20/2015 MON
+  [Embed Translation]
+  * Add support to translate "LORD of VERMILION ARENA:LoVA" at http://lova.jp. Screenshots are blow.
+    Almost all texts can be translated. But there are some known issues:
+    + Long translation might be truncated.
+      It might be better to turn on external subtitles for languages other than Chinese, which is more verbose than Japanese.
+    + Due to technical difficulties, there is no way to create a ITH engine for this game.
+      If you don't want to embed translation, you can just set Scenario/Name/Other/Window to Disable in Preferences/Embed.
+    + Game font cannot be changed.
+      - If the translation language is English, it should work fine.
+      - If the translation language is Chinese
+        In Preferences/Embed, please turn on the option to use Traditional Chinese and Japanese kanji as preferred Chinese variants instead of Simplified Chinese.
+      - For any languages other than English/Chinese
+        I don't know how to make it work. You might have to looking for ways yourself to change game font to that support the character set of your language.
+
+    en: http://i.imgur.com/vMpdbV6.png
+        http://i.imgur.com/2yDfgew.png
+        http://i.imgur.com/fs3YZHm.png
+        http://i.imgur.com/Yyy9yIi.png
+
+    zh: http://i.imgur.com/i7MPagT.png
+        http://i.imgur.com/J76tYBv.png
+        http://i.imgur.com/Enya1CZ.png
+        http://i.imgur.com/yQ0qQPF.png
+
+    支持内嵌翻译LORD of VERMILION ARENA:LoVA (http://lova.jp). 截图在上边。
+    游戏内几乎全部的文本都可以翻译。不过，有一些已知的问题：
+    + 很长的翻译可能会被截断。
+      所以最好不要关闭外拐翻译。
+    + 由于技术困难，无法通过ITH来翻译这个游戏。
+    + 简体中文字体无法正常显示。
+      请将用户语言设定为中文，并在【使用偏好/内嵌翻译】中指定优先的中文字符集为正体中文和日本汉字。
+
 7/18/2015 SAT
   [Dictionary](Korean)
   * Add support to lookup hanja dictionary for Japanese kanji.

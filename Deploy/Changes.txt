@@ -9,7 +9,7 @@ Since 6/18/2011
       en: http://i.imgur.com/ItwyDrI.png
       zh: http://i.imgur.com/834xGe6.png
 
-    "LORD of VERMILION ARENA:LoVA (http://lova.jp) 内嵌的翻译不会被截断了。截图在上边。
+    "LORD of VERMILION ARENA:LoVA" (http://lova.jp) 内嵌的翻译不会被截断了。截图在上边。
 
 7/20/2015 MON
   [Embed Translation]

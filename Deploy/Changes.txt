@@ -18,8 +18,6 @@ Since 6/18/2011
   [Embed Translation]
   * Add support to translate "LORD of VERMILION ARENA:LoVA" at http://lova.jp. Screenshots are below.
     Almost all texts can be translated. But there are some known issues:
-    + Long translation might be truncated.
-      It might be better to turn on external subtitles for languages other than Chinese that are usually more verbose (having more characters) than Japanese.
     + Due to technical difficulties, there is no way to create a ITH engine for this game.
       If you don't want to embed translation, you can just set Scenario/Name/Other/Window to Disable in Preferences/Embed.
     + Game font cannot be changed.
@@ -41,8 +39,6 @@ Since 6/18/2011
 
     支持内嵌翻译LORD of VERMILION ARENA:LoVA (http://lova.jp). 截图在上边。
     游戏内几乎全部的文本都可以翻译。不过，有一些已知的问题：
-    + 很长的翻译可能会被截断。
-      所以最好不要关闭外拐翻译。
     + 由于技术困难，无法通过ITH来翻译这个游戏。
     + 简体中文字体无法正常显示。
       请将用户语言设定为中文，并在【使用偏好/内嵌翻译】中指定优先的中文字符集为正体中文和日本汉字。

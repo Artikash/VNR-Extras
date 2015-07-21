@@ -11,6 +11,9 @@ Since 6/18/2011
 
     "LORD of VERMILION ARENA:LoVA" (http://lova.jp) 内嵌的翻译不会被截断了。截图在上边。
 
+  * Properly handle ruby for AMUSE CRAFT games.
+    Thanks for @mireado sama's report!
+
 7/20/2015 MON
   [Embed Translation]
   * Add support to translate "LORD of VERMILION ARENA:LoVA" at http://lova.jp. Screenshots are below.

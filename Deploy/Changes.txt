@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/21/2015 TUE
+  [Embed Translation]
+  * Embedded translation won't get truncated for "LORD of VERMILION ARENA:LoVA" at http://lova.jp.
+    LORD of VERMILION ARENA:LoVA(http://lova.jp)内嵌的翻译不会被截断了。
+
 7/20/2015 MON
   [Embed Translation]
   * Add support to translate "LORD of VERMILION ARENA:LoVA" at http://lova.jp. Screenshots are below.

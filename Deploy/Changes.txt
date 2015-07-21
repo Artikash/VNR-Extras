@@ -4,8 +4,12 @@ Since 6/18/2011
 
 7/21/2015 TUE
   [Embed Translation]
-  * Embedded translation won't get truncated for "LORD of VERMILION ARENA:LoVA" at http://lova.jp.
-    LORD of VERMILION ARENA:LoVA(http://lova.jp)内嵌的翻译不会被截断了。
+  * Embedded translation won't get truncated for "LORD of VERMILION ARENA:LoVA" at http://lova.jp. A screenshot is as follows.
+
+      en: http://i.imgur.com/ItwyDrI.png
+      zh: http://i.imgur.com/834xGe6.png
+
+    "LORD of VERMILION ARENA:LoVA (http://lova.jp) 内嵌的翻译不会被截断了。截图在上边。
 
 7/20/2015 MON
   [Embed Translation]

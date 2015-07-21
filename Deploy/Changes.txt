@@ -25,7 +25,7 @@ Since 6/18/2011
       - If the translation language is Chinese
         In Preferences/Embed, please turn on the option to use Traditional Chinese and Japanese kanji as preferred Chinese variants instead of Simplified Chinese.
       - For any languages other than English/Chinese
-        I don't know how to make it work. You might have to looking for ways yourself to change game font to that support the character set of your language.
+        I don't know how to make it working. You might have to looking for ways yourself to change the game font to that support the character set of your language.
 
     en: http://i.imgur.com/vMpdbV6.png
         http://i.imgur.com/2yDfgew.png

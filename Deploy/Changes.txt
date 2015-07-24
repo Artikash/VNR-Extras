@@ -2,6 +2,22 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/24/2015 FRI
+  [Game Engine]
+  * Add support for Esc:ude games, which does not require changing game font to "MS Gothic".
+    为Esc:ude社的游戏添加了支持。提取文字不再需要修改游戏的字体。
+
+  [Embed Translation]
+  * Add support for Esc:ude games. Screenshots are as follows.
+    Test working for Re;Lord, パニカル・コンフュージョン, and 花嫁と魔王.
+    If the translation's language is not English, please change the game's default font to "MS Gothic" in Configure.exe.
+
+      ko: http://imgur.com/eoujHm7,BtXJt8n
+      zh: http://imgur.com/ncrMb0R,VvwBYVA
+
+    为Esc:ude社的游戏添加了支持。截图在上边。
+    内嵌翻译需要通过configure.exe修改游戏字体为MS Gothic。
+
 7/21/2015 TUE
   [Embed Translation]
   * Embedded translation won't get truncated for "LORD of VERMILION ARENA:LoVA" at http://lova.jp. A screenshot is as follows.

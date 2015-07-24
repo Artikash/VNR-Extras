@@ -4,8 +4,8 @@ Since 6/18/2011
 
 7/24/2015 FRI
   [Game Engine]
-  * Add support for Esc:ude games, which does not require changing game font to "MS Gothic".
-    为Esc:ude社的游戏添加了支持。提取文字不再需要修改游戏的字体。
+  * Add support for Escu:de games, which does not require changing game font to "MS Gothic".
+    为Escu:de社的游戏添加了支持。提取文字不再需要修改游戏的字体。
 
   [Embed Translation]
   * Add support for Esc:ude games. Screenshots are as follows.

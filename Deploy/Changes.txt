@@ -12,7 +12,7 @@ Since 6/18/2011
     Test working for Re;Lord, パニカル・コンフュージョン, and 花嫁と魔王.
     If the translation's language is not English, please change the game's default font to "MS Gothic" in Configure.exe.
 
-      ko: http://imgur.com/eoujHm7,BtXJt8n
+      ko: http://imgur.com/eoujHm7,sz5TemN
       zh: http://imgur.com/ncrMb0R,VvwBYVA
 
     为Esc:ude社的游戏添加了支持。截图在上边。

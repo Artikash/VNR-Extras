@@ -2,6 +2,13 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/26/2015 SAT
+  [Embed Translation]
+  * Add support for Lucifen engine.
+    Test working for プリズム・プリンセス and 猫撫ディストーション.
+
+    为Lucifen引擎的游戏添加了支持。
+
 7/24/2015 FRI
   [Game Engine]
   * Add support for Escu:de games, which does not require changing game font to "MS Gothic".

@@ -12,6 +12,9 @@ Since 6/18/2011
 
     为Lucifen引擎的游戏添加了支持。截图在上边。
 
+  * Fix the issue that game window might blackout when Window text translation is enabled.
+    Thanks for @王子夜礼服假面 and @mireado's report!
+
 7/24/2015 FRI
   [Game Engine]
   * Add support for Escu:de games, which does not require changing game font to "MS Gothic".

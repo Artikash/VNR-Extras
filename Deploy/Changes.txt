@@ -5,9 +5,12 @@ Since 6/18/2011
 7/26/2015 SAT
   [Embed Translation]
   * Add support for Lucifen engine.
-    Test working for プリズム・プリンセス and 猫撫ディストーション.
+    Test working for プリズム・プリンセス and 猫撫ディストーション. Screenshots are as follows.
 
-    为Lucifen引擎的游戏添加了支持。
+      ko: http://imgur.com/dJpfaIq,02M3ypB,tVyQokf,aXyP3IX
+      zh: http://i.imgur.com/kqSp943.png
+
+    为Lucifen引擎的游戏添加了支持。截图在上边。
 
 7/24/2015 FRI
   [Game Engine]

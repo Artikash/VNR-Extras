@@ -20,6 +20,9 @@ Since 6/18/2011
   [Game Engine]
   * Add support for old SystemAoi games. Tested working for 「王賊」.
 
+  * Disable Mono Unity hook for CM3D, which might slown down the game.
+    Thanks for @xemnaseternal sama's report!
+
 7/24/2015 FRI
   [Game Engine]
   * Add support for Escu:de games, which does not require changing game font to "MS Gothic".

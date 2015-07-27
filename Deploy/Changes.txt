@@ -16,9 +16,11 @@ Since 6/18/2011
     Thanks for @王子夜礼服假面 and @mireado's report!
 
   * Add support for old SystemAoi games. Tested working for 「王賊」.
+    为SystemAoi的老游戏添加了引擎。
 
   [Game Engine]
   * Add support for old SystemAoi games. Tested working for 「王賊」.
+    为SystemAoi的老游戏添加了引擎。
 
   * Disable Mono Unity hook for CM3D, which might slown down the game.
     Thanks for @xemnaseternal sama's report!

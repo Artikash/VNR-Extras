@@ -15,7 +15,10 @@ Since 6/18/2011
   * Fix the issue that game window might blackout when Window text translation is enabled.
     Thanks for @王子夜礼服假面 and @mireado's report!
 
-  * Add support for old SystemAoi game. Tested working for 「王賊」.
+  * Add support for old SystemAoi games. Tested working for 「王賊」.
+
+  [Game Engine]
+  * Add support for old SystemAoi games. Tested working for 「王賊」.
 
 7/24/2015 FRI
   [Game Engine]

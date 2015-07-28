@@ -2,6 +2,15 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/28/2015 TUE
+  [Embed Translation]
+  * Add support for FAVORITE games.
+    Tested working for 星空のメモリア and 紅い瞳に映るセカイ.
+
+       http://i.imgur.com/XXfG7cD.png
+
+    为FAVORITE的游戏添加了内嵌翻译的支持。截图在上边。
+
 7/27/2015 MON
   [Embed Translation]
   * Add support for Mono games.
@@ -10398,8 +10407,8 @@ Since 6/18/2011
 
 6/15/2013 SAT
   * Fonts to render Japanese and subtitles can be modified in Preferences/Text.
-    If your favorate font is more popular than VNR's default one in your country,
-    feel free to let me know and I will change VNR's default font to your favorate one.
+    If your favorite font is more popular than VNR's default one in your country,
+    feel free to let me know and I will change VNR's default font to your favorite one.
 
     在【使用偏好/文本】中，可以修改显示文本的字体。
 
@@ -11199,7 +11208,7 @@ Since 6/18/2011
   * Fixed the delay for offline machine translation.
 
 1/6/2013 SUN
-  * Able to change the SpringBoard wallpaper by dragging your favorate wallpaper image file to the SpringBoard
+  * Able to change the SpringBoard wallpaper by dragging your favorite wallpaper image file to the SpringBoard
   * Able to add new game by dragging the executable(*.exe) or the shortcut(*.lnk) file to the SpringBoard
   * Able to launch existing game by dragging the executable(*.exe) or the shortcut(*.lnk) to the SpringBoard
   * Remember the size of the SpringBoard window on exit

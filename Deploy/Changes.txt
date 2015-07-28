@@ -8,7 +8,7 @@ Since 6/18/2011
     Currently, only tested working for Custom Maid 2, where most texts can be translated.
     Note that game text speed must be set to maximum.
 
-    While translation in all languages can be embedded, there is a big known issue that very long texts might be truncated.
+    While translation in all languages can be embedded, there is a big known issue that long translation might be truncated.
     As the result, only language that is much more concise than Japanese (such as Chinese) can be properly displayed.
     Languages that are much more verbose than Japanese (such as English) will usually be truncated.
     You might have to turn off embedded translation for Scenario text if being truncated.

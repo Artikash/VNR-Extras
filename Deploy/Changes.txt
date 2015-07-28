@@ -11,6 +11,11 @@ Since 6/18/2011
     While translation in all languages can be embedded, there is a big knowing issue that very long texts might be truncated.
     As the result, only language that is much more concise than Japanese (such as Chinese) can be properly displayed.
     Languages that are much more verbose than Japanese (such as English) will usually be truncated.
+    You might have to turn off embedded translation for Scenario text if being truncated.
+
+    ko: http://i.imgur.com/ri5Hnjo.png -- As you can see that the scenario translation is truncated
+        http://i.imgur.com/C3434Gq.png
+        http://i.imgur.com/ZdgYs5Z.png -- Maximize Text Speed here in the Message panel
 
     zh: http://i.imgur.com/sk7Obtg.png
         http://i.imgur.com/Fdu6vuA.png

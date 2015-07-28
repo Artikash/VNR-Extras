@@ -7,7 +7,7 @@ Since 6/18/2011
   * Add support for FAVORITE games.
     Tested working for 星空のメモリア and 紅い瞳に映るセカイ.
 
-       http://i.imgur.com/XXfG7cD.png
+        http://i.imgur.com/XXfG7cD.png
 
     为FAVORITE的游戏添加了内嵌翻译的支持。截图在上边。
 

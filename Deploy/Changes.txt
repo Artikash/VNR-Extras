@@ -2,7 +2,26 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
-7/26/2015 SAT
+7/27/2015 MON
+  [Embed Translation]
+  * Add support for Mono games.
+    Currently, only tested working for Custom Maid 2, where most texts can be translated.
+    Note that game text speed must be set to maximum.
+
+    While translation in all languages can be embedded, there is a big knowing issue that very long texts might be truncated.
+    As the result, only language that is much more concise than Japanese (such as Chinese) can be properly displayed.
+    Languages that are much more verbose than Japanese (such as English) will usually be truncated.
+
+    zh: http://i.imgur.com/sk7Obtg.png
+        http://i.imgur.com/Fdu6vuA.png
+        http://i.imgur.com/iujRDs5.png -- 这里，一定需要将Message里的【文本速度】调整为最快！
+        http://i.imgur.com/ChJwS5K.png
+        http://i.imgur.com/G6u7XuZ.png
+
+    为Mono的游戏添加了内嵌翻译的支持。
+    当前仅有测试Custom Maid 2，截图在上边。另外，内嵌翻译一定需要将游戏文本速度调整为最快！（参看上边的截图）
+
+7/25/2015 SAT
   [Embed Translation]
   * Add support for Lucifen engine.
     Test working for プリズム・プリンセス and 猫撫ディストーション. Screenshots are as follows.

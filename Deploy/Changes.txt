@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/29/2015 WED
+  [Game Information]
+  * Fixed the broken youtube download module that was caused by the deprecation of youtube v2 api.
+
 7/28/2015 TUE
   [Embed Translation]
   * Add support for FAVORITE games.

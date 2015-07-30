@@ -6,10 +6,13 @@ Since 6/18/2011
   [Game Information]
   * Fixed the broken youtube download module that was caused by the deprecation of youtube v2 api.
 
-  [Embed Translation]
+  [Embed Translation](CM3D)
   * Fix the issue that embedding Other text might crash CM3D 2.
     Thanks for @mireado sama's report!
     修正了内嵌翻译CM3D 2时可能会让游戏崩溃的问题。
+
+  [Game Engine](CM3D)
+  * Update the split logic to make it easier to select text threads from CM3D 2.
 
 7/28/2015 TUE
   [Embed Translation]

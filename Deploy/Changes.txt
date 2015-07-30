@@ -13,6 +13,7 @@ Since 6/18/2011
 
   [Game Engine](CM3D)
   * Update the split logic to make it easier to select text threads from CM3D 2.
+    Thanks for @xemnaseternal sama's report!
 
 7/28/2015 TUE
   [Embed Translation]

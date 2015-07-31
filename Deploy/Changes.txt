@@ -3,7 +3,7 @@ Visual Novel Reader
 Since 6/18/2011
 
 7/30/2015 THU
-  [Game Engine]
+  [Embed Translation]
   * Add support for NEXTON games.
     Name/scenario/choice/history can be translated.
     It does not have the issue of floating signatures and hence recommended also for text extraction.

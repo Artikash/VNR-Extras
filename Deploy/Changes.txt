@@ -6,6 +6,7 @@ Since 6/18/2011
   [Game Engine]
   * Add support for NEXTON games.
     Name/scenario/choice/history can be translated.
+    It does not have the issue of floating signatures and hence recommended also for text extraction.
     为NEXTON的伞下会社的游戏添加内嵌翻译的支持。
 
 7/29/2015 WED

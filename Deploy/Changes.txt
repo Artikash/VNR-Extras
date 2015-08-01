@@ -11,6 +11,10 @@ Since 6/18/2011
   * New lines is properly handled for CM3D 2.
     Word wrapping also works for embedded scenario text new line boundaries.
 
+  [Game Engine]
+  * Update Abel engine to support 不条理世界の探偵令嬢.
+    为「不条理世界の探偵令嬢」添加了提取文本的支持。
+
 7/30/2015 THU
   [Embed Translation]
   * Add support for NEXTON games.

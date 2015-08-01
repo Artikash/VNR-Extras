@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/1/2015 SAT
+  [Internet]
+  * Fixed the broken proxy to ESG.
+    修正了代理批评空间仍无法访问的问题。
+
 7/31/2015 FRI
   [Embed Translation](CM3D)
   * Fix the issue that embedding Other text might cause CM3D 2 to be black out.

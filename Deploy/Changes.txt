@@ -2,6 +2,12 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+7/31/2015 FRI
+  [Embed Translation](CM3D)
+  * Fix the issue that embedding Other text might cause CM3D 2 to be black out.
+    Thanks for @mireado sama's report!
+    修正了开启内嵌翻译可能会让CM3D 2黑屏的问题。
+
 7/30/2015 THU
   [Embed Translation]
   * Add support for NEXTON games.

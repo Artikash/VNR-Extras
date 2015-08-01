@@ -9,7 +9,7 @@ Since 6/18/2011
     修正了开启内嵌翻译可能会让CM3D 2黑屏的问题。
 
   * New lines is properly handled for CM3D 2.
-    Word wrapping also works for embedded scenario text around line boundaries.
+    Word wrapping also works for embedded scenario text new line boundaries.
 
 7/30/2015 THU
   [Embed Translation]

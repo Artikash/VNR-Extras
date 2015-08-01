@@ -7,6 +7,19 @@ Since 6/18/2011
   * Fixed the broken proxy to ESG.
     修正了代理批评空间仍无法访问的问题。
 
+  [Embed Translation]
+  * Add support for Pensil engine.
+    Some screenshots are as follows.
+    Tested working for 大正×対称アリス, はにつま, and 星逢のプリズムギア.
+    Scenario/Name/Choice/History can be translated.
+
+    ko: http://i.imgur.com/7mvXy77.png
+        http://i.imgur.com/tzmoi1u.png
+    zh: http://i.imgur.com/RFKSyEn.png
+        http://i.imgur.com/R8eYb5Z.png
+
+    为Pensil引擎的游戏添加了支持加。截图在上边。
+
 7/31/2015 FRI
   [Embed Translation](CM3D)
   * Fix the issue that embedding Other text might cause CM3D 2 to be black out.

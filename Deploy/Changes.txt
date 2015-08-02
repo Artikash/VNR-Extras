@@ -29,6 +29,9 @@ Since 6/18/2011
 
     修正了「ソーサリージョーカーズ」内嵌姓名翻译可能会出错的问题。
 
+  * Add a button to Preferences/Embed to restore default settings.
+    在【使用偏好/内嵌翻译】中添加了一重置内嵌设定的按钮。
+
 7/31/2015 FRI
   [Embed Translation](CM3D)
   * Fix the issue that embedding Other text might cause CM3D 2 to be black out.

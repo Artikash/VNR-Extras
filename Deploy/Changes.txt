@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/3/2015 Mon
+  [i18n](Korean, @mireado)
+  * Update VNR's UI translation in Korean made by @mireado sensei.
+
 8/2/2015 SUN
   [i18n]
   * Add translation languages of Filipino (Tagalog), Slovenian, Hebrew, Bulgarian, Belarusian, Estonian, Latvian and Lithuanian.

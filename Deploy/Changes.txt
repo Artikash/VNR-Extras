@@ -2,6 +2,18 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/4/2015 TUE
+  [Embed Translation]
+  * Add support for Taskforce2 engine.
+    Test working for 神様（仮） and オトメスイッチ.
+    Screenshots are as follows.
+
+    en: http://i.imgur.com/PfQnckO.png
+    ko: http://i.imgur.com/LHghKA8.png
+    zh: http://i.imgur.com/3DucwGh.png
+
+    为Taskforce2引擎的游戏添加了支持。截图如上。
+
 8/3/2015 Mon
   [i18n](Korean, @mireado)
   * Update VNR's UI translation in Korean made by @mireado sensei.

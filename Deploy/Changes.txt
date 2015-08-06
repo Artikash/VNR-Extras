@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/6/2015 THU
+  [TAHScript](English, @riz)
+  * Update TAH script for LEC.
+    The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
+
 8/4/2015 TUE
   [Embed Translation]
   * Add support for Taskforce2 engine.
@@ -47,7 +52,7 @@ Since 6/18/2011
     为Pensil引擎的游戏添加了支持加。截图在上边。
 
   * Update support for ShinaRio v2.5 to properly recognize Name thread.
-    Some screenshots for ソーサリージョーカーズ is as follows.
+    Some screenshots for ソーサリージョーカーズ are as follows.
 
     en: http://i.imgur.com/jy3cSQW.png
     ko: http://i.imgur.com/6tEYRYu.png

@@ -1,4 +1,4 @@
-*11:23 2015/06/09
+﻿*11:54 2015/08/06
 *this is an example of a simple regex script for TAHelper on VNR
 *originally it was made based on ATLAS V14 (+TA) behaviour
 *Update: the script adapting LEC behaviour now, so might not work on ATLAS or other translation engine
@@ -4782,7 +4782,7 @@
 *
 *It seem だ(です) + "、" would break LEC, test replace with "。"
 *break : なんだ
-(だ)、	$1。
+(?<!はた)(だ)、	$1。
 *
 *LEC 大丈夫
 *if followed by "、" will break translation

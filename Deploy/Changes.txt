@@ -7,6 +7,10 @@ Since 6/18/2011
   * Update TAH script for LEC.
     The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
 
+  [Game Information]
+  * Display the number of users that have played the game (unique IP visitors) in the game information page.
+    在【游戏情报】中会显示玩过这个游戏的人数。
+
 8/4/2015 TUE
   [Embed Translation]
   * Add support for Taskforce2 engine.

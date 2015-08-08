@@ -2,6 +2,19 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/7/2015 FRI
+  [Embed Translation]
+  * Add support for LC-ScriptEngine.
+    Tested working for 恋姫†無双, 春恋＊乙女, and 姦獄学園.
+    Some screenshots are as follows:
+
+    ko: http://i.imgur.com/wfscBjo.png
+        http://i.imgur.com/uuFdV99.png
+    zh: http://i.imgur.com/jTGaNbh.png
+    en: http://i.imgur.com/OKwkjGY.png
+
+    为LC-ScriptEngine引擎的游戏添加了支持。截图在上边。
+
 8/6/2015 THU
   [TAHScript](English, @riz)
   * Update TAH script for LEC.

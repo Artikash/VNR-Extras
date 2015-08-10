@@ -5,7 +5,7 @@ Since 6/18/2011
 8/9/2015 SUN
   [Embed Translation]
   * Add support for the latest Malie3 engine.
-    Tested working for シルヴァリオ ヴェンデッタ, 相州戦神館學園, Vermilion, and BRAVA!!
+    Tested working for シルヴァリオ ヴェンデッタ, 相州戦神館學園, 神咒神威神楽, Vermilion, and BRAVA!!
     It might not work for old Malie games though.
     All texts can be translated. Some screenshots are as follows:
 

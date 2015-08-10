@@ -5,7 +5,8 @@ Since 6/18/2011
 8/9/2015 SUN
   [Embed Translation]
   * Add support for the latest Malie3 engine.
-    Tested working for シルヴァリオ ヴェンデッタ and 相州戦神館學園. But it might not work for old Malie games.
+    Tested working for シルヴァリオ ヴェンデッタ, 相州戦神館學園 and シルヴァリオ ヴェンデッタ.
+    But it might not work for old Malie games.
     All texts can be translated. Some screenshots are as follows:
 
     en: http://i.imgur.com/tATc6SL.png

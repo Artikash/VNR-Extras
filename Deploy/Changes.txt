@@ -4,7 +4,8 @@ Since 6/18/2011
 
 8/11/2015 TUE
   [Game Engine]
-  * Update System4 engine to support ランス03.
+  * Update System43 engine to support ランス03.
+    btw., embed translation support is broken for the new System43 engine.
     为「ランス03」添加了提取文本的支持。
 
 8/10/2015 MON

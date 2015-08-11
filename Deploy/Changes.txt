@@ -7,6 +7,10 @@ Since 6/18/2011
   * You can disable embedding translation for a specific game by pressing "Edit" on the bottom of the SpringBoard.
     在SpringBoard下边点击【编辑】的选项中，可以只对某一个游戏禁用内嵌翻译。
 
+  [Game Engine]
+  * Add generic GDI+ hook to GdipDrawAddPath.
+    Test working for all Rejet games. Game engine is not needed for Rejet games any more.
+
 8/11/2015 TUE
   [Game Engine]
   * Update System43 engine to support ランス03.

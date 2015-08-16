@@ -2,6 +2,19 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/15/2015 SAT
+  [Embed Translation]
+  * Add support for GXP2 engine.
+    Test working for 塔の下のエクセルキトゥス and ウルスラグナ～征戦のデュエリスト～.
+    Scenario/name/history/choices/popup messages can be translated.
+    It might not support old GXP games.
+
+    en: http://i.imgur.com/MQPy95V.png
+    ko: http://i.imgur.com/dS6xvav.png
+    zh: http://i.imgur.com/LK0vtCr.png
+
+    为GXP2引擎的游戏添加了支持。截图在上边。
+
 8/12/2015 WED
   [Embed Translation]
   * You can disable embedding translation for a specific game by pressing "Edit" on the bottom of the SpringBoard.

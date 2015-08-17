@@ -16,6 +16,14 @@ Since 6/18/2011
     Test working for 魔導書の司書 and デモニオンII 魔王と三人の女王.
     为老版本的GXP引擎的游戏添加了内嵌翻译的支持。
 
+  * Add tentative support for Rance03.
+    It only works for English.
+    All texts were supported to support translation. However, the logic to determine whether it is safe to translate
+    without crashing the games and how to distinguish scenario/name/other texts is currently inaccurate.
+    en: http://i.imgur.com/l1pwGWj.png
+        http://i.imgur.com/52KJbKC.png
+        http://i.imgur.com/FBEX15c.png
+
 8/15/2015 SAT
   [Embed Translation]
   * Add support for GXP2 engine.

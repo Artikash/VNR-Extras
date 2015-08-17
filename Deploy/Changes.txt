@@ -18,7 +18,7 @@ Since 6/18/2011
 
   * Add tentative support for Rance03.
     It only works for English.
-    All texts were supported to support translation. However, the logic to determine whether it is safe to translate
+    All texts were surposed to support translation. However, the logic to determine whether it is safe to translate
     without crashing the games and how to distinguish scenario/name/other texts is currently inaccurate.
     en: http://i.imgur.com/l1pwGWj.png
         http://i.imgur.com/52KJbKC.png

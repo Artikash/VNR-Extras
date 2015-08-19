@@ -2,6 +2,18 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/19/2015 WED
+  [Embed Translation]
+  * Add support for Waffle games.
+    Tested 完全時間停止, 漫喫ハプニング, and 巨乳ファンタジー2 if.
+    Screenshots are as follows:
+
+    en: http://i.imgur.com/hQr9yDK.png
+    ko: http://i.imgur.com/wjejBXj.png
+    zh: http://i.imgur.com/kuAzN0T.png
+
+    为Waffle社的游戏添加了支持。截图在上边。
+
 8/16/2015 SUN
   [Embed Translation]
   * Translate in-game texts for ウルスラグナ～征戦のデュエリスト～.

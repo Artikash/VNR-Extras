@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/21/2015 FRI
+  [Text-to-speech]
+  * Update the support of Google TTS, which was broken since the changes of the Google APIs.
+    修正了Google语音合成失效的问题。
+
 8/19/2015 WED
   [Embed Translation]
   * Add support for Waffle games.

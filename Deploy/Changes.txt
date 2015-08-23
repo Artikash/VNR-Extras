@@ -7,6 +7,10 @@ Since 6/18/2011
   * Add support for 閃光の騎士 ～カリスティアナイト～ from 玉藻スタジオ.
     为「閃光の騎士 ～カリスティアナイト～」添加了提取文本的支持。
 
+  [TAHScript](English, @riz)
+  * Update TAH script for LEC and Atlas.
+    The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
+
 8/22/2015 SAT
   [Embed Translation]
   * Add support for ge-sen18/a-unicorn games.

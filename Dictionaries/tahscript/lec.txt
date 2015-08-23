@@ -1,4 +1,4 @@
-﻿*11:54 2015/08/06
+﻿*10:34 2015/08/13
 *this is an example of a simple regex script for TAHelper on VNR
 *originally it was made based on ATLAS V14 (+TA) behaviour
 *Update: the script adapting LEC behaviour now, so might not work on ATLAS or other translation engine
@@ -346,6 +346,7 @@
 ((ま)ぁ([あこそ]の|[あそこ]れ|そう))	$2あ$3
 ((らし)ーね([、。？！…」』）]))	$2い$3
 (((い)ー(の|じゃん|から))\2)	$3$3$4$3$3$4
+(い)ー(んじゃん)	$1い$2
 (((い)ー(の)さ)\2)	$3$3$4$3$3$4
 ((い)ー(から)([、。？！…」』）]))	$2$2$3$4
 ((なくて)(い)ー(の))	$2$3$3$4
@@ -2252,6 +2253,9 @@
 *は +　どう  + ですか = how about (note: たら can't joined with は)
 *たら + どう = why don't (note: mustn't ended by "？")
 *たら + どうか = another alternative translation
+*
+*jyanai + たら + どう will result error (じゃなかった or らではなかったら)
+(じゃな|ではな)(かったらどう)([、。？！…」』）])	$1$2する$3
 *
 *たら + どう + だ、だい、だろう = not working
 *たら + どう + でしょう = working, but IMO better using どう。

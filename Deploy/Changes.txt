@@ -4,8 +4,9 @@ Since 6/18/2011
 
 8/23/2015 SUN
   [Game Engine]
-  * Add support for 閃光の騎士 ～カリスティアナイト～ from 玉藻スタジオ.
-    为「閃光の騎士 ～カリスティアナイト～」添加了提取文本的支持。
+  * Add support for games from 玉藻スタジオ.
+    Tested 閃光の騎士 ～カリスティアナイト～ and 冒険者の町を作ろう!2.
+    为玉藻スタジオ社的游戏添加了提取文本的支持。
 
   [TAHScript](English, @riz)
   * Update TAH script for LEC and Atlas.

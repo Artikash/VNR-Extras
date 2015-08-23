@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/23/2015 SUN
+  [Game Engine]
+  * Add support for 閃光の騎士 ～カリスティアナイト～ from 玉藻スタジオ.
+    为「閃光の騎士 ～カリスティアナイト～」添加了提取文本的支持。
+
 8/22/2015 SAT
   [Embed Translation]
   * Add support for ge-sen18/a-unicorn games.

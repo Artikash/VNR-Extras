@@ -18,7 +18,7 @@ Since 6/18/2011
     #2. お?姫 = 공주님, regex = true
     #3. 姫 = 공주
 
-    By default, the three rules will be applied in order of #2, #1, #3, because #2 is has the longest pattern.
+    By default, the three rules will be applied in order of #2, #1, #3, because #2 has the longest pattern.
     As the result, 椿姫 might be broken because of お?姫.
 
     Now, if I set the priority of #2 to 1.5, then the translation order will become: #1, #2, #3.

@@ -4,7 +4,7 @@ Since 6/18/2011
 
 8/28/2015 FRI
   [Shared Dictionary]
-  * Add a Priority property for all rules that will affect the order to apply translation rules.
+  * Add a Priority property for all rules that will affect the order to apply these rules.
     If you seldom use Shared Dictionary and don't know what Priority is, it is OK to just leave it empty.
 
     When determine the order to apply translation rules, the number of characters in pattern is one of the major

@@ -14,7 +14,7 @@ Since 6/18/2011
     the earlier the rule might be applied.
 
     For example, given the following three rules:
-    #1. 椿姫 = 추바키
+    #1. 椿姫 = 츠바키
     #2. お?姫 = 공주님, regex = true
     #3. 姫 = 공주
 

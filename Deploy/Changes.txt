@@ -30,7 +30,7 @@ Since 6/18/2011
     For example, because "お?姫" can match either "お姫" (2 chars) or "姫" (1 char), I just chose "1.5" as its priority.
     But you don't have to obey this convention. You can set priority to any number if necessary.
     Rules with very large priority tend to be applied at first, and those with small negative priority tends to be applied at last.
-    For example, I can set priority of #2 to -1, and the order will become #1, #3, #1.
+    For example, I can set priority of #2 to -1, and then the translation order will become #1, #3, #2.
 
     If you want to delete a priority, you can just set it to zero.
 

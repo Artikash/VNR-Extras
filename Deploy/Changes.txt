@@ -2,6 +2,45 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/28/2015 FRI
+  [Shared Dictionary]
+  * Add a Priority property for all rules that will affect the order to apply translation rules.
+    If you seldom use Shared Dictionary and don't know what Priority is, it is OK to just leave it empty.
+
+    When determine the order to apply translation rules, the number of characters in pattern is one of the major
+    factors that will affect the order.
+    Usually, the longer rules will be applied before shorter rules by default.
+    Now, the new Priority property will override the default pattern size, and the larger the Priority value,
+    the earlier the rule might be applied.
+
+    For example, given the following three rules:
+    #1. 椿姫 = 추바키
+    #2. お?姫 = 공주님, regex = true
+    #3. 姫 = 공주
+
+    By default, the three rules will be applied in order of #2, #1, #3, because #2 is has the longest pattern.
+    As the result, 椿姫 might be broken because of お?姫.
+
+    Now, if I set the priority of #2 to 1.5, then the translation order will become: #1, #2, #3.
+    This is because the default priority of #1 is "椿姫".length = 2, and that of #3 is "姫".length = 1,  and
+    user-specified 1.5 for rule #2 is smaller than 3 and larger than 1.
+
+    If you want to change the priority of a rule, personally I recommend to make it around the estimated number of
+    characters in the Pattern.
+    For example, because "お?姫" can match either "お姫" (2 chars) or "姫" (1 char), I just chose "1.5" as its priority.
+    But you don't have to obey this convention. You can set priority to any number if necessary.
+    Rules with very large priority tend to be applied at first, and those with small negative priority tends to be applied at last.
+    For example, I can set priority of #2 to -1, and the order will become #1, #3, #1.
+
+    Note that priority is not the only factor that affect transformation order.
+    Even you assign a very large/small priority to a rule, it is still not guaranteed to be applied before/after all other rules.
+
+    为词条添加了一个【优先级】的属性，可以影响应用词条的顺序。
+    如果你不常用共享辞书，那么可以忽略这个属性。
+    优先级高的词条会被优先应用于翻译；反之优先级低的词条会被推迟应用。
+    如果没有指定优先级，VVNR默认会使用匹配文本的长度。
+    以如果需要，我个人建议大家约定估计的匹配文本的长度为这个属性的值。不过你也可以不遵守这个约定。
+
 8/23/2015 SUN
   [Game Engine]
   * Add support for games from 玉藻スタジオ.

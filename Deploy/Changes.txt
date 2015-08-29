@@ -35,7 +35,7 @@ Since 6/18/2011
     If you want to delete a priority, you can just set it to zero.
 
     Note that priority is not the only factor that affects transformation order, which is determined in a complicated way.
-    Even you assign a very large/small priority to a rule, it is still not guaranteed to be applied before/after all other rules.
+    Even if you assign a very large/small priority to a rule, it is still not guaranteed to be applied before/after all other rules.
 
     为词条添加了一个【优先级】的属性，可以影响应用词条的顺序。
     如果你不常用共享辞书，那么可以忽略这个属性。

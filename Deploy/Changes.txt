@@ -5,7 +5,7 @@ Since 6/18/2011
 8/30/2015 SUN
   [Embed Translation]
   * Add support for CatSystem2 engine.
-    Tested with 果つることなき未来ヨリ, ゆきこいめると, and グリザイアの果実.
+    Tested with 果つることなき未来ヨリ, ゆきこいめると, グリザイアの果実 and カミカゼ☆エクスプローラー！.
     Scenario/name/choice/history/message texts can be translated.
 
     en: http://i.imgur.com/t5ip0az.png

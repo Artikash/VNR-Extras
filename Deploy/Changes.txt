@@ -2,6 +2,19 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+8/30/2015 SUN
+  [Embed Translation]
+  * Add support for CatSystem2 engine.
+    Tested with 果つることなき未来ヨリ and ゆきこいめると.
+    Scenario/name/choice/history/message texts can be translated.
+
+    en: http://i.imgur.com/t5ip0az.png
+    ko: http://i.imgur.com/LsHOAaj.png
+    vi: http://i.imgur.com/DjbVhrj.png
+    zh: http://i.imgur.com/gSrUdat.png
+
+    为CatSystem2引擎的游戏添加了内嵌翻译的支持。
+
 8/29/2015 SAT
   [Embed Translation]
   * Extend Pensil engine to support translating choices and translating games with 2RM adventure engine .

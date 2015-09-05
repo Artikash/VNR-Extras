@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+9/5/2015 SAT
+  [Shared Dictionary]
+  * Fixed a bug that might crash the machine translator while applying rules.
+    修正了一个可能会崩溃的问题。
+
 8/30/2015 SUN
   [Embed Translation]
   * Add support for CatSystem2 engine.

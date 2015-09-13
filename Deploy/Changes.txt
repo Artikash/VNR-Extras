@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+9/12/2015 SAT
+  [JBeijing](Chinese, @najizhimo)
+  * 更新了@najizhimo维护的J北京词库。
+
 9/8/2015 TUE
   [JBeijing](Chinese, @najizhimo)
   * 更新了@najizhimo维护的J北京词库。

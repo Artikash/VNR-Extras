@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+
+9/25/2015 FRI
+  [JBeijing](Chinese, @najizhimo)
+  * 更新了@najizhimo维护的J北京词库。
+
 9/20/2015 SUN
   [Ehnd](Korean, @mireado)
   * Update Ehnd dictionary from @mireado sensei.

@@ -1,4 +1,4 @@
-﻿*10:34 2015/08/13
+﻿*17:23 2015/11/02
 *this is an example of a simple regex script for TAHelper on VNR
 *originally it was made based on ATLAS V14 (+TA) behaviour
 *Update: the script adapting LEC behaviour now, so might not work on ATLAS or other translation engine
@@ -293,7 +293,7 @@
 *save
 (チャ)(ンス)	$1x$2
 *
-[っッ]?[ちチ][ゃャ][ぁあァア]*～*[んン]	ちゃん
+[っッ]?[ちチ][ゃャ][ぁあァア]*～*[んン](?!ネ)	ちゃん
 *restore
 (チャ)x(ンス)	$1$2
 *
@@ -3572,7 +3572,7 @@
 (([（「『、。…？！])(なあ)([^、。…？！）」』]))	$2$3、$4
 (([（「『、。…？！])(はい)([^っら、。…？！）」』]))	$2$3、$4
 (([（「『、。…？！])(ええ)([^っかことい、。…？！）」』]))	$2$3、$4
-(([（「『、。…？！])(ねえ)([^ね、。…？！）」』]))	$2$3、$4
+*(([（「『、。…？！])(ねえ)([^ね、。…？！）」』]))	$2$3、$4
 (([（「『、。…？！])(x)(しろ|ん|だこうだ|やって|する|はなる|いう))	$2ああ$4
 *
 *Umm...anooo....ettooooo...

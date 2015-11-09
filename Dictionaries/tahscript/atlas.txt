@@ -1,4 +1,4 @@
-﻿*11:52 2015/08/17
+﻿*17:19 2015/11/02
 *this is an example of a simple regex script for TAHelper on VNR
 *it was made based on ATLAS V14 (+TA) behaviour, might not work on other translation engine
 *basically only for conversation text, so might not work on RPG or games with lots of "status" thing..
@@ -297,7 +297,7 @@
 *save
 (チャ)(ンス)	$1x$2
 *
-[っッ]?[ちチ][ゃャ][ぁあァア]*～*[んン]	ちゃん
+[っッ]?[ちチ][ゃャ][ぁあァア]*～*[んン](?!ネ)	ちゃん
 *restore
 (チャ)x(ンス)	$1$2
 *
@@ -3541,7 +3541,7 @@
 (([（「『、。…？！])(なあ)([^、。…？！）」』]))	$2$3、$4
 (([（「『、。…？！])(はい)([^っら、。…？！）」』]))	$2$3、$4
 (([（「『、。…？！])(ええ)([^っかことい、。…？！）」』]))	$2$3、$4
-(([（「『、。…？！])(ねえ)([^ね、。…？！）」』]))	$2$3、$4
+*(([（「『、。…？！])(ねえ)([^ね、。…？！）」』]))	$2$3、$4
 (([（「『、。…？！])(x)(しろ|ん|だこうだ|やって|する|はなる|いう))	$2ああ$4
 *
 *Umm...anooo....ettooooo...

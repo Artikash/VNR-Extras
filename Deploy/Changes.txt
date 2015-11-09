@@ -17,9 +17,9 @@ Since 6/18/2011
   Instead of adding more features, I might focus on making existing features more stable and removing features that are seldom used.
   And here are the directions that I am planning to go in case you are interested:
   1. Remove features that are not directly related to reading VNs (youtube, chatting, game information, etc.)
-  2. Split non-VN translation support like OCR/TextReader out into separate applications
+  2. Split non-VN translation support like OCR/TextReader out into separate applications.
   3. Move subtitles/shared dictionary management to the cloud. Loading translation rules only for the games that are being played. This will help limit memory usage of the shared dictionary that becomes larger and larger.
-  4. Improve translation quality while minimizing local resource usage
+  4. Improve translation quality while minimizing local resource usage.
 
 9/25/2015 FRI
   [JBeijing](Chinese, @najizhimo)

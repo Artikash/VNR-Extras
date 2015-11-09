@@ -15,7 +15,7 @@ Since 6/18/2011
 
   Regarding the future of VNR, I might not have lots of time to work on it like before.
   And here are the directions that I am planning to immediately work on when I have time, in case you are interested:
-  1. Remove features that are not directly related to reading VN (youtube, chatting, game information, etc.)
+  1. Remove features that are not directly related to reading VNs (youtube, chatting, game information, etc.)
   2. Split non-VN translation support like OCR/TextReader out into separate applications
   3. Move subtitles/shared dictionary management to the cloud. Loading translation rules only for the games that are being played. This will help limit memory usage of the shared dictionary that becomes larger and larger.
   4. Improve translation quality while minimizing local resource usage

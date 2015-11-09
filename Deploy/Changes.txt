@@ -2,6 +2,13 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+11/8/2015 SUN
+  [Translation]
+  * Resume the machine translation that is trained from user-shared subtitles.
+    It currently only supports en/zh/ko/vi/fr/es/fr, which has relative more subtitles in the database.
+	You can also tested it here: http://tranzz.com/translate
+    Due to copyright concerns, the translation is trained only from game subtitles instead of commercial dictionaries.
+    The current translation quality is worse than before as the result.
 
 9/25/2015 FRI
   [JBeijing](Chinese, @najizhimo)

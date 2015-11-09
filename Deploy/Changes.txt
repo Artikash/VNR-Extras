@@ -10,6 +10,16 @@ Since 6/18/2011
     Due to copyright concerns, the translation is trained only from game subtitles instead of commercial dictionaries.
     The current translation quality is worse than before as the result.
 
+    My eventual goal is to allow everyone to create his own translators where all settings/translation rules/corpus can be adjusted and managed.
+    I hope combing our community's effort, we can create our best domain-specific machine translators.
+
+  Regarding the future of VNR, I might not have lots of time to work on it like before.
+  And here are the directions that I am planning to immediately work on when I have time, in case you are interested:
+  1. Remove features that are not directly related to reading VN (youtube, chatting, game information, etc.)
+  2. Split non-VN translation support like OCR/TextReader out into separate applications
+  3. Move subtitles/shared dictionary management to the cloud. Loading translation rules only for the games that are being played. This will help limit memory usage of the shared dictionary that becomes larger and larger.
+  4. Improve translation quality while minimizing local resource usage
+
 9/25/2015 FRI
   [JBeijing](Chinese, @najizhimo)
   * 更新了@najizhimo维护的J北京词库。

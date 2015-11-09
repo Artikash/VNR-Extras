@@ -14,7 +14,7 @@ Since 6/18/2011
     Due to copyright concerns, the translation is trained only from game subtitles instead of commercial dictionaries.
     The current translation quality is worse than before as the result.
 
-    My eventual goal is to allow everyone to create his own translators where all settings/translation rules/corpus can be adjusted and managed.
+    My eventual goal is to allow everyone to create his own translators where all settings/translation rules/corpus can be fully adjusted and managed.
     I hope combing our community's effort, we can create our best domain-specific machine translators.
 
   Regarding the future of VNR, I might not have lots of time to work on it like before.

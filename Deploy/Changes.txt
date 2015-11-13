@@ -7,7 +7,7 @@ Since 6/18/2011
   * Update TAH script for LEC and Atlas.
     The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
 
-  [Translation]
+  [Machine Translation]
   * Resume the machine translation that is trained from user-shared subtitles.
     It currently only supports en/zh/ko/vi/fr/es/ru, which has relative more subtitles in the database.
 	You can also tested it here: http://tranzz.com/translate

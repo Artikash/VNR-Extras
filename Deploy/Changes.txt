@@ -13,6 +13,9 @@ Since 6/18/2011
   * Remove YouTube downloader.
   * Remove game finder.
 
+  [Machine Translation]
+  * Add Thai language support.
+
 11/8/2015 SUN
   [TAHScript](English, @riz)
   * Update TAH script for LEC and Atlas.

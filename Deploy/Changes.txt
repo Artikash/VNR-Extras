@@ -2,6 +2,17 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+11/15/2015 SUN
+  [Bugfix]
+  * Fixed a multi-threading bug that could crash Shared Dictionary.
+
+  [Removed Features]
+  * Remove regular expression tester.
+  * Remove voice recognition.
+  * Remove BBCode tester.
+  * Remove YouTube downloader.
+  * Remove game finder.
+
 11/8/2015 SUN
   [TAHScript](English, @riz)
   * Update TAH script for LEC and Atlas.

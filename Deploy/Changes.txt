@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+11/16/2015 MON
+  [Machine Translation]
+  * Changed to only support translate to Chinese/English/Korean from Japanese.
+    Support for other languages are currently disabled due to limited server-side resources.
+
 11/15/2015 SUN
   [Bugfix]
   * Fixed a multi-threading bug that could crash Shared Dictionary.

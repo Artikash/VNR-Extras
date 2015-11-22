@@ -25,7 +25,7 @@ Since 6/18/2011
   [Game Engine]
   * Add support for 凍京NECRO.
 
-    Embed translation also works but only support English translation.
+    Embed translation also works but only supports English translation.
     But font is too large plus English is so much verbose that the translation could go out of screen.
 
         http://i.imgur.com/FFqgnyF.png

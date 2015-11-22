@@ -22,6 +22,17 @@ Since 6/18/2011
     另外，添加了对男性的水無瀬コウ的支持。
     感谢@水上薰·墨香sama的报告！
 
+  [Game Engine]
+  * Add support for 凍京NECRO.
+
+    Embed translation also works but only support English translation.
+    But font is too large plus English is so much verbose that the translation could go out of screen.
+
+        http://i.imgur.com/FFqgnyF.png
+
+    为「凍京NECRO」添加了提取文本的支持。
+    内嵌翻译仅限英文。
+
 11/16/2015 MON
   [Machine Translation]
   * Changed to only support translation of Chinese/English/Korean from Japanese.

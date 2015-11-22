@@ -2,6 +2,18 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+11/22/2015 SUN
+  [Network]
+  * Changed to access VNR's servers by domain names instead of by IP.
+
+    Going to migrate VNR's servers from Japan to US some time next month or next year, where the servers are cheaper while having much more updated technologies.
+    VNR's machine translation servers have already been deployed in the bay area, which worked pretty well.
+    Changing to access domain names would make the server-side migration transparent to the end users.
+
+    VNR used to access certain websites by IPs to bypass CCP's Internet censorship for foreign hosts and DNS.
+    For example, whenever there is a big event in China, foreign domains tend to become unstable or temporarily blocked.
+    But this made changing server's IP address a pain in ass that all older versions of VNR would be broken.
+
 11/16/2015 MON
   [Machine Translation]
   * Changed to only support translation of Chinese/English/Korean from Japanese.

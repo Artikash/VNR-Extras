@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+11/27/2015 FRI
+  [Game Engine]
+  * Do not extract English letters for mono games.
+
 11/22/2015 SUN
   [Network]
   * Changed to access VNR's servers by domain names instead of by IP.

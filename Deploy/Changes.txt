@@ -16,7 +16,7 @@ Since 6/18/2011
 
     VNR used to access certain websites by IPs to bypass CCP's Internet censorship for foreign hosts and DNS.
     For example, whenever there is a big event in China, foreign domains tend to become unstable or temporarily blocked.
-    But this made changing server's IP address a pain in ass that all older versions of VNR would be broken.
+    But this made changing VNR server's IP address a pain in ass that all older versions of VNR would be broken.
 
   [TTS]
   * Fixed the broken Voiceroid+ TTS caused by the online API changes.

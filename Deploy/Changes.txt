@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+12/7/2015 Mon
+  [i18n](Korean, @mireado)
+  * Update VNR's UI translation in Korean made by @mireado sensei.
+
 11/27/2015 FRI
   [Game Engine]
   * Do not extract English letters for mono games.

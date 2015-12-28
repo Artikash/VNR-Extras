@@ -2,6 +2,13 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+12/27/2015 SUN
+  VNR's servers are migrated from Japan to US.
+  Older versions of VNRs might be broken because of the migration after a month.
+
+  VNR的服务器搬迁到US了。
+  老版本的VNR在一个月后可能会无法正常使用了。
+
 11/27/2015 FRI
   [Game Engine]
   * Do not extract English letters for mono games.

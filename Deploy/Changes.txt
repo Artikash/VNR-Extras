@@ -15,7 +15,7 @@ Since 6/18/2011
     内嵌翻译的截图在上边。
 
     Note that the BGI games have ruby text like <r>...</r> that will downgrade translation quality.
-    If you are using Embed Translation, then nothing needed to be done, which will take care of ruby by default.
+    If you are using Embed Translation, then nothing needed to be done as it will take care of ruby by default.
     Otherwise, if you are using ITH engine, just make sure the ruby elimination rules in Shared Dictionary are associated with your version of the game.
 
   * Add translation support for IZUMO4.

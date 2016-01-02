@@ -25,7 +25,7 @@ Since 6/18/2011
     但内嵌翻译无法工作。
 
     I suspect Studio ego is using a different (older) game engine than Debonosu.
-    So, I will not fix embed translation for this game until the next Debonosu game releases.
+    So, I will not spend time fixing embed translation for this game until the next Debonosu game releases.
 
 12/27/2015 SUN
   VNR's servers are migrated from Japan to US.

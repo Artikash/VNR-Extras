@@ -2,6 +2,13 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/1/2016 FRI
+  [Game Engine]
+  * Add translation support for IZUMO4.
+    Embed translation is broken for this game.
+
+    为IZUMO4添加了提取文本的支持。
+
 12/27/2015 SUN
   VNR's servers are migrated from Japan to US.
   Older versions of VNRs might be broken because of the migration after a month.

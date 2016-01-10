@@ -2,6 +2,17 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/9/2016 SAT
+  [Game Engine]
+  * Update WillPlus engine to support 見上げてごらん、夜空の星を.
+    Scenario/Name/History/Choice can be translated.
+    User-shared subtitles tested working.
+
+        http://i.imgur.com/nt8gQmr.png
+        http://i.imgur.com/NV2AE3V.png
+
+    为「見上げてごらん、夜空の星を」添加了内嵌翻译的支持。
+
 1/1/2016 FRI
   [Game Engine]
   * Add translation support for コドモノアソビ.

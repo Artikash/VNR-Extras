@@ -1,4 +1,4 @@
-﻿*17:19 2015/11/02
+﻿*19:11 2016/01/15
 *this is an example of a simple regex script for TAHelper on VNR
 *it was made based on ATLAS V14 (+TA) behaviour, might not work on other translation engine
 *basically only for conversation text, so might not work on RPG or games with lots of "status" thing..
@@ -3814,6 +3814,7 @@
 *save
 ((いう|つく)(とき)([、。？！…」』）]))	$2x$3$4
 (([一-龠いさしなたらろつばこ]い)(とき)([、。？！…」』）]))	$2x$3$4
+(ほっ)(といて)([、。？！…」』）])	$1x$2$3
 *
 (([^がにへとでのはも、。？！…「『（])([さわばがかまならあた][れせ]|しえ|なく|まし|[あえ来こ](られ|させ)|づけ|すくめ)と(く))	$2$3てお$5
 (([^がにへとでのはも、。？！…「『（])([さわばがかまならあた][れせ]|しえ|なく|まし|[あえ来こ](られ|させ)|づけ|すくめ)と(け))	$2$3てお$5
@@ -3840,6 +3841,7 @@
 *restore
 ((いう|つく)x(とき)([、。？！…」』）]))	$2$3$4
 (([一-龠いさしなたらろつばこ]い)x(とき)([、。？！…」』）]))	$2$3$4
+(ほっ)x(といて)([、。？！…」』）])	$1$2$3
 *
 *-ru verb + てしまう
 *should be fixed into masu stem + て + しまう
@@ -4250,7 +4252,7 @@
 *
 *save
 *it seems 事 !== こと, so こと is not included
-(([一-龠が]|にと|ま)って(いう|言[いうわ]|言っ[てた]|[思想]っ[てた]|[思想][いう]|わけ|[訳事話]))	$2x$3
+(([一-龠が]|にと|んだ|ま)って(いう|言[いうわ]|言っ[てた]|[思想]っ[てた]|[思想][いう]|わけ|[訳事話]))	$2x$3
 *unsafe: 恥ずかしがって言ってる
 *るって looks troubling, sometimes it came from ru-verb, sometime from -te form verb, just how to detect it? >_<
 *ru-verb + って + いう -> ru-verb + という = safe
@@ -4266,7 +4268,7 @@
 (って(いいます|いう|言[いうわ]|言っ[てたち]|[思想]っ[てた]|[思想][いう]|わけ|[訳事話]))	と$2
 *
 *restore
-(([一-龠が]|にと|ま)x(いう|言[いうわ]|言っ[てた]|[思想]っ[てた]|[思想][いう]|わけ|[訳事話]))	$2って$3
+(([一-龠が]|にと|んだ|ま)x(いう|言[いうわ]|言っ[てた]|[思想]っ[てた]|[思想][いう]|わけ|[訳事話]))	$2って$3
 *disabled: [いさしなたらろつばこ]い|
 *selfnotes:
 *似合ってないって言ってる -> 似合ってないと言ってる, I forgot why I disabled it @_@

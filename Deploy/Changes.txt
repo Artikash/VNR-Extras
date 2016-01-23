@@ -2,6 +2,11 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+1/22/2016 FRI
+  [TAHScript](English, @riz)
+  * Update TAH script for LEC and Atlas.
+    The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
+
 1/9/2016 SAT
   [Game Engine]
   * Update WillPlus engine to support 見上げてごらん、夜空の星を.

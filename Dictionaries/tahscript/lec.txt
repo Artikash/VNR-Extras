@@ -1,4 +1,4 @@
-﻿*17:23 2015/11/02
+﻿*13:36 2016/01/13
 *this is an example of a simple regex script for TAHelper on VNR
 *originally it was made based on ATLAS V14 (+TA) behaviour
 *Update: the script adapting LEC behaviour now, so might not work on ATLAS or other translation engine
@@ -3854,6 +3854,7 @@
 *save
 ((いう|つく)(とき)([、。？！…」』）]))	$2x$3$4
 (([一-龠いさしなたらろつばこ]い)(とき)([、。？！…」』）]))	$2x$3$4
+(ほっ)(といて)([、。？！…」』）])	$1x$2$3
 *
 (([^がにへとでのはも、。？！…「『（])([さわばがかまならあた][れせ]|しえ|なく|まし|[あえ来こ](られ|させ)|づけ|すくめ)と(く))	$2$3てお$5
 (([^がにへとでのはも、。？！…「『（])([さわばがかまならあた][れせ]|しえ|なく|まし|[あえ来こ](られ|させ)|づけ|すくめ)と(け))	$2$3てお$5
@@ -3880,6 +3881,7 @@
 *restore
 ((いう|つく)x(とき)([、。？！…」』）]))	$2$3$4
 (([一-龠いさしなたらろつばこ]い)x(とき)([、。？！…」』）]))	$2$3$4
+(ほっ)x(といて)([、。？！…」』）])	$1$2$3
 *
 *-ru verb + てしまう
 *should be fixed into masu stem + て + しまう

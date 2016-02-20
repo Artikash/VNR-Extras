@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+2/19/2016 FRI
+  * Fix google translation support, which was broke because of API change.
+    Thanks for @mireado sama's report!
+
 1/24/2016 SUN
   [Game Engine]
   * Handle text tags in QLiE engine as requested by @mireado.

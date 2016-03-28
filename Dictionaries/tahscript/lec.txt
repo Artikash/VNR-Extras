@@ -1,4 +1,4 @@
-﻿*13:36 2016/01/13
+﻿*16:59 2016/02/24
 *this is an example of a simple regex script for TAHelper on VNR
 *originally it was made based on ATLAS V14 (+TA) behaviour
 *Update: the script adapting LEC behaviour now, so might not work on ATLAS or other translation engine
@@ -2872,7 +2872,8 @@
 *ようだ = seems...
 (([っせべげけめねれて来きしくういえ]|[さわばがかまならあた][れせ]|しえ|なく|まし|[あえ来こ](られ|させ)|あっ)([たる])ような([、。？！…」』]))	$2$4みたいに$5
 *is it safe to replace anything ended by ような ?
-((よう)な([、。？！…」』]))	$2だ$3
+*LEC, disabled
+*((よう)な([、。？！…」』]))	$2だ$3
 *
 *---なんて---
 *fix "how + (adj)" sentence

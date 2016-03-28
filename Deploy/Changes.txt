@@ -2,6 +2,16 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+3/27/2016 SUN
+  [TAHScript](English, @riz)
+  * Update TAH script for LEC.
+    The scripts are from @errzotl sensei, and you can say thanks to him/her at TAHscript@outlook.com.
+
+  [Game Engine]
+  * Update Escude engine to support 「ダンジョン オブ レガリアス 」.
+    Thanks for @mireado sama's investigation!
+    为「ダンジョン オブ レガリアス 」添加了提取文本的支持。
+
 2/19/2016 FRI
   * Fix google translation support, which was broke because of API change.
     Translation alignment for Google is broken because of the change.

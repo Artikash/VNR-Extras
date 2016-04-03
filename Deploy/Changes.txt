@@ -2,6 +2,10 @@ ChangeLog (UTF-8, ff=dos)
 Visual Novel Reader
 Since 6/18/2011
 
+4/3/2016 SUN
+  Fixed a severe msvc dll bug.
+  I linked the dlls against debug libraries by mistake ...
+
 3/27/2016 SUN
   [TAHScript](English, @riz)
   * Update TAH script for LEC.

@@ -1,0 +1,11 @@
+# 8/29/2014 jichi
+# Python 2.7.6
+
+# TODO:
+Update Python
+
+Outdated site packages:
+- pyenchant
+- matplotlib
+- pywin32
+- numpy
